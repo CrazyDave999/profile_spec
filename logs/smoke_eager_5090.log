@@ -1,0 +1,52 @@
+GPU: NVIDIA GeForce RTX 5090; backend=triton_paged_tree; drafter=eager
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 428.17it/s]
+Warming AR and tree inference...
+In file included from /home/qinghao/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/include/python3.12/Python.h:12,
+                 from /tmp/tmp7tc394ts/cuda_utils.c:5:
+/home/qinghao/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/include/python3.12/pyconfig.h:1877:9: warning: ‘_POSIX_C_SOURCE’ redefined
+ 1877 | #define _POSIX_C_SOURCE 200809L
+      |         ^~~~~~~~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdlib.h:26,
+                 from /home/qinghao/JetSpec/.venv/lib/python3.12/site-packages/triton/backends/nvidia/include/cuda.h:56,
+                 from /tmp/tmp7tc394ts/cuda_utils.c:1:
+/usr/include/features.h:319:10: note: this is the location of the previous definition
+  319 | # define _POSIX_C_SOURCE        202405L
+      |          ^~~~~~~~~~~~~~~
+In file included from /home/qinghao/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/include/python3.12/Python.h:12,
+                 from /tmp/tmpf968nqnz/__triton_launcher.c:4:
+/home/qinghao/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/include/python3.12/pyconfig.h:1877:9: warning: ‘_POSIX_C_SOURCE’ redefined
+ 1877 | #define _POSIX_C_SOURCE 200809L
+      |         ^~~~~~~~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdlib.h:26,
+                 from /home/qinghao/JetSpec/.venv/lib/python3.12/site-packages/triton/backends/nvidia/include/cuda.h:56,
+                 from /tmp/tmpf968nqnz/__triton_launcher.c:2:
+/usr/include/features.h:319:10: note: this is the location of the previous definition
+  319 | # define _POSIX_C_SOURCE        202405L
+      |          ^~~~~~~~~~~~~~~
+In file included from /home/qinghao/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/include/python3.12/Python.h:12,
+                 from /tmp/tmp5ghw8x1_/__triton_launcher.c:4:
+/home/qinghao/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/include/python3.12/pyconfig.h:1877:9: warning: ‘_POSIX_C_SOURCE’ redefined
+ 1877 | #define _POSIX_C_SOURCE 200809L
+      |         ^~~~~~~~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdlib.h:26,
+                 from /home/qinghao/JetSpec/.venv/lib/python3.12/site-packages/triton/backends/nvidia/include/cuda.h:56,
+                 from /tmp/tmp5ghw8x1_/__triton_launcher.c:2:
+/usr/include/features.h:319:10: note: this is the location of the previous definition
+  319 | # define _POSIX_C_SOURCE        202405L
+      |          ^~~~~~~~~~~~~~~
+ar: 64 tokens, 1.345s, 47.6 tok/s
+jetspec: 64 tokens, 0.495s, 129.3 tok/s
+AR token equality: False; peak allocation 18.44 GiB
+To find how many **positive whole-number divisors** 196 has, we start by **factoring 196 into its prime factors**.
+
+---
+
+### Step 1: Prime Factorization of 196
+
+We divide 196 by the smallest prime numbers:
+
+- $ 1
+Saved /home/qinghao/spec/logs/smoke_eager_5090.json

@@ -1,0 +1,98 @@
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 416.28it/s]
+{
+  "backend": "triton_paged_tree",
+  "dtype": "bfloat16",
+  "equal_token_ids": false,
+  "first_divergence": {
+    "token_index_zero_based": 48,
+    "ar_token": 14085,
+    "tree_token": 1654,
+    "ar_top8": [
+      {
+        "id": 14085,
+        "text": "$$",
+        "logit": 35.75
+      },
+      {
+        "id": 1654,
+        "text": "We",
+        "logit": 35.5
+      },
+      {
+        "id": 16,
+        "text": "1",
+        "logit": 34.5
+      },
+      {
+        "id": 3479,
+        "text": "Start",
+        "logit": 33.5
+      },
+      {
+        "id": 12,
+        "text": "-",
+        "logit": 33.25
+      },
+      {
+        "id": 12509,
+        "text": "Div",
+        "logit": 31.0
+      },
+      {
+        "id": 22524,
+        "text": "Break",
+        "logit": 30.0
+      },
+      {
+        "id": 10061,
+        "text": "Let",
+        "logit": 29.75
+      }
+    ],
+    "tree_top8": [
+      {
+        "id": 1654,
+        "text": "We",
+        "logit": 35.5
+      },
+      {
+        "id": 14085,
+        "text": "$$",
+        "logit": 35.5
+      },
+      {
+        "id": 16,
+        "text": "1",
+        "logit": 34.5
+      },
+      {
+        "id": 12,
+        "text": "-",
+        "logit": 33.25
+      },
+      {
+        "id": 3479,
+        "text": "Start",
+        "logit": 33.25
+      },
+      {
+        "id": 12509,
+        "text": "Div",
+        "logit": 31.0
+      },
+      {
+        "id": 22524,
+        "text": "Break",
+        "logit": 29.875
+      },
+      {
+        "id": 10061,
+        "text": "Let",
+        "logit": 29.625
+      }
+    ],
+    "ar_logit_margin_for_diverging_tokens": 0.25,
+    "tree_logit_margin_for_diverging_tokens": 0.0,
+    "max_abs_logit_difference": 0.25
+  }
+}

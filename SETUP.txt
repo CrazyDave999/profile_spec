@@ -1,0 +1,148 @@
+JetSpec / Qwen3-8B on this workstation
+Prepared: 2026-11-02
+Updated: 2026-11-03 (Asia/Shanghai), repository migration and profiler validation.
+
+Locations
+  Official repository: https://github.com/hao-ai-lab/JetSpec
+  Code: /home/qinghao/profile_spec/third_party/JetSpec
+  Commit: 673267e4faba71a63099c258f0802c2f3aa44f8e
+  Python environment: /home/qinghao/profile_spec/.venv (Python 3.12.16)
+  Experiments, launchers and logs: /home/qinghao/profile_spec
+  Research repository: https://github.com/CrazyDave999/profile_spec
+  JetSpec is a pinned Git submodule at third_party/JetSpec.
+  Weights: /home/qinghao/.cache/huggingface/hub
+  Model aliases: /home/qinghao/models/Qwen3-8B and jetspec-qwen3-8b
+  The aliases are symlinks; they do not duplicate the weights.
+  Storage: Lexar NM790 8TB NVMe, root filesystem, about 5.1 TiB free at setup.
+
+Hardware and dependencies
+  GPU 1: RTX 5090, 32607 MiB, sm_120. This is the selected experiment GPU.
+  GPU 0: RTX 5080, 16303 MiB.
+  Driver: 595.84. PyTorch runtime: CUDA 12.8.
+  torch 2.8.0+cu128, transformers 4.57.1, triton 3.4.0,
+  numpy 2.3.3, datasets 4.6.1, huggingface-hub 0.36.2.
+  Full package versions: requirements-5090.lock.
+  Package consistency: uv pip check passed.
+  Target: Qwen/Qwen3-8B @ b968826d9c46dd6066d109eabc6255188de91218
+  Draft: JetSpec/jetspec-qwen3-8b @ 020a198caefde24a2891ad827cba7fb977ccdc36
+  Downloaded all inference weights, tokenizer and configuration files.
+  Omitted the draft's training_state.pt (training optimizer state).
+  Every safetensors file has the expected remote byte size and readable metadata.
+  Details: models.json, model-validation.json, hardware.json.
+
+Use
+  source /home/qinghao/profile_spec/env.sh
+  python /home/qinghao/profile_spec/smoke_5090.py
+  /home/qinghao/profile_spec/bench_5090.sh
+
+  A longer experiment, using the same launch script:
+  /home/qinghao/profile_spec/bench_5090.sh --samples 32 --max-tokens 512
+
+  Recreate Python dependencies:
+  /home/qinghao/profile_spec/setup_env.sh
+  Resume/recreate model downloads at the recorded revisions:
+  source /home/qinghao/profile_spec/env.sh
+  python /home/qinghao/profile_spec/download_models.py
+
+Validated execution paths
+  Single-GPU JetSpec tree drafting, BF16 target and draft, thinking disabled.
+  HF target/draft attention: SDPA. Tree attention: custom Triton paged kernel.
+  Eager and compiled CUDA Graph paths both generated output on RTX 5090.
+  CUDA Graph backend: triton_paged_tree_cudagraph, drafter=graphed.
+  GEMM fusion is disabled because its separate verify stacks copy large weights.
+  The nogather backend is not selected because it reserves much larger KV pools.
+  FlashAttention 2 and a system-wide nvcc toolkit are not installed; the validated
+  SDPA/Triton paths work with the PyTorch CUDA runtime and Triton's compiler.
+  No changes were needed in the upstream repository's tracked files.
+
+Small benchmark (environment validation, not a full performance evaluation)
+  Official bench/jetspec/engine/tps_walltime.py, GSM8K first 4 test prompts,
+  batch size 1, greedy, max 128 new tokens per prompt, depth 15, width 7,
+  budget 128, graphed drafter, warm-all, reusable sessions, GEMM fusion off.
+  AR: 512 tokens / 5.379 seconds = 95.2 tokens/second.
+  JetSpec: 512 tokens / 2.474 seconds = 207.0 tokens/second.
+  Speedup: 2.17x. Mean accepted tokens per round: 6.75.
+  Log: logs/bench_gsm8k_5090.log.
+  Standalone graphed smoke test peak allocation: 20.44 GiB;
+  peak reserved: 21.72 GiB. This is not the benchmark's memory measurement.
+  The AR baseline is JetSpecEngine.generate in the SAME JetSpec engine,
+  using paged KV, compiled single-token forward and CUDA Graph replay.
+  It is not SGLang, vLLM, or an external serving-engine comparison.
+  torch_compile=False in the upstream log means the full HF model is not
+  wrapped in torch.compile; dedicated AR/verify/draft stacks are compiled.
+
+Correctness observation
+  BF16 AR/tree token equality did not pass on the smoke prompt.
+  Eager execution first differs at token index 48 (zero based).
+  At this first divergence, the AR top logits are '$$':35.75 and 'We':35.5;
+  the tree target verification produces a tie at 35.5, and argmax selects 'We'.
+  The earlier emitted token prefix is identical. This is consistent with a
+  BF16 numerical difference between one-token decode and tree verification;
+  it is not a proof of correctness for the engine or an fp32 validation.
+  The graphed smoke prompt also differs (first mismatch index 53).
+  Preserve this observation when comparing accuracy or claiming losslessness.
+  Reproduce the eager diagnostic:
+  source /home/qinghao/profile_spec/env.sh
+  python /home/qinghao/profile_spec/diagnose_divergence.py
+  Evidence: logs/divergence_5090.json, logs/smoke_eager_5090.json,
+  logs/smoke_graphed_5090.json.
+
+Future multi-GPU work
+  nvidia-smi topo -p2p r/w reports NS between the 5080 and 5090.
+  The current upstream JetSpec++ engine requires two GPUs with peer access.
+  This setup validates original single-GPU JetSpec, and does not claim that
+  the two-GPU JetSpec++ engine runs on this GPU pair.
+
+Runtime feature audit (after migration)
+  python profile_workload.py
+  Evidence: logs/feature_audit_5090.json.
+  Target verify graph bucket: 128; draft context graph bucket: 512;
+  AR graph bucket: 1. Session and graph memory pools reused across requests.
+  Two measured requests per arm, at most 64 new tokens each:
+    AR graph replays: 126.
+    Draft graph replays: 20.
+    Target verify graph replays: 20.
+    Graph captures during measured requests: 0.
+    GPU tree accept calls: 20; KV gather calls: 20.
+  The GPU accept walk is active, but its extra CUDA Graph optimization is off:
+  upstream only enables that optimization for the nogather backend.
+  GEMM weight fusion, nogather and FlashAttention 2 remain disabled.
+  This setup does not enable every optional optimization in the B200 recipe.
+
+Nsight Systems
+  CLI: NVIDIA Nsight Systems 2026.5.1.161-265138896106v0.
+  Official download: https://developer.nvidia.com/nsight-systems/get-started
+  User-local installation: ~/.local/opt/nsight-systems/2026.5.1
+  Launcher: ~/.local/bin/nsys (added to PATH by env.sh).
+  Reinstall: ./setup_nsys.sh (pinned official package and SHA-256).
+  Profile: ./profile_5090.sh --tokens 64 --repeats 2
+  The default uses CUDA, NVTX, OS runtime tracing and graph-node granularity.
+  cudaProfilerStart/Stop excludes compilation and warmup from collection.
+  NVTX marks AR, target verify, draft, GPU tree accept and KV gather.
+  NSYS_OUTPUT changes the report prefix; NSYS_GRAPH_TRACE=graph reduces
+  collection detail and overhead relative to the default node mode.
+  The instrumented workload is for profiling, not throughput benchmarking.
+  Baseline benchmark remains ./bench_5090.sh without profiler instrumentation.
+  Artifacts (ignored by Git): profiles/validation_5090.nsys-rep,
+  profiles/validation_5090.sqlite and profiles/validation_5090.stats.csv.
+  Export, stats and SQLite queries were validated on a real RTX 5090 run.
+  The trace contains 166 cudaGraphLaunch calls: exactly 126 AR + 20 draft +
+  20 verify replays, with zero graph captures in the measured region.
+  Small validation summaries are kept under logs/.
+
+CPU profiling permissions
+  nsys status --environment confirms Linux kernel support, but CPU perf
+  sampling and scheduling collection are blocked by perf_event_paranoid=4.
+  There is no passwordless sudo on this account. No system permissions or
+  global sysctl settings were changed. CUDA/NVTX/OSRT collection works.
+  The profiler launcher uses --sample=none --cpuctxsw=none explicitly.
+  If per-process CPU perf sampling is needed later, an administrator can
+  choose to run: sudo sysctl kernel.perf_event_paranoid=2
+  Then check nsys status --environment and select the desired CPU options.
+
+GitHub access
+  Token authentication verified as CrazyDave999 with repository push access.
+  The token stays in ~/.x6_spec_token (permissions 0600).
+  A repository-local credential helper outside the repository reads it only
+  for github.com/CrazyDave999/profile_spec. No token is embedded in remotes,
+  source files, shell command arguments, or profiler environment variables.

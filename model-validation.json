@@ -1,0 +1,44 @@
+[
+  {
+    "repo": "Qwen/Qwen3-8B",
+    "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+    "files": [
+      {
+        "file": "model-00001-of-00005.safetensors",
+        "bytes": 3996250744,
+        "tensors": 81
+      },
+      {
+        "file": "model-00002-of-00005.safetensors",
+        "bytes": 3993160032,
+        "tensors": 114
+      },
+      {
+        "file": "model-00003-of-00005.safetensors",
+        "bytes": 3959604768,
+        "tensors": 111
+      },
+      {
+        "file": "model-00004-of-00005.safetensors",
+        "bytes": 3187841392,
+        "tensors": 92
+      },
+      {
+        "file": "model-00005-of-00005.safetensors",
+        "bytes": 1244659840,
+        "tensors": 1
+      }
+    ]
+  },
+  {
+    "repo": "JetSpec/jetspec-qwen3-8b",
+    "revision": "020a198caefde24a2891ad827cba7fb977ccdc36",
+    "files": [
+      {
+        "file": "model.safetensors",
+        "bytes": 2097259104,
+        "tensors": 58
+      }
+    ]
+  }
+]

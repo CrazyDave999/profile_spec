@@ -1,0 +1,11 @@
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 426.84it/s]
+Generating train split:   0%|          | 0/7473 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 7473/7473 [00:00<00:00, 801350.76 examples/s]
+Generating test split:   0%|          | 0/1319 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1319/1319 [00:00<00:00, 499754.92 examples/s]
+
+backend=triton_paged_tree_cudagraph  head=/home/qinghao/models/jetspec-qwen3-8b  algo=accum_logp
+model=/home/qinghao/models/Qwen3-8B  attn_implementation=sdpa  draft_attn=sdpa  torch_compile=False  fused_moe_blocks=0
+samples=4 world_size=1 budget=128 tree_depth=15 width=7 max_tokens=128
+AR    :   512 tok    5.379s  ->      95.2 tok/s   (1x baseline)
+tree  :   512 tok    2.474s  ->     207.0 tok/s   accept_len=6.75
+
+WALL-CLOCK spec speedup = 2.17x   (spec 207 tok/s vs AR 95 tok/s)

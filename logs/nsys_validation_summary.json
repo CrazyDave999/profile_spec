@@ -1,0 +1,24 @@
+{
+  "database": "/home/qinghao/profile_spec/profiles/validation_5090.sqlite",
+  "cuda_graph_launch_calls": 166,
+  "cuda_graph_capture_calls_in_measured_region": 0,
+  "gpu_kernel_events": 93242,
+  "gpu_graph_kernel_events": 75830,
+  "nvtx_event_count": 251,
+  "named_nvtx_counts": {
+    "AR/graph_replay": 126,
+    "CCCL": 1,
+    "JetSpec/GPU_tree_accept": 20,
+    "JetSpec/KV_gather": 20,
+    "JetSpec/draft_graph_replay": 20,
+    "JetSpec/target_verify_graph_replay": 20,
+    "cub::DeviceScan::InclusiveSumByKey": 40,
+    "profile_spec/AR/request_0": 1,
+    "profile_spec/AR/request_1": 1,
+    "profile_spec/JetSpec/request_0": 1,
+    "profile_spec/JetSpec/request_1": 1
+  },
+  "capture_scope": "warmed AR and JetSpec requests only",
+  "graph_trace_granularity": "node",
+  "expected_cuda_graph_launch_calls_from_python_audit": 166
+}

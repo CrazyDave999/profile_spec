@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.cache/
+tools/
+profiles/
+*.nsys-rep
+*.qdstrm
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.deb
+*.run
+*token*
+.env

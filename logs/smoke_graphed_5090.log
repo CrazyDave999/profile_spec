@@ -1,0 +1,31 @@
+GPU: NVIDIA GeForce RTX 5090; backend=triton_paged_tree_cudagraph; drafter=graphed
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 424.87it/s]
+Warming AR and tree inference...
+/home/qinghao/JetSpec/.venv/lib/python3.12/site-packages/torch/_inductor/compile_fx.py:282: UserWarning: TensorFloat32 tensor cores for float32 matrix multiplication available but not enabled. Consider setting `torch.set_float32_matmul_precision('high')` for better performance.
+  warnings.warn(
+ar: 128 tokens, 1.700s, 75.3 tok/s
+jetspec: 128 tokens, 0.831s, 154.1 tok/s
+AR token equality: False; peak allocation 20.44 GiB
+To find how many **positive whole-number divisors** 196 has, we start by **factoring 196 into its prime factors**.
+
+---
+
+### Step 1: Prime Factorization of 196
+
+$$
+196 \div 2 = 98 \\
+98 \div 2 = 49 \\
+49 \div 7 = 7 \\
+7 \div 7 = 1
+$$
+
+So, the prime factorization of 196 is:
+
+$$
+196 = 2^2 \times 7^2
+$$
+
+---
+
+###
+Saved /home/qinghao/spec/logs/smoke_graphed_5090.json

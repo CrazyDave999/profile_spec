@@ -1,0 +1,57 @@
+{
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "backend": "triton_paged_tree_cudagraph",
+  "baseline": "JetSpecEngine.generate: single-token compiled CUDA Graph AR with paged KV; no SGLang",
+  "dtype": "bfloat16",
+  "HF_attention": "sdpa",
+  "tree_attention": "custom Triton paged tree attention",
+  "target_verify_torch_compile": true,
+  "draft_torch_compile": true,
+  "full_HF_model_torch_compile": false,
+  "fuse_gemms": false,
+  "nogather": false,
+  "GPU_tree_accept": true,
+  "graph_accept": false,
+  "graph_accept_note": "The upstream graph accept path requires the nogather backend",
+  "session_reuse": true,
+  "AR_graph_buckets": [
+    1
+  ],
+  "verify_graph_buckets": [
+    [
+      128
+    ]
+  ],
+  "draft_graph_buckets": [
+    512
+  ],
+  "warmup_counts": {
+    "AR/graph_replay": 63,
+    "AR/graph_capture": 1,
+    "JetSpec/draft_graph_replay": 10,
+    "JetSpec/draft_graph_capture": 1,
+    "JetSpec/target_verify_graph_replay": 10,
+    "JetSpec/target_graph_capture": 1,
+    "JetSpec/GPU_tree_accept": 10,
+    "JetSpec/KV_gather": 10
+  },
+  "measured_counts": {
+    "AR/graph_capture": 0,
+    "AR/graph_replay": 126,
+    "JetSpec/GPU_tree_accept": 20,
+    "JetSpec/KV_gather": 20,
+    "JetSpec/draft_graph_capture": 0,
+    "JetSpec/draft_graph_replay": 20,
+    "JetSpec/target_graph_capture": 0,
+    "JetSpec/target_verify_graph_replay": 20
+  },
+  "no_graph_recapture_in_measured_region": true,
+  "tokens_per_request": 64,
+  "repeats": 2,
+  "depth": 15,
+  "budget": 128,
+  "equal_AR_tree_tokens": false,
+  "peak_allocated_gib": 21.379957675933838,
+  "peak_reserved_gib": 21.828125,
+  "instrumentation_overhead": "Do not use this script for headline throughput; use bench_5090.sh"
+}
