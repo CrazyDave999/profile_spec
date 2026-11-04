@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "dtype": "float32",
+  "device": "cpu",
+  "ragged_batch_size": 2,
+  "generated_tokens_per_sequence": 16,
+  "checks": [
+    "AR equals HF greedy",
+    "JetSpec equals HF greedy",
+    "batched equals independent single-sequence decoding",
+    "one target verify forward carries both sequences"
+  ]
+}

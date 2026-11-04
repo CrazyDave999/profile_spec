@@ -1,0 +1,14 @@
+{
+  "expected_main_cases": 168,
+  "main_cases_present": 168,
+  "missing_main_cases": [],
+  "outcomes": {
+    "success": 168
+  },
+  "readable_timeline_count": 56,
+  "primary_trace_matrix_expected": 42,
+  "primary_trace_matrix_present": 42,
+  "minimum_kernel_attribution_fraction": 1.0,
+  "captured_GPU_kernel_events": 44085684,
+  "generated_Beijing": "2026-11-03T06:22:46.411249+08:00"
+}

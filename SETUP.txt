@@ -70,6 +70,14 @@ Small benchmark (environment validation, not a full performance evaluation)
   It is not SGLang, vLLM, or an external serving-engine comparison.
   torch_compile=False in the upstream log means the full HF model is not
   wrapped in torch.compile; dedicated AR/verify/draft stacks are compiled.
+  Execution is offline and sequential, using direct Python engine calls;
+  no HTTP server is launched. Four samples means four serial requests at
+  batch size 1, not a simultaneous batch of four or a serving load test.
+  The wall-clock window includes each call's tokenization, prefill, decoding
+  and detokenization, while excluding model loading, dataset loading and
+  warmup. These numbers are not isolated steady-state decode throughput.
+  Session reuse preserves allocated KV pools and graphs, not prefix KV
+  contents across requests. The benchmark does not use generate_batch.
 
 Correctness observation
   BF16 AR/tree token equality did not pass on the smoke prompt.
@@ -146,3 +154,37 @@ GitHub access
   A repository-local credential helper outside the repository reads it only
   for github.com/CrazyDave999/profile_spec. No token is embedded in remotes,
   source files, shell command arguments, or profiler environment variables.
+
+Overnight profiling campaign, 2026-11-03
+  Report: reports/2026-11-03/report.html (text summary: report.txt).
+  Complete initial report was generated at 06:29 Beijing time; a preserved
+  snapshot is under reports/2026-11-03_initial_0629. Later revisions add GPU
+  counter interpretation, KV-layout analysis, artifact packaging and audit.
+  168 main cases + 7 GPU-metric cases completed successfully, with 63
+  Nsight reports. No foreign GPU compute process was detected by the guard.
+  Datasets: GSM8K, MATH-500, AIME25, HumanEval, MBPP, LiveCodeBench,
+  MT-Bench first turn. Exports and pinned revisions: data/jetspec_paper/.
+  Native optimized path is BS=1. The BS=1/2/4/8/16 sweep is an explicitly
+  experimental true-batched learned-head / dense-KV SDPA implementation;
+  it is not an optimized multi-request JetSpec serving stack.
+  All 7 datasets also have budget=64/128/256 native probes and cap=1024
+  probes. Performance measurements run separately from nsys, with the
+  standalone AR process not loading a draft head.
+  Raw timelines: profiles/overnight_20261103/ and profiles/gpu_metrics_20261103/.
+  Timeline ZIP: reports/2026-11-03/nsys_timelines.zip (ignored by Git).
+  Case results: logs/overnight_20261103/ and logs/gpu_metrics_20261103/.
+  Sampling: 1 kHz gb20x GPU metrics, graph-node tracing and CUDA memory
+  usage. CPU perf remains disabled. GPU counters are phase-level coarse
+  samples, not per-kernel Nsight Compute occupancy measurements.
+  Rebuild and verify:
+    source env.sh
+    python analyze_gpu_counters.py
+    python inspect_kv_reservation.py
+    python build_overnight_report.py --package
+    python audit_overnight.py
+  The audit checks the full dataset/BS matrix, real batched forward shapes,
+  AR-only memory baselines, every SQLite export, all report links and ZIP CRC.
+  KV layout finding: current native per-layer pools reserve the entire
+  global block-ID range. On a 36-layer target, that reservation is 36x the
+  equal-capacity layer-local layout. This is not a 36x total-memory claim
+  and no performance improvement from changing the layout has been measured.

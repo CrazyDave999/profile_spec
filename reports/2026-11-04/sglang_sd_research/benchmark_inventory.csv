@@ -1,0 +1,12 @@
+kind,source,entry,dimensions,metrics,caveat
+在线 serving,python/sglang/benchmark/serving.py,python -m sglang.benchmark.serving,request rate、max concurrency、输入/输出长度、数据集,output tok/s、TTFT、TPOT/ITL、e2e latency、accept length,连接真实 server，包含 scheduler/HTTP；优先用于 AR/SD 端到端对照
+固定 batch server,python/sglang/benchmark/one_batch_server.py,python -m sglang.benchmark.one_batch_server,batch-size、input-len、output-len；可启动或复用 server,batch latency、吞吐、stream metrics、stage profile,通过真实 server 测量；它的 batch-size/concurrency 不保证所有内部轮次都保持相同 active BS
+离线 Engine 吞吐,python/sglang/benchmark/offline_throughput.py,python -m sglang.benchmark.offline_throughput,随机/真实输入、生成长度、max-running-requests,request/input/output throughput；可 profiling,默认 Engine backend，不需要 HTTP；仍包含真实 scheduler，不是仅裸模型 forward
+稳态 serving,python/sglang/benchmark/steady_state_serving.py,稳态 serving 统计辅助模块,steady-state measurement window,稳态 token 吞吐与请求延迟统计,是 serving harness 的统计辅助，不能当成独立 SD 算法测试入口
+SD 参数 sweep,scripts/playground/bench_speculative.py,python scripts/playground/bench_speculative.py,batch-size × steps × topk × num_draft_tokens；全0为 AR,accept length、20分位 step time、speed 估计值,会起 server；speed=accept_length/step_time，不等同于直接测得的端到端吞吐。固定 prompts 偏探索用途
+Adaptive vs static,benchmark/bench_adaptive_speculative.py,python benchmark/bench_adaptive_speculative.py,低接受、高接受、交替流量；concurrency,吞吐、平均请求延迟、接受长度,对已经启动的 server 发 /generate 请求；adaptive/static 需要分别配置 server
+SD 性能回归,test/registered/basic_perf/test_eagle3_latency.py,python -m unittest ...TestEagle3Latency,ShareGPT 300条、request-rate=8、context上限3072,median e2e latency 上界 + accept length 下界,固定 CI model/GPU 阈值，不能直接当作5090性能目标，也不是跨算法公平排名
+正确性/质量/功能 CI,test/registered/spec/dflash/test_dflash.py,test/registered/spec/ 与 e2e/speculative/,模型、后端、page size、sampling、overlap、EOS、grammar/logprob,GSM8K/MMLU、accept length、API与输出行为,DFlash / EAGLE / DSpark / UNO / NGRAM 等各有套件；许多测试只约束接受长度，没有速度门槛
+kernel microbenchmark,test/registered/kernels/benchmark/speculative/bench_spec_topk1.py,python .../bench_spec_topk1.py,batch-size 1..2048 × vocab size,topk1 等 helper kernel 的耗时,只说明单个 kernel 的改进，不能直接当端到端 SD 加速比
+低层目标模型基线,python/sglang/benchmark/one_batch.py,python -m sglang.benchmark.one_batch,batch/input/output lengths、profile,模型 prefill/decode latency,本地源码固定 spec_algorithm=NONE；不要直接用来声明已经覆盖 SD 端到端 worker
+DSpark cost fitting,python/sglang/benchmark/dspark_sps_profiler.py,python -m sglang.benchmark.dspark_sps_profiler,batch/context/verify配置与 SPS cost table,阶段成本表与拟合,方法专用调优工具；不替代通用 serving throughput/latency benchmark

@@ -1,0 +1,4 @@
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 411.84it/s]
+Warmup humaneval optimized BS=1 arm=AR
+AR: 11221 tokens / 119.764s = 93.7 tok/s
+{"status": "success", "arguments": {"dataset": "humaneval", "engine": "optimized", "bs": 1, "tokens": 512, "samples": 32, "arm": "AR", "trace": false, "budget": 128, "depth": 15, "output": "/home/qinghao/profile_spec/logs/overnight_20261103/optimized_humaneval_bs1_bench_AR_t512.json"}}

@@ -1,0 +1,5 @@
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 426.37it/s]
+Warmup gsm8k batch_reference BS=2 arm=both
+AR: 32 tokens / 0.290s = 110.3 tok/s
+JetSpec: 32 tokens / 0.155s = 206.7 tok/s
+{"status": "success", "arguments": {"dataset": "gsm8k", "engine": "batch_reference", "bs": 2, "tokens": 16, "samples": 2, "arm": "both", "trace": false, "budget": 128, "depth": 15, "output": "logs/sweep_validation.json"}}

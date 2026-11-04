@@ -1,4 +1,5 @@
 .venv/
+.venv-*/
 __pycache__/
 *.py[cod]
 .cache/
@@ -13,3 +14,6 @@ profiles/
 *.run
 *token*
 .env
+reports/**/*.zip
+logs/**/supervisor.lock
+logs/**/*.progress.json

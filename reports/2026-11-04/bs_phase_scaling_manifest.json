@@ -1,0 +1,33 @@
+{
+  "rows": 595,
+  "detailed_rows": 85,
+  "no_gpu_inference_run": true,
+  "archives": [
+    {
+      "path": "/home/qinghao/profile_spec/reports/2026-11-03/nsys_batch_scaling_bs1_bs16.zip",
+      "MiB": 63.962717056274414,
+      "CRC_verified": true
+    },
+    {
+      "path": "/home/qinghao/profile_spec/reports/2026-11-04/nsys_mtbench_bs4.zip",
+      "MiB": 28.152043342590332,
+      "CRC_verified": true
+    }
+  ],
+  "growth": {
+    "gsm8k": {
+      "mean_sum_SD_kernel_ms_BS1_BS16": [
+        25.733982105262047,
+        164.77193769387168
+      ],
+      "verify_fraction_of_kernel_time_growth": 0.9033707474315311
+    },
+    "mt_bench": {
+      "mean_sum_SD_kernel_ms_BS1_BS16": [
+        25.45154012500298,
+        136.97259237999577
+      ],
+      "verify_fraction_of_kernel_time_growth": 0.8980513091633274
+    }
+  }
+}

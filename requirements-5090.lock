@@ -5,9 +5,12 @@ anyio==4.16.0
 attrs==26.1.0
 certifi==2026.10.23
 charset-normalizer==3.5.2
+contourpy==1.4.0
+cycler==0.12.1
 datasets==4.6.1
 dill==0.4.0
 filelock==4.2.6
+fonttools==4.68.0
 frozenlist==1.8.0
 fsspec==2026.2.0
 h11==0.16.0
@@ -19,7 +22,9 @@ huggingface-hub==0.36.2
 idna==3.20
 -e file:///home/qinghao/profile_spec/third_party/JetSpec
 jinja2==3.1.6
+kiwisolver==1.5.1
 markupsafe==3.0.3
+matplotlib==3.11.2
 mpmath==1.3.0
 multidict==7.2.1
 multiprocess==0.70.18
@@ -42,9 +47,11 @@ nvidia-nvjitlink-cu12==12.8.93
 nvidia-nvtx-cu12==12.8.90
 packaging==26.3
 pandas==3.1.0
+pillow==13.0.0
 propcache==0.5.4
 psutil==7.2.2
 pyarrow==26.0.0
+pyparsing==3.3.3
 python-dateutil==4.0.0
 pyyaml==6.0.3
 regex==2026.9.29

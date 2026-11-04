@@ -1,0 +1,1080 @@
+{
+  "database": "/home/qinghao/profile_spec/profiles/overnight_20261103/batch_reference_math500_bs16_trace_both_t128.sqlite",
+  "kernel_events": 1590376,
+  "attributed_kernel_events": 1590376,
+  "kernel_attribution_fraction": 1.0,
+  "graph_launch_calls": 0,
+  "graph_capture_calls_in_capture_range": 0,
+  "cuda_memory_usage_events": 3279,
+  "gpu_kernel_busy_union_ms": 16110.508944,
+  "gpu_kernel_envelope_ms": 21897.223425,
+  "phases": {
+    "AR/prefill": {
+      "calls": 32,
+      "host_ms": 818.2560960000002,
+      "kernel_ms": 680.9296060000199,
+      "memcpy_ms": 0.016959999999999996,
+      "memcpy_bytes": 256,
+      "kernel_count": 70292,
+      "graph_kernel_count": 0,
+      "top_launch_configs": [
+        [
+          "grid=340x2x1; block=512x1x1; regs=36; static_smem=0",
+          4608
+        ],
+        [
+          "grid=1x1x1; block=128x1x1; regs=36; static_smem=0",
+          3128
+        ],
+        [
+          "grid=1x1x1; block=128x1x1; regs=32; static_smem=0",
+          3128
+        ],
+        [
+          "grid=8x12x1; block=128x1x1; regs=226; static_smem=0",
+          1296
+        ],
+        [
+          "grid=16x2x5; block=128x1x1; regs=230; static_smem=0",
+          1188
+        ],
+        [
+          "grid=128x5x1; block=32x16x1; regs=45; static_smem=0",
+          936
+        ]
+      ],
+      "top_kernels": [
+        {
+          "name": "void cutlass::Kernel2<cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_128x128_32x4_tn_align8>(T1::Params)",
+          "count": 2088,
+          "kernel_ms": 177.36442700000032
+        },
+        {
+          "name": "void cutlass::Kernel2<cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_64x256_32x4_tn_align8>(T1::Params)",
+          "count": 720,
+          "kernel_ms": 148.63228899999993
+        },
+        {
+          "name": "void cutlass::Kernel2<cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_32x32_128x2_tn_align8>(T1::Params)",
+          "count": 2484,
+          "kernel_ms": 67.27530400000019
+        },
+        {
+          "name": "void cutlass::Kernel2<cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_32x32_32x1_tn_align8>(T1::Params)",
+          "count": 360,
+          "kernel_ms": 53.41431899999997
+        },
+        {
+          "name": "void cutlass::Kernel2<cutlass_80_tensorop_s16816gemm_bf16_256x64_32x4_tn_align8>(T1::Params)",
+          "count": 432,
+          "kernel_ms": 35.67753799999999
+        },
+        {
+          "name": "void cutlass::Kernel2<cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_256x64_32x4_tn_align8>(T1::Params)",
+          "count": 972,
+          "kernel_ms": 31.54690499999996
+        },
+        {
+          "name": "std::enable_if<!T7, void>::type internal::gemvx::kernel<int, int, __nv_bfloat16, __nv_bfloat16, __nv_bfloat16, float, (bool)0, (bool)1, (bool)1, (bool)0, (int)6, (bool)0, cublasGemvParamsEx<int, cublasGemvTensorStridedBatched<const __nv_bfloat16>, cublasGemvTensorStridedBatched<const __nv_bfloat16>, cublasGemvTensorStridedBatched<__nv_bfloat16>, float>>(T13)",
+          "count": 32,
+          "kernel_ms": 24.407480000000007
+        },
+        {
+          "name": "void at::native::reduce_kernel<(int)512, (int)1, at::native::ReduceOp<float, at::native::MeanOps<float, float, float, float>, unsigned int, float, (int)4, (int)4>>(T3)",
+          "count": 4640,
+          "kernel_ms": 18.663591000000224
+        }
+      ],
+      "mean_kernel_ms_per_phase_call": 21.279050187500623,
+      "summed_gpu_envelope_ms": 810.622261
+    },
+    "AR/kv_pack": {
+      "calls": 254,
+      "host_ms": 2648.793794000001,
+      "kernel_ms": 1207.4051590003428,
+      "memcpy_ms": 25.273775999999764,
+      "memcpy_bytes": 13670645760,
+      "kernel_count": 310896,
+      "graph_kernel_count": 0,
+      "top_launch_configs": [
+        [
+          "grid=340x2x1; block=512x1x1; regs=36; static_smem=0",
+          18288
+        ],
+        [
+          "grid=310x1x1; block=128x1x1; regs=20; static_smem=0",
+          1872
+        ],
+        [
+          "grid=312x1x1; block=128x1x1; regs=20; static_smem=0",
+          1872
+        ],
+        [
+          "grid=314x1x1; block=128x1x1; regs=20; static_smem=0",
+          1872
+        ],
+        [
+          "grid=316x1x1; block=128x1x1; regs=20; static_smem=0",
+          1872
+        ],
+        [
+          "grid=318x1x1; block=128x1x1; regs=20; static_smem=0",
+          1872
+        ]
+      ],
+      "top_kernels": [
+        {
+          "name": "void at::native::elementwise_kernel<(int)128, (int)4, void at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase &)::[lambda() (instance 3)]::operator ()() const::[lambda() (instance 12)]::operator ()() const::[lambda(c10::BFloat16) (instance 1)]>(at::TensorIteratorBase &, const T1 &)::[lambda(int) (instance 1)]>(int, T3)",
+          "count": 274320,
+          "kernel_ms": 633.9960679995726
+        },
+        {
+          "name": "void at::native::<unnamed>::CatArrayBatchedCopy<at::native::<unnamed>::OpaqueType<(unsigned int)2>, unsigned int, (int)4, (int)64, (int)64>(T1 *, at::native::<unnamed>::CatArrInputTensorMetadata<T1, T2, T4, T5>, at::native::<unnamed>::TensorSizeStride<T2, (unsigned int)4>, int, T2)",
+          "count": 18288,
+          "kernel_ms": 502.417488999998
+        },
+        {
+          "name": "void at::native::vectorized_elementwise_kernel<(int)4, at::native::FillFunctor<c10::BFloat16>, std::array<char *, (unsigned long)1>>(int, T2, T3)",
+          "count": 18288,
+          "kernel_ms": 70.99160199999812
+        }
+      ],
+      "mean_kernel_ms_per_phase_call": 4.753563618111586,
+      "summed_gpu_envelope_ms": 2614.029827
+    },
+    "AR/target_prepare": {
+      "calls": 254,
+      "host_ms": 172.81803200000004,
+      "kernel_ms": 3.9758359999999,
+      "memcpy_ms": 2.1644950000000613,
+      "memcpy_bytes": 65024,
+      "kernel_count": 9144,
+      "graph_kernel_count": 0,
+      "top_launch_configs": [
+        [
+          "grid=1x1x1; block=128x1x1; regs=16; static_smem=0",
+          8128
+        ],
+        [
+          "grid=1x1x1; block=128x1x1; regs=22; static_smem=0",
+          508
+        ],
+        [
+          "grid=1x1x1; block=64x1x1; regs=16; static_smem=0",
+          254
+        ],
+        [
+          "grid=7x1x1; block=128x1x1; regs=16; static_smem=0",
+          64
+        ],
+        [
+          "grid=5x1x1; block=128x1x1; regs=16; static_smem=0",
+          64
+        ],
+        [
+          "grid=6x1x1; block=128x1x1; regs=16; static_smem=0",
+          63
+        ]
+      ],
+      "top_kernels": [
+        {
+          "name": "void at::native::unrolled_elementwise_kernel<at::native::FillFunctor<c10::BFloat16>, std::array<char *, (unsigned long)1>, (int)4, TrivialOffsetCalculator<(int)0, unsigned int>, TrivialOffsetCalculator<(int)1, unsigned int>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast>(int, T1, T2, T4, T5, T6, T7)",
+          "count": 4064,
+          "kernel_ms": 1.5506389999999457
+        },
+        {
+          "name": "void at::native::vectorized_elementwise_kernel<(int)4, at::native::FillFunctor<c10::BFloat16>, std::array<char *, (unsigned long)1>>(int, T2, T3)",
+          "count": 2798,
+          "kernel_ms": 1.339448000000014
+        },
+        {
+          "name": "void at::native::vectorized_elementwise_kernel<(int)2, at::native::FillFunctor<c10::BFloat16>, std::array<char *, (unsigned long)1>>(int, T2, T3)",
+          "count": 1520,
+          "kernel_ms": 0.7357370000000005
+        },
+        {
+          "name": "void at::native::vectorized_elementwise_kernel<(int)2, at::native::FillFunctor<long>, std::array<char *, (unsigned long)1>>(int, T2, T3)",
+          "count": 508,
+          "kernel_ms": 0.2503319999999994
+        },
+        {
+          "name": "void <unnamed>::elementwise_kernel_with_index<int, at::native::arange_cuda_out(const c10::Scalar &, const c10::Scalar &, const c10::Scalar &, at::Tensor &)::[lambda() (instance 1)]::operator ()() const::[lambda() (instance 4)]::operator ()() const::[lambda(long) (instance 1)]>(T1, T2, function_traits<T2>::result_type *)",
+          "count": 254,
+          "kernel_ms": 0.09967999999999974
+        }
+      ],
+      "mean_kernel_ms_per_phase_call": 0.015652897637794882,
+      "summed_gpu_envelope_ms": 128.777267
+    },
+    "AR/decode_forward": {
+      "calls": 254,
+      "host_ms": 5678.916048000001,
+      "kernel_ms": 5299.3115140009995,
+      "memcpy_ms": 0.0,
+      "memcpy_bytes": 0,
+      "kernel_count": 569450,
+      "graph_kernel_count": 0,
+      "top_launch_configs": [
+        [
+          "grid=64x1x1; block=128x1x1; regs=40; static_smem=0",
+          55118
+        ],
+        [
+          "grid=128x1x1; block=128x1x1; regs=22; static_smem=0",
+          45974
+        ],
+        [
+          "grid=1x1x1; block=128x1x1; regs=36; static_smem=0",
+          36830
+        ],
+        [
+          "grid=1x1x1; block=128x1x1; regs=32; static_smem=0",
+          36830
+        ],
+        [
+          "grid=128x1x1; block=128x1x1; regs=31; static_smem=0",
+          27686
+        ],
+        [
+          "grid=64x1x1; block=128x1x1; regs=36; static_smem=0",
+          27686
+        ]
+      ],
+      "top_kernels": [
+        {
+          "name": "void cutlass::Kernel2<cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_16x16_128x2_tn_align8>(T1::Params)",
+          "count": 64262,
+          "kernel_ms": 2776.457209000043
+        },
+        {
+          "name": "fmha_cutlassF_bf16_aligned_64x128_rf_sm80(PyTorchMemEffAttention::AttentionKernel<cutlass::bfloat16_t, cutlass::arch::Sm80, (bool)1, (int)64, (int)128, (int)128, (bool)1, (bool)1>::Params)",
+          "count": 9144,
+          "kernel_ms": 1036.4998110000013
+        },
+        {
+          "name": "void at::native::elementwise_kernel<(int)128, (int)4, void at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase &)::[lambda() (instance 3)]::operator ()() const::[lambda() (instance 12)]::operator ()() const::[lambda(c10::BFloat16) (instance 1)]>(at::TensorIteratorBase &, const T1 &)::[lambda(int) (instance 1)]>(int, T3)",
+          "count": 26280,
+          "kernel_ms": 671.8069969999935
+        },
+        {
+          "name": "void at::native::<unnamed>::CatArrayBatchedCopy_alignedK_contig<at::native::<unnamed>::OpaqueType<(unsigned int)2>, unsigned int, (int)4, (int)128, (int)1, (int)8>(T1 *, at::native::<unnamed>::CatArrInputTensorMetadata<T1, T2, T4, T5>, at::native::<unnamed>::TensorSizeStride<T2, (unsigned int)4>, int, T2)",
+          "count": 18288,
+          "kernel_ms": 180.97021900000135
+        },
+        {
+          "name": "void at::native::reduce_kernel<(int)512, (int)1, at::native::ReduceOp<float, at::native::MeanOps<float, float, float, float>, unsigned int, float, (int)4, (int)4>>(T3)",
+          "count": 36830,
+          "kernel_ms": 139.35209600002378
+        },
+        {
+          "name": "void at::native::elementwise_kernel<(int)128, (int)4, void at::native::gpu_kernel_impl_nocast<at::native::BinaryFunctor<c10::BFloat16, c10::BFloat16, c10::BFloat16, at::native::binary_internal::MulFunctor<float>>>(at::TensorIteratorBase &, const T1 &)::[lambda(int) (instance 1)]>(int, T3)",
+          "count": 73406,
+          "kernel_ms": 128.52767499996315
+        },
+        {
+          "name": "void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase &)::[lambda() (instance 3)]::operator ()() const::[lambda() (instance 7)]::operator ()() const::[lambda(float) (instance 1)], std::array<char *, (unsigned long)2>, (int)4, TrivialOffsetCalculator<(int)1, unsigned int>, TrivialOffsetCalculator<(int)1, unsigned int>, at::native::memory::LoadWithCast<(int)1>, at::native::memory::StoreWithCast<(int)1>>(int, T1, T2, T4, T5, T6, T7)",
+          "count": 37084,
+          "kernel_ms": 68.17908399998805
+        },
+        {
+          "name": "void at::native::elementwise_kernel<(int)128, (int)2, void at::native::gpu_kernel_impl_nocast<at::native::BinaryFunctor<float, float, float, at::native::binary_internal::MulFunctor<float>>>(at::TensorIteratorBase &, const T1 &)::[lambda(int) (instance 1)]>(int, T3)",
+          "count": 36830,
+          "kernel_ms": 38.71655999999242
+        }
+      ],
+      "mean_kernel_ms_per_phase_call": 20.86343115748425,
+      "summed_gpu_envelope_ms": 5896.350757
+    },
+    "AR/accept": {
+      "calls": 254,
+      "host_ms": 408.58120499999984,
+      "kernel_ms": 22.652663999999593,
+      "memcpy_ms": 2.5305669999997935,
+      "memcpy_bytes": 65024,
+      "kernel_count": 4064,
+      "graph_kernel_count": 0,
+      "top_launch_configs": [
+        [
+          "grid=1x19x1; block=512x1x1; regs=40; static_smem=16",
+          4064
+        ]
+      ],
+      "top_kernels": [
+        {
+          "name": "void at::native::reduce_kernel<(int)512, (int)1, at::native::ReduceOp<c10::BFloat16, at::native::ArgMaxOps<float>, unsigned int, long, (int)4, (int)4>>(T3)",
+          "count": 4064,
+          "kernel_ms": 22.652663999999593
+        }
+      ],
+      "mean_kernel_ms_per_phase_call": 0.08918371653543147,
+      "summed_gpu_envelope_ms": 146.136459
+    },
+    "AR/kv_commit": {
+      "calls": 254,
+      "host_ms": 2852.7537499999976,
+      "kernel_ms": 956.086362999652,
+      "memcpy_ms": 0.0,
+      "memcpy_bytes": 0,
+      "kernel_count": 304800,
+      "graph_kernel_count": 0,
+      "top_launch_configs": [
+        [
+          "grid=1x1x1; block=128x1x1; regs=40; static_smem=0",
+          4064
+        ],
+        [
+          "grid=1x2x1; block=128x1x1; regs=26; static_smem=0",
+          3545
+        ],
+        [
+          "grid=312x1x1; block=128x1x1; regs=46; static_smem=0",
+          1872
+        ],
+        [
+          "grid=314x1x1; block=128x1x1; regs=46; static_smem=0",
+          1872
+        ],
+        [
+          "grid=316x1x1; block=128x1x1; regs=46; static_smem=0",
+          1872
+        ],
+        [
+          "grid=318x1x1; block=128x1x1; regs=46; static_smem=0",
+          1872
+        ]
+      ],
+      "top_kernels": [
+        {
+          "name": "void at::native::index_elementwise_kernel<(int)128, (int)4, void at::native::gpu_index_kernel<void at::native::index_kernel_impl<at::native::OpaqueType<(int)2>>(at::TensorIteratorBase &, c10::ArrayRef<long>, c10::ArrayRef<long>)::[lambda(char *, const char *, long) (instance 1)]>(at::TensorIteratorBase &, c10::ArrayRef<long>, c10::ArrayRef<long>, const T1 &, bool)::[lambda(int) (instance 1)]>(long, T3)",
+          "count": 292608,
+          "kernel_ms": 947.6861519997427
+        },
+        {
+          "name": "void at::native::vectorized_elementwise_kernel<(int)2, at::native::CUDAFunctorOnSelf_add<long>, std::array<char *, (unsigned long)2>>(int, T2, T3)",
+          "count": 4064,
+          "kernel_ms": 3.4014129999999225
+        },
+        {
+          "name": "void at::native::<unnamed>::CatArrayBatchedCopy_alignedK_contig<at::native::<unnamed>::OpaqueType<(unsigned int)8>, unsigned int, (int)1, (int)128, (int)1, (int)16>(T1 *, at::native::<unnamed>::CatArrInputTensorMetadata<T1, T2, T4, T5>, at::native::<unnamed>::TensorSizeStride<T2, (unsigned int)4>, int, T2)",
+          "count": 4064,
+          "kernel_ms": 3.301372999999997
+        },
+        {
+          "name": "void <unnamed>::elementwise_kernel_with_index<int, at::native::arange_cuda_out(const c10::Scalar &, const c10::Scalar &, const c10::Scalar &, at::Tensor &)::[lambda() (instance 1)]::operator ()() const::[lambda() (instance 4)]::operator ()() const::[lambda(long) (instance 1)]>(T1, T2, function_traits<T2>::result_type *)",
+          "count": 4064,
+          "kernel_ms": 1.6974249999999558
+        }
+      ],
+      "mean_kernel_ms_per_phase_call": 3.764119539368709,
+      "summed_gpu_envelope_ms": 2796.194131
+    },
+    "JetSpec/prefill": {
+      "calls": 32,
+      "host_ms": 816.2363799999999,
+      "kernel_ms": 682.9835990000125,
+      "memcpy_ms": 0.016894999999999993,
+      "memcpy_bytes": 256,
+      "kernel_count": 70324,
+      "graph_kernel_count": 0,
+      "top_launch_configs": [
+        [
+          "grid=340x2x1; block=512x1x1; regs=36; static_smem=0",
+          4608
+        ],
+        [
+          "grid=1x1x1; block=128x1x1; regs=36; static_smem=0",
+          3128
+        ],
+        [
+          "grid=1x1x1; block=128x1x1; regs=32; static_smem=0",
+          3128
+        ],
+        [
+          "grid=8x12x1; block=128x1x1; regs=226; static_smem=0",
+          1296
+        ],
+        [
+          "grid=16x2x5; block=128x1x1; regs=230; static_smem=0",
+          1188
+        ],
+        [
+          "grid=128x5x1; block=32x16x1; regs=45; static_smem=0",
+          936
+        ]
+      ],
+      "top_kernels": [
+        {
+          "name": "void cutlass::Kernel2<cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_128x128_32x4_tn_align8>(T1::Params)",
+          "count": 2088,
+          "kernel_ms": 177.73334100000028
+        },
+        {
+          "name": "void cutlass::Kernel2<cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_64x256_32x4_tn_align8>(T1::Params)",
+          "count": 720,
+          "kernel_ms": 149.04310300000003
+        },
+        {
+          "name": "void cutlass::Kernel2<cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_32x32_128x2_tn_align8>(T1::Params)",
+          "count": 2484,
+          "kernel_ms": 67.40178800000002
+        },
+        {
+          "name": "void cutlass::Kernel2<cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_32x32_32x1_tn_align8>(T1::Params)",
+          "count": 360,
+          "kernel_ms": 53.98795500000004
+        },
+        {
+          "name": "void cutlass::Kernel2<cutlass_80_tensorop_s16816gemm_bf16_256x64_32x4_tn_align8>(T1::Params)",
+          "count": 432,
+          "kernel_ms": 35.72033999999997
+        },
+        {
+          "name": "void cutlass::Kernel2<cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_256x64_32x4_tn_align8>(T1::Params)",
+          "count": 972,
+          "kernel_ms": 31.58579400000001
+        },
+        {
+          "name": "std::enable_if<!T7, void>::type internal::gemvx::kernel<int, int, __nv_bfloat16, __nv_bfloat16, __nv_bfloat16, float, (bool)0, (bool)1, (bool)1, (bool)0, (int)6, (bool)0, cublasGemvParamsEx<int, cublasGemvTensorStridedBatched<const __nv_bfloat16>, cublasGemvTensorStridedBatched<const __nv_bfloat16>, cublasGemvTensorStridedBatched<__nv_bfloat16>, float>>(T13)",
+          "count": 32,
+          "kernel_ms": 24.425387
+        },
+        {
+          "name": "void at::native::reduce_kernel<(int)512, (int)1, at::native::ReduceOp<float, at::native::MeanOps<float, float, float, float>, unsigned int, float, (int)4, (int)4>>(T3)",
+          "count": 4640,
+          "kernel_ms": 18.71739100000022
+        }
+      ],
+      "mean_kernel_ms_per_phase_call": 21.34323746875039,
+      "summed_gpu_envelope_ms": 808.641571
+    },
+    "JetSpec/draft_prepare": {
+      "calls": 51,
+      "host_ms": 49.27405899999999,
+      "kernel_ms": 5.327327000000019,
+      "memcpy_ms": 4.086972999999986,
+      "memcpy_bytes": 3834676200,
+      "kernel_count": 2610,
+      "graph_kernel_count": 0,
+      "top_launch_configs": [
+        [
+          "grid=1x1x1; block=64x1x1; regs=16; static_smem=0",
+          547
+        ],
+        [
+          "grid=1x1x1; block=128x1x1; regs=16; static_smem=0",
+          379
+        ],
+        [
+          "grid=1x1x1; block=128x1x1; regs=22; static_smem=0",
+          312
+        ],
+        [
+          "grid=3x1x1; block=64x1x1; regs=16; static_smem=0",
+          188
+        ],
+        [
+          "grid=2x1x1; block=64x1x1; regs=16; static_smem=0",
+          135
+        ],
+        [
+          "grid=5x1x1; block=128x1x1; regs=16; static_smem=0",
+          98
+        ]
+      ],
+      "top_kernels": [
+        {
+          "name": "void at::native::vectorized_elementwise_kernel<(int)4, at::native::FillFunctor<c10::BFloat16>, std::array<char *, (unsigned long)1>>(int, T2, T3)",
+          "count": 102,
+          "kernel_ms": 3.758856000000004
+        },
+        {
+          "name": "void <unnamed>::elementwise_kernel_with_index<int, at::native::arange_cuda_out(const c10::Scalar &, const c10::Scalar &, const c10::Scalar &, at::Tensor &)::[lambda() (instance 1)]::operator ()() const::[lambda() (instance 4)]::operator ()() const::[lambda(long) (instance 1)]>(T1, T2, function_traits<T2>::result_type *)",
+          "count": 1050,
+          "kernel_ms": 0.44086200000000453
+        },
+        {
+          "name": "void at::native::elementwise_kernel<(int)128, (int)4, void at::native::gpu_kernel_impl_nocast<at::native::FillFunctor<c10::BFloat16>>(at::TensorIteratorBase &, const T1 &)::[lambda(int) (instance 1)]>(int, T3)",
+          "count": 525,
+          "kernel_ms": 0.3949739999999993
+        },
+        {
+          "name": "void at::native::vectorized_elementwise_kernel<(int)2, at::native::FillFunctor<long>, std::array<char *, (unsigned long)1>>(int, T2, T3)",
+          "count": 350,
+          "kernel_ms": 0.21602900000000053
+        },
+        {
+          "name": "void at::native::unrolled_elementwise_kernel<at::native::FillFunctor<long>, std::array<char *, (unsigned long)1>, (int)4, TrivialOffsetCalculator<(int)0, unsigned int>, TrivialOffsetCalculator<(int)1, unsigned int>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast>(int, T1, T2, T4, T5, T6, T7)",
+          "count": 226,
+          "kernel_ms": 0.10025599999999993
+        },
+        {
+          "name": "void at::native::vectorized_gather_kernel<(int)16, long>(char *, char *, T2 *, int, long, long, long, long, bool)",
+          "count": 42,
+          "kernel_ms": 0.075488
+        },
+        {
+          "name": "void at::native::elementwise_kernel<(int)128, (int)2, void at::native::gpu_kernel_impl_nocast<at::native::<unnamed>::where_kernel_impl(at::TensorIterator &)::[lambda() (instance 1)]::operator ()() const::[lambda() (instance 11)]::operator ()() const::[lambda(bool, float, float) (instance 1)]>(at::TensorIteratorBase &, const T1 &)::[lambda(int) (instance 1)]>(int, T3)",
+          "count": 51,
+          "kernel_ms": 0.072256
+        },
+        {
+          "name": "void at::native::elementwise_kernel<(int)128, (int)4, void at::native::gpu_kernel_impl_nocast<at::native::bfloat16_copy_kernel_cuda(at::TensorIteratorBase &)::[lambda(float) (instance 1)]>(at::TensorIteratorBase &, const T1 &)::[lambda(int) (instance 1)]>(int, T3)",
+          "count": 51,
+          "kernel_ms": 0.06895999999999995
+        }
+      ],
+      "mean_kernel_ms_per_phase_call": 0.10445739215686312,
+      "summed_gpu_envelope_ms": 39.811203
+    },
+    "JetSpec/draft_forward": {
+      "calls": 51,
+      "host_ms": 203.3340350000001,
+      "kernel_ms": 526.4462109999957,
+      "memcpy_ms": 0.0,
+      "memcpy_bytes": 0,
+      "kernel_count": 18234,
+      "graph_kernel_count": 0,
+      "top_launch_configs": [
+        [
+          "grid=1x1x1; block=128x1x1; regs=36; static_smem=0",
+          629
+        ],
+        [
+          "grid=1x1x1; block=128x1x1; regs=32; static_smem=0",
+          629
+        ],
+        [
+          "grid=2048x1x1; block=128x1x1; regs=22; static_smem=0",
+          590
+        ],
+        [
+          "grid=340x2x1; block=512x1x1; regs=36; static_smem=0",
+          510
+        ],
+        [
+          "grid=1024x1x1; block=128x1x1; regs=40; static_smem=0",
+          468
+        ],
+        [
+          "grid=5440x2x1; block=128x1x1; regs=37; static_smem=0",
+          340
+        ]
+      ],
+      "top_kernels": [
+        {
+          "name": "void cutlass::Kernel2<cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_256x128_32x3_tn_align8>(T1::Params)",
+          "count": 166,
+          "kernel_ms": 195.75104599999995
+        },
+        {
+          "name": "void cutlass::Kernel2<cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_64x256_32x4_tn_align8>(T1::Params)",
+          "count": 582,
+          "kernel_ms": 118.85576700000004
+        },
+        {
+          "name": "void cutlass::Kernel2<cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_128x256_32x3_tn_align8>(T1::Params)",
+          "count": 145,
+          "kernel_ms": 51.32825
+        },
+        {
+          "name": "void cutlass::Kernel2<cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_128x128_32x4_tn_align8>(T1::Params)",
+          "count": 440,
+          "kernel_ms": 26.667171999999994
+        },
+        {
+          "name": "fmha_cutlassF_bf16_aligned_64x128_rf_sm80(PyTorchMemEffAttention::AttentionKernel<cutlass::bfloat16_t, cutlass::arch::Sm80, (bool)1, (int)64, (int)128, (int)128, (bool)1, (bool)1>::Params)",
+          "count": 255,
+          "kernel_ms": 19.564057000000044
+        },
+        {
+          "name": "void cutlass::Kernel2<cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_16x16_128x2_tn_align8>(T1::Params)",
+          "count": 324,
+          "kernel_ms": 19.194201000000003
+        },
+        {
+          "name": "void at::native::elementwise_kernel<(int)128, (int)4, void at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase &)::[lambda() (instance 3)]::operator ()() const::[lambda() (instance 12)]::operator ()() const::[lambda(c10::BFloat16) (instance 1)]>(at::TensorIteratorBase &, const T1 &)::[lambda(int) (instance 1)]>(int, T3)",
+          "count": 767,
+          "kernel_ms": 15.096886000000023
+        },
+        {
+          "name": "void at::native::elementwise_kernel<(int)128, (int)4, void at::native::gpu_kernel_impl_nocast<at::native::BinaryFunctor<c10::BFloat16, c10::BFloat16, c10::BFloat16, at::native::binary_internal::MulFunctor<float>>>(at::TensorIteratorBase &, const T1 &)::[lambda(int) (instance 1)]>(int, T3)",
+          "count": 2142,
+          "kernel_ms": 10.339031000000034
+        }
+      ],
+      "mean_kernel_ms_per_phase_call": 10.322474725490112,
+      "summed_gpu_envelope_ms": 540.429944
+    },
+    "JetSpec/tree_build": {
+      "calls": 51,
+      "host_ms": 610.479158,
+      "kernel_ms": 34.24012700000013,
+      "memcpy_ms": 1.6481150000000597,
+      "memcpy_bytes": 19966800,
+      "kernel_count": 8400,
+      "graph_kernel_count": 0,
+      "top_launch_configs": [
+        [
+          "grid=990x1x1; block=256x1x1; regs=20; static_smem=1024",
+          1050
+        ],
+        [
+          "grid=990x1x1; block=256x1x1; regs=40; static_smem=1220",
+          1050
+        ],
+        [
+          "grid=1x1x1; block=128x1x1; regs=16; static_smem=0",
+          1050
+        ],
+        [
+          "grid=1x1x1; block=288x1x1; regs=56; static_smem=16144",
+          1050
+        ],
+        [
+          "grid=1x1x1; block=128x1x1; regs=38; static_smem=0",
+          1050
+        ],
+        [
+          "grid=15x1x1; block=1024x1x1; regs=40; static_smem=0",
+          525
+        ]
+      ],
+      "top_kernels": [
+        {
+          "name": "void at::native::<unnamed>::cunn_SoftMaxForward<(int)8, c10::BFloat16, float, c10::BFloat16, at::native::<unnamed>::LogSoftMaxForwardEpilogue>(T4 *, const T2 *, int)",
+          "count": 525,
+          "kernel_ms": 11.780257000000018
+        },
+        {
+          "name": "void at::native::mbtopk::computeBlockwiseWithinKCounts<unsigned int, c10::BFloat16>(T1 *, short *, unsigned int *, unsigned int, int, bool, unsigned int *, T2 *, unsigned int *, T1 *, unsigned int)",
+          "count": 1050,
+          "kernel_ms": 8.842106000000033
+        },
+        {
+          "name": "void at::native::mbtopk::gatherTopK<c10::BFloat16, unsigned int, (int)2>(at::cuda::detail::TensorInfo<const T1, T2>, T2, T2, bool, unsigned int, T2, at::cuda::detail::TensorInfo<T1, T2>, T2, at::cuda::detail::TensorInfo<long, T2>, T2, unsigned int, unsigned int, T1 *, unsigned int *, unsigned int *, unsigned int)",
+          "count": 525,
+          "kernel_ms": 3.5386700000000064
+        },
+        {
+          "name": "void at::native::mbtopk::radixFindKthValues<c10::BFloat16, unsigned int, unsigned int, (int)2>(at::cuda::detail::TensorInfo<const T1, T2>, unsigned int, unsigned int *, unsigned int, T2, int, int, unsigned int, T3, T3 *, short *)",
+          "count": 1050,
+          "kernel_ms": 3.232329000000014
+        },
+        {
+          "name": "void at_cuda_detail::cub::DeviceScanByKeyKernel<at_cuda_detail::cub::DeviceScanByKeyPolicy<at_cuda_detail::cub::TransformInputIterator<unsigned int, at::native::mbtopk::BlockIdxToKey, at_cuda_detail::cub::CountingInputIterator<unsigned int, unsigned int>, long>, unsigned int, unsigned int, cuda::std::__4::plus<void>>::Policy900, at_cuda_detail::cub::TransformInputIterator<unsigned int, at::native::mbtopk::BlockIdxToKey, at_cuda_detail::cub::CountingInputIterator<unsigned int, unsigned int>, long>, unsigned int *, unsigned int *, at_cuda_detail::cub::ReduceByKeyScanTileState<unsigned int, int, (bool)1>, cuda::std::__4::equal_to<void>, cuda::std::__4::plus<void>, at_cuda_detail::cub::NullType, int, unsigned int, unsigned int>(T2, T11 *, T3, T4, T5, int, T6, T7, T8, T9)",
+          "count": 1050,
+          "kernel_ms": 2.2773259999999778
+        },
+        {
+          "name": "void at::native::bitonicSortKVInPlace<(int)2, (int)-1, (int)16, (int)16, c10::BFloat16, long, at::native::GTOp<c10::BFloat16, (bool)1>, unsigned int>(at::cuda::detail::TensorInfo<T5, T8>, T8, T8, T8, at::cuda::detail::TensorInfo<T6, T8>, T8, T7)",
+          "count": 525,
+          "kernel_ms": 1.6090109999999953
+        },
+        {
+          "name": "void at::native::mbtopk::computeBlockwiseKthCounts<unsigned int>(T1 *, short *, unsigned int, unsigned int, unsigned int *)",
+          "count": 525,
+          "kernel_ms": 0.8907160000000008
+        },
+        {
+          "name": "void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase &)::[lambda() (instance 3)]::operator ()() const::[lambda() (instance 6)]::operator ()() const::[lambda(double) (instance 1)], std::array<char *, (unsigned long)2>, (int)4, TrivialOffsetCalculator<(int)1, unsigned int>, TrivialOffsetCalculator<(int)1, unsigned int>, at::native::memory::LoadWithCast<(int)1>, at::native::memory::StoreWithCast<(int)1>>(int, T1, T2, T4, T5, T6, T7)",
+          "count": 1050,
+          "kernel_ms": 0.8591599999999963
+        }
+      ],
+      "mean_kernel_ms_per_phase_call": 0.6713750392156888,
+      "summed_gpu_envelope_ms": 260.37100499999997
+    },
+    "JetSpec/kv_pack": {
+      "calls": 51,
+      "host_ms": 375.06131500000004,
+      "kernel_ms": 150.08956800000846,
+      "memcpy_ms": 5.013243000000063,
+      "memcpy_bytes": 2736340992,
+      "kernel_count": 41472,
+      "graph_kernel_count": 0,
+      "top_launch_configs": [
+        [
+          "grid=340x2x1; block=512x1x1; regs=36; static_smem=0",
+          3672
+        ],
+        [
+          "grid=228x1x1; block=128x1x1; regs=20; static_smem=0",
+          648
+        ],
+        [
+          "grid=260x1x1; block=128x1x1; regs=20; static_smem=0",
+          648
+        ],
+        [
+          "grid=352x1x1; block=128x1x1; regs=20; static_smem=0",
+          432
+        ],
+        [
+          "grid=244x1x1; block=128x1x1; regs=20; static_smem=0",
+          432
+        ],
+        [
+          "grid=366x1x1; block=128x1x1; regs=20; static_smem=0",
+          432
+        ]
+      ],
+      "top_kernels": [
+        {
+          "name": "void at::native::elementwise_kernel<(int)128, (int)4, void at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase &)::[lambda() (instance 3)]::operator ()() const::[lambda() (instance 12)]::operator ()() const::[lambda(c10::BFloat16) (instance 1)]>(at::TensorIteratorBase &, const T1 &)::[lambda(int) (instance 1)]>(int, T3)",
+          "count": 34128,
+          "kernel_ms": 78.23975100000578
+        },
+        {
+          "name": "void at::native::<unnamed>::CatArrayBatchedCopy<at::native::<unnamed>::OpaqueType<(unsigned int)2>, unsigned int, (int)4, (int)64, (int)64>(T1 *, at::native::<unnamed>::CatArrInputTensorMetadata<T1, T2, T4, T5>, at::native::<unnamed>::TensorSizeStride<T2, (unsigned int)4>, int, T2)",
+          "count": 3672,
+          "kernel_ms": 62.64307399999988
+        },
+        {
+          "name": "void at::native::vectorized_elementwise_kernel<(int)4, at::native::FillFunctor<c10::BFloat16>, std::array<char *, (unsigned long)1>>(int, T2, T3)",
+          "count": 3672,
+          "kernel_ms": 9.206742999999776
+        }
+      ],
+      "mean_kernel_ms_per_phase_call": 2.9429327058825185,
+      "summed_gpu_envelope_ms": 366.792071
+    },
+    "JetSpec/target_prepare": {
+      "calls": 51,
+      "host_ms": 41.85094,
+      "kernel_ms": 2.94794099999999,
+      "memcpy_ms": 0.6699139999999957,
+      "memcpy_bytes": 1075200,
+      "kernel_count": 3354,
+      "graph_kernel_count": 0,
+      "top_launch_configs": [
+        [
+          "grid=1x1x1; block=128x1x1; regs=16; static_smem=0",
+          1050
+        ],
+        [
+          "grid=1x1x1; block=128x1x1; regs=40; static_smem=0",
+          525
+        ],
+        [
+          "grid=64x1x1; block=128x1x1; regs=24; static_smem=0",
+          525
+        ],
+        [
+          "grid=32x1x1; block=128x1x1; regs=20; static_smem=0",
+          525
+        ],
+        [
+          "grid=2x1x1; block=128x1x1; regs=22; static_smem=0",
+          64
+        ],
+        [
+          "grid=2x1x1; block=64x1x1; regs=16; static_smem=0",
+          51
+        ]
+      ],
+      "top_kernels": [
+        {
+          "name": "void at::native::elementwise_kernel<(int)128, (int)2, void at::native::gpu_kernel_impl_nocast<at::native::<unnamed>::where_kernel_impl(at::TensorIterator &)::[lambda() (instance 1)]::operator ()() const::[lambda() (instance 11)]::operator ()() const::[lambda(bool, float, float) (instance 1)]>(at::TensorIteratorBase &, const T1 &)::[lambda(int) (instance 1)]>(int, T3)",
+          "count": 525,
+          "kernel_ms": 0.7862629999999988
+        },
+        {
+          "name": "void at::native::elementwise_kernel<(int)128, (int)4, void at::native::gpu_kernel_impl_nocast<at::native::bfloat16_copy_kernel_cuda(at::TensorIteratorBase &)::[lambda(float) (instance 1)]>(at::TensorIteratorBase &, const T1 &)::[lambda(int) (instance 1)]>(int, T3)",
+          "count": 525,
+          "kernel_ms": 0.7010519999999951
+        },
+        {
+          "name": "void at::native::vectorized_elementwise_kernel<(int)4, at::native::FillFunctor<float>, std::array<char *, (unsigned long)1>>(int, T2, T3)",
+          "count": 1050,
+          "kernel_ms": 0.46357900000000735
+        },
+        {
+          "name": "void at::native::vectorized_elementwise_kernel<(int)2, at::native::CUDAFunctorOnSelf_add<long>, std::array<char *, (unsigned long)2>>(int, T2, T3)",
+          "count": 525,
+          "kernel_ms": 0.4624609999999976
+        },
+        {
+          "name": "void at::native::elementwise_kernel<(int)128, (int)4, void at::native::gpu_kernel_impl_nocast<at::native::FillFunctor<c10::BFloat16>>(at::TensorIteratorBase &, const T1 &)::[lambda(int) (instance 1)]>(int, T3)",
+          "count": 525,
+          "kernel_ms": 0.41161200000000053
+        },
+        {
+          "name": "void at::native::vectorized_elementwise_kernel<(int)2, at::native::FillFunctor<long>, std::array<char *, (unsigned long)1>>(int, T2, T3)",
+          "count": 102,
+          "kernel_ms": 0.05782300000000002
+        },
+        {
+          "name": "void at::native::vectorized_elementwise_kernel<(int)4, at::native::FillFunctor<c10::BFloat16>, std::array<char *, (unsigned long)1>>(int, T2, T3)",
+          "count": 51,
+          "kernel_ms": 0.038974999999999996
+        },
+        {
+          "name": "void <unnamed>::elementwise_kernel_with_index<int, at::native::arange_cuda_out(const c10::Scalar &, const c10::Scalar &, const c10::Scalar &, at::Tensor &)::[lambda() (instance 1)]::operator ()() const::[lambda() (instance 4)]::operator ()() const::[lambda(long) (instance 1)]>(T1, T2, function_traits<T2>::result_type *)",
+          "count": 51,
+          "kernel_ms": 0.026175999999999984
+        }
+      ],
+      "mean_kernel_ms_per_phase_call": 0.05780276470588216,
+      "summed_gpu_envelope_ms": 32.467259
+    },
+    "JetSpec/verify_forward": {
+      "calls": 51,
+      "host_ms": 3318.634721000001,
+      "kernel_ms": 6368.742194999802,
+      "memcpy_ms": 0.0,
+      "memcpy_bytes": 0,
+      "kernel_count": 112764,
+      "graph_kernel_count": 0,
+      "top_launch_configs": [
+        [
+          "grid=340x2x1; block=512x1x1; regs=36; static_smem=0",
+          7344
+        ],
+        [
+          "grid=16384x1x1; block=128x1x1; regs=22; static_smem=0",
+          4124
+        ],
+        [
+          "grid=4096x1x1; block=128x1x1; regs=22; static_smem=0",
+          3316
+        ],
+        [
+          "grid=8192x1x1; block=128x1x1; regs=40; static_smem=0",
+          3258
+        ],
+        [
+          "grid=2x1x1; block=128x1x1; regs=36; static_smem=0",
+          2408
+        ],
+        [
+          "grid=2x1x1; block=128x1x1; regs=32; static_smem=0",
+          2408
+        ]
+      ],
+      "top_kernels": [
+        {
+          "name": "void cutlass::Kernel2<cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_256x128_32x3_tn_align8>(T1::Params)",
+          "count": 4803,
+          "kernel_ms": 3339.122705000001
+        },
+        {
+          "name": "void cutlass::Kernel2<cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_128x256_32x3_tn_align8>(T1::Params)",
+          "count": 1512,
+          "kernel_ms": 1291.360338000001
+        },
+        {
+          "name": "void cutlass::Kernel2<cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_64x256_32x4_tn_align8>(T1::Params)",
+          "count": 3024,
+          "kernel_ms": 401.34204499999987
+        },
+        {
+          "name": "fmha_cutlassF_bf16_aligned_64x128_rf_sm80(PyTorchMemEffAttention::AttentionKernel<cutlass::bfloat16_t, cutlass::arch::Sm80, (bool)1, (int)64, (int)128, (int)128, (bool)1, (bool)1>::Params)",
+          "count": 1836,
+          "kernel_ms": 323.73942199999965
+        },
+        {
+          "name": "void cutlass::Kernel2<cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_32x32_32x1_tn_align8>(T1::Params)",
+          "count": 864,
+          "kernel_ms": 132.52941999999987
+        },
+        {
+          "name": "void at::native::elementwise_kernel<(int)128, (int)4, void at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase &)::[lambda() (instance 3)]::operator ()() const::[lambda() (instance 12)]::operator ()() const::[lambda(c10::BFloat16) (instance 1)]>(at::TensorIteratorBase &, const T1 &)::[lambda(int) (instance 1)]>(int, T3)",
+          "count": 5220,
+          "kernel_ms": 115.01764599999983
+        },
+        {
+          "name": "void at::native::elementwise_kernel<(int)128, (int)4, void at::native::gpu_kernel_impl_nocast<at::native::BinaryFunctor<c10::BFloat16, c10::BFloat16, c10::BFloat16, at::native::binary_internal::MulFunctor<float>>>(at::TensorIteratorBase &, const T1 &)::[lambda(int) (instance 1)]>(int, T3)",
+          "count": 14739,
+          "kernel_ms": 111.12276300000072
+        },
+        {
+          "name": "void at::native::<unnamed>::CatArrayBatchedCopy<at::native::<unnamed>::OpaqueType<(unsigned int)2>, unsigned int, (int)4, (int)64, (int)64>(T1 *, at::native::<unnamed>::CatArrInputTensorMetadata<T1, T2, T4, T5>, at::native::<unnamed>::TensorSizeStride<T2, (unsigned int)4>, int, T2)",
+          "count": 7344,
+          "kernel_ms": 108.89237600000166
+        }
+      ],
+      "mean_kernel_ms_per_phase_call": 124.8772979411726,
+      "summed_gpu_envelope_ms": 6416.911751
+    },
+    "JetSpec/accept": {
+      "calls": 51,
+      "host_ms": 3400.2555400000006,
+      "kernel_ms": 40.30485399999723,
+      "memcpy_ms": 6.162147999999183,
+      "memcpy_bytes": 785568,
+      "kernel_count": 24147,
+      "graph_kernel_count": 0,
+      "top_launch_configs": [
+        [
+          "grid=1x1x1; block=128x1x1; regs=46; static_smem=0",
+          11547
+        ],
+        [
+          "grid=1x1x1; block=128x1x1; regs=32; static_smem=0",
+          3150
+        ],
+        [
+          "grid=1x1x1; block=128x1x1; regs=40; static_smem=0",
+          2100
+        ],
+        [
+          "grid=1x1x1; block=128x1x1; regs=48; static_smem=0",
+          2100
+        ],
+        [
+          "grid=32x1x1; block=128x1x1; regs=22; static_smem=0",
+          1050
+        ],
+        [
+          "grid=16x1x1; block=128x1x1; regs=32; static_smem=0",
+          1050
+        ]
+      ],
+      "top_kernels": [
+        {
+          "name": "void at::native::reduce_kernel<(int)512, (int)1, at::native::ReduceOp<c10::BFloat16, at::native::ArgMaxOps<float>, unsigned int, long, (int)4, (int)4>>(T3)",
+          "count": 525,
+          "kernel_ms": 19.056595
+        },
+        {
+          "name": "void at::native::index_elementwise_kernel<(int)128, (int)4, void at::native::gpu_index_kernel<void at::native::index_kernel_impl<at::native::OpaqueType<(int)8>>(at::TensorIteratorBase &, c10::ArrayRef<long>, c10::ArrayRef<long>)::[lambda(char *, const char *, long) (instance 1)]>(at::TensorIteratorBase &, c10::ArrayRef<long>, c10::ArrayRef<long>, const T1 &, bool)::[lambda(int) (instance 1)]>(long, T3)",
+          "count": 11547,
+          "kernel_ms": 10.654123999999783
+        },
+        {
+          "name": "void at::native::vectorized_elementwise_kernel<(int)4, at::native::BinaryFunctor<bool, bool, bool, at::native::BitwiseAndFunctor<bool>>, std::array<char *, (unsigned long)3>>(int, T2, T3)",
+          "count": 4200,
+          "kernel_ms": 2.855275999999931
+        },
+        {
+          "name": "void at::native::index_elementwise_kernel<(int)128, (int)4, void at::native::gpu_index_kernel<void at::native::index_kernel_impl<at::native::OpaqueType<(int)1>>(at::TensorIteratorBase &, c10::ArrayRef<long>, c10::ArrayRef<long>)::[lambda(char *, const char *, long) (instance 1)]>(at::TensorIteratorBase &, c10::ArrayRef<long>, c10::ArrayRef<long>, const T1 &, bool)::[lambda(int) (instance 1)]>(long, T3)",
+          "count": 2100,
+          "kernel_ms": 2.033814000000035
+        },
+        {
+          "name": "void at::native::elementwise_kernel<(int)128, (int)4, void at::native::gpu_kernel_impl_nocast<at::native::BinaryFunctor<long, long, bool, at::native::<unnamed>::CompareEqFunctor<long>>>(at::TensorIteratorBase &, const T1 &)::[lambda(int) (instance 1)]>(int, T3)",
+          "count": 1050,
+          "kernel_ms": 1.2762450000000085
+        },
+        {
+          "name": "void at::native::reduce_kernel<(int)512, (int)1, at::native::ReduceOp<long, at::native::ArgMaxOps<long>, unsigned int, long, (int)4, (int)4>>(T3)",
+          "count": 525,
+          "kernel_ms": 0.8959270000000017
+        },
+        {
+          "name": "void at::native::reduce_kernel<(int)512, (int)1, at::native::ReduceOp<bool, at::native::func_wrapper_t<bool, at::native::or_kernel_cuda(at::TensorIterator &)::[lambda() (instance 1)]::operator ()() const::[lambda() (instance 12)]::operator ()() const::[lambda(bool, bool) (instance 1)]>, unsigned int, bool, (int)4, (int)4>>(T3)",
+          "count": 525,
+          "kernel_ms": 0.7825249999999995
+        },
+        {
+          "name": "void at::native::vectorized_elementwise_kernel<(int)4, void at::native::compare_scalar_kernel<long>(at::TensorIteratorBase &, at::native::<unnamed>::OpType, T1)::[lambda(long) (instance 1)], std::array<char *, (unsigned long)2>>(int, T2, T3)",
+          "count": 1050,
+          "kernel_ms": 0.6795130000000024
+        }
+      ],
+      "mean_kernel_ms_per_phase_call": 0.7902912549019064,
+      "summed_gpu_envelope_ms": 290.405058
+    },
+    "JetSpec/kv_commit": {
+      "calls": 51,
+      "host_ms": 388.449607,
+      "kernel_ms": 129.06598000001065,
+      "memcpy_ms": 0.0,
+      "memcpy_bytes": 0,
+      "kernel_count": 40425,
+      "graph_kernel_count": 0,
+      "top_launch_configs": [
+        [
+          "grid=228x1x1; block=128x1x1; regs=46; static_smem=0",
+          648
+        ],
+        [
+          "grid=260x1x1; block=128x1x1; regs=46; static_smem=0",
+          576
+        ],
+        [
+          "grid=366x1x1; block=128x1x1; regs=46; static_smem=0",
+          504
+        ],
+        [
+          "grid=1x2x1; block=128x1x1; regs=26; static_smem=0",
+          443
+        ],
+        [
+          "grid=384x1x1; block=128x1x1; regs=46; static_smem=0",
+          432
+        ],
+        [
+          "grid=244x1x1; block=128x1x1; regs=46; static_smem=0",
+          432
+        ]
+      ],
+      "top_kernels": [
+        {
+          "name": "void at::native::index_elementwise_kernel<(int)128, (int)4, void at::native::gpu_index_kernel<void at::native::index_kernel_impl<at::native::OpaqueType<(int)2>>(at::TensorIteratorBase &, c10::ArrayRef<long>, c10::ArrayRef<long>)::[lambda(char *, const char *, long) (instance 1)]>(at::TensorIteratorBase &, c10::ArrayRef<long>, c10::ArrayRef<long>, const T1 &, bool)::[lambda(int) (instance 1)]>(long, T3)",
+          "count": 37803,
+          "kernel_ms": 123.37650800001092
+        },
+        {
+          "name": "void at::native::<unnamed>::CatArrayBatchedCopy_alignedK_contig<at::native::<unnamed>::OpaqueType<(unsigned int)2>, unsigned int, (int)3, (int)128, (int)1, (int)8>(T1 *, at::native::<unnamed>::CatArrInputTensorMetadata<T1, T2, T4, T5>, at::native::<unnamed>::TensorSizeStride<T2, (unsigned int)4>, int, T2)",
+          "count": 525,
+          "kernel_ms": 3.855980999999999
+        },
+        {
+          "name": "void at::native::vectorized_gather_kernel<(int)16, long>(char *, char *, T2 *, int, long, long, long, long, bool)",
+          "count": 522,
+          "kernel_ms": 0.7527299999999991
+        },
+        {
+          "name": "void at::native::<unnamed>::CatArrayBatchedCopy_alignedK_contig<at::native::<unnamed>::OpaqueType<(unsigned int)8>, unsigned int, (int)1, (int)128, (int)1, (int)16>(T1 *, at::native::<unnamed>::CatArrInputTensorMetadata<T1, T2, T4, T5>, at::native::<unnamed>::TensorSizeStride<T2, (unsigned int)4>, int, T2)",
+          "count": 525,
+          "kernel_ms": 0.41711699999999946
+        },
+        {
+          "name": "void at::native::vectorized_elementwise_kernel<(int)2, at::native::CUDAFunctorOnSelf_add<long>, std::array<char *, (unsigned long)2>>(int, T2, T3)",
+          "count": 296,
+          "kernel_ms": 0.2561260000000001
+        },
+        {
+          "name": "void <unnamed>::elementwise_kernel_with_index<int, at::native::arange_cuda_out(const c10::Scalar &, const c10::Scalar &, const c10::Scalar &, at::Tensor &)::[lambda() (instance 1)]::operator ()() const::[lambda() (instance 4)]::operator ()() const::[lambda(long) (instance 1)]>(T1, T2, function_traits<T2>::result_type *)",
+          "count": 525,
+          "kernel_ms": 0.22335799999999956
+        },
+        {
+          "name": "void at::native::unrolled_elementwise_kernel<at::native::CUDAFunctorOnSelf_add<long>, std::array<char *, (unsigned long)2>, (int)4, TrivialOffsetCalculator<(int)1, unsigned int>, TrivialOffsetCalculator<(int)1, unsigned int>, at::native::memory::LoadWithoutCast, at::native::memory::StoreWithoutCast>(int, T1, T2, T4, T5, T6, T7)",
+          "count": 229,
+          "kernel_ms": 0.1841599999999998
+        }
+      ],
+      "mean_kernel_ms_per_phase_call": 2.5307054901962873,
+      "summed_gpu_envelope_ms": 374.114936
+    },
+    "AR/other": {
+      "calls": 2,
+      "host_ms": 84.11111600000001,
+      "kernel_ms": 0.0,
+      "memcpy_ms": 0.0,
+      "memcpy_bytes": 0,
+      "kernel_count": 0,
+      "graph_kernel_count": 0,
+      "top_launch_configs": [],
+      "top_kernels": [],
+      "mean_kernel_ms_per_phase_call": 0.0,
+      "summed_gpu_envelope_ms": 0
+    },
+    "JetSpec/other": {
+      "calls": 2,
+      "host_ms": 30.368983999999998,
+      "kernel_ms": 0.0,
+      "memcpy_ms": 0.0,
+      "memcpy_bytes": 0,
+      "kernel_count": 0,
+      "graph_kernel_count": 0,
+      "top_launch_configs": [],
+      "top_kernels": [],
+      "mean_kernel_ms_per_phase_call": 0.0,
+      "summed_gpu_envelope_ms": 0
+    }
+  },
+  "methodology": "CPU launch correlation selects leaf NVTX phase; device start/end determine GPU kernel work; summed kernel work may double-count concurrent streams."
+}

@@ -1,0 +1,16 @@
+{
+  "expected_main_cases": 168,
+  "main_cases_present": 168,
+  "missing_main_cases": [],
+  "outcomes": {
+    "success": 175
+  },
+  "readable_timeline_count": 63,
+  "primary_trace_matrix_expected": 42,
+  "primary_trace_matrix_present": 42,
+  "minimum_kernel_attribution_fraction": 1.0,
+  "captured_GPU_kernel_events": 46334330,
+  "generated_Beijing": "2026-11-03T11:52:40.813363+08:00",
+  "GPU_counter_case_count": 7,
+  "initial_report_prepared_Beijing": "2026-11-03T06:29:56.039680+08:00"
+}

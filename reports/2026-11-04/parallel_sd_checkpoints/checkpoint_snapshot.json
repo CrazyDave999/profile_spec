@@ -1,0 +1,1976 @@
+{
+  "queried_at_utc": "2026-11-04T14:00:17.236069+00:00",
+  "checkpoints": [
+    {
+      "repo": "z-lab/Qwen3-8B-DFlash-b16",
+      "metadata": {
+        "_id": "695a659427b0975343da6cdb",
+        "id": "z-lab/Qwen3-8B-DFlash-b16",
+        "private": false,
+        "pipeline_tag": "text-generation",
+        "library_name": "transformers",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3",
+          "feature-extraction",
+          "dflash",
+          "speculative-decoding",
+          "diffusion",
+          "efficiency",
+          "flash-decoding",
+          "qwen",
+          "diffusion-language-model",
+          "text-generation",
+          "custom_code",
+          "arxiv:2602.06036",
+          "license:mit",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "downloads": 27991,
+        "likes": 29,
+        "modelId": "z-lab/Qwen3-8B-DFlash-b16",
+        "author": "z-lab",
+        "sha": "9b41424b7109f9c5413454f481b09a82b85333f4",
+        "lastModified": "2026-04-07T14:26:36.000Z",
+        "gated": false,
+        "disabled": false,
+        "widgetData": [
+          {
+            "text": "Hi, what can you help me with?"
+          },
+          {
+            "text": "What is 84 * 3 / 2?"
+          },
+          {
+            "text": "Tell me an interesting fact about the universe!"
+          },
+          {
+            "text": "Explain quantum computing in simple terms."
+          }
+        ],
+        "model-index": null,
+        "config": {
+          "architectures": [
+            "DFlashDraftModel"
+          ],
+          "auto_map": {
+            "AutoModel": "dflash.DFlashDraftModel"
+          },
+          "model_type": "qwen3"
+        },
+        "cardData": {
+          "license": "mit",
+          "library_name": "transformers",
+          "pipeline_tag": "text-generation",
+          "tags": [
+            "dflash",
+            "speculative-decoding",
+            "diffusion",
+            "efficiency",
+            "flash-decoding",
+            "qwen",
+            "diffusion-language-model"
+          ]
+        },
+        "transformersInfo": {
+          "auto_model": "AutoModel",
+          "custom_class": "dflash.DFlashDraftModel",
+          "pipeline_tag": "feature-extraction",
+          "processor": "AutoTokenizer"
+        },
+        "siblings": [
+          {
+            "rfilename": ".gitattributes",
+            "blobId": "aad9294c74eb1ef1fbb18fe10fca9bf37788be74",
+            "size": 1580
+          },
+          {
+            "rfilename": "README.md",
+            "blobId": "fe6e9a0f5e6fb85e66f75d01183f7de81a0f70c2",
+            "size": 5449
+          },
+          {
+            "rfilename": "assets/dflash_system.png",
+            "blobId": "0da5fa30688f140abfc652530759d3a5447228af",
+            "size": 338153,
+            "lfs": {
+              "sha256": "bea1f82796909c1e4f7261ee3c08af743ec3c25057b83fca918808b76af4a7dc",
+              "size": 338153,
+              "pointerSize": 131
+            }
+          },
+          {
+            "rfilename": "assets/speedup.png",
+            "blobId": "e8e3d9b2bcd714e4d2393ead9f1b8f5a190cbcf0",
+            "size": 66921
+          },
+          {
+            "rfilename": "config.json",
+            "blobId": "15e54c3c5f3f81c90c2a6954cb0858400bb11e61",
+            "size": 1099
+          },
+          {
+            "rfilename": "dflash.py",
+            "blobId": "f3cd5d26057e92f4721977cf53195c2d738a6b76",
+            "size": 12340
+          },
+          {
+            "rfilename": "model.safetensors",
+            "blobId": "a9d52d93c6ad6998c0c25e219e6acf1b76842fbf",
+            "size": 2097259104,
+            "lfs": {
+              "sha256": "c702878094f38ad5843e6ac40b327720b3147ffbf669a5d9ca1974865ca6c080",
+              "size": 2097259104,
+              "pointerSize": 135
+            }
+          },
+          {
+            "rfilename": "modeling_dflash.py",
+            "blobId": "ec9f19ffd11e242b0dd9e9469817f21ef31c2b04",
+            "size": 13271
+          },
+          {
+            "rfilename": "utils.py",
+            "blobId": "a05eee433eac10792f8ab6bb75b7d3cf7027ed56",
+            "size": 5731
+          }
+        ],
+        "spaces": [],
+        "createdAt": "2026-01-04T13:05:24.000Z",
+        "safetensors": {
+          "parameters": {
+            "BF16": 1048626432
+          },
+          "total": 1048626432
+        },
+        "usedStorage": 2097597257
+      },
+      "config": {
+        "architectures": [
+          "DFlashDraftModel"
+        ],
+        "attention_bias": false,
+        "attention_dropout": 0.0,
+        "auto_map": {
+          "AutoModel": "dflash.DFlashDraftModel"
+        },
+        "block_size": 16,
+        "bos_token_id": 151643,
+        "dflash_config": {
+          "mask_token_id": 151669,
+          "target_layer_ids": [
+            1,
+            9,
+            17,
+            25,
+            33
+          ]
+        },
+        "dtype": "bfloat16",
+        "eos_token_id": 151645,
+        "head_dim": 128,
+        "hidden_act": "silu",
+        "hidden_size": 4096,
+        "initializer_range": 0.02,
+        "intermediate_size": 12288,
+        "layer_types": [
+          "full_attention",
+          "full_attention",
+          "full_attention",
+          "full_attention",
+          "full_attention"
+        ],
+        "max_position_embeddings": 40960,
+        "max_window_layers": 5,
+        "model_type": "qwen3",
+        "num_attention_heads": 32,
+        "num_hidden_layers": 5,
+        "num_key_value_heads": 8,
+        "num_target_layers": 36,
+        "rms_norm_eps": 1e-06,
+        "rope_scaling": null,
+        "rope_theta": 1000000,
+        "sliding_window": null,
+        "tie_word_embeddings": false,
+        "transformers_version": "4.57.3",
+        "use_cache": true,
+        "use_sliding_window": false,
+        "vocab_size": 151936
+      },
+      "adapter_config_error": "HTTP Error 404: Not Found"
+    },
+    {
+      "repo": "deepseek-ai/dflash_qwen3_8b_block7",
+      "metadata": {
+        "_id": "6a4113cf9502c913d156199f",
+        "id": "deepseek-ai/dflash_qwen3_8b_block7",
+        "private": false,
+        "tags": [
+          "safetensors",
+          "qwen3",
+          "region:us"
+        ],
+        "downloads": 903,
+        "likes": 5,
+        "modelId": "deepseek-ai/dflash_qwen3_8b_block7",
+        "author": "deepseek-ai",
+        "sha": "9e44dbbb6cb68b0c943abf9c5fc3c17c00897cdf",
+        "lastModified": "2026-06-28T12:31:28.000Z",
+        "gated": false,
+        "disabled": false,
+        "config": {
+          "architectures": [
+            "Qwen3DSparkModel"
+          ],
+          "model_type": "qwen3"
+        },
+        "siblings": [
+          {
+            "rfilename": ".gitattributes",
+            "blobId": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+            "size": 1519
+          },
+          {
+            "rfilename": "config.json",
+            "blobId": "31f44eeb9cabbd2062d6de78b5f490404592d56e",
+            "size": 1128
+          },
+          {
+            "rfilename": "model.safetensors",
+            "blobId": "302c86ed0059998dde9130b39db9eb26e8d51779",
+            "size": 4586578776,
+            "lfs": {
+              "sha256": "9d9482b3d342c762dd428878ff1714da829beeadb9b823d4955a257ea7c067ae",
+              "size": 4586578776,
+              "pointerSize": 135
+            }
+          }
+        ],
+        "spaces": [
+          "Mike0021/deepspec-decoding-lab"
+        ],
+        "createdAt": "2026-06-28T12:30:07.000Z",
+        "safetensors": {
+          "parameters": {
+            "BF16": 2293286144
+          },
+          "total": 2293286144
+        },
+        "usedStorage": 4586578776
+      },
+      "config": {
+        "architectures": [
+          "Qwen3DSparkModel"
+        ],
+        "attention_bias": false,
+        "attention_dropout": 0.0,
+        "block_size": 7,
+        "bos_token_id": 151643,
+        "dtype": "bfloat16",
+        "enable_confidence_head": false,
+        "eos_token_id": 151645,
+        "head_dim": 128,
+        "hidden_act": "silu",
+        "hidden_size": 4096,
+        "initializer_range": 0.02,
+        "intermediate_size": 12288,
+        "layer_types": [
+          "full_attention",
+          "full_attention",
+          "full_attention",
+          "full_attention",
+          "full_attention"
+        ],
+        "markov_rank": 0,
+        "mask_token_id": 151669,
+        "max_position_embeddings": 40960,
+        "max_window_layers": 36,
+        "model_type": "qwen3",
+        "num_anchors": 512,
+        "num_attention_heads": 32,
+        "num_hidden_layers": 5,
+        "num_key_value_heads": 8,
+        "num_target_layers": 36,
+        "pad_token_id": null,
+        "rms_norm_eps": 1e-06,
+        "rope_parameters": {
+          "rope_theta": 1000000,
+          "rope_type": "default"
+        },
+        "sliding_window": null,
+        "target_layer_ids": [
+          1,
+          9,
+          17,
+          25,
+          33
+        ],
+        "tie_word_embeddings": false,
+        "transformers_version": "5.10.2",
+        "use_cache": true,
+        "use_sliding_window": false,
+        "vocab_size": 151936
+      },
+      "adapter_config_error": "HTTP Error 404: Not Found"
+    },
+    {
+      "repo": "deepseek-ai/dspark_qwen3_8b_block7",
+      "metadata": {
+        "_id": "6a4112683871c942735bc93d",
+        "id": "deepseek-ai/dspark_qwen3_8b_block7",
+        "private": false,
+        "tags": [
+          "safetensors",
+          "qwen3",
+          "region:us"
+        ],
+        "downloads": 21942,
+        "likes": 21,
+        "modelId": "deepseek-ai/dspark_qwen3_8b_block7",
+        "author": "deepseek-ai",
+        "sha": "03326e5043815da1f81b109078b2889737c26017",
+        "lastModified": "2026-06-28T12:25:30.000Z",
+        "gated": false,
+        "disabled": false,
+        "config": {
+          "architectures": [
+            "Qwen3DSparkModel"
+          ],
+          "model_type": "qwen3"
+        },
+        "siblings": [
+          {
+            "rfilename": ".gitattributes",
+            "blobId": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+            "size": 1519
+          },
+          {
+            "rfilename": "config.json",
+            "blobId": "66793be9520acdb300ddc46e695da6a9663f6895",
+            "size": 1201
+          },
+          {
+            "rfilename": "model.safetensors",
+            "blobId": "215cd3b7ee24c0b47aaf4ad580ec9e09cb7ac74b",
+            "size": 4742170330,
+            "lfs": {
+              "sha256": "5c922d1f96c8d18dbdf005c40ea99878d9133d70eaa3be4bd1077ee5f2afc1e5",
+              "size": 4742170330,
+              "pointerSize": 135
+            }
+          }
+        ],
+        "spaces": [
+          "Mike0021/deepspec-decoding-lab"
+        ],
+        "createdAt": "2026-06-28T12:24:08.000Z",
+        "safetensors": {
+          "parameters": {
+            "BF16": 2371081729
+          },
+          "total": 2371081729
+        },
+        "usedStorage": 4742170330
+      },
+      "config": {
+        "architectures": [
+          "Qwen3DSparkModel"
+        ],
+        "attention_bias": false,
+        "attention_dropout": 0.0,
+        "block_size": 7,
+        "bos_token_id": 151643,
+        "confidence_head_with_markov": true,
+        "dtype": "bfloat16",
+        "enable_confidence_head": true,
+        "eos_token_id": 151645,
+        "head_dim": 128,
+        "hidden_act": "silu",
+        "hidden_size": 4096,
+        "initializer_range": 0.02,
+        "intermediate_size": 12288,
+        "layer_types": [
+          "full_attention",
+          "full_attention",
+          "full_attention",
+          "full_attention",
+          "full_attention"
+        ],
+        "markov_head_type": "vanilla",
+        "markov_rank": 256,
+        "mask_token_id": 151669,
+        "max_position_embeddings": 40960,
+        "max_window_layers": 36,
+        "model_type": "qwen3",
+        "num_anchors": 512,
+        "num_attention_heads": 32,
+        "num_hidden_layers": 5,
+        "num_key_value_heads": 8,
+        "num_target_layers": 36,
+        "pad_token_id": null,
+        "rms_norm_eps": 1e-06,
+        "rope_parameters": {
+          "rope_theta": 1000000,
+          "rope_type": "default"
+        },
+        "sliding_window": null,
+        "target_layer_ids": [
+          1,
+          9,
+          17,
+          25,
+          33
+        ],
+        "tie_word_embeddings": false,
+        "transformers_version": "5.10.2",
+        "use_cache": true,
+        "use_sliding_window": false,
+        "vocab_size": 151936
+      },
+      "adapter_config_error": "HTTP Error 404: Not Found"
+    },
+    {
+      "repo": "Huang2020/Qwen3-8B-Domino-b16",
+      "metadata": {
+        "_id": "6a171c24d625d485ff52e744",
+        "id": "Huang2020/Qwen3-8B-Domino-b16",
+        "private": false,
+        "pipeline_tag": "text-generation",
+        "library_name": "transformers",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3",
+          "feature-extraction",
+          "speculative-decoding",
+          "domino",
+          "dflash",
+          "text-generation",
+          "custom_code",
+          "arxiv:2605.29707",
+          "base_model:Qwen/Qwen3-8B",
+          "base_model:finetune:Qwen/Qwen3-8B",
+          "text-generation-inference",
+          "endpoints_compatible",
+          "region:us"
+        ],
+        "downloads": 1390,
+        "likes": 2,
+        "modelId": "Huang2020/Qwen3-8B-Domino-b16",
+        "author": "Huang2020",
+        "sha": "9a2c3213cbe7b0718805aa92ab1e1404ee028a90",
+        "lastModified": "2026-07-25T03:10:51.000Z",
+        "gated": false,
+        "disabled": false,
+        "widgetData": [
+          {
+            "text": "Hi, what can you help me with?"
+          },
+          {
+            "text": "What is 84 * 3 / 2?"
+          },
+          {
+            "text": "Tell me an interesting fact about the universe!"
+          },
+          {
+            "text": "Explain quantum computing in simple terms."
+          }
+        ],
+        "model-index": null,
+        "config": {
+          "architectures": [
+            "DFlashDraftModel"
+          ],
+          "auto_map": {
+            "AutoModel": "dflash.DFlashDraftModel"
+          },
+          "model_type": "qwen3"
+        },
+        "cardData": {
+          "library_name": "transformers",
+          "base_model": "Qwen/Qwen3-8B",
+          "pipeline_tag": "text-generation",
+          "tags": [
+            "qwen3",
+            "speculative-decoding",
+            "domino",
+            "dflash"
+          ]
+        },
+        "transformersInfo": {
+          "auto_model": "AutoModel",
+          "custom_class": "dflash.DFlashDraftModel",
+          "pipeline_tag": "feature-extraction",
+          "processor": "AutoTokenizer"
+        },
+        "siblings": [
+          {
+            "rfilename": ".gitattributes",
+            "blobId": "3e91f83edafb7823676b22392eabe9d42e2800bf",
+            "size": 1630
+          },
+          {
+            "rfilename": "README.md",
+            "blobId": "3aaf5c57351ed239b42d793e7fcddb3f352e3efa",
+            "size": 2794
+          },
+          {
+            "rfilename": "assets/pipeline.png",
+            "blobId": "4975600e82f2ebb2aae1e9fb387a81aed1c1aa35",
+            "size": 178776,
+            "lfs": {
+              "sha256": "c33fa2b185a389b8c7ef624d67b920dcccf690c75dfefe2fb53aff7b8d6b8119",
+              "size": 178776,
+              "pointerSize": 131
+            }
+          },
+          {
+            "rfilename": "assets/speedup.pdf",
+            "blobId": "218163e77bfe32b16decc19f408546707094ccef",
+            "size": 330648,
+            "lfs": {
+              "sha256": "cedfef067f7c3719dbf332ddb9ce5b394ae9710edc8cdc757368166765cc755c",
+              "size": 330648,
+              "pointerSize": 131
+            }
+          },
+          {
+            "rfilename": "assets/speedup.png",
+            "blobId": "c3d51277cec79bb571bc6161abb80287bca19ae4",
+            "size": 57494
+          },
+          {
+            "rfilename": "config.json",
+            "blobId": "7379e6f78e9f188deb69db99d29e04660e8a46c8",
+            "size": 1218
+          },
+          {
+            "rfilename": "dflash.py",
+            "blobId": "423679a2cc7747603b95387598a77e5144697360",
+            "size": 20843
+          },
+          {
+            "rfilename": "model.safetensors",
+            "blobId": "ec2178ac5e3dd2a360edb53ec462f181cf284636",
+            "size": 2209129456,
+            "lfs": {
+              "sha256": "433c6cf7662d96d1dc16fe822925ca34abe37c50499615eedc7917975e87e11d",
+              "size": 2209129456,
+              "pointerSize": 135
+            }
+          }
+        ],
+        "spaces": [],
+        "createdAt": "2026-05-27T16:30:28.000Z",
+        "safetensors": {
+          "parameters": {
+            "BF16": 1104561408
+          },
+          "total": 1104561408
+        },
+        "usedStorage": 2209638880
+      },
+      "config": {
+        "architectures": [
+          "DFlashDraftModel"
+        ],
+        "auto_map": {
+          "AutoModel": "dflash.DFlashDraftModel"
+        },
+        "model_type": "qwen3",
+        "dtype": "bfloat16",
+        "vocab_size": 151936,
+        "bos_token_id": 151643,
+        "eos_token_id": 151645,
+        "block_size": 16,
+        "num_target_layers": 36,
+        "num_hidden_layers": 5,
+        "hidden_size": 4096,
+        "intermediate_size": 12288,
+        "emb_dim": 256,
+        "num_attention_heads": 32,
+        "num_key_value_heads": 8,
+        "head_dim": 128,
+        "hidden_act": "silu",
+        "rms_norm_eps": 1e-06,
+        "attention_bias": false,
+        "attention_dropout": 0.0,
+        "initializer_range": 0.02,
+        "max_position_embeddings": 40960,
+        "rope_theta": 1000000,
+        "rope_scaling": null,
+        "layer_types": [
+          "full_attention",
+          "full_attention",
+          "full_attention",
+          "full_attention",
+          "full_attention"
+        ],
+        "max_window_layers": 5,
+        "sliding_window": null,
+        "use_sliding_window": false,
+        "tie_word_embeddings": false,
+        "use_cache": true,
+        "dflash_config": {
+          "projector_type": "domino",
+          "mask_token_id": 151669,
+          "shift_label": true,
+          "target_layer_ids": [
+            1,
+            9,
+            17,
+            25,
+            33
+          ],
+          "pure_draft_prefix_len": 1,
+          "gru_hidden_dim": 1024,
+          "emb_dim": 256
+        }
+      },
+      "adapter_config_error": "HTTP Error 404: Not Found"
+    },
+    {
+      "repo": "RedHatAI/Qwen3-8B-speculator.dflash2",
+      "metadata": {
+        "_id": "6aaaaf316d6530d2046a43c0",
+        "id": "RedHatAI/Qwen3-8B-speculator.dflash2",
+        "private": false,
+        "library_name": "speculators",
+        "tags": [
+          "speculators",
+          "safetensors",
+          "speculative-decoding",
+          "dflash2",
+          "custom_code",
+          "arxiv:2405.05612",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "downloads": 567,
+        "likes": 1,
+        "modelId": "RedHatAI/Qwen3-8B-speculator.dflash2",
+        "author": "RedHatAI",
+        "sha": "e1c737a13c34ba1e1f0f739e02af0bf082fe8080",
+        "lastModified": "2026-09-16T15:05:02.000Z",
+        "gated": false,
+        "disabled": false,
+        "model-index": null,
+        "config": {
+          "architectures": [
+            "DFlash2DraftModel"
+          ],
+          "auto_map": {
+            "": "config.DFlash2SpeculatorConfig"
+          }
+        },
+        "cardData": {
+          "library_name": "speculators",
+          "base_model": [
+            "qwen3/qwen3-8b"
+          ],
+          "license": "apache-2.0",
+          "tags": [
+            "speculative-decoding",
+            "dflash2",
+            "speculators"
+          ]
+        },
+        "siblings": [
+          {
+            "rfilename": ".gitattributes",
+            "blobId": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+            "size": 1519
+          },
+          {
+            "rfilename": "README.md",
+            "blobId": "46fdce1f4245f188d4ef039c92e9c9dc724a66e3",
+            "size": 8774
+          },
+          {
+            "rfilename": "config.json",
+            "blobId": "b843834caa3754d7972058220c5ab78e4968170f",
+            "size": 1952
+          },
+          {
+            "rfilename": "config.py",
+            "blobId": "8a93c5c3bab977aa8d59476a61e6bc384ae6707e",
+            "size": 1411
+          },
+          {
+            "rfilename": "model.safetensors",
+            "blobId": "5520d824eb3bca5cc600fc79d5623e46728ea9b8",
+            "size": 2339155168,
+            "lfs": {
+              "sha256": "1f09e73a47ed19c933848d6956ba41d99b233454cd29dd5f27c7d8cec59b4765",
+              "size": 2339155168,
+              "pointerSize": 135
+            }
+          },
+          {
+            "rfilename": "optimizer_state_dict.pt",
+            "blobId": "1191e0be8e9aecbae5672d5587a163add95d322e",
+            "size": 2495207412,
+            "lfs": {
+              "sha256": "c589c526eb975a9beaf492d41434e3010de0fe242ef8e4a3af62434c04073fc2",
+              "size": 2495207412,
+              "pointerSize": 135
+            }
+          },
+          {
+            "rfilename": "scheduler_state_dict.pt",
+            "blobId": "daa4811f8166a8b61c4eb21da68ac3aefc38e99f",
+            "size": 1595,
+            "lfs": {
+              "sha256": "f941164341bdeb3c0518c1086a1a69d86d850596e9795e4f2713182fef7d0d7f",
+              "size": 1595,
+              "pointerSize": 129
+            }
+          },
+          {
+            "rfilename": "train_command.txt",
+            "blobId": "7d97a07ef519857c4a718536b0d7ae96a30c04a0",
+            "size": 1644
+          },
+          {
+            "rfilename": "training_state.json",
+            "blobId": "bb0582d6453b3cd2ce6c823abc315de9e8597a95",
+            "size": 51
+          },
+          {
+            "rfilename": "val_metrics.json",
+            "blobId": "b2edc8cbe3490e66a37b18202b5ddef9795b4b23",
+            "size": 862
+          }
+        ],
+        "spaces": [],
+        "createdAt": "2026-09-16T15:01:05.000Z",
+        "safetensors": {
+          "parameters": {
+            "BF16": 1169573120
+          },
+          "total": 1169573120
+        },
+        "usedStorage": 4834364175
+      },
+      "config": {
+        "architectures": [
+          "DFlash2DraftModel"
+        ],
+        "auto_map": {
+          "": "config.DFlash2SpeculatorConfig"
+        },
+        "aux_hidden_state_layer_ids": [
+          2,
+          10,
+          18,
+          26,
+          34
+        ],
+        "block_size": 8,
+        "conv_group_size": 16,
+        "conv_kernel_size": 2,
+        "draft_vocab_size": 151936,
+        "dtype": "bfloat16",
+        "mask_token_id": 151669,
+        "sample_from_anchor": false,
+        "selector_rank": 256,
+        "selector_top_k": 16,
+        "sliding_window_non_causal": true,
+        "speculators_config": {
+          "algorithm": "dflash2",
+          "default_proposal_method": "greedy",
+          "proposal_methods": [
+            {
+              "accept_tolerance": 0.0,
+              "proposal_type": "greedy",
+              "speculative_tokens": 7,
+              "verifier_accept_k": 1
+            }
+          ],
+          "verifier": {
+            "architectures": [
+              "Qwen3ForCausalLM"
+            ],
+            "name_or_path": "Qwen/Qwen3-8B"
+          }
+        },
+        "speculators_model_type": "dflash2",
+        "speculators_version": "0.7.0.dev194",
+        "target_hidden_size": null,
+        "tie_word_embeddings": false,
+        "transformer_layer_config": {
+          "attention_bias": false,
+          "attention_dropout": 0.0,
+          "bos_token_id": null,
+          "eos_token_id": null,
+          "head_dim": 128,
+          "hidden_act": "silu",
+          "hidden_size": 4096,
+          "initializer_range": 0.02,
+          "intermediate_size": 12288,
+          "layer_types": [
+            "sliding_attention",
+            "sliding_attention",
+            "sliding_attention",
+            "sliding_attention",
+            "sliding_attention"
+          ],
+          "max_position_embeddings": 40960,
+          "max_window_layers": 28,
+          "model_type": "qwen3",
+          "num_attention_heads": 32,
+          "num_hidden_layers": 5,
+          "num_key_value_heads": 8,
+          "pad_token_id": null,
+          "rms_norm_eps": 1e-06,
+          "rope_parameters": {
+            "rope_theta": 1000000,
+            "rope_type": "default"
+          },
+          "sliding_window": 2048,
+          "tie_word_embeddings": false,
+          "use_cache": true,
+          "use_sliding_window": true,
+          "vocab_size": 151936
+        },
+        "transformers_version": "5.15.1"
+      },
+      "adapter_config_error": "HTTP Error 404: Not Found"
+    },
+    {
+      "repo": "z-lab/Qwen3.8-27B-DFlash2",
+      "metadata": {
+        "_id": "6a80d972c8db7fbec9aa321d",
+        "id": "z-lab/Qwen3.8-27B-DFlash2",
+        "private": false,
+        "pipeline_tag": "text-generation",
+        "library_name": "transformers",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3",
+          "dflash2",
+          "speculative-decoding",
+          "block-diffusion",
+          "draft-model",
+          "sglang",
+          "vllm",
+          "text-generation",
+          "base_model:Qwen/Qwen3.8-27B",
+          "base_model:finetune:Qwen/Qwen3.8-27B",
+          "license:apache-2.0",
+          "text-generation-inference",
+          "region:us"
+        ],
+        "downloads": 56542,
+        "likes": 327,
+        "modelId": "z-lab/Qwen3.8-27B-DFlash2",
+        "author": "z-lab",
+        "sha": "50307d4c4cde6860d4eee73e2547cd786fe8e8a4",
+        "lastModified": "2026-08-19T02:52:37.000Z",
+        "gated": false,
+        "disabled": false,
+        "widgetData": [
+          {
+            "text": "Hi, what can you help me with?"
+          },
+          {
+            "text": "What is 84 * 3 / 2?"
+          },
+          {
+            "text": "Tell me an interesting fact about the universe!"
+          },
+          {
+            "text": "Explain quantum computing in simple terms."
+          }
+        ],
+        "model-index": null,
+        "config": {
+          "architectures": [
+            "DFlash2DraftModel"
+          ],
+          "model_type": "qwen3"
+        },
+        "cardData": {
+          "license": "apache-2.0",
+          "library_name": "transformers",
+          "pipeline_tag": "text-generation",
+          "base_model": [
+            "Qwen/Qwen3.8-27B"
+          ],
+          "inference": false,
+          "tags": [
+            "dflash2",
+            "speculative-decoding",
+            "block-diffusion",
+            "draft-model",
+            "sglang",
+            "vllm"
+          ]
+        },
+        "transformersInfo": {
+          "auto_model": "AutoModel",
+          "processor": "AutoTokenizer"
+        },
+        "siblings": [
+          {
+            "rfilename": ".gitattributes",
+            "blobId": "50bbb90c56f7da6c41ef378fa235a891daf5a238",
+            "size": 1581
+          },
+          {
+            "rfilename": "README.md",
+            "blobId": "1ee0eb2b2f81767f40521b61245211e5400b81bc",
+            "size": 5397
+          },
+          {
+            "rfilename": "assets/dflash2-figure.png",
+            "blobId": "193b679a468160fbbd79815634125c46fd6fd403",
+            "size": 286889,
+            "lfs": {
+              "sha256": "6d8dcc9a9472bddb644c881fe83050b5343d09bf5ffb0912e5598e55fe671e99",
+              "size": 286889,
+              "pointerSize": 131
+            }
+          },
+          {
+            "rfilename": "config.json",
+            "blobId": "79279cc5665bced6f3cdaa2095a2ffe819497b2e",
+            "size": 1239
+          },
+          {
+            "rfilename": "model.safetensors",
+            "blobId": "a988e2ea15d5cb6553f37a7f140304fb42fa8c10",
+            "size": 3848817896,
+            "lfs": {
+              "sha256": "67fc76d68dc5a9415511a4f394ef744d67510cd20e93b37cc2cc7d28e4bab65c",
+              "size": 3848817896,
+              "pointerSize": 135
+            }
+          }
+        ],
+        "spaces": [
+          "capyctl/benchmarks"
+        ],
+        "createdAt": "2026-08-15T21:26:10.000Z",
+        "safetensors": {
+          "parameters": {
+            "BF16": 1924404480
+          },
+          "total": 1924404480
+        },
+        "usedStorage": 3849104785
+      },
+      "config": {
+        "architectures": [
+          "DFlash2DraftModel"
+        ],
+        "attention_bias": false,
+        "attention_dropout": 0.0,
+        "bos_token_id": null,
+        "is_causal": false,
+        "dflash_config": {
+          "block_size": 8,
+          "conv_group_size": 16,
+          "conv_kernel_size": 2,
+          "mask_token_id": 248070,
+          "selector_rank": 256,
+          "selector_top_k": 16,
+          "target_layer_ids": [
+            5,
+            19,
+            33,
+            47,
+            61
+          ]
+        },
+        "dtype": "bfloat16",
+        "eos_token_id": 248044,
+        "head_dim": 128,
+        "hidden_act": "silu",
+        "hidden_size": 5120,
+        "initializer_range": 0.02,
+        "intermediate_size": 17408,
+        "layer_types": [
+          "sliding_attention",
+          "sliding_attention",
+          "sliding_attention",
+          "sliding_attention",
+          "sliding_attention"
+        ],
+        "max_position_embeddings": 262144,
+        "max_window_layers": 5,
+        "model_type": "qwen3",
+        "num_attention_heads": 32,
+        "num_hidden_layers": 5,
+        "num_key_value_heads": 8,
+        "num_target_layers": 64,
+        "pad_token_id": 248044,
+        "rms_norm_eps": 1e-06,
+        "rope_parameters": {
+          "rope_theta": 10000000,
+          "rope_type": "default"
+        },
+        "sliding_window": 2048,
+        "tie_word_embeddings": false,
+        "transformers_version": "5.15.0",
+        "use_cache": true,
+        "use_sliding_window": true,
+        "vocab_size": 248320
+      },
+      "adapter_config_error": "HTTP Error 404: Not Found"
+    },
+    {
+      "repo": "z-lab/Qwen3.5-4B-DFlash",
+      "metadata": {
+        "_id": "69a9ec66dedca5f76cf9d9b9",
+        "id": "z-lab/Qwen3.5-4B-DFlash",
+        "private": false,
+        "pipeline_tag": "text-generation",
+        "library_name": "transformers",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "qwen3",
+          "feature-extraction",
+          "dflash",
+          "speculative-decoding",
+          "speculative-decoding-draft",
+          "block-diffusion",
+          "draft-model",
+          "diffusion-language-model",
+          "efficiency",
+          "qwen",
+          "qwen3.5",
+          "sglang",
+          "text-generation",
+          "custom_code",
+          "arxiv:2602.06036",
+          "base_model:Qwen/Qwen3.5-4B",
+          "base_model:finetune:Qwen/Qwen3.5-4B",
+          "license:apache-2.0",
+          "text-generation-inference",
+          "region:us"
+        ],
+        "downloads": 13867,
+        "likes": 44,
+        "modelId": "z-lab/Qwen3.5-4B-DFlash",
+        "author": "z-lab",
+        "sha": "9a1996ccf887b79ab3af4fcbf8c1d1f4b5658bcf",
+        "lastModified": "2026-06-19T21:07:04.000Z",
+        "gated": false,
+        "disabled": false,
+        "widgetData": [
+          {
+            "text": "Hi, what can you help me with?"
+          },
+          {
+            "text": "What is 84 * 3 / 2?"
+          },
+          {
+            "text": "Tell me an interesting fact about the universe!"
+          },
+          {
+            "text": "Explain quantum computing in simple terms."
+          }
+        ],
+        "model-index": null,
+        "config": {
+          "architectures": [
+            "DFlashDraftModel"
+          ],
+          "auto_map": {
+            "AutoModel": "dflash.DFlashDraftModel"
+          },
+          "model_type": "qwen3"
+        },
+        "cardData": {
+          "pipeline_tag": "text-generation",
+          "library_name": "transformers",
+          "base_model": [
+            "Qwen/Qwen3.5-4B"
+          ],
+          "license": "apache-2.0",
+          "inference": false,
+          "tags": [
+            "dflash",
+            "speculative-decoding",
+            "speculative-decoding-draft",
+            "block-diffusion",
+            "draft-model",
+            "diffusion-language-model",
+            "efficiency",
+            "qwen",
+            "qwen3",
+            "qwen3.5",
+            "sglang"
+          ]
+        },
+        "transformersInfo": {
+          "auto_model": "AutoModel",
+          "custom_class": "dflash.DFlashDraftModel",
+          "pipeline_tag": "feature-extraction",
+          "processor": "AutoTokenizer"
+        },
+        "siblings": [
+          {
+            "rfilename": ".gitattributes",
+            "blobId": "aad9294c74eb1ef1fbb18fe10fca9bf37788be74",
+            "size": 1580
+          },
+          {
+            "rfilename": "README.md",
+            "blobId": "aacf68d67a71723332761f50695bda15d4ba79f9",
+            "size": 6735
+          },
+          {
+            "rfilename": "assets/dflash_system.png",
+            "blobId": "0da5fa30688f140abfc652530759d3a5447228af",
+            "size": 338153,
+            "lfs": {
+              "sha256": "bea1f82796909c1e4f7261ee3c08af743ec3c25057b83fca918808b76af4a7dc",
+              "size": 338153,
+              "pointerSize": 131
+            }
+          },
+          {
+            "rfilename": "assets/speedup.png",
+            "blobId": "e8e3d9b2bcd714e4d2393ead9f1b8f5a190cbcf0",
+            "size": 66921
+          },
+          {
+            "rfilename": "config.json",
+            "blobId": "018bd15acfbcaaee08cd22126dfed198144d2314",
+            "size": 1220
+          },
+          {
+            "rfilename": "model.safetensors",
+            "blobId": "364ab64414374f148993fe7f0d9a0f62f9169ecf",
+            "size": 1268859081,
+            "lfs": {
+              "sha256": "1eb221d36abb13a5f1b972f8d031a9723fad8cbb7d275abe548b60e77577eb42",
+              "size": 1268859081,
+              "pointerSize": 135
+            }
+          }
+        ],
+        "spaces": [],
+        "createdAt": "2026-03-05T20:49:42.000Z",
+        "safetensors": {
+          "parameters": {
+            "BF16": 634425856
+          },
+          "total": 634425856
+        },
+        "usedStorage": 26884049657
+      },
+      "config": {
+        "architectures": [
+          "DFlashDraftModel"
+        ],
+        "attention_bias": false,
+        "attention_dropout": 0.0,
+        "auto_map": {
+          "AutoModel": "dflash.DFlashDraftModel"
+        },
+        "bos_token_id": null,
+        "dflash_config": {
+          "block_size": 16,
+          "mask_token_id": 248077,
+          "target_layer_ids": [
+            1,
+            5,
+            9,
+            13,
+            17,
+            21,
+            25,
+            29
+          ]
+        },
+        "dtype": "bfloat16",
+        "eos_token_id": 248044,
+        "head_dim": 128,
+        "hidden_act": "silu",
+        "hidden_size": 2560,
+        "initializer_range": 0.02,
+        "intermediate_size": 9216,
+        "layer_types": [
+          "sliding_attention",
+          "sliding_attention",
+          "sliding_attention",
+          "sliding_attention",
+          "sliding_attention",
+          "full_attention"
+        ],
+        "max_position_embeddings": 262144,
+        "max_window_layers": 6,
+        "model_type": "qwen3",
+        "num_attention_heads": 32,
+        "num_hidden_layers": 6,
+        "num_key_value_heads": 8,
+        "num_target_layers": 32,
+        "pad_token_id": null,
+        "rms_norm_eps": 1e-06,
+        "rope_parameters": {
+          "rope_theta": 10000000,
+          "rope_type": "default"
+        },
+        "sliding_window": 4096,
+        "tie_word_embeddings": true,
+        "transformers_version": "5.7.0",
+        "use_cache": true,
+        "use_sliding_window": true,
+        "vocab_size": 248320
+      },
+      "adapter_config_error": "HTTP Error 404: Not Found"
+    },
+    {
+      "repo": "s-sahoo/uno-qwen3-8B",
+      "metadata": {
+        "_id": "6a97cc5fbcebef6430ae0cdc",
+        "id": "s-sahoo/uno-qwen3-8B",
+        "private": false,
+        "pipeline_tag": "text-generation",
+        "library_name": "transformers",
+        "tags": [
+          "transformers",
+          "safetensors",
+          "sdar",
+          "text-generation",
+          "diffusion-language-model",
+          "qwen3",
+          "custom_code",
+          "peft",
+          "lora",
+          "speculative-decoding",
+          "uno",
+          "conversational",
+          "arxiv:2609.04010",
+          "base_model:IFM/uno-qwen3-8b",
+          "base_model:adapter:IFM/uno-qwen3-8b",
+          "license:apache-2.0",
+          "region:us"
+        ],
+        "downloads": 875,
+        "likes": 4,
+        "modelId": "s-sahoo/uno-qwen3-8B",
+        "author": "s-sahoo",
+        "sha": "016d976ceebbe9e86c96dfce1caafb1aa8aff2b7",
+        "lastModified": "2026-09-08T07:50:34.000Z",
+        "gated": false,
+        "disabled": false,
+        "mask_token": "<|MASK|>",
+        "widgetData": [
+          {
+            "text": "Hi, what can you help me with?"
+          },
+          {
+            "text": "What is 84 * 3 / 2?"
+          },
+          {
+            "text": "Tell me an interesting fact about the universe!"
+          },
+          {
+            "text": "Explain quantum computing in simple terms."
+          }
+        ],
+        "model-index": null,
+        "config": {
+          "architectures": [
+            "SDARForCausalLM"
+          ],
+          "auto_map": {
+            "AutoConfig": "configuration_sdar.SDARConfig",
+            "AutoModel": "modeling_sdar.SDARModel",
+            "AutoModelForCausalLM": "modeling_sdar.SDARForCausalLM"
+          },
+          "model_type": "sdar",
+          "tokenizer_config": {
+            "bos_token": null,
+            "eos_token": "<|endoftext|>",
+            "unk_token": null,
+            "pad_token": "<|endoftext|>",
+            "mask_token": "<|MASK|>",
+            "chat_template": "{%- if tools %}\n    {{- '<|im_start|>system\\n' }}\n    {%- if messages[0].role == 'system' %}\n        {{- messages[0].content + '\\n\\n' }}\n    {%- endif %}\n    {{- \"# Tools\\n\\nYou may call one or more functions to assist with the user query.\\n\\nYou are provided with function signatures within <tools></tools> XML tags:\\n<tools>\" }}\n    {%- for tool in tools %}\n        {{- \"\\n\" }}\n        {{- tool | tojson }}\n    {%- endfor %}\n    {{- \"\\n</tools>\\n\\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\\n<tool_call>\\n{\\\"name\\\": <function-name>, \\\"arguments\\\": <args-json-object>}\\n</tool_call><|im_end|>\\n\" }}\n{%- else %}\n    {%- if messages[0].role == 'system' %}\n        {{- '<|im_start|>system\\n' + messages[0].content + '<|im_end|>\\n' }}\n    {%- endif %}\n{%- endif %}\n{%- set ns = namespace(multi_step_tool=true, last_query_index=messages|length - 1) %}\n{%- for message in messages[::-1] %}\n    {%- set index = (messages|length - 1) - loop.index0 %}\n    {%- if ns.multi_step_tool and message.role == \"user\" and not(message.content.startswith('<tool_response>') and message.content.endswith('</tool_response>')) %}\n        {%- set ns.multi_step_tool = false %}\n        {%- set ns.last_query_index = index %}\n    {%- endif %}\n{%- endfor %}\n{%- for message in messages %}\n    {%- if (message.role == \"user\") or (message.role == \"system\" and not loop.first) %}\n        {{- '<|im_start|>' + message.role + '\\n' + message.content + '<|im_end|>' + '\\n' }}\n    {%- elif message.role == \"assistant\" %}\n        {%- set content = message.content %}\n        {%- set reasoning_content = '' %}\n        {%- if message.reasoning_content is defined and message.reasoning_content is not none %}\n            {%- set reasoning_content = message.reasoning_content %}\n        {%- else %}\n            {%- if '</think>' in message.content %}\n                {%- set content = message.content.split('</think>')[-1].lstrip('\\n') %}\n                {%- set reasoning_content = message.content.split('</think>')[0].rstrip('\\n').split('<think>')[-1].lstrip('\\n') %}\n            {%- endif %}\n        {%- endif %}\n        {%- if loop.index0 > ns.last_query_index %}\n            {%- if loop.last or (not loop.last and reasoning_content) %}\n                {{- '<|im_start|>' + message.role + '\\n<think>\\n' + reasoning_content.strip('\\n') + '\\n</think>\\n\\n' + content.lstrip('\\n') }}\n            {%- else %}\n                {{- '<|im_start|>' + message.role + '\\n' + content }}\n            {%- endif %}\n        {%- else %}\n            {{- '<|im_start|>' + message.role + '\\n' + content }}\n        {%- endif %}\n        {%- if message.tool_calls %}\n            {%- for tool_call in message.tool_calls %}\n                {%- if (loop.first and content) or (not loop.first) %}\n                    {{- '\\n' }}\n                {%- endif %}\n                {%- if tool_call.function %}\n                    {%- set tool_call = tool_call.function %}\n                {%- endif %}\n                {{- '<tool_call>\\n{\"name\": \"' }}\n                {{- tool_call.name }}\n                {{- '\", \"arguments\": ' }}\n                {%- if tool_call.arguments is string %}\n                    {{- tool_call.arguments }}\n                {%- else %}\n                    {{- tool_call.arguments | tojson }}\n                {%- endif %}\n                {{- '}\\n</tool_call>' }}\n            {%- endfor %}\n        {%- endif %}\n        {{- '<|im_end|>\\n' }}\n    {%- elif message.role == \"tool\" %}\n        {%- if loop.first or (messages[loop.index0 - 1].role != \"tool\") %}\n            {{- '<|im_start|>user' }}\n        {%- endif %}\n        {{- '\\n<tool_response>\\n' }}\n        {{- message.content }}\n        {{- '\\n</tool_response>' }}\n        {%- if loop.last or (messages[loop.index0 + 1].role != \"tool\") %}\n            {{- '<|im_end|>\\n' }}\n        {%- endif %}\n    {%- endif %}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- '<|im_start|>assistant\\n' }}\n    {%- if enable_thinking is defined and enable_thinking is false %}\n        {{- '<think>\\n\\n</think>\\n\\n' }}\n    {%- endif %}\n{%- endif %}"
+          },
+          "chat_template_jinja": "{%- if tools %}\n    {{- '<|im_start|>system\\n' }}\n    {%- if messages[0].role == 'system' %}\n        {{- messages[0].content + '\\n\\n' }}\n    {%- endif %}\n    {{- \"# Tools\\n\\nYou may call one or more functions to assist with the user query.\\n\\nYou are provided with function signatures within <tools></tools> XML tags:\\n<tools>\" }}\n    {%- for tool in tools %}\n        {{- \"\\n\" }}\n        {{- tool | tojson }}\n    {%- endfor %}\n    {{- \"\\n</tools>\\n\\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\\n<tool_call>\\n{\\\"name\\\": <function-name>, \\\"arguments\\\": <args-json-object>}\\n</tool_call><|im_end|>\\n\" }}\n{%- else %}\n    {%- if messages[0].role == 'system' %}\n        {{- '<|im_start|>system\\n' + messages[0].content + '<|im_end|>\\n' }}\n    {%- endif %}\n{%- endif %}\n{%- set ns = namespace(multi_step_tool=true, last_query_index=messages|length - 1) %}\n{%- for message in messages[::-1] %}\n    {%- set index = (messages|length - 1) - loop.index0 %}\n    {%- if ns.multi_step_tool and message.role == \"user\" and not(message.content.startswith('<tool_response>') and message.content.endswith('</tool_response>')) %}\n        {%- set ns.multi_step_tool = false %}\n        {%- set ns.last_query_index = index %}\n    {%- endif %}\n{%- endfor %}\n{%- for message in messages %}\n    {%- if (message.role == \"user\") or (message.role == \"system\" and not loop.first) %}\n        {{- '<|im_start|>' + message.role + '\\n' + message.content + '<|im_end|>' + '\\n' }}\n    {%- elif message.role == \"assistant\" %}\n        {%- set content = message.content %}\n        {%- set reasoning_content = '' %}\n        {%- if message.reasoning_content is defined and message.reasoning_content is not none %}\n            {%- set reasoning_content = message.reasoning_content %}\n        {%- else %}\n            {%- if '</think>' in message.content %}\n                {%- set content = message.content.split('</think>')[-1].lstrip('\\n') %}\n                {%- set reasoning_content = message.content.split('</think>')[0].rstrip('\\n').split('<think>')[-1].lstrip('\\n') %}\n            {%- endif %}\n        {%- endif %}\n        {%- if loop.index0 > ns.last_query_index %}\n            {%- if loop.last or (not loop.last and reasoning_content) %}\n                {{- '<|im_start|>' + message.role + '\\n<think>\\n' + reasoning_content.strip('\\n') + '\\n</think>\\n\\n' + content.lstrip('\\n') }}\n            {%- else %}\n                {{- '<|im_start|>' + message.role + '\\n' + content }}\n            {%- endif %}\n        {%- else %}\n            {{- '<|im_start|>' + message.role + '\\n' + content }}\n        {%- endif %}\n        {%- if message.tool_calls %}\n            {%- for tool_call in message.tool_calls %}\n                {%- if (loop.first and content) or (not loop.first) %}\n                    {{- '\\n' }}\n                {%- endif %}\n                {%- if tool_call.function %}\n                    {%- set tool_call = tool_call.function %}\n                {%- endif %}\n                {{- '<tool_call>\\n{\"name\": \"' }}\n                {{- tool_call.name }}\n                {{- '\", \"arguments\": ' }}\n                {%- if tool_call.arguments is string %}\n                    {{- tool_call.arguments }}\n                {%- else %}\n                    {{- tool_call.arguments | tojson }}\n                {%- endif %}\n                {{- '}\\n</tool_call>' }}\n            {%- endfor %}\n        {%- endif %}\n        {{- '<|im_end|>\\n' }}\n    {%- elif message.role == \"tool\" %}\n        {%- if loop.first or (messages[loop.index0 - 1].role != \"tool\") %}\n            {{- '<|im_start|>user' }}\n        {%- endif %}\n        {{- '\\n<tool_response>\\n' }}\n        {{- message.content }}\n        {{- '\\n</tool_response>' }}\n        {%- if loop.last or (messages[loop.index0 + 1].role != \"tool\") %}\n            {{- '<|im_end|>\\n' }}\n        {%- endif %}\n    {%- endif %}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- '<|im_start|>assistant\\n' }}\n    {%- if enable_thinking is defined and enable_thinking is false %}\n        {{- '<think>\\n\\n</think>\\n\\n' }}\n    {%- endif %}\n{%- endif %}"
+        },
+        "cardData": {
+          "base_model": "IFM/uno-qwen3-8b-base",
+          "library_name": "transformers",
+          "license": "apache-2.0",
+          "pipeline_tag": "text-generation",
+          "tags": [
+            "diffusion-language-model",
+            "qwen3",
+            "sdar",
+            "custom_code",
+            "peft",
+            "lora",
+            "speculative-decoding",
+            "uno"
+          ]
+        },
+        "transformersInfo": {
+          "auto_model": "AutoModelForCausalLM",
+          "custom_class": "modeling_sdar.SDARForCausalLM",
+          "pipeline_tag": "text-generation"
+        },
+        "siblings": [
+          {
+            "rfilename": ".gitattributes",
+            "blobId": "76babb71a94d7879afe1c8cda0547df6708a7ebb",
+            "size": 1631
+          },
+          {
+            "rfilename": "LICENSE",
+            "blobId": "6634c8cc3133b3848ec74b9f275acaaa1ea618ab",
+            "size": 11343
+          },
+          {
+            "rfilename": "README.md",
+            "blobId": "be7d44e2065c758aee26b1372b467c766b2e72c1",
+            "size": 4024
+          },
+          {
+            "rfilename": "adapter/adapter_config.json",
+            "blobId": "8c75cdb746c08e856b93a6271090b32c7047225d",
+            "size": 856
+          },
+          {
+            "rfilename": "adapter/adapter_model.safetensors",
+            "blobId": "c25719930e693d519a6bd6b82894ac60cc09d221",
+            "size": 698420736,
+            "lfs": {
+              "sha256": "f22fbbc857bce91c6c3a29842932efb355a799c9ab2f1a061ee7917be2f44eb2",
+              "size": 698420736,
+              "pointerSize": 134
+            }
+          },
+          {
+            "rfilename": "added_tokens.json",
+            "blobId": "e6bdebe17d156d39953397baa8987f38a6f9bc17",
+            "size": 727
+          },
+          {
+            "rfilename": "bundle_manifest.json",
+            "blobId": "c9a648011847744a572208084a246e130f938792",
+            "size": 581
+          },
+          {
+            "rfilename": "chat_template.jinja",
+            "blobId": "699ff8df401fe4788525e9c1f9b86a99eadd6230",
+            "size": 4116
+          },
+          {
+            "rfilename": "config.json",
+            "blobId": "551db208dab9e1e153fecedd9fd65be989f0af13",
+            "size": 1022
+          },
+          {
+            "rfilename": "configuration_sdar.py",
+            "blobId": "9edcd3881311fadff998ef997ea695fd8df5130e",
+            "size": 11522
+          },
+          {
+            "rfilename": "fused_linear_diffusion_cross_entropy.py",
+            "blobId": "79aeede3cdc3a9c94976cfccb2d52cfa5620a311",
+            "size": 24248
+          },
+          {
+            "rfilename": "generation_config.json",
+            "blobId": "20a8a9156fc8c3f25295ca067f61fdf120d517c5",
+            "size": 239
+          },
+          {
+            "rfilename": "merges.txt",
+            "blobId": "31349551d90c7606f325fe0f11bbb8bd5fa0d7c7",
+            "size": 1671853
+          },
+          {
+            "rfilename": "model-00001-of-00005.safetensors",
+            "blobId": "8d46cf470aff053c27fd6d956d4d69af9460bd2a",
+            "size": 3996250744,
+            "lfs": {
+              "sha256": "31d6a825ae35f11fb85b195b4c42c146c051e446433125a215336abdf95cbf5f",
+              "size": 3996250744,
+              "pointerSize": 135
+            }
+          },
+          {
+            "rfilename": "model-00002-of-00005.safetensors",
+            "blobId": "e726a2bcb3b100cba7ae899689cc029d8a08b20c",
+            "size": 3993160032,
+            "lfs": {
+              "sha256": "5991236cea6fe21f3d43cab0f0e84448734fbbe0789816202989f2ddc9d18282",
+              "size": 3993160032,
+              "pointerSize": 135
+            }
+          },
+          {
+            "rfilename": "model-00003-of-00005.safetensors",
+            "blobId": "c94db38adbcb837246c797986365b8e4603ef3ac",
+            "size": 3959604768,
+            "lfs": {
+              "sha256": "c5185c4794be2d8a9784d5753c9922db38df478ce11f9ed0b415b7304d896836",
+              "size": 3959604768,
+              "pointerSize": 135
+            }
+          },
+          {
+            "rfilename": "model-00004-of-00005.safetensors",
+            "blobId": "a6c92dd09e29e1f72271e087f89ee033b321101c",
+            "size": 3187841392,
+            "lfs": {
+              "sha256": "b5ee7de71fbf17db3d5704e0c8f2bc7d005ca9e1d7ca2aeb19827b0cfcaa917a",
+              "size": 3187841392,
+              "pointerSize": 135
+            }
+          },
+          {
+            "rfilename": "model-00005-of-00005.safetensors",
+            "blobId": "7bbb0cbc623d70925a3a82b301a99cb52ac9ed5b",
+            "size": 1244659840,
+            "lfs": {
+              "sha256": "20c2d6366ab85c90786ccdd829cd2b9e7d30ef3b2ebbb998280e7e4014b542ff",
+              "size": 1244659840,
+              "pointerSize": 135
+            }
+          },
+          {
+            "rfilename": "model.safetensors.index.json",
+            "blobId": "2b85c00f1b118961cd7a477e2bba0fe197a4ce1a",
+            "size": 32878
+          },
+          {
+            "rfilename": "modeling_sdar.py",
+            "blobId": "8e1d0511e8af4d97285494e716016cfccd3ed083",
+            "size": 58032
+          },
+          {
+            "rfilename": "results_overview.png",
+            "blobId": "95f08219a5b6e2381454bdca357837d3ce999aef",
+            "size": 1800111,
+            "lfs": {
+              "sha256": "62bf4997cbf551533e0ec154a942d75f1ad0f08971d5112c54dd53be9e77b5a3",
+              "size": 1800111,
+              "pointerSize": 132
+            }
+          },
+          {
+            "rfilename": "special_tokens_map.json",
+            "blobId": "02d9a0ba946774e52898cf7e242336d718108faf",
+            "size": 630
+          },
+          {
+            "rfilename": "tokenization_qwen2.py",
+            "blobId": "16f49edac188d909adc3d91675e5a4cadf8bba13",
+            "size": 13964
+          },
+          {
+            "rfilename": "tokenization_qwen2_fast.py",
+            "blobId": "e50b49e16c3a98f099fd271a317942ee7363cfa1",
+            "size": 5247
+          },
+          {
+            "rfilename": "tokenizer.json",
+            "blobId": "443909a61d429dff23010e5bddd28ff530edda00",
+            "size": 7031645
+          },
+          {
+            "rfilename": "tokenizer_config.json",
+            "blobId": "995adc5dbc34ff4d3d48a3e065b12253e66b6a1a",
+            "size": 10005
+          },
+          {
+            "rfilename": "vocab.json",
+            "blobId": "4783fe10ac3adce15ac8f358ef5462739852c569",
+            "size": 2776833
+          }
+        ],
+        "spaces": [],
+        "createdAt": "2026-09-02T07:12:31.000Z",
+        "safetensors": {
+          "parameters": {
+            "BF16": 8190735360
+          },
+          "total": 8190735360
+        },
+        "usedStorage": 22001567495
+      },
+      "config": {
+        "architectures": [
+          "SDARForCausalLM"
+        ],
+        "attention_bias": false,
+        "attention_dropout": 0.0,
+        "bos_token_id": 151643,
+        "eos_token_id": 151645,
+        "head_dim": 128,
+        "hidden_act": "silu",
+        "hidden_size": 4096,
+        "initializer_range": 0.02,
+        "intermediate_size": 12288,
+        "max_position_embeddings": 40960,
+        "max_window_layers": 36,
+        "model_type": "sdar",
+        "num_attention_heads": 32,
+        "num_hidden_layers": 36,
+        "num_key_value_heads": 8,
+        "rms_norm_eps": 1e-06,
+        "rope_scaling": null,
+        "rope_theta": 1000000,
+        "sliding_window": null,
+        "tie_word_embeddings": false,
+        "torch_dtype": "bfloat16",
+        "transformers_version": "4.51.0",
+        "use_cache": false,
+        "use_sliding_window": false,
+        "vocab_size": 151936,
+        "auto_map": {
+          "AutoConfig": "configuration_sdar.SDARConfig",
+          "AutoModel": "modeling_sdar.SDARModel",
+          "AutoModelForCausalLM": "modeling_sdar.SDARForCausalLM"
+        },
+        "attn_implementation": "flex_attention",
+        "block_size": 8,
+        "mask_token_id": 151669,
+        "fuse_cross_entropy": true
+      },
+      "adapter_config_error": "HTTP Error 404: Not Found"
+    },
+    {
+      "repo": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr",
+      "metadata": {
+        "_id": "6accf1e01d71f8399771577e",
+        "id": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr",
+        "private": false,
+        "pipeline_tag": "text-generation",
+        "library_name": "Model Optimizer",
+        "tags": [
+          "Model Optimizer",
+          "safetensors",
+          "qwen3",
+          "nvidia",
+          "ModelOpt",
+          "Nemotron-3.5-Bolt",
+          "latent-moe",
+          "LiLiCorr",
+          "text-generation",
+          "arxiv:2608.20530",
+          "base_model:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
+          "base_model:quantized:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
+          "license:other",
+          "8-bit",
+          "modelopt_fp4",
+          "region:us"
+        ],
+        "downloads": 5709,
+        "likes": 17,
+        "modelId": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr",
+        "author": "nvidia",
+        "sha": "449d24140160b8e51871bfc0f0a7338abf640aa1",
+        "lastModified": "2026-10-19T15:15:37.000Z",
+        "gated": false,
+        "disabled": false,
+        "widgetData": [
+          {
+            "text": "Hi, what can you help me with?"
+          },
+          {
+            "text": "What is 84 * 3 / 2?"
+          },
+          {
+            "text": "Tell me an interesting fact about the universe!"
+          },
+          {
+            "text": "Explain quantum computing in simple terms."
+          }
+        ],
+        "model-index": null,
+        "config": {
+          "architectures": [
+            "LiLiCorrDraftModel"
+          ],
+          "model_type": "qwen3",
+          "quantization_config": {
+            "quant_method": "modelopt_fp4",
+            "ignore": [
+              "*attention_conv*",
+              "*mlp_conv*",
+              "*self_attn*",
+              "*norm",
+              "*lilicorr.anchor_out_head",
+              "*lilicorr.factor_input_proj",
+              "lilicorr.feature_mlp*",
+              "*lilicorr.feature_mlp.up_proj",
+              "*lilicorr.feature_mlp.down_proj",
+              "*lilicorr.in_head",
+              "*lilicorr.out_head",
+              "*qkv_proj",
+              "*lm_head"
+            ]
+          }
+        },
+        "cardData": {
+          "pipeline_tag": "text-generation",
+          "base_model": [
+            "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB"
+          ],
+          "license": "other",
+          "license_name": "openmdw-1.1",
+          "license_link": "https://openmdw.ai/license/1-1/",
+          "library_name": "Model Optimizer",
+          "tags": [
+            "nvidia",
+            "ModelOpt",
+            "Nemotron-3.5-Bolt",
+            "latent-moe",
+            "LiLiCorr"
+          ]
+        },
+        "siblings": [
+          {
+            "rfilename": ".gitattributes",
+            "blobId": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+            "size": 1519
+          },
+          {
+            "rfilename": "LICENSE",
+            "blobId": "db7c88d0bff738c671a454dfd679cc36b1b15862",
+            "size": 2618
+          },
+          {
+            "rfilename": "README.md",
+            "blobId": "d815e1a524a7c070c10d421ceaf943a7bedfc1eb",
+            "size": 14482
+          },
+          {
+            "rfilename": "config.json",
+            "blobId": "81dfd0815c7e8d984a89d4ecad95ab2e6c78ad17",
+            "size": 2363
+          },
+          {
+            "rfilename": "hf_quant_config.json",
+            "blobId": "07eba3f3ca2f11395dbcdea1b513281662fbbf18",
+            "size": 5594
+          },
+          {
+            "rfilename": "model.safetensors",
+            "blobId": "0ecf240d7129845cf08a7415778faa48ccfb4900",
+            "size": 962485872,
+            "lfs": {
+              "sha256": "850c121c5fa444dfdebbc15d8f23a1ab2beda55863460ab44203e3cb63808562",
+              "size": 962485872,
+              "pointerSize": 134
+            }
+          }
+        ],
+        "spaces": [],
+        "createdAt": "2026-10-12T14:42:40.000Z",
+        "safetensors": {
+          "parameters": {
+            "BF16": 234097194,
+            "U8": 439353344
+          },
+          "total": 673450538
+        },
+        "usedStorage": 962485872
+      },
+      "config": {
+        "architectures": [
+          "LiLiCorrDraftModel"
+        ],
+        "model_type": "qwen3",
+        "block_size": 8,
+        "dflash_config": {
+          "mask_token_id": 990,
+          "target_layer_ids": [
+            1,
+            18,
+            35,
+            51,
+            68,
+            85
+          ],
+          "use_swa": true,
+          "swa_window_size": 1024,
+          "causal": false,
+          "attention_sink_bias": true,
+          "projector_type": "lilicorr",
+          "lilicorr_enabled": true,
+          "lilicorr_candidate_topk": 8,
+          "lilicorr_hidden_size": 1024,
+          "lilicorr_num_layers": 2,
+          "lilicorr_num_heads": 8,
+          "lilicorr_mlp_ratio": 2.0,
+          "lilicorr_factor_dim": 1024,
+          "lilicorr_vector_eps": 0.0001,
+          "lilicorr_logit_scale": 8.0,
+          "conv_kernel_size": 2,
+          "conv_group_size": 16
+        },
+        "hidden_size": 4096,
+        "num_hidden_layers": 5,
+        "num_attention_heads": 32,
+        "num_key_value_heads": 2,
+        "head_dim": 128,
+        "intermediate_size": 12288,
+        "hidden_act": "silu",
+        "rms_norm_eps": 1e-06,
+        "vocab_size": 131072,
+        "max_position_embeddings": 262144,
+        "initializer_range": 0.02,
+        "attention_bias": false,
+        "attention_dropout": 0.0,
+        "rope_theta": 10000.0,
+        "rope_scaling": null,
+        "tie_word_embeddings": false,
+        "torch_dtype": "bfloat16",
+        "layer_types": [
+          "sliding_attention",
+          "sliding_attention",
+          "sliding_attention",
+          "sliding_attention",
+          "sliding_attention"
+        ],
+        "sliding_window": 1024,
+        "attention_sink_bias": true,
+        "use_sliding_window": true,
+        "max_window_layers": 0,
+        "quantization_config": {
+          "quant_algo": "W4A16_NVFP4",
+          "kv_cache_quant_algo": null,
+          "group_size": 16,
+          "exclude_modules": [
+            "*attention_conv*",
+            "*mlp_conv*",
+            "*self_attn*",
+            "*norm",
+            "*lilicorr.anchor_out_head",
+            "*lilicorr.factor_input_proj",
+            "lilicorr.feature_mlp*",
+            "*lilicorr.feature_mlp.up_proj",
+            "*lilicorr.feature_mlp.down_proj",
+            "*lilicorr.in_head",
+            "*lilicorr.out_head",
+            "*qkv_proj",
+            "*lm_head"
+          ],
+          "quant_method": "modelopt_fp4",
+          "ignore": [
+            "*attention_conv*",
+            "*mlp_conv*",
+            "*self_attn*",
+            "*norm",
+            "*lilicorr.anchor_out_head",
+            "*lilicorr.factor_input_proj",
+            "lilicorr.feature_mlp*",
+            "*lilicorr.feature_mlp.up_proj",
+            "*lilicorr.feature_mlp.down_proj",
+            "*lilicorr.in_head",
+            "*lilicorr.out_head",
+            "*qkv_proj",
+            "*lm_head"
+          ]
+        }
+      },
+      "adapter_config_error": "HTTP Error 404: Not Found"
+    },
+    {
+      "repo": "shanjiaz/Qwen3.8-27B-LiLiCorr-block8-epoch0",
+      "metadata": {
+        "_id": "6adf990ca5b426b29c107678",
+        "id": "shanjiaz/Qwen3.8-27B-LiLiCorr-block8-epoch0",
+        "private": false,
+        "tags": [
+          "safetensors",
+          "speculators",
+          "lilicorr",
+          "speculative-decoding",
+          "custom_code",
+          "base_model:Qwen/Qwen3.8-27B",
+          "base_model:finetune:Qwen/Qwen3.8-27B",
+          "region:us"
+        ],
+        "downloads": 62,
+        "likes": 0,
+        "modelId": "shanjiaz/Qwen3.8-27B-LiLiCorr-block8-epoch0",
+        "author": "shanjiaz",
+        "sha": "ded9d3b7135dbf06ce958e24bedc9a3404420d0b",
+        "lastModified": "2026-10-26T18:16:58.000Z",
+        "gated": false,
+        "disabled": false,
+        "model-index": null,
+        "config": {
+          "architectures": [
+            "LiLiCorrDraftModel"
+          ],
+          "auto_map": {
+            "": "config.LiLiCorrSpeculatorConfig"
+          }
+        },
+        "cardData": {
+          "base_model": "Qwen/Qwen3.8-27B",
+          "tags": [
+            "speculators",
+            "lilicorr",
+            "speculative-decoding"
+          ]
+        },
+        "siblings": [
+          {
+            "rfilename": ".gitattributes",
+            "blobId": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+            "size": 1519
+          },
+          {
+            "rfilename": "README.md",
+            "blobId": "58e53f4345aac860746a5f9df62ca19e5da85e41",
+            "size": 2689
+          },
+          {
+            "rfilename": "artifact-manifest.json",
+            "blobId": "5e2be2b8f3ee9c9e5e0dccca7e5eb7396abfe4bf",
+            "size": 630
+          },
+          {
+            "rfilename": "config.json",
+            "blobId": "6db40ea1ebeccff3fc06956c247c92fcd569d6cf",
+            "size": 2247
+          },
+          {
+            "rfilename": "config.py",
+            "blobId": "7a695724506a1358fed5b6aaafe11658a0a63cdb",
+            "size": 1741
+          },
+          {
+            "rfilename": "model.safetensors",
+            "blobId": "a4c06bfeb564be89d55b1135d3eaee8d8acd143a",
+            "size": 3802376404,
+            "lfs": {
+              "sha256": "9df42b42ee85dac80aaf70d6ee34b9aaeceda48eb80424d8483f5454df8a49f1",
+              "size": 3802376404,
+              "pointerSize": 135
+            }
+          },
+          {
+            "rfilename": "val_metrics.json",
+            "blobId": "26d18968e824007f3a93feff5f6320f305d94fce",
+            "size": 755
+          }
+        ],
+        "spaces": [],
+        "createdAt": "2026-10-26T18:16:44.000Z",
+        "safetensors": {
+          "parameters": {
+            "BF16": 1901182602
+          },
+          "total": 1901182602
+        },
+        "usedStorage": 3802376404
+      },
+      "config": {
+        "architectures": [
+          "LiLiCorrDraftModel"
+        ],
+        "auto_map": {
+          "": "config.LiLiCorrSpeculatorConfig"
+        },
+        "aux_hidden_state_layer_ids": [
+          4,
+          12,
+          20,
+          28,
+          36,
+          44,
+          52,
+          60
+        ],
+        "block_size": 8,
+        "draft_vocab_size": 248320,
+        "dtype": "bfloat16",
+        "lilicorr_candidate_topk": 8,
+        "lilicorr_factor_dim": 1024,
+        "lilicorr_hidden_size": 1024,
+        "lilicorr_logit_scale": 8.0,
+        "lilicorr_mlp_ratio": 2.0,
+        "lilicorr_num_heads": 8,
+        "lilicorr_num_layers": 2,
+        "lilicorr_vector_eps": 0.0001,
+        "mask_token_id": 248077,
+        "sample_from_anchor": false,
+        "sliding_window_non_causal": false,
+        "speculators_config": {
+          "algorithm": "lilicorr",
+          "default_proposal_method": "greedy",
+          "proposal_methods": [
+            {
+              "accept_tolerance": 0.0,
+              "proposal_type": "greedy",
+              "speculative_tokens": 7,
+              "verifier_accept_k": 1
+            }
+          ],
+          "verifier": {
+            "architectures": [
+              "Qwen3_5ForConditionalGeneration"
+            ],
+            "name_or_path": "Qwen/Qwen3.8-27B"
+          }
+        },
+        "speculators_model_type": "lilicorr",
+        "speculators_version": "0.10.0a9",
+        "target_hidden_size": null,
+        "tie_word_embeddings": false,
+        "transformer_layer_config": {
+          "attention_bias": false,
+          "attention_dropout": 0.0,
+          "bos_token_id": null,
+          "eos_token_id": null,
+          "head_dim": 256,
+          "hidden_act": "silu",
+          "hidden_size": 5120,
+          "initializer_range": 0.02,
+          "intermediate_size": 17408,
+          "layer_types": [
+            "sliding_attention",
+            "sliding_attention",
+            "sliding_attention",
+            "sliding_attention",
+            "sliding_attention"
+          ],
+          "max_position_embeddings": 262144,
+          "max_window_layers": 28,
+          "model_type": "qwen3",
+          "num_attention_heads": 20,
+          "num_hidden_layers": 5,
+          "num_key_value_heads": 4,
+          "pad_token_id": null,
+          "rms_norm_eps": 1e-06,
+          "rope_parameters": {
+            "mrope_section": [
+              44,
+              44,
+              40
+            ],
+            "partial_rotary_factor": 1.0,
+            "rope_theta": 10000000,
+            "rope_type": "default"
+          },
+          "sliding_window": 2048,
+          "tie_word_embeddings": false,
+          "use_cache": true,
+          "use_sliding_window": true,
+          "vocab_size": 248320
+        },
+        "transformers_version": "5.19.0"
+      },
+      "adapter_config_error": "HTTP Error 404: Not Found"
+    }
+  ]
+}

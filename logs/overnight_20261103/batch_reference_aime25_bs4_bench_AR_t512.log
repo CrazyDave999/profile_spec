@@ -1,0 +1,4 @@
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 413.34it/s]
+Warmup aime25 batch_reference BS=4 arm=AR
+AR: 15360 tokens / 86.452s = 177.7 tok/s
+{"status": "success", "arguments": {"dataset": "aime25", "engine": "batch_reference", "bs": 4, "tokens": 512, "samples": 32, "arm": "AR", "trace": false, "budget": 128, "depth": 15, "output": "/home/qinghao/profile_spec/logs/overnight_20261103/batch_reference_aime25_bs4_bench_AR_t512.json"}}

@@ -1,0 +1,396 @@
+{
+  "arguments": {
+    "dataset": "gsm8k",
+    "engine": "batch_reference",
+    "bs": 2,
+    "tokens": 16,
+    "samples": 2,
+    "arm": "both",
+    "trace": false,
+    "budget": 128,
+    "depth": 15,
+    "output": "logs/sweep_validation.json"
+  },
+  "status": "success",
+  "implementation": "experimental true batched learned head + batched target; eager SDPA and dense padded KV",
+  "started_utc": "2026-11-02T17:37:24Z",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "results": {
+    "AR": {
+      "seconds": 0.2900001839734614,
+      "total_tokens": 32,
+      "tokens_per_second": 110.34475758445862,
+      "batches": 1,
+      "batch_latency_ms": [
+        289.79108901694417
+      ],
+      "peak_allocated_bytes": 18562837504,
+      "peak_reserved_bytes": 18910019584,
+      "mean_accept_length": null,
+      "rounds": 0,
+      "outputs": [
+        {
+          "token_ids": [
+            10061,
+            594,
+            1438,
+            419,
+            1495,
+            3019,
+            553,
+            3019,
+            1447,
+            44364,
+            14374,
+            3070,
+            8304,
+            220,
+            16,
+            25
+          ],
+          "accept_lengths": [],
+          "prompt_tokens": 92
+        },
+        {
+          "token_ids": [
+            1654,
+            525,
+            3229,
+            1447,
+            12,
+            362,
+            62619,
+            4990,
+            3070,
+            17,
+            48839,
+            315,
+            6303,
+            23788,
+            334,
+            624
+          ],
+          "accept_lengths": [],
+          "prompt_tokens": 53
+        }
+      ]
+    },
+    "JetSpec": {
+      "seconds": 0.15483826101990417,
+      "total_tokens": 32,
+      "tokens_per_second": 206.66726550155752,
+      "batches": 1,
+      "batch_latency_ms": [
+        154.69836199190468
+      ],
+      "peak_allocated_bytes": 18692947456,
+      "peak_reserved_bytes": 18916311040,
+      "mean_accept_length": 6.0,
+      "rounds": 6,
+      "outputs": [
+        {
+          "token_ids": [
+            10061,
+            594,
+            1438,
+            419,
+            1495,
+            3019,
+            553,
+            3019,
+            311,
+            1477,
+            700,
+            1246,
+            1753,
+            53665,
+            3643,
+            518
+          ],
+          "accept_lengths": [
+            6,
+            4,
+            5
+          ],
+          "prompt_tokens": 92
+        },
+        {
+          "token_ids": [
+            1654,
+            525,
+            3229,
+            429,
+            264,
+            62619,
+            4990,
+            1447,
+            12,
+            3070,
+            17,
+            48839,
+            315,
+            6303,
+            23788,
+            1019
+          ],
+          "accept_lengths": [
+            5,
+            7,
+            9
+          ],
+          "prompt_tokens": 53
+        }
+      ]
+    }
+  },
+  "target_loaded_allocated_bytes": 16383588352,
+  "target_parameter_bytes": 16381470720,
+  "head_parameter_bytes": 2097252864,
+  "loaded_allocated_bytes": 18480844288,
+  "AR_memory_includes_unused_head": true,
+  "upstream_revision": "673267e4faba71a63099c258f0802c2f3aa44f8e",
+  "protocol": {
+    "batching": "fixed initial batch; completed sequences drop out",
+    "dtype": "bfloat16",
+    "temperature": 0.0,
+    "thinking": false,
+    "EOS_stopping": true,
+    "tokenization_in_timer": false,
+    "prefill_in_timer": true,
+    "compile_warmup_in_timer": false,
+    "detokenization_in_timer": false,
+    "samples": 2,
+    "sample_indices": [
+      0,
+      1
+    ],
+    "prompt_token_lengths": [
+      92,
+      53
+    ],
+    "fuse_gemms": false,
+    "CUDA_Graph": false,
+    "mode": "uninstrumented_benchmark"
+  },
+  "actual_forward_batch_shapes": [
+    {
+      "method": "AR",
+      "batch": 2,
+      "query": 1,
+      "max_past": 92
+    },
+    {
+      "method": "AR",
+      "batch": 2,
+      "query": 1,
+      "max_past": 93
+    },
+    {
+      "method": "AR",
+      "batch": 2,
+      "query": 1,
+      "max_past": 94
+    },
+    {
+      "method": "AR",
+      "batch": 2,
+      "query": 1,
+      "max_past": 95
+    },
+    {
+      "method": "AR",
+      "batch": 2,
+      "query": 1,
+      "max_past": 96
+    },
+    {
+      "method": "AR",
+      "batch": 2,
+      "query": 1,
+      "max_past": 97
+    },
+    {
+      "method": "AR",
+      "batch": 2,
+      "query": 1,
+      "max_past": 98
+    },
+    {
+      "method": "AR",
+      "batch": 2,
+      "query": 1,
+      "max_past": 99
+    },
+    {
+      "method": "AR",
+      "batch": 2,
+      "query": 1,
+      "max_past": 100
+    },
+    {
+      "method": "AR",
+      "batch": 2,
+      "query": 1,
+      "max_past": 101
+    },
+    {
+      "method": "AR",
+      "batch": 2,
+      "query": 1,
+      "max_past": 102
+    },
+    {
+      "method": "AR",
+      "batch": 2,
+      "query": 1,
+      "max_past": 103
+    },
+    {
+      "method": "AR",
+      "batch": 2,
+      "query": 1,
+      "max_past": 104
+    },
+    {
+      "method": "AR",
+      "batch": 2,
+      "query": 1,
+      "max_past": 105
+    },
+    {
+      "method": "AR",
+      "batch": 2,
+      "query": 1,
+      "max_past": 106
+    },
+    {
+      "method": "JetSpec",
+      "batch": 2,
+      "query": 128,
+      "max_past": 92
+    },
+    {
+      "method": "JetSpec",
+      "batch": 2,
+      "query": 128,
+      "max_past": 98
+    },
+    {
+      "method": "JetSpec",
+      "batch": 2,
+      "query": 128,
+      "max_past": 102
+    },
+    {
+      "method": "AR",
+      "batch": 2,
+      "query": 1,
+      "max_past": 92
+    },
+    {
+      "method": "AR",
+      "batch": 2,
+      "query": 1,
+      "max_past": 93
+    },
+    {
+      "method": "AR",
+      "batch": 2,
+      "query": 1,
+      "max_past": 94
+    },
+    {
+      "method": "AR",
+      "batch": 2,
+      "query": 1,
+      "max_past": 95
+    },
+    {
+      "method": "AR",
+      "batch": 2,
+      "query": 1,
+      "max_past": 96
+    },
+    {
+      "method": "AR",
+      "batch": 2,
+      "query": 1,
+      "max_past": 97
+    },
+    {
+      "method": "AR",
+      "batch": 2,
+      "query": 1,
+      "max_past": 98
+    },
+    {
+      "method": "AR",
+      "batch": 2,
+      "query": 1,
+      "max_past": 99
+    },
+    {
+      "method": "AR",
+      "batch": 2,
+      "query": 1,
+      "max_past": 100
+    },
+    {
+      "method": "AR",
+      "batch": 2,
+      "query": 1,
+      "max_past": 101
+    },
+    {
+      "method": "AR",
+      "batch": 2,
+      "query": 1,
+      "max_past": 102
+    },
+    {
+      "method": "AR",
+      "batch": 2,
+      "query": 1,
+      "max_past": 103
+    },
+    {
+      "method": "AR",
+      "batch": 2,
+      "query": 1,
+      "max_past": 104
+    },
+    {
+      "method": "AR",
+      "batch": 2,
+      "query": 1,
+      "max_past": 105
+    },
+    {
+      "method": "AR",
+      "batch": 2,
+      "query": 1,
+      "max_past": 106
+    },
+    {
+      "method": "JetSpec",
+      "batch": 2,
+      "query": 128,
+      "max_past": 92
+    },
+    {
+      "method": "JetSpec",
+      "batch": 2,
+      "query": 128,
+      "max_past": 98
+    },
+    {
+      "method": "JetSpec",
+      "batch": 2,
+      "query": 128,
+      "max_past": 102
+    }
+  ],
+  "speedup": 1.872923281773246,
+  "equal_token_sequences": 0,
+  "finished_utc": "2026-11-02T17:37:26Z"
+}

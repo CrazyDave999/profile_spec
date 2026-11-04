@@ -1,0 +1,51 @@
+Traceback (most recent call last):
+  File "/home/qinghao/profile_spec/build_overnight_report.py", line 294, in <module>
+    if __name__=='__main__': main()
+                             ^^^^^^
+  File "/home/qinghao/profile_spec/build_overnight_report.py", line 121, in main
+    figures.append(plot('batch_speedup'))
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/qinghao/profile_spec/build_overnight_report.py", line 51, in plot
+    plt.savefig(OUT/(name+'.svg'),bbox_inches='tight')
+  File "/home/qinghao/profile_spec/.venv/lib/python3.12/site-packages/matplotlib/pyplot.py", line 1346, in savefig
+    res = fig.savefig(fname, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/qinghao/profile_spec/.venv/lib/python3.12/site-packages/matplotlib/figure.py", line 3515, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/home/qinghao/profile_spec/.venv/lib/python3.12/site-packages/matplotlib/backend_bases.py", line 2257, in print_figure
+    self.figure.draw(renderer)
+  File "/home/qinghao/profile_spec/.venv/lib/python3.12/site-packages/matplotlib/artist.py", line 94, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/qinghao/profile_spec/.venv/lib/python3.12/site-packages/matplotlib/artist.py", line 71, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/qinghao/profile_spec/.venv/lib/python3.12/site-packages/matplotlib/figure.py", line 3282, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/qinghao/profile_spec/.venv/lib/python3.12/site-packages/matplotlib/image.py", line 133, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/qinghao/profile_spec/.venv/lib/python3.12/site-packages/matplotlib/artist.py", line 71, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/qinghao/profile_spec/.venv/lib/python3.12/site-packages/matplotlib/axes/_base.py", line 3372, in draw
+    mimage._draw_list_compositing_images(
+  File "/home/qinghao/profile_spec/.venv/lib/python3.12/site-packages/matplotlib/image.py", line 133, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/qinghao/profile_spec/.venv/lib/python3.12/site-packages/matplotlib/artist.py", line 71, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/qinghao/profile_spec/.venv/lib/python3.12/site-packages/matplotlib/axis.py", line 1477, in draw
+    ticks_to_draw = self._update_ticks()
+                    ^^^^^^^^^^^^^^^^^^^^
+  File "/home/qinghao/profile_spec/.venv/lib/python3.12/site-packages/matplotlib/axis.py", line 1357, in _update_ticks
+    minor_locs = self.get_minorticklocs()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/qinghao/profile_spec/.venv/lib/python3.12/site-packages/matplotlib/axis.py", line 1678, in get_minorticklocs
+    minor_locs = np.asarray(self.minor.locator())
+                            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/qinghao/profile_spec/.venv/lib/python3.12/site-packages/matplotlib/ticker.py", line 2470, in __call__
+    return self.tick_values(vmin, vmax)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/qinghao/profile_spec/.venv/lib/python3.12/site-packages/matplotlib/ticker.py", line 2492, in tick_values
+    raise ValueError(
+ValueError: Data cannot be log-scaled because all values are <= 0.

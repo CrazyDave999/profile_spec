@@ -1,0 +1,43 @@
+{
+  "pid": 2200154,
+  "started_utc": "2026-11-02T22:22:49.631723+00:00",
+  "deadline_utc": "2026-11-03T01:45:00+00:00",
+  "state": "experiments_finished",
+  "completed": [
+    {
+      "name": "optimized_gsm8k_bs1_gpu_metrics_t256",
+      "status": "success"
+    },
+    {
+      "name": "optimized_math500_bs1_gpu_metrics_t256",
+      "status": "success"
+    },
+    {
+      "name": "optimized_aime25_bs1_gpu_metrics_t256",
+      "status": "success"
+    },
+    {
+      "name": "optimized_humaneval_bs1_gpu_metrics_t256",
+      "status": "success"
+    },
+    {
+      "name": "optimized_mbpp_bs1_gpu_metrics_t256",
+      "status": "success"
+    },
+    {
+      "name": "optimized_livecodebench_bs1_gpu_metrics_t256",
+      "status": "success"
+    },
+    {
+      "name": "optimized_mt_bench_bs1_gpu_metrics_t256",
+      "status": "success"
+    }
+  ],
+  "preemptions": [],
+  "total_cases": 7,
+  "current": null,
+  "worker_pid": 2203566,
+  "case_index": 6,
+  "finished_utc": "2026-11-02T22:29:46.404969+00:00",
+  "report_build_exit": 0
+}

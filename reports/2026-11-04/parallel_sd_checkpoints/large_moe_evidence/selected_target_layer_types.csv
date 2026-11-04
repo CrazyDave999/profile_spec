@@ -1,0 +1,17 @@
+target,layer_id_zero_based,target_block_type
+Qwen3.5-4B,1,linear_attention
+Qwen3.5-4B,5,linear_attention
+Qwen3.5-4B,9,linear_attention
+Qwen3.5-4B,13,linear_attention
+Qwen3.5-4B,17,linear_attention
+Qwen3.5-4B,21,linear_attention
+Qwen3.5-4B,25,linear_attention
+Qwen3.5-4B,29,linear_attention
+Qwen3.5-397B-A17B,1,linear_attention
+Qwen3.5-397B-A17B,9,linear_attention
+Qwen3.5-397B-A17B,17,linear_attention
+Qwen3.5-397B-A17B,25,linear_attention
+Qwen3.5-397B-A17B,33,linear_attention
+Qwen3.5-397B-A17B,41,linear_attention
+Qwen3.5-397B-A17B,49,linear_attention
+Qwen3.5-397B-A17B,57,linear_attention

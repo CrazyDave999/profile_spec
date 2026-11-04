@@ -1,0 +1,32 @@
+JetSpec GPU profile report — Beijing 2026-11-03T11:52:40.813363+08:00
+
+HTML report: /home/qinghao/profile_spec/reports/2026-11-03/report.html
+
+{
+  "expected_main_cases": 168,
+  "main_cases_present": 168,
+  "missing_main_cases": [],
+  "outcomes": {
+    "success": 175
+  },
+  "readable_timeline_count": 63,
+  "primary_trace_matrix_expected": 42,
+  "primary_trace_matrix_present": 42,
+  "minimum_kernel_attribution_fraction": 1.0,
+  "captured_GPU_kernel_events": 46334330,
+  "generated_Beijing": "2026-11-03T11:52:40.813363+08:00",
+  "GPU_counter_case_count": 7,
+  "initial_report_prepared_Beijing": "2026-11-03T06:29:56.039680+08:00"
+}
+
+Main native BS=1 speedups: {'GSM8K': 2.1152644417435784, 'MATH-500': 2.0612426377722, 'AIME25': 1.5247335212507946, 'HumanEval': 1.7382252048055722, 'MBPP': 1.6864369295754613, 'LiveCodeBench': 1.1256802099926304, 'MT-Bench': 1.0745223545907376}
+
+Key results: native BS=1 speedup 1.07–2.12x; reference MT-Bench BS=16 is 0.75x. Verify accounts for approximately 78–82% of SD GPU kernel work in the short native traces.
+
+Memory: source and CPU runtime check identify a 36x reserved KV-pool layout amplification relative to layer-local equal-capacity pools on the 36-layer target. This is an implementation-specific reservation finding, not a measured speedup from a proposed fix.
+
+Batch sweep uses true batched experimental dense-KV/SDPA implementation, not native CUDA Graph BS>1.
+
+No SGLang comparison. BF16 token equality is not guaranteed. Trace wall times are instrumented; use separate benchmark CSV.
+
+All .nsys-rep links and stage/memory details are in report.html.

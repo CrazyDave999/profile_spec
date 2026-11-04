@@ -1,0 +1,51 @@
+{
+  "sampling_hz_estimate": 1000.0070000490003,
+  "sampling_method": "sampling-window value weighted by overlap with correlation-attributed GPU kernel intervals",
+  "warning": "1 kHz windows include phase-boundary mixing and idle periods; these are coarse phase aggregates, not per-kernel counter results.",
+  "GPU": {
+    "name": "NVIDIA GeForce RTX 5090",
+    "memory_bytes": 33670758400,
+    "peak_memory_bandwidth_bytes_per_s": 1792128000000,
+    "SM_count": 170,
+    "L2_bytes": 100663296
+  },
+  "phases": {
+    "AR/decode_forward": {
+      "GPU_kernel_union_ms": 5333.442952,
+      "overlapping_sample_windows": 5474,
+      "metrics_percent": {
+        "SMs Active [Throughput %]": 85.80155379751402,
+        "SM Issue [Throughput %]": 17.946790040400906,
+        "Tensor Active [Throughput %]": 0.9780829885962938,
+        "Compute Warps in Flight [Throughput %]": 13.365214344941961,
+        "DRAM Read Bandwidth [Throughput %]": 79.95950588429581,
+        "DRAM Write Bandwidth [Throughput %]": 0.9990646137879605
+      }
+    },
+    "JetSpec/draft_forward": {
+      "GPU_kernel_union_ms": 217.538152,
+      "overlapping_sample_windows": 305,
+      "metrics_percent": {
+        "SMs Active [Throughput %]": 60.34966132285614,
+        "SM Issue [Throughput %]": 3.7982020367627283,
+        "Tensor Active [Throughput %]": 10.27300806067342,
+        "Compute Warps in Flight [Throughput %]": 6.164810446675119,
+        "DRAM Read Bandwidth [Throughput %]": 48.22891888867384,
+        "DRAM Write Bandwidth [Throughput %]": 1.5317135037535852
+      }
+    },
+    "JetSpec/verify_forward": {
+      "GPU_kernel_union_ms": 1310.851866,
+      "overlapping_sample_windows": 1434,
+      "metrics_percent": {
+        "SMs Active [Throughput %]": 85.2559854860061,
+        "SM Issue [Throughput %]": 10.282420615633468,
+        "Tensor Active [Throughput %]": 43.28879748262875,
+        "Compute Warps in Flight [Throughput %]": 33.760987936832215,
+        "DRAM Read Bandwidth [Throughput %]": 44.20702292763872,
+        "DRAM Write Bandwidth [Throughput %]": 1.9476031710512132
+      }
+    }
+  },
+  "database": "/home/qinghao/profile_spec/profiles/gpu_metrics_20261103/optimized_mbpp_bs1_gpu_metrics_t256.sqlite"
+}

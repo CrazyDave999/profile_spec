@@ -1,0 +1,4 @@
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 420.71it/s]
+Warmup mbpp batch_reference BS=16 arm=AR
+AR: 12036 tokens / 34.069s = 353.3 tok/s
+{"status": "success", "arguments": {"dataset": "mbpp", "engine": "batch_reference", "bs": 16, "tokens": 512, "samples": 32, "arm": "AR", "trace": false, "budget": 128, "depth": 15, "output": "/home/qinghao/profile_spec/logs/overnight_20261103/batch_reference_mbpp_bs16_bench_AR_t512.json"}}

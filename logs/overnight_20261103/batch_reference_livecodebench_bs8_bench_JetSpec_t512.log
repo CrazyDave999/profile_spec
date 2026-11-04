@@ -1,0 +1,4 @@
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 425.42it/s]
+Warmup livecodebench batch_reference BS=8 arm=JetSpec
+JetSpec: 15802 tokens / 43.642s = 362.1 tok/s
+{"status": "success", "arguments": {"dataset": "livecodebench", "engine": "batch_reference", "bs": 8, "tokens": 512, "samples": 32, "arm": "JetSpec", "trace": false, "budget": 128, "depth": 15, "output": "/home/qinghao/profile_spec/logs/overnight_20261103/batch_reference_livecodebench_bs8_bench_JetSpec_t512.json"}}

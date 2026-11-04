@@ -1,0 +1,4 @@
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 408.46it/s]
+Warmup aime25 optimized BS=1 arm=JetSpec
+JetSpec: 15913 tokens / 120.394s = 132.2 tok/s
+{"status": "success", "arguments": {"dataset": "aime25", "engine": "optimized", "bs": 1, "tokens": 1024, "samples": 16, "arm": "JetSpec", "trace": false, "budget": 128, "depth": 15, "output": "/home/qinghao/profile_spec/logs/overnight_20261103/optimized_aime25_bs1_bench_JetSpec_t1024.json"}}

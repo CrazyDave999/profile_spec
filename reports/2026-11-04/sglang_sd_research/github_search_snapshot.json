@@ -1,0 +1,112 @@
+{
+  "queried_at_utc": "2026-11-04T13:40:04.797493+00:00",
+  "queries": {
+    "parallel_methods_open": {
+      "query": "repo:sgl-project/sglang is:pr is:open in:title SPECTRE OR P-EAGLE OR PEAGLE OR DFlare OR D-PACE OR DCore OR Clover OR UBTree",
+      "error": "HTTP Error 422: Unprocessable Entity"
+    },
+    "parallel_spec_open": {
+      "query": "repo:sgl-project/sglang is:pr is:open in:title parallel speculative",
+      "total_count": 0,
+      "items": []
+    },
+    "new_heads_open": {
+      "query": "repo:sgl-project/sglang is:pr is:open in:title tree drafting",
+      "total_count": 2,
+      "items": [
+        {
+          "number": 39211,
+          "title": "[Speculative] Add RACER: reuse target logits for training-free tree drafting",
+          "state": "open",
+          "html_url": "https://github.com/sgl-project/sglang/pull/39211",
+          "updated_at": "2026-09-12T11:54:30Z",
+          "pull_request": {
+            "url": "https://api.github.com/repos/sgl-project/sglang/pulls/39211",
+            "html_url": "https://github.com/sgl-project/sglang/pull/39211",
+            "diff_url": "https://github.com/sgl-project/sglang/pull/39211.diff",
+            "patch_url": "https://github.com/sgl-project/sglang/pull/39211.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "number": 36196,
+          "title": "[Sepc]Dflash2 tree drafting",
+          "state": "open",
+          "html_url": "https://github.com/sgl-project/sglang/pull/36196",
+          "updated_at": "2026-09-07T13:20:50Z",
+          "pull_request": {
+            "url": "https://api.github.com/repos/sgl-project/sglang/pulls/36196",
+            "html_url": "https://github.com/sgl-project/sglang/pull/36196",
+            "diff_url": "https://github.com/sgl-project/sglang/pull/36196.diff",
+            "patch_url": "https://github.com/sgl-project/sglang/pull/36196.patch",
+            "merged_at": null
+          }
+        }
+      ]
+    },
+    "lilicorr_merged": {
+      "query": "repo:sgl-project/sglang is:pr is:merged in:title LiLiCorr",
+      "total_count": 3,
+      "items": [
+        {
+          "number": 42057,
+          "title": "[Spec] LiLiCorr: named head MLPs and quantized head linears",
+          "state": "closed",
+          "html_url": "https://github.com/sgl-project/sglang/pull/42057",
+          "updated_at": "2026-10-05T09:44:00Z",
+          "pull_request": {
+            "url": "https://api.github.com/repos/sgl-project/sglang/pulls/42057",
+            "html_url": "https://github.com/sgl-project/sglang/pull/42057",
+            "diff_url": "https://github.com/sgl-project/sglang/pull/42057.diff",
+            "patch_url": "https://github.com/sgl-project/sglang/pull/42057.patch",
+            "merged_at": "2026-10-05T09:44:00Z"
+          }
+        },
+        {
+          "number": 41808,
+          "title": "[Fix] Pass the draft's attention ownership to DFLASH's eager LiLiCorr scope",
+          "state": "closed",
+          "html_url": "https://github.com/sgl-project/sglang/pull/41808",
+          "updated_at": "2026-09-30T20:27:13Z",
+          "pull_request": {
+            "url": "https://api.github.com/repos/sgl-project/sglang/pulls/41808",
+            "html_url": "https://github.com/sgl-project/sglang/pull/41808",
+            "diff_url": "https://github.com/sgl-project/sglang/pull/41808.diff",
+            "patch_url": "https://github.com/sgl-project/sglang/pull/41808.patch",
+            "merged_at": "2026-09-30T20:25:55Z"
+          }
+        },
+        {
+          "number": 37462,
+          "title": "[Spec] Add LiLiCorr: a candidate-lattice reranker for DFlash drafts",
+          "state": "closed",
+          "html_url": "https://github.com/sgl-project/sglang/pull/37462",
+          "updated_at": "2026-09-27T22:36:49Z",
+          "pull_request": {
+            "url": "https://api.github.com/repos/sgl-project/sglang/pulls/37462",
+            "html_url": "https://github.com/sgl-project/sglang/pull/37462",
+            "diff_url": "https://github.com/sgl-project/sglang/pull/37462.diff",
+            "patch_url": "https://github.com/sgl-project/sglang/pull/37462.patch",
+            "merged_at": "2026-09-27T22:36:49Z"
+          }
+        }
+      ]
+    },
+    "dflash_variants_open": {
+      "query": "repo:sgl-project/sglang is:pr is:open in:title Domino OR LiLiCorr OR UNO",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    "peagle_all": {
+      "query": "repo:sgl-project/sglang is:pr in:title \"P-EAGLE\"",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    "dpace_all": {
+      "query": "repo:sgl-project/sglang is:pr in:title \"D-PACE\"",
+      "error": "HTTP Error 403: rate limit exceeded"
+    },
+    "feature_spec_open": {
+      "query": "repo:sgl-project/sglang is:pr is:open in:title \"speculative\" \"support\"",
+      "error": "HTTP Error 403: rate limit exceeded"
+    }
+  }
+}

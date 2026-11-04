@@ -1,0 +1,79 @@
+[
+  {
+    "engine": "optimized",
+    "dataset": "gsm8k",
+    "bs": 1,
+    "trace": true,
+    "arm": "both",
+    "tokens": 256,
+    "samples": 2,
+    "gpu_metrics": true,
+    "name": "optimized_gsm8k_bs1_gpu_metrics_t256"
+  },
+  {
+    "engine": "optimized",
+    "dataset": "math500",
+    "bs": 1,
+    "trace": true,
+    "arm": "both",
+    "tokens": 256,
+    "samples": 2,
+    "gpu_metrics": true,
+    "name": "optimized_math500_bs1_gpu_metrics_t256"
+  },
+  {
+    "engine": "optimized",
+    "dataset": "aime25",
+    "bs": 1,
+    "trace": true,
+    "arm": "both",
+    "tokens": 256,
+    "samples": 2,
+    "gpu_metrics": true,
+    "name": "optimized_aime25_bs1_gpu_metrics_t256"
+  },
+  {
+    "engine": "optimized",
+    "dataset": "humaneval",
+    "bs": 1,
+    "trace": true,
+    "arm": "both",
+    "tokens": 256,
+    "samples": 2,
+    "gpu_metrics": true,
+    "name": "optimized_humaneval_bs1_gpu_metrics_t256"
+  },
+  {
+    "engine": "optimized",
+    "dataset": "mbpp",
+    "bs": 1,
+    "trace": true,
+    "arm": "both",
+    "tokens": 256,
+    "samples": 2,
+    "gpu_metrics": true,
+    "name": "optimized_mbpp_bs1_gpu_metrics_t256"
+  },
+  {
+    "engine": "optimized",
+    "dataset": "livecodebench",
+    "bs": 1,
+    "trace": true,
+    "arm": "both",
+    "tokens": 256,
+    "samples": 2,
+    "gpu_metrics": true,
+    "name": "optimized_livecodebench_bs1_gpu_metrics_t256"
+  },
+  {
+    "engine": "optimized",
+    "dataset": "mt_bench",
+    "bs": 1,
+    "trace": true,
+    "arm": "both",
+    "tokens": 256,
+    "samples": 2,
+    "gpu_metrics": true,
+    "name": "optimized_mt_bench_bs1_gpu_metrics_t256"
+  }
+]

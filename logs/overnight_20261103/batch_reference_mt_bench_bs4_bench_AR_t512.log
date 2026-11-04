@@ -1,0 +1,4 @@
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 411.55it/s]
+Warmup mt_bench batch_reference BS=4 arm=AR
+AR: 8549 tokens / 67.892s = 125.9 tok/s
+{"status": "success", "arguments": {"dataset": "mt_bench", "engine": "batch_reference", "bs": 4, "tokens": 512, "samples": 32, "arm": "AR", "trace": false, "budget": 128, "depth": 15, "output": "/home/qinghao/profile_spec/logs/overnight_20261103/batch_reference_mt_bench_bs4_bench_AR_t512.json"}}

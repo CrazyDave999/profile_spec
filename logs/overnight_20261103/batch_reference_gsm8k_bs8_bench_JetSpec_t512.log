@@ -1,0 +1,4 @@
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 426.29it/s]
+Warmup gsm8k batch_reference BS=8 arm=JetSpec
+JetSpec: 9957 tokens / 21.275s = 468.0 tok/s
+{"status": "success", "arguments": {"dataset": "gsm8k", "engine": "batch_reference", "bs": 8, "tokens": 512, "samples": 32, "arm": "JetSpec", "trace": false, "budget": 128, "depth": 15, "output": "/home/qinghao/profile_spec/logs/overnight_20261103/batch_reference_gsm8k_bs8_bench_JetSpec_t512.json"}}

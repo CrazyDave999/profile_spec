@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "successful_experiment_cases": 175,
+  "SQLite_integrity_checked_reports": 63,
+  "dataset_count": 7,
+  "batch_sizes": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "true_batched_forward_metadata_verified": true,
+  "independent_head_free_AR_benchmarks_verified": true,
+  "GPU_phase_kernel_correlation_coverage": 1.0,
+  "GPU_hardware_counter_reports": 7,
+  "report_local_links_checked": 275,
+  "missing_report_links": [],
+  "timeline_zip_entries": 64,
+  "timeline_zip_CRC_check": "passed",
+  "timeline_zip_bytes": 2241723172,
+  "initial_complete_report_prepared_Beijing": "2026-11-03T06:29:56.039680+08:00",
+  "initial_report_ready_before_10": true,
+  "final_audit_time_Beijing": "2026-11-03T11:54:27.377076+08:00"
+}

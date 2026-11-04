@@ -1,0 +1,4 @@
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 416.08it/s]
+Warmup humaneval batch_reference BS=1 arm=JetSpec
+JetSpec: 11337 tokens / 50.134s = 226.1 tok/s
+{"status": "success", "arguments": {"dataset": "humaneval", "engine": "batch_reference", "bs": 1, "tokens": 512, "samples": 32, "arm": "JetSpec", "trace": false, "budget": 128, "depth": 15, "output": "/home/qinghao/profile_spec/logs/overnight_20261103/batch_reference_humaneval_bs1_bench_JetSpec_t512.json"}}

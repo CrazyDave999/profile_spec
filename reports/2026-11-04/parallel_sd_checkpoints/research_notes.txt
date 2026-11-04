@@ -1,0 +1,56 @@
+核查日期：2026-11-04。此次只核查源码和公开模型配置；未下载权重、未运行 GPU benchmark。
+SGLang revision: 27aedf7f93cc7ac3bff43e7150e42a3c0baa6957
+
+1. DFLASH 不是 DFlash2 的自动升级开关。
+DFlash2（模型结构）与 DFlashWorkerV2 / Spec V2（worker 执行与 overlap 路径）是两件事；使用 V2 worker 不代表模型已是 DFlash2。
+普通 z-lab/Qwen3-8B-DFlash-b16 的 architecture=DFlashDraftModel，dflash_config 没有卷积或 selector 字段。
+DFlash2 的分组动态 depthwise convolution 由 conv_kernel_size/conv_group_size 启用；candidate selector 由 DFlash2DraftModel + selector_rank/selector_top_k 构建。沿用 DFLASH worker 不代表运算图一样。
+Domino 通过 projector_type=domino 构建 GRU 纠正路径。LiLiCorrDraftModel 构建候选 lattice reranker。这些可表现为只改 checkpoint 路径，但均改变推理计算。
+D-PACE 属于训练损失/权重优化。保持 architecture 不变时，不增加新推理模块；这才是严格意义的 checkpoint-only 比较。不要把不同训练数据/层数/block_size 的差异都归因于算法。
+
+2. 优先级与可运行性。
+首轮同 target 组：Qwen3-8B AR / DFlash / Domino / DSpark static；第二阶段 DSpark scheduled。
+DSpark 有 Markov logit head 和 confidence head。当前默认 SGLANG_RAGGED_VERIFY_MODE=static。compact 模式需要训练好的 confidence head 与本机 SPS 成本表；未初始化平坦成本表会退化为 verify-all，不能声称已测完整 confidence scheduling。
+DSpark 官方 DeepSpec 同时发布了 Qwen3-8B DFlash baseline，便于更接近训练条件的比较，但该 checkpoint 架构是 Qwen3DSparkModel、markov_rank=0，正式评测前须确认 loader/worker 组合，不能按文件名直接运行 DSPARK（后者要求 markov_rank>0）。
+已有 RedHatAI/Qwen3-8B-speculator.dflash2，配置采用 Speculators 的 transformer_layer_config、aux_hidden_state_layer_ids 与顶层卷积/selector 参数。当前本地 SGLang native DFlash loader 读取 hidden_size/num_hidden_layers 和 dflash_config，源码中未找到 Speculators 格式适配。需要配置与权重映射后 smoke test；不要只把 architectures 字符串改掉。
+UNO 与 DFlash 差异最大：同一 target + 固定 LoRA 并行 draft，再 base-only verify，无独立小 draft Transformer。但本地 UNO 强制 fa3，而 fa3 registry 拒绝 SM120；不列为当前 5090 主线立即可跑项。HF 仓库含完整模型和 adapter/，如后续下载只取 adapter。
+SGLang 文档声称 LiLiCorr 尚无公开 drafter 已过时：已核实 NVIDIA Nemotron 3.5 Super/Bolt 公共权重；本次保存 Bolt 的 native config。并未核实有可直接配 Qwen3-8B 的公开 LiLiCorr checkpoint。
+
+3. 模型覆盖与特征选择。
+DFlash 官方模型覆盖 Qwen3、Qwen3.5/3.6、Llama3.1、Gemma4 等；DFlash2 官方公开两个 target 为 Qwen3.8-27B 与 Muse-Glimmer-30B，另有社区/Red Hat Qwen3-8B。
+Domino 官方公开 Qwen3-4B/8B 与 Qwen3.6-27B；35B-A3B 标记 coming soon。
+DeepSpec 的 DSpark 官方发布 Qwen3-4B/8B/14B 与 Gemma4-12B；SGLang 的 runtime/社区配对范围更大，不等同于 DeepSpec 训练仓库范围。
+需要分别检查：target 的算子/特征 capture 支持、匹配 draft 权重、checkpoint 格式、后端/显存与状态提交。存在 capture hook 本身不是完整 E2E 验证。
+DFlash/DSpark/Domino 等 feature-conditioned draft 通常对特定 target 训练。约束包括词表、embedding/head、hidden size、taps、RoPE 和训练分布。相同模型的量化或微调版本并非数学上一定不能复用，但应验证兼容性、接受率与输出；不按“通用小语言模型”使用。UNO 仍需要匹配 target 的训练 LoRA；NGRAM 是无专门训练 draft 的对照项。
+实际 taps（0-based，target block 输出）：
+- Qwen3-8B DFlash/Domino/DSpark: [1,9,17,25,33]
+- Qwen3.5-4B DFlash: [1,5,9,13,17,21,25,29]
+- Qwen3.8-27B 官方 DFlash2: [5,19,33,47,61]
+配置中的显式 target_layer_ids 优先，缺失才按 target/draft 层数生成 fallback。推理时不能随意改 taps；concat feature projector 的输入空间是训练契约。HF hidden_states 使用 layer_id+1，SGLang 内部也有 before/after layer 的偏移；跨格式转换须对齐语义。
+
+4. linear / hybrid。
+不要求 target 每层都是 full attention；block 输出仍有逐 token hidden state，linear 层也可作为 taps。小模型 hybrid 实验选择 Qwen3.5-4B + 对应 DFlash，独立于 Qwen3-8B 主表。
+难点是 verify 后状态：full attention 可以按接受前缀保留 KV；GDN/Mamba/短卷积等 recurrent state 已被拒绝 token 更新，必须逐步缓存/重放并只提交最后接受步的状态，不能只 crop KV。
+本地 DFlashWorkerV2._update_target_mamba_state_after_verify 明确处理 intermediate-state commit；真正支持仍依赖 target backend 暴露 update_mamba_state_after_mtp_verify。
+任意纯 linear attention/纯 SSM target 不能由架构名称直接推断为支持。需有匹配 draft、capture、verify kernels、state commit 和对应后端验证。
+原始 DFlash Transformers benchmark 只明确支持部分家族；不能把 SGLang hybrid 支持自动等同于 model.py 直接加载任何 target。
+
+5. 离线评测协议。
+可不启动 HTTP server，使用相同 SGLang Engine 路径；该路径仍有 scheduler、KV 分配、batching、CUDA graphs。SD 与 server transport 可分离，但与调度/活跃 batch/verify token budget 相关，DSpark confidence scheduling 尤其直接相关。
+先固定 target/backend/dtype/prompt/chat template（Qwen3 非思考）、输出长度，T=0，再补 T>0。并发 1/2/4/8/16，短/长上下文与数学/代码/对话分别统计。测 warm steady-state tokens/s、每轮 wall/GPU latency、accepted/committed length（明确是否含 bonus）、verify tokens、draft/verify/accept/KV commit，检查 graph 实际 replay/eager fallback。
+不同方法 block_size 含 anchor/bonus 的约定不同；统一实际 verify 节点数与有效输出口径，另保留各自推荐配置。不要把不存在的 block shape 当成训练支持。
+one_batch.py 当前强制 NONE，不用于 SD headline。原有 JetSpec 独立引擎数据保留为单独系统结果。
+正确性区分理论精确 rejection sampling、浮点数值差异及实现状态错误；保留 BF16 AR/tree divergence 的已有观察。
+
+核查来源（当前源码以报告所列 SGLang revision 为准）：
+https://github.com/z-lab/dflash
+https://github.com/jianuo-huang/Domino
+https://github.com/deepseek-ai/DeepSpec
+https://github.com/sgl-project/sglang/pull/35371
+https://github.com/sgl-project/sglang/pull/37462
+https://github.com/sgl-project/sglang/pull/37667
+https://github.com/sgl-project/sglang/blob/27aedf7f93cc7ac3bff43e7150e42a3c0baa6957/python/sglang/srt/speculative/dspark_components/dspark_planner.py
+https://github.com/sgl-project/sglang/blob/27aedf7f93cc7ac3bff43e7150e42a3c0baa6957/python/sglang/srt/speculative/dflash_utils.py
+https://github.com/sgl-project/sglang/blob/27aedf7f93cc7ac3bff43e7150e42a3c0baa6957/python/sglang/srt/speculative/dflash_worker_v2.py
+https://github.com/sgl-project/sglang/blob/27aedf7f93cc7ac3bff43e7150e42a3c0baa6957/python/sglang/srt/layers/attention/attention_registry.py
+模型文件和 SHA 见 checkpoint_snapshot.json。

@@ -1,0 +1,4 @@
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 382.89it/s]
+Warmup mbpp batch_reference BS=4 arm=JetSpec
+JetSpec: 11748 tokens / 33.495s = 350.7 tok/s
+{"status": "success", "arguments": {"dataset": "mbpp", "engine": "batch_reference", "bs": 4, "tokens": 512, "samples": 32, "arm": "JetSpec", "trace": false, "budget": 128, "depth": 15, "output": "/home/qinghao/profile_spec/logs/overnight_20261103/batch_reference_mbpp_bs4_bench_JetSpec_t512.json"}}

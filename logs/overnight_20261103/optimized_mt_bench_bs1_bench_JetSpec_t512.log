@@ -1,0 +1,4 @@
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 423.85it/s]
+Warmup mt_bench optimized BS=1 arm=JetSpec
+JetSpec: 8633 tokens / 85.193s = 101.3 tok/s
+{"status": "success", "arguments": {"dataset": "mt_bench", "engine": "optimized", "bs": 1, "tokens": 512, "samples": 32, "arm": "JetSpec", "trace": false, "budget": 128, "depth": 15, "output": "/home/qinghao/profile_spec/logs/overnight_20261103/optimized_mt_bench_bs1_bench_JetSpec_t512.json"}}

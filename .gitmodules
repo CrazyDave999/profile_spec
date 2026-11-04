@@ -1,3 +1,9 @@
 [submodule "third_party/JetSpec"]
 	path = third_party/JetSpec
 	url = https://github.com/hao-ai-lab/JetSpec.git
+[submodule "third_party/DFlash"]
+	path = third_party/DFlash
+	url = https://github.com/z-lab/dflash.git
+[submodule "third_party/SGLang"]
+	path = third_party/SGLang
+	url = https://github.com/sgl-project/sglang.git

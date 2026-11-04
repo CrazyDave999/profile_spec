@@ -1,0 +1,24 @@
+[
+  {
+    "archive": "nsys_starter_native_bs1.zip",
+    "bytes": 13144668,
+    "MiB": 12.54,
+    "sha256": "7923becc93dbe86f5842dac972701a1bf6a5a0495d6795fc83222195d1fe275d",
+    "reports": [
+      "optimized_gsm8k_bs1_gpu_metrics_t256",
+      "optimized_mt_bench_bs1_gpu_metrics_t256"
+    ],
+    "crc_verified": true
+  },
+  {
+    "archive": "nsys_batch_scaling_bs1_bs16.zip",
+    "bytes": 67069770,
+    "MiB": 63.96,
+    "sha256": "398290177887c9390ee09321fe279d9dd2f5e697e8feb222a4d072ea946fa940",
+    "reports": [
+      "batch_reference_mt_bench_bs1_trace_both_t128",
+      "batch_reference_mt_bench_bs16_trace_both_t128"
+    ],
+    "crc_verified": true
+  }
+]

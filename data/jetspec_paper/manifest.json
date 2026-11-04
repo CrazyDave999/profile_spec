@@ -1,0 +1,96 @@
+{
+  "paper": "https://arxiv.org/html/2606.18394v2",
+  "selection": "first min(32, dataset size) records in upstream order; MT-Bench first turn; LCB release_v5 cumulative files",
+  "thinking": false,
+  "max_prompt_tokens": 2048,
+  "sources": [
+    {
+      "name": "gsm8k",
+      "repo": "openai/gsm8k",
+      "revision": "740312add88f781978c0658806c59bc2815b9866",
+      "files": [
+        "main/test-00000-of-00001.parquet"
+      ],
+      "available_rows": 1319,
+      "sampled_rows": 32,
+      "truncated_rows": 0,
+      "export_sha256": "175020ccba104470fd3f8e781b14d4cef168b9c02fad19942de7257b3b3eef8c"
+    },
+    {
+      "name": "math500",
+      "repo": "HuggingFaceH4/MATH-500",
+      "revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+      "files": [
+        "test.jsonl"
+      ],
+      "available_rows": 500,
+      "sampled_rows": 32,
+      "truncated_rows": 0,
+      "export_sha256": "0093cefded192b002164f2c8b99006349700311f7047dd252d362397f475187f"
+    },
+    {
+      "name": "aime25",
+      "repo": "yentinglin/aime_2025",
+      "revision": "6f71d77b0b89b9dabe07ab466c51df33f514df7f",
+      "files": [
+        "data/train-00000-of-00001-243207c6c994e1bd.parquet"
+      ],
+      "available_rows": 30,
+      "sampled_rows": 30,
+      "truncated_rows": 0,
+      "export_sha256": "6140909317a7529a10356955042025237d93b1081df02f56831283ec53dec94b"
+    },
+    {
+      "name": "humaneval",
+      "repo": "openai/openai_humaneval",
+      "revision": "7dce6050a7d6d172f3cc5c32aa97f52fa1a2e544",
+      "files": [
+        "openai_humaneval/test-00000-of-00001.parquet"
+      ],
+      "available_rows": 164,
+      "sampled_rows": 32,
+      "truncated_rows": 0,
+      "export_sha256": "3627361a007ad3bdb2545c8f6172f2a9828dc07d7e57c1b504af6c42ceb04539"
+    },
+    {
+      "name": "mbpp",
+      "repo": "google-research-datasets/mbpp",
+      "revision": "4bb6404fdc6cacfda99d4ac4205087b89d32030c",
+      "files": [
+        "full/test-00000-of-00001.parquet"
+      ],
+      "available_rows": 500,
+      "sampled_rows": 32,
+      "truncated_rows": 0,
+      "export_sha256": "8096d1b38db032e7f11b7d272f9eec247abfde4fd1c6f268d9b6103302bd36c8"
+    },
+    {
+      "name": "livecodebench",
+      "repo": "livecodebench/code_generation_lite",
+      "revision": "0fe84c3912ea0c4d4a78037083943e8f0c4dd505",
+      "files": [
+        "test.jsonl",
+        "test2.jsonl",
+        "test3.jsonl",
+        "test4.jsonl",
+        "test5.jsonl"
+      ],
+      "available_rows": 880,
+      "sampled_rows": 32,
+      "truncated_rows": 0,
+      "export_sha256": "be5cc635d6593ed52702a3775e9ad25912f24b8e39f6d1e7deca64cfed22c47b"
+    },
+    {
+      "name": "mt_bench",
+      "repo": "HuggingFaceH4/mt_bench_prompts",
+      "revision": "e3a795c5e9a82ee40611c416b8a7786c73198991",
+      "files": [
+        "data/train-00000-of-00001-67c6c9fef07685a3.parquet"
+      ],
+      "available_rows": 80,
+      "sampled_rows": 32,
+      "truncated_rows": 0,
+      "export_sha256": "7ba14329eec9153a224064f97e9b7b4ce6dac44950b90d86a0349a3927bc78b3"
+    }
+  ]
+}

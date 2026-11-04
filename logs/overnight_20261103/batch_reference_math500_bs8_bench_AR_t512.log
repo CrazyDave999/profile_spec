@@ -1,0 +1,4 @@
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 424.55it/s]
+Warmup math500 batch_reference BS=8 arm=AR
+AR: 13532 tokens / 51.004s = 265.3 tok/s
+{"status": "success", "arguments": {"dataset": "math500", "engine": "batch_reference", "bs": 8, "tokens": 512, "samples": 32, "arm": "AR", "trace": false, "budget": 128, "depth": 15, "output": "/home/qinghao/profile_spec/logs/overnight_20261103/batch_reference_math500_bs8_bench_AR_t512.json"}}

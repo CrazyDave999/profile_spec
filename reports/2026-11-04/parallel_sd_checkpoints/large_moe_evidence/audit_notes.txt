@@ -1,0 +1,24 @@
+2026-11-04 大模型 DFlash 证据核查。以下均为上游公开结果，未在本机复测。
+
+Qwen3.5-397B-A17B: Z-Lab / Modal / SGLang 联合发布 draft；8x B200，BF16，TP8，greedy/thinking，4096 max new tokens，连续 batching。共 70 配置、350 次原始运行，每配置 5 次；CSV 全部 successful_runs=5 / failed_runs=0。同一 concurrency 的 raw deployment.shared_config 只有一种，包含 CUDA graph、piecewise graph、linear backend 与 allreduce fusion 等设置。
+发布的脚本固定 SGLang ec36dde58083aca8f26c3740332498a11a06debf，镜像 v0.5.13-cu130，带 FlashInfer runtime patch；不等同于已证明当前所有版本都有同样性能。
+复算 AR 对照速度比，与聚合表一致。全表单配置吞吐标准差/均值最高约 1.66%。检查的是公开运行记录及内部一致性，并非独立硬件复现。没有在此核查准确率或逐 token 一致性。
+checked_speedups.csv 固定 C1 block16、C32 block8，便于不按每项最优 block 挑选结果。其他 block 见原始 full-sweep-r5.csv。
+
+1T 级 Kimi: z-lab/Kimi-K2.5-DFlash 公布接受长度和 C32 吞吐，但模型卡没有匹配 AR 吞吐表；不能由接受长度 3.7-5.5 直接推算 speedup。CoreWeave 披露 1T Kimi-K2.7-Code 的 NVFP4+DFlash 生产部署，第三方 API 输出速度也包括量化和整套系统优化，不是独立 DFlash ablation。
+NVIDIA gpt-oss-120b: TensorRT-LLM / 8 B300 / SPEED-Bench，同 user concurrency 平均 interactivity 提升 2.3x，编码 2.6x；15x 指同 500-600 tok/s/user interactivity 约束下 Pareto 吞吐提升，不是同 BS 的 15x cycle/token latency 改善。该模型是 MoE，但不是 1T 参数模型。
+
+hybrid feature: 对公开 target config 的 layer_types 和 draft config.target_layer_ids 逐项映射：
+Qwen3.5-4B: [1,5,9,13,17,21,25,29]，全部 linear_attention。
+Qwen3.5-397B-A17B: [1,9,17,25,33,41,49,57]，全部 linear_attention。
+这些是 target decoder block 的输出 hidden state，不是 GDN 的内部 recurrent state，也不是 target attention KV；block 输出已包含残差/FFN（397B 是 MoE FFN）。
+SGLang 将 target layer k 的输出采集映射到下一层 k+1 的入口，因此调试时不能把 capture hook 所在层误认为来源层。
+block 内的 GDN state 仍需要 verify/accept 后单独提交；没有被用作 draft 输入，不代表不需要保存/回滚它。
+
+来源：
+https://huggingface.co/lmsys/Qwen3.5-397B-A17B-DFlash
+https://huggingface.co/modal-labs/Qwen3.5-397B-A17B-DFlash/tree/main/benchmark
+https://huggingface.co/z-lab/Kimi-K2.5-DFlash
+https://www.coreweave.com/blog/kimi-k2-7-code-now-available-on-serverless-inference-with-leading-benchmark-price-performance
+https://developer.nvidia.com/blog/boost-inference-performance-up-to-15x-on-nvidia-blackwell-using-dflash-speculative-decoding
+Config 原文见 ../large_moe_hybrid_source_snapshot.json，layer 映射见 selected_target_layer_types.csv。

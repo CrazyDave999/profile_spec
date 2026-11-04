@@ -1,0 +1,4 @@
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 418.65it/s]
+Warmup math500 optimized BS=1 arm=JetSpec
+JetSpec: 9838 tokens / 60.462s = 162.7 tok/s
+{"status": "success", "arguments": {"dataset": "math500", "engine": "optimized", "bs": 1, "tokens": 1024, "samples": 16, "arm": "JetSpec", "trace": false, "budget": 128, "depth": 15, "output": "/home/qinghao/profile_spec/logs/overnight_20261103/optimized_math500_bs1_bench_JetSpec_t1024.json"}}

@@ -1,0 +1,17 @@
+method,kind,entry,description,source,related_prs,status
+EAGLE / EAGLE-2,独立算法,EAGLE,特征自回归 drafting + tree verify,python/sglang/srt/speculative/eagle_worker_v2.py,,present_in_local_main
+EAGLE-3,独立算法,EAGLE3,多层 target feature + 自回归 drafting,python/sglang/srt/speculative/eagle_worker_v2.py,,present_in_local_main
+MTP / NEXTN,模型内置预测头,EAGLE / NEXTN,NEXTN 是 EAGLE 别名；需要目标模型自带兼容 MTP 头,docs/docs/advanced_features/speculative_decoding.mdx,,present_in_local_main
+Frozen-KV MTP,独立算法,FROZEN_KV_MTP,复用/冻结上下文 KV 的 MTP 路径，支持范围依模型与后端,python/sglang/srt/speculative/frozen_kv_mtp_worker_v2.py,,present_in_local_main
+Standalone draft model,独立算法,STANDALONE,独立小语言模型逐步 draft，使用已有 verify 路径,python/sglang/srt/speculative/standalone_worker_v2.py,,present_in_local_main
+NGRAM,独立算法,NGRAM,不需要 learned draft head；从 token 历史等检索候选,python/sglang/srt/speculative/ngram_worker.py,,present_in_local_main
+DFlash,独立算法,DFLASH,一次 block draft，主线默认验证线性链,python/sglang/srt/speculative/dflash_worker_v2.py,"22077,23000",present_in_local_main
+DFlash2,DFLASH checkpoint 变体,DFLASH + 对应 checkpoint,分组卷积 + candidate selector；不是新的算法枚举,python/sglang/srt/models/dflash.py,35371,present_in_local_main
+Domino,DFLASH checkpoint 变体,DFLASH + Domino checkpoint,GRU logit correction / rollout；已有 TP>1 支持,python/sglang/srt/speculative/domino_utils.py,"36899,37069",present_in_local_main
+LiLiCorr,DFLASH checkpoint 变体,DFLASH + LiLiCorrDraftModel,候选 lattice 转移打分与路径重排，可折叠到 draft graph,python/sglang/srt/speculative/lilicorr_utils.py,37462,present_in_local_main
+DSpark,独立算法,DSPARK,置信度驱动的半自回归 drafting 与 verify 调度,python/sglang/srt/speculative/dspark_components/dspark_worker_v2.py,,present_in_local_main
+UNO,独立算法,UNO + --uno-lora-path,同一 target 的 LoRA diffusion 路径 draft、AR 路径 verify；可链/树,python/sglang/srt/speculative/uno_worker_v2.py,37667,present_in_local_main
+FR-Spec,可选优化,--speculative-token-map,缩小 drafter lm_head 词表子集，不是独立 worker,docs/docs/advanced_features/speculative_decoding.mdx,,present_in_local_main
+Adaptive Spec,可选策略,--speculative-adaptive,动态选择 steps / draft tokens；当前文档限制 EAGLE/EAGLE3 且 topk=1,docs/docs/advanced_features/adaptive_speculative_decoding.mdx,23336,present_in_local_main
+Spec V2,执行机制,V2 worker / overlap scheduler,调度与 CPU/GPU overlap 机制，不等于 draft/verify 跨轮并行,python/sglang/srt/speculative/spec_info.py,23000,present_in_local_main
+自定义算法 registry,扩展机制,SpeculativeAlgorithm.register,插件可在树外注册算法；不能仅靠枚举判断所有扩展,python/sglang/srt/speculative/spec_registry.py,23991,present_in_local_main

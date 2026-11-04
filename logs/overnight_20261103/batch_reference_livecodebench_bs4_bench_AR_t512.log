@@ -1,0 +1,4 @@
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 410.66it/s]
+Warmup livecodebench batch_reference BS=4 arm=AR
+AR: 15930 tokens / 93.525s = 170.3 tok/s
+{"status": "success", "arguments": {"dataset": "livecodebench", "engine": "batch_reference", "bs": 4, "tokens": 512, "samples": 32, "arm": "AR", "trace": false, "budget": 128, "depth": 15, "output": "/home/qinghao/profile_spec/logs/overnight_20261103/batch_reference_livecodebench_bs4_bench_AR_t512.json"}}
