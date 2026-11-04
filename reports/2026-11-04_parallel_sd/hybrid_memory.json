@@ -1,0 +1,135 @@
+{
+  "run_id": "hybrid03",
+  "campaign_status": "success",
+  "cases": [
+    {
+      "case": "hybrid03_00_ar_gsm8k_bs1",
+      "method": "ar",
+      "bs": 1,
+      "physical_peak_GiB": 11.3436279296875,
+      "runtime_mamba_slots_without_padding": 1,
+      "slots_with_padding": 2,
+      "base_SSM_state_GiB": 0.09375,
+      "intermediate_SSM_state_GiB": 0.0,
+      "target_KV_GiB": 1.0,
+      "draft_KV_GiB": 0,
+      "verify_width": 0,
+      "allocation_log_lines": [
+        "[2026-11-04 16:10:12] Mamba Cache is allocated. max_mamba_cache_size: 1, conv_state size: 0.00GB, ssm_state size: 0.09GB ",
+        "[2026-11-04 16:10:12] KV Cache is allocated. dtype: torch.bfloat16, #tokens: 32768, K size: 0.50 GB, V size: 0.50 GB"
+      ]
+    },
+    {
+      "case": "hybrid03_01_dflash_gsm8k_bs1",
+      "method": "dflash",
+      "bs": 1,
+      "physical_peak_GiB": 14.8475341796875,
+      "runtime_mamba_slots_without_padding": 1,
+      "slots_with_padding": 2,
+      "base_SSM_state_GiB": 0.09375,
+      "intermediate_SSM_state_GiB": 1.5,
+      "target_KV_GiB": 1.0,
+      "draft_KV_GiB": 0.75,
+      "verify_width": 16,
+      "allocation_log_lines": [
+        "[2026-11-04 16:10:56] Mamba Cache is allocated. max_mamba_cache_size: 1, conv_state size: 0.00GB, ssm_state size: 0.09GB intermediate_ssm_state_cache size: 1.50GB intermediate_conv_window_cache size: 0.01GB ",
+        "[2026-11-04 16:10:57] KV Cache is allocated. dtype: torch.bfloat16, #tokens: 32768, K size: 0.50 GB, V size: 0.50 GB",
+        "[2026-11-04 16:10:57] KV Cache is allocated. dtype: torch.bfloat16, #tokens: 32768, K size: 0.38 GB, V size: 0.38 GB"
+      ]
+    },
+    {
+      "case": "hybrid03_02_ar_gsm8k_bs1",
+      "method": "ar",
+      "bs": 1,
+      "physical_peak_GiB": 11.0936279296875,
+      "runtime_mamba_slots_without_padding": 1,
+      "slots_with_padding": 2,
+      "base_SSM_state_GiB": 0.09375,
+      "intermediate_SSM_state_GiB": 0.0,
+      "target_KV_GiB": 1.0,
+      "draft_KV_GiB": 0,
+      "verify_width": 0,
+      "allocation_log_lines": [
+        "[2026-11-04 16:11:23] Mamba Cache is allocated. max_mamba_cache_size: 1, conv_state size: 0.00GB, ssm_state size: 0.09GB ",
+        "[2026-11-04 16:11:24] KV Cache is allocated. dtype: torch.bfloat16, #tokens: 32768, K size: 0.50 GB, V size: 0.50 GB"
+      ]
+    },
+    {
+      "case": "hybrid03_03_ar_gsm8k_bs4",
+      "method": "ar",
+      "bs": 4,
+      "physical_peak_GiB": 11.2869873046875,
+      "runtime_mamba_slots_without_padding": 4,
+      "slots_with_padding": 5,
+      "base_SSM_state_GiB": 0.234375,
+      "intermediate_SSM_state_GiB": 0.0,
+      "target_KV_GiB": 1.0,
+      "draft_KV_GiB": 0,
+      "verify_width": 0,
+      "allocation_log_lines": [
+        "[2026-11-04 16:11:59] Mamba Cache is allocated. max_mamba_cache_size: 4, conv_state size: 0.01GB, ssm_state size: 0.23GB ",
+        "[2026-11-04 16:11:59] KV Cache is allocated. dtype: torch.bfloat16, #tokens: 32768, K size: 0.50 GB, V size: 0.50 GB"
+      ]
+    },
+    {
+      "case": "hybrid03_04_dflash_gsm8k_bs4",
+      "method": "dflash",
+      "bs": 4,
+      "physical_peak_GiB": 17.5272216796875,
+      "runtime_mamba_slots_without_padding": 4,
+      "slots_with_padding": 5,
+      "base_SSM_state_GiB": 0.234375,
+      "intermediate_SSM_state_GiB": 3.75,
+      "target_KV_GiB": 1.0,
+      "draft_KV_GiB": 0.75,
+      "verify_width": 16,
+      "allocation_log_lines": [
+        "[2026-11-04 16:12:24] Mamba Cache is allocated. max_mamba_cache_size: 4, conv_state size: 0.01GB, ssm_state size: 0.23GB intermediate_ssm_state_cache size: 3.75GB intermediate_conv_window_cache size: 0.03GB ",
+        "[2026-11-04 16:12:24] KV Cache is allocated. dtype: torch.bfloat16, #tokens: 32768, K size: 0.50 GB, V size: 0.50 GB",
+        "[2026-11-04 16:12:24] KV Cache is allocated. dtype: torch.bfloat16, #tokens: 32768, K size: 0.38 GB, V size: 0.38 GB"
+      ]
+    },
+    {
+      "case": "hybrid03_05_ar_gsm8k_bs4",
+      "method": "ar",
+      "bs": 4,
+      "physical_peak_GiB": 11.2869873046875,
+      "runtime_mamba_slots_without_padding": 4,
+      "slots_with_padding": 5,
+      "base_SSM_state_GiB": 0.234375,
+      "intermediate_SSM_state_GiB": 0.0,
+      "target_KV_GiB": 1.0,
+      "draft_KV_GiB": 0,
+      "verify_width": 0,
+      "allocation_log_lines": [
+        "[2026-11-04 16:12:47] Mamba Cache is allocated. max_mamba_cache_size: 4, conv_state size: 0.01GB, ssm_state size: 0.23GB ",
+        "[2026-11-04 16:12:47] KV Cache is allocated. dtype: torch.bfloat16, #tokens: 32768, K size: 0.50 GB, V size: 0.50 GB"
+      ]
+    }
+  ],
+  "target_linear_layers": 24,
+  "target_full_layers": 8,
+  "logical_SSM_state_bytes_per_request": 50331648,
+  "draft_layers": 6,
+  "target_layer_ids": [
+    1,
+    5,
+    9,
+    13,
+    17,
+    21,
+    25,
+    29
+  ],
+  "raw_hidden_tap_bytes_per_token": 40960,
+  "formula": "intermediate SSM = linear_layers * (spec_state_size+1) * verify_width * value_heads * value_dim * key_dim * sizeof(float32). Runtime max_mamba_cache_size matches spec_state_size in this cohort; allocation logs cross-check the result.",
+  "source_sha256": {
+    "third_party/SGLang/python/sglang/srt/mem_cache/memory_pool.py": "ea1e9bc0c261fe0b129a33c22d5a2ce9b872762b38647fb3d43bb2c7992e76ef",
+    "third_party/SGLang/python/sglang/srt/speculative/dflash_worker_v2.py": "090f8ced4b3659693919742aac23f4f195b6ff5bc4bf15c8a694e12219ebd8e0"
+  },
+  "limits": [
+    "Physical peaks are NVML samples; logical tensors do not explain allocator/context/graph/workspace exactly.",
+    "The extra slot is the current pool padding/layout, not an intrinsic 2x SD requirement.",
+    "ReplaySSM spec is disabled here. Upstream has an opt-in ring/replay path that skips this intermediate SSM buffer; no speedup/quality claim is made without testing it."
+  ]
+}

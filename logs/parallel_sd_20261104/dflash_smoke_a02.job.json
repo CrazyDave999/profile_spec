@@ -1,0 +1,25 @@
+{
+  "state": "failed",
+  "argv": [
+    "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+    "/home/qinghao/profile_spec/parallel_sd_worker.py",
+    "--method",
+    "dflash",
+    "--samples",
+    "2",
+    "--tokens",
+    "32",
+    "--repeats",
+    "1",
+    "--output",
+    "/home/qinghao/profile_spec/logs/parallel_sd_20261104/dflash_smoke_a02.json"
+  ],
+  "result": "/home/qinghao/profile_spec/logs/parallel_sd_20261104/dflash_smoke_a02.json",
+  "log": "/home/qinghao/profile_spec/logs/parallel_sd_20261104/dflash_smoke_a02.log",
+  "started_epoch": 1793804507.908713,
+  "pid": 3528610,
+  "process_start_time": 1793804507.71,
+  "exit_code": -9,
+  "ended_epoch": 1793804529.3378088,
+  "worker_status": "starting"
+}

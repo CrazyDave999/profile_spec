@@ -1,0 +1,29 @@
+{
+  "state": "success",
+  "argv": [
+    "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+    "/home/qinghao/profile_spec/parallel_sd_worker.py",
+    "--method",
+    "dflash2",
+    "--dataset",
+    "mt_bench",
+    "--bs",
+    "16",
+    "--samples",
+    "16",
+    "--tokens",
+    "128",
+    "--repeats",
+    "3",
+    "--output",
+    "/home/qinghao/profile_spec/logs/parallel_sd_20261104/full01_52_dflash2_mt_bench_bs16.json"
+  ],
+  "result": "/home/qinghao/profile_spec/logs/parallel_sd_20261104/full01_52_dflash2_mt_bench_bs16.json",
+  "log": "/home/qinghao/profile_spec/logs/parallel_sd_20261104/full01_52_dflash2_mt_bench_bs16.log",
+  "started_epoch": 1793807596.5361142,
+  "pid": 3561834,
+  "process_start_time": 1793807596.33,
+  "exit_code": 0,
+  "ended_epoch": 1793807619.9812706,
+  "worker_status": "success"
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "reference": "refine03_width8_01_dflash_gsm8k_bs1",
+    "per_method_exact_prompts": {
+      "dflash": 16,
+      "domino": 16,
+      "dspark": 16,
+      "dflash2": 16
+    },
+    "samples": 16
+  },
+  {
+    "reference": "refine03_width8_07_dflash_gsm8k_bs16",
+    "per_method_exact_prompts": {
+      "dflash": 16,
+      "domino": 16,
+      "dspark": 15,
+      "dflash2": 14
+    },
+    "samples": 16
+  },
+  {
+    "reference": "refine03_width8_13_dflash_mt_bench_bs1",
+    "per_method_exact_prompts": {
+      "dflash": 16,
+      "domino": 16,
+      "dspark": 16,
+      "dflash2": 16
+    },
+    "samples": 16
+  },
+  {
+    "reference": "refine03_width8_19_dflash_mt_bench_bs16",
+    "per_method_exact_prompts": {
+      "dflash": 16,
+      "domino": 16,
+      "dspark": 14,
+      "dflash2": 16
+    },
+    "samples": 16
+  }
+]

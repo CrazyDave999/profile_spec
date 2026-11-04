@@ -1,0 +1,56 @@
+{
+  "status": "starting",
+  "arguments": {
+    "method": "dflash",
+    "dataset": "gsm8k",
+    "bs": 1,
+    "samples": 2,
+    "tokens": 32,
+    "repeats": 1,
+    "block": null,
+    "attention": "fa4",
+    "eos": false,
+    "profile": false,
+    "output": "/home/qinghao/profile_spec/logs/parallel_sd_20261104/dflash_smoke_a01.json"
+  },
+  "engine_requested": {
+    "model_path": "/home/qinghao/models/Qwen3-8B",
+    "dtype": "bfloat16",
+    "tp_size": 1,
+    "attention_backend": "fa4",
+    "mem_fraction_static": 0.8,
+    "max_total_tokens": 32768,
+    "context_length": 4096,
+    "max_running_requests": 1,
+    "chunked_prefill_size": 1024,
+    "disable_radix_cache": true,
+    "cuda_graph_max_bs_decode": 16,
+    "cuda_graph_bs_decode": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "cuda_graph_backend_decode": "full",
+    "cuda_graph_backend_prefill": "disabled",
+    "random_seed": 42,
+    "log_level": "info",
+    "decode_log_interval": 50,
+    "enable_metrics": true,
+    "enable_layerwise_nvtx_marker": false,
+    "speculative_algorithm": "DFLASH",
+    "speculative_draft_model_path": "/home/qinghao/models/qwen3-8b-dflash",
+    "speculative_draft_attention_backend": "fa4"
+  },
+  "GPU_UUID": "GPU-eed4707e-7a00-58e0-4123-1ccbe4326b7a",
+  "sglang_revision": "27aedf7f93cc7ac3bff43e7150e42a3c0baa6957",
+  "prompt_file_sha256": "175020ccba104470fd3f8e781b14d4cef168b9c02fad19942de7257b3b3eef8c",
+  "selected_prompt_sha256": "b8bc98402ebf3d33a1a05fdbba67a7b9da379613aeceade723295f6e336f53b5",
+  "input_lengths": [
+    92,
+    53
+  ],
+  "protocol": "offline Engine; fixed input IDs; no prefix reuse; load/compile/warmup excluded; request wall throughput; profiling separate; fixed output unless --eos",
+  "results": []
+}

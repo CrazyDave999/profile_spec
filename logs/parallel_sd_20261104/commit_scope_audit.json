@@ -1,0 +1,18 @@
+{
+  "preserved_untracked_paths": [
+    "analyze_verify_components.py",
+    "logs/verify_components_analysis.log",
+    "reports/2026-11-05_verify_components.html",
+    "reports/2026-11-05_verify_components/breakdown.png",
+    "reports/2026-11-05_verify_components/breakdown.svg",
+    "reports/2026-11-05_verify_components/browser_validation.json",
+    "reports/2026-11-05_verify_components/components.csv",
+    "reports/2026-11-05_verify_components/evidence.json",
+    "reports/2026-11-05_verify_components/mobile_preview.png",
+    "reports/2026-11-05_verify_components/report_preview.png"
+  ],
+  "workspace_index_SHA256": "8018025f5ac2e6e4306bddb317f85e6103b0aee31c6558ce95044fdad5efb493",
+  "commit_index_SHA256": "b560610425910d6aa4039690e43fe64abe238f190d8d5090ac09e99691bb2b48",
+  "scope": "Concurrent 2026-11-05 component-analysis files and their workspace index link are preserved outside this local commit.",
+  "commit_index_links_verified": 11
+}

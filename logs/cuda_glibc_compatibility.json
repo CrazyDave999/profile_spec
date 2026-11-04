@@ -1,0 +1,7 @@
+{
+  "header": "/home/qinghao/profile_spec/.venv-sglang/lib/python3.12/site-packages/nvidia/cu13/include/crt/math_functions.h",
+  "before_sha256": "decdc28efcfaf0aaf806abc96d7bba9cb84b37c6e83cb82cda59b6aa59916ff8",
+  "after_sha256": "0effc5b18b4703fba87c95341910c9ba7162cdaa1e2229f14d90213aa347b14f",
+  "change": "rsqrt/rsqrtf declarations use __THROW when glibc provides the IEC60559 functions; no implementation changed",
+  "reference": "https://forums.developer.nvidia.com/t/cuda-headers-in-crt-math-functions-h-still-broken-in-debian-13-repo/362708"
+}

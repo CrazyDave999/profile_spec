@@ -1,0 +1,4646 @@
+[
+  {
+    "case": "full01_00_ar_gsm8k_bs1",
+    "baseline": "full01_00_ar_gsm8k_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_01_dflash_gsm8k_bs1",
+    "baseline": "full01_00_ar_gsm8k_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 101
+      },
+      {
+        "prompt": 1,
+        "equal": false,
+        "first_mismatch": 24
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 22
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 83
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 50
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 55
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": false,
+        "first_mismatch": 44
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 14
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 43
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": false,
+        "first_mismatch": 98
+      }
+    ]
+  },
+  {
+    "case": "full01_02_domino_gsm8k_bs1",
+    "baseline": "full01_00_ar_gsm8k_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 101
+      },
+      {
+        "prompt": 1,
+        "equal": false,
+        "first_mismatch": 24
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 22
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 83
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 50
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 55
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": false,
+        "first_mismatch": 44
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 14
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 43
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": false,
+        "first_mismatch": 98
+      }
+    ]
+  },
+  {
+    "case": "full01_03_dspark_gsm8k_bs1",
+    "baseline": "full01_00_ar_gsm8k_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 101
+      },
+      {
+        "prompt": 1,
+        "equal": false,
+        "first_mismatch": 24
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 22
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 83
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 50
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 55
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": false,
+        "first_mismatch": 44
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 14
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 43
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": false,
+        "first_mismatch": 98
+      }
+    ]
+  },
+  {
+    "case": "full01_04_dflash2_gsm8k_bs1",
+    "baseline": "full01_00_ar_gsm8k_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 101
+      },
+      {
+        "prompt": 1,
+        "equal": false,
+        "first_mismatch": 24
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 22
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 83
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 50
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 55
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": false,
+        "first_mismatch": 44
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 14
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 43
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": false,
+        "first_mismatch": 98
+      }
+    ]
+  },
+  {
+    "case": "full01_05_ar_gsm8k_bs1",
+    "baseline": "full01_00_ar_gsm8k_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_06_ar_gsm8k_bs4",
+    "baseline": "full01_06_ar_gsm8k_bs4",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_07_dflash_gsm8k_bs4",
+    "baseline": "full01_06_ar_gsm8k_bs4",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 8
+      },
+      {
+        "prompt": 1,
+        "equal": false,
+        "first_mismatch": 42
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": false,
+        "first_mismatch": 28
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 52
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 114
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 3
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 55
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 101
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 14
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": false,
+        "first_mismatch": 6
+      }
+    ]
+  },
+  {
+    "case": "full01_08_domino_gsm8k_bs4",
+    "baseline": "full01_06_ar_gsm8k_bs4",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 8
+      },
+      {
+        "prompt": 1,
+        "equal": false,
+        "first_mismatch": 42
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": false,
+        "first_mismatch": 28
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 52
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 114
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 3
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 55
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 101
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 14
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": false,
+        "first_mismatch": 6
+      }
+    ]
+  },
+  {
+    "case": "full01_09_dspark_gsm8k_bs4",
+    "baseline": "full01_06_ar_gsm8k_bs4",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 8
+      },
+      {
+        "prompt": 1,
+        "equal": false,
+        "first_mismatch": 42
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": false,
+        "first_mismatch": 28
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 52
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 114
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 3
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 55
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 101
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 14
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": false,
+        "first_mismatch": 6
+      }
+    ]
+  },
+  {
+    "case": "full01_10_dflash2_gsm8k_bs4",
+    "baseline": "full01_06_ar_gsm8k_bs4",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 8
+      },
+      {
+        "prompt": 1,
+        "equal": false,
+        "first_mismatch": 42
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": false,
+        "first_mismatch": 28
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 52
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 114
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 3
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 55
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 101
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 14
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": false,
+        "first_mismatch": 6
+      }
+    ]
+  },
+  {
+    "case": "full01_11_ar_gsm8k_bs4",
+    "baseline": "full01_06_ar_gsm8k_bs4",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_12_ar_gsm8k_bs16",
+    "baseline": "full01_12_ar_gsm8k_bs16",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_13_dflash_gsm8k_bs16",
+    "baseline": "full01_12_ar_gsm8k_bs16",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 8
+      },
+      {
+        "prompt": 1,
+        "equal": false,
+        "first_mismatch": 46
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 22
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 114
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 3
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 55
+      },
+      {
+        "prompt": 9,
+        "equal": false,
+        "first_mismatch": 92
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 14
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 32
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_14_domino_gsm8k_bs16",
+    "baseline": "full01_12_ar_gsm8k_bs16",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 8
+      },
+      {
+        "prompt": 1,
+        "equal": false,
+        "first_mismatch": 46
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 22
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 114
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 3
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 55
+      },
+      {
+        "prompt": 9,
+        "equal": false,
+        "first_mismatch": 92
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 14
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 32
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_15_dspark_gsm8k_bs16",
+    "baseline": "full01_12_ar_gsm8k_bs16",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 63
+      },
+      {
+        "prompt": 1,
+        "equal": false,
+        "first_mismatch": 3
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 52
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 50
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 3
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 55
+      },
+      {
+        "prompt": 9,
+        "equal": false,
+        "first_mismatch": 92
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 101
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 60
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 32
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_16_dflash2_gsm8k_bs16",
+    "baseline": "full01_12_ar_gsm8k_bs16",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 63
+      },
+      {
+        "prompt": 1,
+        "equal": false,
+        "first_mismatch": 3
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 52
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 50
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 3
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 55
+      },
+      {
+        "prompt": 9,
+        "equal": false,
+        "first_mismatch": 92
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 101
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 60
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 32
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_17_ar_gsm8k_bs16",
+    "baseline": "full01_12_ar_gsm8k_bs16",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_18_ar_humaneval_bs1",
+    "baseline": "full01_18_ar_humaneval_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_19_dflash_humaneval_bs1",
+    "baseline": "full01_18_ar_humaneval_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": false,
+        "first_mismatch": 38
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 115
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": false,
+        "first_mismatch": 73
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 16
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 8
+      },
+      {
+        "prompt": 14,
+        "equal": false,
+        "first_mismatch": 3
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_20_domino_humaneval_bs1",
+    "baseline": "full01_18_ar_humaneval_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": false,
+        "first_mismatch": 38
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 115
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": false,
+        "first_mismatch": 73
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 16
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 8
+      },
+      {
+        "prompt": 14,
+        "equal": false,
+        "first_mismatch": 3
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_21_dspark_humaneval_bs1",
+    "baseline": "full01_18_ar_humaneval_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": false,
+        "first_mismatch": 38
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 115
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": false,
+        "first_mismatch": 73
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 16
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 8
+      },
+      {
+        "prompt": 14,
+        "equal": false,
+        "first_mismatch": 3
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_22_dflash2_humaneval_bs1",
+    "baseline": "full01_18_ar_humaneval_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": false,
+        "first_mismatch": 38
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 115
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": false,
+        "first_mismatch": 73
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 16
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 8
+      },
+      {
+        "prompt": 14,
+        "equal": false,
+        "first_mismatch": 3
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_23_ar_humaneval_bs1",
+    "baseline": "full01_18_ar_humaneval_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_24_ar_humaneval_bs4",
+    "baseline": "full01_24_ar_humaneval_bs4",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_25_dflash_humaneval_bs4",
+    "baseline": "full01_24_ar_humaneval_bs4",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": false,
+        "first_mismatch": 26
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 3
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 20
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 115
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": false,
+        "first_mismatch": 91
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 8
+      },
+      {
+        "prompt": 14,
+        "equal": false,
+        "first_mismatch": 23
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_26_domino_humaneval_bs4",
+    "baseline": "full01_24_ar_humaneval_bs4",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": false,
+        "first_mismatch": 26
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 3
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 20
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": false,
+        "first_mismatch": 91
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 8
+      },
+      {
+        "prompt": 14,
+        "equal": false,
+        "first_mismatch": 23
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_27_dspark_humaneval_bs4",
+    "baseline": "full01_24_ar_humaneval_bs4",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": false,
+        "first_mismatch": 26
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 3
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 20
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": false,
+        "first_mismatch": 91
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 8
+      },
+      {
+        "prompt": 14,
+        "equal": false,
+        "first_mismatch": 23
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_28_dflash2_humaneval_bs4",
+    "baseline": "full01_24_ar_humaneval_bs4",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": false,
+        "first_mismatch": 26
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 3
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 20
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": false,
+        "first_mismatch": 91
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 8
+      },
+      {
+        "prompt": 14,
+        "equal": false,
+        "first_mismatch": 23
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_29_ar_humaneval_bs4",
+    "baseline": "full01_24_ar_humaneval_bs4",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_30_ar_humaneval_bs16",
+    "baseline": "full01_30_ar_humaneval_bs16",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_31_dflash_humaneval_bs16",
+    "baseline": "full01_30_ar_humaneval_bs16",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": false,
+        "first_mismatch": 38
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 115
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": false,
+        "first_mismatch": 20
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 8
+      },
+      {
+        "prompt": 14,
+        "equal": false,
+        "first_mismatch": 3
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_32_domino_humaneval_bs16",
+    "baseline": "full01_30_ar_humaneval_bs16",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": false,
+        "first_mismatch": 38
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 115
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": false,
+        "first_mismatch": 20
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 8
+      },
+      {
+        "prompt": 14,
+        "equal": false,
+        "first_mismatch": 3
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_33_dspark_humaneval_bs16",
+    "baseline": "full01_30_ar_humaneval_bs16",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": false,
+        "first_mismatch": 38
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 115
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": false,
+        "first_mismatch": 20
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": false,
+        "first_mismatch": 3
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_34_dflash2_humaneval_bs16",
+    "baseline": "full01_30_ar_humaneval_bs16",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": false,
+        "first_mismatch": 38
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 115
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": false,
+        "first_mismatch": 20
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": false,
+        "first_mismatch": 3
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_35_ar_humaneval_bs16",
+    "baseline": "full01_30_ar_humaneval_bs16",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_36_ar_mt_bench_bs1",
+    "baseline": "full01_36_ar_mt_bench_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_37_dflash_mt_bench_bs1",
+    "baseline": "full01_36_ar_mt_bench_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 74
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 97
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 2
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 33
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 50
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 24
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 74
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 98
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 17
+      },
+      {
+        "prompt": 14,
+        "equal": false,
+        "first_mismatch": 108
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_38_domino_mt_bench_bs1",
+    "baseline": "full01_36_ar_mt_bench_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 74
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 97
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 2
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 33
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 50
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 24
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 74
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 98
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 17
+      },
+      {
+        "prompt": 14,
+        "equal": false,
+        "first_mismatch": 108
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_39_dspark_mt_bench_bs1",
+    "baseline": "full01_36_ar_mt_bench_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 74
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 97
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 2
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 33
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 50
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 24
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 74
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 98
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 17
+      },
+      {
+        "prompt": 14,
+        "equal": false,
+        "first_mismatch": 108
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_40_dflash2_mt_bench_bs1",
+    "baseline": "full01_36_ar_mt_bench_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 74
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 97
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 2
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 33
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 50
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 24
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 74
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 98
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 17
+      },
+      {
+        "prompt": 14,
+        "equal": false,
+        "first_mismatch": 108
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_41_ar_mt_bench_bs1",
+    "baseline": "full01_36_ar_mt_bench_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_42_ar_mt_bench_bs4",
+    "baseline": "full01_42_ar_mt_bench_bs4",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_43_dflash_mt_bench_bs4",
+    "baseline": "full01_42_ar_mt_bench_bs4",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 22
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": false,
+        "first_mismatch": 60
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 21
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 40
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": false,
+        "first_mismatch": 74
+      },
+      {
+        "prompt": 10,
+        "equal": false,
+        "first_mismatch": 9
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 29
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 19
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": false,
+        "first_mismatch": 21
+      }
+    ]
+  },
+  {
+    "case": "full01_44_domino_mt_bench_bs4",
+    "baseline": "full01_42_ar_mt_bench_bs4",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 22
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": false,
+        "first_mismatch": 60
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 21
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 40
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": false,
+        "first_mismatch": 74
+      },
+      {
+        "prompt": 10,
+        "equal": false,
+        "first_mismatch": 9
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 29
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 19
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": false,
+        "first_mismatch": 21
+      }
+    ]
+  },
+  {
+    "case": "full01_45_dspark_mt_bench_bs4",
+    "baseline": "full01_42_ar_mt_bench_bs4",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 22
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": false,
+        "first_mismatch": 60
+      },
+      {
+        "prompt": 3,
+        "equal": false,
+        "first_mismatch": 105
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 21
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 40
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": false,
+        "first_mismatch": 74
+      },
+      {
+        "prompt": 10,
+        "equal": false,
+        "first_mismatch": 9
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 29
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 19
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": false,
+        "first_mismatch": 21
+      }
+    ]
+  },
+  {
+    "case": "full01_46_dflash2_mt_bench_bs4",
+    "baseline": "full01_42_ar_mt_bench_bs4",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 22
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": false,
+        "first_mismatch": 60
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 21
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 121
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 40
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": false,
+        "first_mismatch": 74
+      },
+      {
+        "prompt": 10,
+        "equal": false,
+        "first_mismatch": 9
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 29
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 19
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": false,
+        "first_mismatch": 21
+      }
+    ]
+  },
+  {
+    "case": "full01_47_ar_mt_bench_bs4",
+    "baseline": "full01_42_ar_mt_bench_bs4",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_48_ar_mt_bench_bs16",
+    "baseline": "full01_48_ar_mt_bench_bs16",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "full01_49_dflash_mt_bench_bs16",
+    "baseline": "full01_48_ar_mt_bench_bs16",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 74
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": false,
+        "first_mismatch": 119
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 21
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 2
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 69
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 54
+      },
+      {
+        "prompt": 9,
+        "equal": false,
+        "first_mismatch": 111
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 77
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 98
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 17
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": false,
+        "first_mismatch": 26
+      }
+    ]
+  },
+  {
+    "case": "full01_50_domino_mt_bench_bs16",
+    "baseline": "full01_48_ar_mt_bench_bs16",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 74
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": false,
+        "first_mismatch": 119
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 21
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 2
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 69
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 54
+      },
+      {
+        "prompt": 9,
+        "equal": false,
+        "first_mismatch": 111
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 77
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 98
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 17
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": false,
+        "first_mismatch": 26
+      }
+    ]
+  },
+  {
+    "case": "full01_51_dspark_mt_bench_bs16",
+    "baseline": "full01_48_ar_mt_bench_bs16",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 74
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": false,
+        "first_mismatch": 60
+      },
+      {
+        "prompt": 3,
+        "equal": false,
+        "first_mismatch": 105
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 34
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 2
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 33
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 54
+      },
+      {
+        "prompt": 9,
+        "equal": false,
+        "first_mismatch": 9
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 77
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 19
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 17
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": false,
+        "first_mismatch": 26
+      }
+    ]
+  },
+  {
+    "case": "full01_52_dflash2_mt_bench_bs16",
+    "baseline": "full01_48_ar_mt_bench_bs16",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 74
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": false,
+        "first_mismatch": 60
+      },
+      {
+        "prompt": 3,
+        "equal": false,
+        "first_mismatch": 105
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 34
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 2
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 33
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 124
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 54
+      },
+      {
+        "prompt": 9,
+        "equal": false,
+        "first_mismatch": 9
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 77
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 19
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 17
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": false,
+        "first_mismatch": 26
+      }
+    ]
+  },
+  {
+    "case": "full01_53_ar_mt_bench_bs16",
+    "baseline": "full01_48_ar_mt_bench_bs16",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  }
+]

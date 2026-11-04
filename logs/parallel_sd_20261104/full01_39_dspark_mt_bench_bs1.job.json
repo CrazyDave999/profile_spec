@@ -1,0 +1,29 @@
+{
+  "state": "success",
+  "argv": [
+    "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+    "/home/qinghao/profile_spec/parallel_sd_worker.py",
+    "--method",
+    "dspark",
+    "--dataset",
+    "mt_bench",
+    "--bs",
+    "1",
+    "--samples",
+    "16",
+    "--tokens",
+    "128",
+    "--repeats",
+    "3",
+    "--output",
+    "/home/qinghao/profile_spec/logs/parallel_sd_20261104/full01_39_dspark_mt_bench_bs1.json"
+  ],
+  "result": "/home/qinghao/profile_spec/logs/parallel_sd_20261104/full01_39_dspark_mt_bench_bs1.json",
+  "log": "/home/qinghao/profile_spec/logs/parallel_sd_20261104/full01_39_dspark_mt_bench_bs1.log",
+  "started_epoch": 1793807140.6252046,
+  "pid": 3553887,
+  "process_start_time": 1793807140.42,
+  "exit_code": 0,
+  "ended_epoch": 1793807187.9819438,
+  "worker_status": "success"
+}

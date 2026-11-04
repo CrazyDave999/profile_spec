@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/home/qinghao/profile_spec/parallel_sd_worker.py", line 186, in <module>
+    main()
+  File "/home/qinghao/profile_spec/parallel_sd_worker.py", line 133, in main
+    "selected_prompt_sha256": hashlib.sha256(json.dumps(inputs).encode()).hexdigest(),
+                                             ^^^^^^^^^^^^^^^^^^
+  File "/home/qinghao/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/qinghao/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/qinghao/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "/home/qinghao/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type BatchEncoding is not JSON serializable

@@ -1,0 +1,146 @@
+{
+  "status": "success",
+  "stage": "pilot",
+  "run_id": "pilot01",
+  "commands": [
+    {
+      "name": "pilot01_00_ar_gsm8k_bs1",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_parallel_sd_cell.py",
+        "--name",
+        "pilot01_00_ar_gsm8k_bs1",
+        "--",
+        "--method",
+        "ar",
+        "--dataset",
+        "gsm8k",
+        "--bs",
+        "1",
+        "--samples",
+        "8",
+        "--tokens",
+        "128",
+        "--repeats",
+        "2"
+      ]
+    },
+    {
+      "name": "pilot01_01_dflash_gsm8k_bs1",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_parallel_sd_cell.py",
+        "--name",
+        "pilot01_01_dflash_gsm8k_bs1",
+        "--",
+        "--method",
+        "dflash",
+        "--dataset",
+        "gsm8k",
+        "--bs",
+        "1",
+        "--samples",
+        "8",
+        "--tokens",
+        "128",
+        "--repeats",
+        "2"
+      ]
+    },
+    {
+      "name": "pilot01_02_domino_gsm8k_bs1",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_parallel_sd_cell.py",
+        "--name",
+        "pilot01_02_domino_gsm8k_bs1",
+        "--",
+        "--method",
+        "domino",
+        "--dataset",
+        "gsm8k",
+        "--bs",
+        "1",
+        "--samples",
+        "8",
+        "--tokens",
+        "128",
+        "--repeats",
+        "2"
+      ]
+    },
+    {
+      "name": "pilot01_03_dspark_gsm8k_bs1",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_parallel_sd_cell.py",
+        "--name",
+        "pilot01_03_dspark_gsm8k_bs1",
+        "--",
+        "--method",
+        "dspark",
+        "--dataset",
+        "gsm8k",
+        "--bs",
+        "1",
+        "--samples",
+        "8",
+        "--tokens",
+        "128",
+        "--repeats",
+        "2"
+      ]
+    },
+    {
+      "name": "pilot01_04_dflash2_gsm8k_bs1",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_parallel_sd_cell.py",
+        "--name",
+        "pilot01_04_dflash2_gsm8k_bs1",
+        "--",
+        "--method",
+        "dflash2",
+        "--dataset",
+        "gsm8k",
+        "--bs",
+        "1",
+        "--samples",
+        "8",
+        "--tokens",
+        "128",
+        "--repeats",
+        "2"
+      ]
+    },
+    {
+      "name": "pilot01_05_ar_gsm8k_bs1",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_parallel_sd_cell.py",
+        "--name",
+        "pilot01_05_ar_gsm8k_bs1",
+        "--",
+        "--method",
+        "ar",
+        "--dataset",
+        "gsm8k",
+        "--bs",
+        "1",
+        "--samples",
+        "8",
+        "--tokens",
+        "128",
+        "--repeats",
+        "2"
+      ]
+    }
+  ],
+  "supervisor_pid": 3533075,
+  "supervisor_start_time": 1793805213.99,
+  "worker_sha256": "b50696430dd0cacb0eaea9e700dcba61e4aaeca0f35b3fbd9310f59460dfecb3",
+  "started_epoch": 1793805214.2317996,
+  "current_index": 5,
+  "current_cell": "pilot01_05_ar_gsm8k_bs1",
+  "ended_epoch": 1793805391.88961
+}

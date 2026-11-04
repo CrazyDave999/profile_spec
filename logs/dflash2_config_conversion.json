@@ -1,0 +1,328 @@
+{
+  "source_revision": "e1c737a13c34ba1e1f0f739e02af0bf082fe8080",
+  "source_config_sha256": "e32d63fa6d37d4bd5262e0230ebbecc1acedde7b481ac8aaad449826e91a4eb6",
+  "target_layer_ids": [
+    1,
+    9,
+    17,
+    25,
+    33
+  ],
+  "weights_unchanged_symlink": true,
+  "tensor_shapes": {
+    "candidate_selector.hidden_projection.weight": [
+      256,
+      4096
+    ],
+    "candidate_selector.predecessor_codebook": [
+      151936,
+      256
+    ],
+    "candidate_selector.successor_codebook": [
+      151936,
+      256
+    ],
+    "fc.weight": [
+      4096,
+      20480
+    ],
+    "hidden_norm.weight": [
+      4096
+    ],
+    "layers.0.attention_conv.base_kernel": [
+      2,
+      2,
+      4096
+    ],
+    "layers.0.attention_conv.kernel_projection.weight": [
+      1024,
+      4096
+    ],
+    "layers.0.input_layernorm.weight": [
+      4096
+    ],
+    "layers.0.mlp.down_proj.weight": [
+      4096,
+      12288
+    ],
+    "layers.0.mlp.gate_proj.weight": [
+      12288,
+      4096
+    ],
+    "layers.0.mlp.up_proj.weight": [
+      12288,
+      4096
+    ],
+    "layers.0.mlp_conv.base_kernel": [
+      2,
+      2,
+      4096
+    ],
+    "layers.0.mlp_conv.kernel_projection.weight": [
+      1024,
+      4096
+    ],
+    "layers.0.post_attention_layernorm.weight": [
+      4096
+    ],
+    "layers.0.self_attn.k_norm.weight": [
+      128
+    ],
+    "layers.0.self_attn.k_proj.weight": [
+      1024,
+      4096
+    ],
+    "layers.0.self_attn.o_proj.weight": [
+      4096,
+      4096
+    ],
+    "layers.0.self_attn.q_norm.weight": [
+      128
+    ],
+    "layers.0.self_attn.q_proj.weight": [
+      4096,
+      4096
+    ],
+    "layers.0.self_attn.v_proj.weight": [
+      1024,
+      4096
+    ],
+    "layers.1.attention_conv.base_kernel": [
+      2,
+      2,
+      4096
+    ],
+    "layers.1.attention_conv.kernel_projection.weight": [
+      1024,
+      4096
+    ],
+    "layers.1.input_layernorm.weight": [
+      4096
+    ],
+    "layers.1.mlp.down_proj.weight": [
+      4096,
+      12288
+    ],
+    "layers.1.mlp.gate_proj.weight": [
+      12288,
+      4096
+    ],
+    "layers.1.mlp.up_proj.weight": [
+      12288,
+      4096
+    ],
+    "layers.1.mlp_conv.base_kernel": [
+      2,
+      2,
+      4096
+    ],
+    "layers.1.mlp_conv.kernel_projection.weight": [
+      1024,
+      4096
+    ],
+    "layers.1.post_attention_layernorm.weight": [
+      4096
+    ],
+    "layers.1.self_attn.k_norm.weight": [
+      128
+    ],
+    "layers.1.self_attn.k_proj.weight": [
+      1024,
+      4096
+    ],
+    "layers.1.self_attn.o_proj.weight": [
+      4096,
+      4096
+    ],
+    "layers.1.self_attn.q_norm.weight": [
+      128
+    ],
+    "layers.1.self_attn.q_proj.weight": [
+      4096,
+      4096
+    ],
+    "layers.1.self_attn.v_proj.weight": [
+      1024,
+      4096
+    ],
+    "layers.2.attention_conv.base_kernel": [
+      2,
+      2,
+      4096
+    ],
+    "layers.2.attention_conv.kernel_projection.weight": [
+      1024,
+      4096
+    ],
+    "layers.2.input_layernorm.weight": [
+      4096
+    ],
+    "layers.2.mlp.down_proj.weight": [
+      4096,
+      12288
+    ],
+    "layers.2.mlp.gate_proj.weight": [
+      12288,
+      4096
+    ],
+    "layers.2.mlp.up_proj.weight": [
+      12288,
+      4096
+    ],
+    "layers.2.mlp_conv.base_kernel": [
+      2,
+      2,
+      4096
+    ],
+    "layers.2.mlp_conv.kernel_projection.weight": [
+      1024,
+      4096
+    ],
+    "layers.2.post_attention_layernorm.weight": [
+      4096
+    ],
+    "layers.2.self_attn.k_norm.weight": [
+      128
+    ],
+    "layers.2.self_attn.k_proj.weight": [
+      1024,
+      4096
+    ],
+    "layers.2.self_attn.o_proj.weight": [
+      4096,
+      4096
+    ],
+    "layers.2.self_attn.q_norm.weight": [
+      128
+    ],
+    "layers.2.self_attn.q_proj.weight": [
+      4096,
+      4096
+    ],
+    "layers.2.self_attn.v_proj.weight": [
+      1024,
+      4096
+    ],
+    "layers.3.attention_conv.base_kernel": [
+      2,
+      2,
+      4096
+    ],
+    "layers.3.attention_conv.kernel_projection.weight": [
+      1024,
+      4096
+    ],
+    "layers.3.input_layernorm.weight": [
+      4096
+    ],
+    "layers.3.mlp.down_proj.weight": [
+      4096,
+      12288
+    ],
+    "layers.3.mlp.gate_proj.weight": [
+      12288,
+      4096
+    ],
+    "layers.3.mlp.up_proj.weight": [
+      12288,
+      4096
+    ],
+    "layers.3.mlp_conv.base_kernel": [
+      2,
+      2,
+      4096
+    ],
+    "layers.3.mlp_conv.kernel_projection.weight": [
+      1024,
+      4096
+    ],
+    "layers.3.post_attention_layernorm.weight": [
+      4096
+    ],
+    "layers.3.self_attn.k_norm.weight": [
+      128
+    ],
+    "layers.3.self_attn.k_proj.weight": [
+      1024,
+      4096
+    ],
+    "layers.3.self_attn.o_proj.weight": [
+      4096,
+      4096
+    ],
+    "layers.3.self_attn.q_norm.weight": [
+      128
+    ],
+    "layers.3.self_attn.q_proj.weight": [
+      4096,
+      4096
+    ],
+    "layers.3.self_attn.v_proj.weight": [
+      1024,
+      4096
+    ],
+    "layers.4.attention_conv.base_kernel": [
+      2,
+      2,
+      4096
+    ],
+    "layers.4.attention_conv.kernel_projection.weight": [
+      1024,
+      4096
+    ],
+    "layers.4.input_layernorm.weight": [
+      4096
+    ],
+    "layers.4.mlp.down_proj.weight": [
+      4096,
+      12288
+    ],
+    "layers.4.mlp.gate_proj.weight": [
+      12288,
+      4096
+    ],
+    "layers.4.mlp.up_proj.weight": [
+      12288,
+      4096
+    ],
+    "layers.4.mlp_conv.base_kernel": [
+      2,
+      2,
+      4096
+    ],
+    "layers.4.mlp_conv.kernel_projection.weight": [
+      1024,
+      4096
+    ],
+    "layers.4.post_attention_layernorm.weight": [
+      4096
+    ],
+    "layers.4.self_attn.k_norm.weight": [
+      128
+    ],
+    "layers.4.self_attn.k_proj.weight": [
+      1024,
+      4096
+    ],
+    "layers.4.self_attn.o_proj.weight": [
+      4096,
+      4096
+    ],
+    "layers.4.self_attn.q_norm.weight": [
+      128
+    ],
+    "layers.4.self_attn.q_proj.weight": [
+      4096,
+      4096
+    ],
+    "layers.4.self_attn.v_proj.weight": [
+      1024,
+      4096
+    ],
+    "norm.weight": [
+      4096
+    ]
+  },
+  "indexing_reference": "https://github.com/vllm-project/speculators/blob/b964834c3fb3e1f202f93302204dea4c8cf8cc2d/src/speculators/convert/dflash/converter.py#L117",
+  "limitations": "Only this pinned Qwen3-8B all-sliding-window checkpoint. Full runtime and output validation remain separate from config/header checks."
+}

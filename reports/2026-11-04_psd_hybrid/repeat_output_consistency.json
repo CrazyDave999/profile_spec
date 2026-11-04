@@ -1,0 +1,56 @@
+[
+  {
+    "case": "hybrid03_00_ar_gsm8k_bs1",
+    "samples": 8,
+    "repeat_exact_prompts_vs_repeat0": [
+      8,
+      8,
+      8
+    ]
+  },
+  {
+    "case": "hybrid03_01_dflash_gsm8k_bs1",
+    "samples": 8,
+    "repeat_exact_prompts_vs_repeat0": [
+      8,
+      8,
+      8
+    ]
+  },
+  {
+    "case": "hybrid03_02_ar_gsm8k_bs1",
+    "samples": 8,
+    "repeat_exact_prompts_vs_repeat0": [
+      8,
+      8,
+      8
+    ]
+  },
+  {
+    "case": "hybrid03_03_ar_gsm8k_bs4",
+    "samples": 8,
+    "repeat_exact_prompts_vs_repeat0": [
+      8,
+      8,
+      8
+    ]
+  },
+  {
+    "case": "hybrid03_04_dflash_gsm8k_bs4",
+    "samples": 8,
+    "repeat_exact_prompts_vs_repeat0": [
+      8,
+      8,
+      8
+    ]
+  },
+  {
+    "case": "hybrid03_05_ar_gsm8k_bs4",
+    "samples": 8,
+    "repeat_exact_prompts_vs_repeat0": [
+      8,
+      8,
+      8
+    ]
+  }
+]

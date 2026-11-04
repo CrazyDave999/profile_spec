@@ -1,0 +1,649 @@
+{
+  "status": "failed",
+  "arguments": {
+    "method": "ar",
+    "dataset": "gsm8k",
+    "bs": 1,
+    "samples": 2,
+    "tokens": 32,
+    "repeats": 1,
+    "block": null,
+    "attention": "fa4",
+    "eos": false,
+    "profile": false,
+    "output": "logs/parallel_sd_20261104/ar_smoke.json"
+  },
+  "engine_requested": {
+    "model_path": "/home/qinghao/models/Qwen3-8B",
+    "dtype": "bfloat16",
+    "tp_size": 1,
+    "attention_backend": "fa4",
+    "mem_fraction_static": 0.8,
+    "max_total_tokens": 32768,
+    "context_length": 4096,
+    "max_running_requests": 1,
+    "chunked_prefill_size": 1024,
+    "disable_radix_cache": true,
+    "cuda_graph_max_bs_decode": 16,
+    "cuda_graph_bs_decode": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "cuda_graph_backend_decode": "full",
+    "cuda_graph_backend_prefill": "disabled",
+    "random_seed": 42,
+    "log_level": "info",
+    "decode_log_interval": 50,
+    "enable_metrics": true,
+    "enable_layerwise_nvtx_marker": false
+  },
+  "GPU_UUID": "GPU-eed4707e-7a00-58e0-4123-1ccbe4326b7a",
+  "sglang_revision": "27aedf7f93cc7ac3bff43e7150e42a3c0baa6957",
+  "prompt_file_sha256": "175020ccba104470fd3f8e781b14d4cef168b9c02fad19942de7257b3b3eef8c",
+  "selected_prompt_sha256": "b8bc98402ebf3d33a1a05fdbba67a7b9da379613aeceade723295f6e336f53b5",
+  "input_lengths": [
+    92,
+    53
+  ],
+  "protocol": "offline Engine; fixed input IDs; no prefix reuse; load/compile/warmup excluded; request wall throughput; profiling separate; fixed output unless --eos",
+  "results": [],
+  "error": "Traceback (most recent call last):\n  File \"/home/qinghao/profile_spec/parallel_sd_worker.py\", line 102, in main\n    engine = sglang.Engine(**engine_args)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/qinghao/profile_spec/third_party/SGLang/python/sglang/utils.py\", line 383, in __call__\n    module = self._load()\n             ^^^^^^^^^^^^\n  File \"/home/qinghao/profile_spec/third_party/SGLang/python/sglang/utils.py\", line 374, in _load\n    module = importlib.import_module(self.module_name)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/qinghao/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/importlib/__init__.py\", line 90, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap>\", line 1387, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 1360, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 1331, in _find_and_load_unlocked\n  File \"<frozen importlib._bootstrap>\", line 935, in _load_unlocked\n  File \"<frozen importlib._bootstrap_external>\", line 999, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\n  File \"/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/entrypoints/engine.py\", line 59, in <module>\n    from sglang.srt.elastic_ep.expert_backup_manager import run_expert_backup_manager\n  File \"/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/elastic_ep/expert_backup_manager.py\", line 18, in <module>\n    from sglang.srt.model_loader.loader import DefaultModelLoader, get_model_loader\n  File \"/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/model_loader/__init__.py\", line 11, in <module>\n    from sglang.srt.model_loader.loader import BaseModelLoader, get_model_loader\n  File \"/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/model_loader/loader.py\", line 89, in <module>\n    from sglang.srt.layers.layer_boundary.stage import check_stage_producers\n  File \"/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/layer_boundary/__init__.py\", line 16, in <module>\n    from sglang.srt.layers.layer_boundary.adapters.attention import (\n  File \"/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/layer_boundary/adapters/attention.py\", line 27, in <module>\n    from sglang.srt.layers.layer_boundary.layout import (\n  File \"/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/layer_boundary/layout.py\", line 27, in <module>\n    from sglang.srt.layers.cp.utils import is_mla_cp_active, is_mla_cp_enabled\n  File \"/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/cp/__init__.py\", line 33, in <module>\n    from sglang.srt.layers.cp.zigzag import (\n  File \"/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/cp/zigzag.py\", line 54, in <module>\n    from sglang.srt.mem_cache.memory_pool import KVWriteLoc\n  File \"/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/mem_cache/memory_pool.py\", line 70, in <module>\n    from sglang.srt.layers.quantization.fp4_kv_cache_quant_method import (\n  File \"/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/quantization/__init__.py\", line 9, in <module>\n    from sglang.srt.layers.quantization.awq import (\n  File \"/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/quantization/awq/__init__.py\", line 8, in <module>\n    from .awq import (\n  File \"/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/quantization/awq/awq.py\", line 10, in <module>\n    from sglang.srt.layers.linear import LinearBase\n  File \"/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/linear.py\", line 33, in <module>\n    from sglang.srt.layers.moe.utils import should_skip_mlp_all_reduce\n  File \"/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/moe/__init__.py\", line 1, in <module>\n    from sglang.srt.layers.moe.moe_runner import MoeRunner, MoeRunnerConfig\n  File \"/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/moe/moe_runner/__init__.py\", line 2, in <module>\n    from sglang.srt.layers.moe.moe_runner.runner import MoeRunner, register_moe_runner_core\n  File \"/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/moe/moe_runner/runner.py\", line 14, in <module>\n    from sglang.srt.layers.moe.moe_runner.deep_gemm import DeepGemmRunnerCore\n  File \"/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/moe/moe_runner/deep_gemm.py\", line 22, in <module>\n    from sglang.srt.layers import deep_gemm_wrapper\n  File \"/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/deep_gemm_wrapper/__init__.py\", line 1, in <module>\n    from .entrypoint import *\n  File \"/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/deep_gemm_wrapper/entrypoint.py\", line 8, in <module>\n    from sglang.srt.layers.deep_gemm_wrapper import compile_utils\n  File \"/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/deep_gemm_wrapper/compile_utils.py\", line 20, in <module>\n    from sglang.srt.layers.deep_gemm_wrapper.configurer import (\n  File \"/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/deep_gemm_wrapper/configurer.py\", line 55, in <module>\n    ENABLE_JIT_DEEPGEMM = _compute_enable_deep_gemm()\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/deep_gemm_wrapper/configurer.py\", line 44, in _compute_enable_deep_gemm\n    if sm_version in (120, 121) and not _sm120_deep_gemm_apis_available():\n                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/deep_gemm_wrapper/configurer.py\", line 19, in _sm120_deep_gemm_apis_available\n    import deep_gemm\n  File \"/home/qinghao/profile_spec/.venv-sglang/lib/python3.12/site-packages/deep_gemm/__init__.py\", line 521, in <module>\n    find_cuda_home()\n  File \"/home/qinghao/profile_spec/.venv-sglang/lib/python3.12/site-packages/deep_gemm/cuda_helpers.py\", line 20, in find_cuda_home\n    assert cuda_home is not None\n           ^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+  "physical_device_peak_used_bytes": 557842432,
+  "device_memory_samples": [
+    {
+      "monotonic": 454427.513727018,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454427.569155467,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454427.719755241,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454427.770261837,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454427.821439182,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454427.882387723,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454427.93254963,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454427.982695934,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454428.098037377,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454428.163449492,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454428.215650947,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454428.267229285,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454428.32703669,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454428.384052065,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454428.435506687,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454428.485647132,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454428.53578291,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454428.585913791,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454428.636476591,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454428.686872962,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454428.737094389,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454428.857895683,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454428.908038061,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454428.958229263,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454429.008551331,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454429.065545965,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454429.115705359,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454429.167084898,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454429.245417076,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454429.29572331,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454429.34592658,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454429.396166655,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454429.447189006,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454429.497797055,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454429.548322239,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454429.598658138,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454429.648886946,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454429.701323695,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454429.751441997,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454429.801569803,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454429.851894295,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454429.902526059,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454429.958496222,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454430.008913303,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454430.062074722,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454430.112614228,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454430.169052075,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454430.219237918,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454430.270603356,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454430.369051329,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454430.421016058,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454430.471452368,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454430.526695308,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454430.581288671,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454430.633357386,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454430.687827734,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454430.739764861,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454430.791195717,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454430.841528702,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454430.892262259,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454430.946458865,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454430.999959715,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454431.050590287,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454431.10098206,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454431.157923635,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454431.212903889,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454431.268702164,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454431.319317353,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454431.37507029,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454431.428220112,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454431.479376555,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454431.539980107,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454431.597143616,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454431.651323647,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454431.70282598,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454431.759119661,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454431.927742553,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454431.978628239,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454432.028817036,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454432.084756554,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454432.144674735,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454432.19661681,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454432.249273761,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454432.299445223,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454432.351976874,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454432.402655979,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454432.456832145,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454432.508259986,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454432.562432786,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454432.612593933,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454432.663061359,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454432.713485591,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454432.76422016,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454432.814333054,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454432.865912453,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454432.918236222,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454432.969343272,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454433.019524558,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454433.07429721,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454433.124436073,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454433.178607331,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454433.233420624,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454433.385980597,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454433.43740339,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454433.487846391,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454433.54302895,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454433.594603051,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454433.644874053,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454433.695416162,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454433.745559541,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454433.801800392,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454433.852279857,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454433.903233345,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454433.954143318,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454434.021875823,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454434.170073934,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454434.223553021,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454434.338957018,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454434.392924058,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454434.445577693,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454434.499129299,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454434.564297647,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454434.793506375,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454434.844928578,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454434.895189144,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454434.94657996,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454434.99672391,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454435.063904315,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454435.13053952,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454435.180881648,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454435.232306555,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454435.293305602,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454435.3467518,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454435.405914034,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454435.456089742,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454435.5109985,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454435.563346605,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454435.616907014,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454435.667145197,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454435.718710675,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454435.769616842,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454435.820784322,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454435.87260261,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454435.932269765,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454435.996507754,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454436.047097585,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454436.098764996,
+      "used_bytes": 557842432
+    },
+    {
+      "monotonic": 454436.149063129,
+      "used_bytes": 557842432
+    }
+  ]
+}

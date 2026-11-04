@@ -1,0 +1,29 @@
+{
+  "state": "success",
+  "argv": [
+    "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+    "/home/qinghao/profile_spec/parallel_sd_worker.py",
+    "--method",
+    "ar",
+    "--dataset",
+    "humaneval",
+    "--bs",
+    "1",
+    "--samples",
+    "16",
+    "--tokens",
+    "128",
+    "--repeats",
+    "3",
+    "--output",
+    "/home/qinghao/profile_spec/logs/parallel_sd_20261104/full01_23_ar_humaneval_bs1.json"
+  ],
+  "result": "/home/qinghao/profile_spec/logs/parallel_sd_20261104/full01_23_ar_humaneval_bs1.json",
+  "log": "/home/qinghao/profile_spec/logs/parallel_sd_20261104/full01_23_ar_humaneval_bs1.log",
+  "started_epoch": 1793806579.5868142,
+  "pid": 3546442,
+  "process_start_time": 1793806579.39,
+  "exit_code": 0,
+  "ended_epoch": 1793806658.4583995,
+  "worker_status": "success"
+}

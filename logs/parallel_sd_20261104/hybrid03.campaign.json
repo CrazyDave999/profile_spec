@@ -1,0 +1,163 @@
+{
+  "status": "success",
+  "stage": "hybrid",
+  "run_id": "hybrid03",
+  "commands": [
+    {
+      "name": "hybrid03_00_ar_gsm8k_bs1",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_parallel_sd_cell.py",
+        "--name",
+        "hybrid03_00_ar_gsm8k_bs1",
+        "--",
+        "--method",
+        "ar",
+        "--dataset",
+        "gsm8k",
+        "--bs",
+        "1",
+        "--samples",
+        "8",
+        "--tokens",
+        "128",
+        "--repeats",
+        "3",
+        "--target",
+        "qwen3.5-4b"
+      ]
+    },
+    {
+      "name": "hybrid03_01_dflash_gsm8k_bs1",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_parallel_sd_cell.py",
+        "--name",
+        "hybrid03_01_dflash_gsm8k_bs1",
+        "--",
+        "--method",
+        "dflash",
+        "--dataset",
+        "gsm8k",
+        "--bs",
+        "1",
+        "--samples",
+        "8",
+        "--tokens",
+        "128",
+        "--repeats",
+        "3",
+        "--target",
+        "qwen3.5-4b"
+      ]
+    },
+    {
+      "name": "hybrid03_02_ar_gsm8k_bs1",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_parallel_sd_cell.py",
+        "--name",
+        "hybrid03_02_ar_gsm8k_bs1",
+        "--",
+        "--method",
+        "ar",
+        "--dataset",
+        "gsm8k",
+        "--bs",
+        "1",
+        "--samples",
+        "8",
+        "--tokens",
+        "128",
+        "--repeats",
+        "3",
+        "--target",
+        "qwen3.5-4b"
+      ]
+    },
+    {
+      "name": "hybrid03_03_ar_gsm8k_bs4",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_parallel_sd_cell.py",
+        "--name",
+        "hybrid03_03_ar_gsm8k_bs4",
+        "--",
+        "--method",
+        "ar",
+        "--dataset",
+        "gsm8k",
+        "--bs",
+        "4",
+        "--samples",
+        "8",
+        "--tokens",
+        "128",
+        "--repeats",
+        "3",
+        "--target",
+        "qwen3.5-4b"
+      ]
+    },
+    {
+      "name": "hybrid03_04_dflash_gsm8k_bs4",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_parallel_sd_cell.py",
+        "--name",
+        "hybrid03_04_dflash_gsm8k_bs4",
+        "--",
+        "--method",
+        "dflash",
+        "--dataset",
+        "gsm8k",
+        "--bs",
+        "4",
+        "--samples",
+        "8",
+        "--tokens",
+        "128",
+        "--repeats",
+        "3",
+        "--target",
+        "qwen3.5-4b"
+      ]
+    },
+    {
+      "name": "hybrid03_05_ar_gsm8k_bs4",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_parallel_sd_cell.py",
+        "--name",
+        "hybrid03_05_ar_gsm8k_bs4",
+        "--",
+        "--method",
+        "ar",
+        "--dataset",
+        "gsm8k",
+        "--bs",
+        "4",
+        "--samples",
+        "8",
+        "--tokens",
+        "128",
+        "--repeats",
+        "3",
+        "--target",
+        "qwen3.5-4b"
+      ]
+    }
+  ],
+  "supervisor_pid": 3574538,
+  "supervisor_start_time": 1793808598.01,
+  "worker_sha256": "d2be0e368ef73616f619cfb5057ecb228367b62a23de181ae17db3e58c45f845",
+  "started_epoch": 1793808598.2512732,
+  "calibration_environment": {
+    "SGLANG_DSPARK_ENABLE_SPS_RECORD": null,
+    "SGLANG_SIMULATE_ACC_LEN": null
+  },
+  "sps_table_input": null,
+  "current_index": 5,
+  "current_cell": "hybrid03_05_ar_gsm8k_bs4",
+  "ended_epoch": 1793808777.461455
+}

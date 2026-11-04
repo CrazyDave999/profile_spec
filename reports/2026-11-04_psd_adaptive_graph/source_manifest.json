@@ -1,0 +1,296 @@
+{
+  "campaign": {
+    "status": "success",
+    "stage": "adaptive",
+    "run_id": "graphaware01_adaptive",
+    "commands": [
+      {
+        "name": "graphaware01_adaptive_00_ar_gsm8k_bs16",
+        "argv": [
+          "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+          "/home/qinghao/profile_spec/run_parallel_sd_cell.py",
+          "--name",
+          "graphaware01_adaptive_00_ar_gsm8k_bs16",
+          "--",
+          "--method",
+          "ar",
+          "--dataset",
+          "gsm8k",
+          "--bs",
+          "16",
+          "--samples",
+          "16",
+          "--tokens",
+          "128",
+          "--repeats",
+          "3"
+        ]
+      },
+      {
+        "name": "graphaware01_adaptive_01_dspark_gsm8k_bs16",
+        "argv": [
+          "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+          "/home/qinghao/profile_spec/run_parallel_sd_cell.py",
+          "--name",
+          "graphaware01_adaptive_01_dspark_gsm8k_bs16",
+          "--",
+          "--method",
+          "dspark",
+          "--dataset",
+          "gsm8k",
+          "--bs",
+          "16",
+          "--samples",
+          "16",
+          "--tokens",
+          "128",
+          "--repeats",
+          "3",
+          "--sps-table",
+          "/home/qinghao/profile_spec/logs/parallel_sd_20261104/refine03_sps.graph_bucket.sps.json"
+        ]
+      },
+      {
+        "name": "graphaware01_adaptive_02_dspark_gsm8k_bs16",
+        "argv": [
+          "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+          "/home/qinghao/profile_spec/run_parallel_sd_cell.py",
+          "--name",
+          "graphaware01_adaptive_02_dspark_gsm8k_bs16",
+          "--",
+          "--method",
+          "dspark",
+          "--dataset",
+          "gsm8k",
+          "--bs",
+          "16",
+          "--samples",
+          "16",
+          "--tokens",
+          "128",
+          "--repeats",
+          "3",
+          "--sps-table",
+          "/home/qinghao/profile_spec/logs/parallel_sd_20261104/refine03_sps.graph_bucket.sps.json",
+          "--ragged-mode",
+          "compact"
+        ]
+      },
+      {
+        "name": "graphaware01_adaptive_03_ar_gsm8k_bs16",
+        "argv": [
+          "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+          "/home/qinghao/profile_spec/run_parallel_sd_cell.py",
+          "--name",
+          "graphaware01_adaptive_03_ar_gsm8k_bs16",
+          "--",
+          "--method",
+          "ar",
+          "--dataset",
+          "gsm8k",
+          "--bs",
+          "16",
+          "--samples",
+          "16",
+          "--tokens",
+          "128",
+          "--repeats",
+          "3"
+        ]
+      },
+      {
+        "name": "graphaware01_adaptive_04_ar_mt_bench_bs16",
+        "argv": [
+          "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+          "/home/qinghao/profile_spec/run_parallel_sd_cell.py",
+          "--name",
+          "graphaware01_adaptive_04_ar_mt_bench_bs16",
+          "--",
+          "--method",
+          "ar",
+          "--dataset",
+          "mt_bench",
+          "--bs",
+          "16",
+          "--samples",
+          "16",
+          "--tokens",
+          "128",
+          "--repeats",
+          "3"
+        ]
+      },
+      {
+        "name": "graphaware01_adaptive_05_dspark_mt_bench_bs16",
+        "argv": [
+          "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+          "/home/qinghao/profile_spec/run_parallel_sd_cell.py",
+          "--name",
+          "graphaware01_adaptive_05_dspark_mt_bench_bs16",
+          "--",
+          "--method",
+          "dspark",
+          "--dataset",
+          "mt_bench",
+          "--bs",
+          "16",
+          "--samples",
+          "16",
+          "--tokens",
+          "128",
+          "--repeats",
+          "3",
+          "--sps-table",
+          "/home/qinghao/profile_spec/logs/parallel_sd_20261104/refine03_sps.graph_bucket.sps.json"
+        ]
+      },
+      {
+        "name": "graphaware01_adaptive_06_dspark_mt_bench_bs16",
+        "argv": [
+          "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+          "/home/qinghao/profile_spec/run_parallel_sd_cell.py",
+          "--name",
+          "graphaware01_adaptive_06_dspark_mt_bench_bs16",
+          "--",
+          "--method",
+          "dspark",
+          "--dataset",
+          "mt_bench",
+          "--bs",
+          "16",
+          "--samples",
+          "16",
+          "--tokens",
+          "128",
+          "--repeats",
+          "3",
+          "--sps-table",
+          "/home/qinghao/profile_spec/logs/parallel_sd_20261104/refine03_sps.graph_bucket.sps.json",
+          "--ragged-mode",
+          "compact"
+        ]
+      },
+      {
+        "name": "graphaware01_adaptive_07_ar_mt_bench_bs16",
+        "argv": [
+          "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+          "/home/qinghao/profile_spec/run_parallel_sd_cell.py",
+          "--name",
+          "graphaware01_adaptive_07_ar_mt_bench_bs16",
+          "--",
+          "--method",
+          "ar",
+          "--dataset",
+          "mt_bench",
+          "--bs",
+          "16",
+          "--samples",
+          "16",
+          "--tokens",
+          "128",
+          "--repeats",
+          "3"
+        ]
+      }
+    ],
+    "supervisor_pid": 3596150,
+    "supervisor_start_time": 1793810360.61,
+    "worker_sha256": "d2be0e368ef73616f619cfb5057ecb228367b62a23de181ae17db3e58c45f845",
+    "started_epoch": 1793810360.8500276,
+    "calibration_environment": {
+      "SGLANG_DSPARK_ENABLE_SPS_RECORD": "1",
+      "SGLANG_SIMULATE_ACC_LEN": null
+    },
+    "sps_table_input": "logs/parallel_sd_20261104/refine03_sps.graph_bucket.sps.json",
+    "current_index": 7,
+    "current_cell": "graphaware01_adaptive_07_ar_mt_bench_bs16",
+    "ended_epoch": 1793810536.6799917
+  },
+  "source_SHA256": {
+    "logs/parallel_sd_20261104/graphaware01_adaptive_00_ar_gsm8k_bs16.json": "ca1a0dbb975c2322d13ef2f23a1318cf0ccde936795cc270bd296c3842d1df59",
+    "logs/parallel_sd_20261104/graphaware01_adaptive_01_dspark_gsm8k_bs16.json": "6f4cb55e29b4e8d01305bac594eba049b6396e532f18f1cb39590a39d83266ae",
+    "logs/parallel_sd_20261104/graphaware01_adaptive_02_dspark_gsm8k_bs16.json": "9925074b96536aa95f41f5d92b6d0ec4d6ca106ad33202d567a53714dab75083",
+    "logs/parallel_sd_20261104/graphaware01_adaptive_03_ar_gsm8k_bs16.json": "3d7bd6d4087ca62cb95430c854c512d46b4ca315e468fc8aaf1b03fe76b8476b",
+    "logs/parallel_sd_20261104/graphaware01_adaptive_04_ar_mt_bench_bs16.json": "5eb71c2f7bc6ca22a3b1b69827103843a34875e1cf2ca3d0ebd8ed8aab559dc5",
+    "logs/parallel_sd_20261104/graphaware01_adaptive_05_dspark_mt_bench_bs16.json": "a4190165b1e44a48411250a9bb3f1a50776489c7bedbc137604e7c2653a278eb",
+    "logs/parallel_sd_20261104/graphaware01_adaptive_06_dspark_mt_bench_bs16.json": "44fb8c55750e30871ec52fd6ec166957a2e579ffec9fa547960663e9c35c709c",
+    "logs/parallel_sd_20261104/graphaware01_adaptive_07_ar_mt_bench_bs16.json": "7422e886abf9d80d034a600d040d8d7b555533736b9df44d6ae6b9461c3a980b"
+  },
+  "analysis_and_configuration_SHA256": {
+    "analyze_parallel_sd.py": "961d3964912c3cc98b5eb4d203543865c23c94901317b65f1e0c1dd1879a600d",
+    "parallel_sd_scaling_figures.py": "7e31fcdb5ff29c941e12602c1018a2ec08a06011983101e62c9d9dcff5d58e08",
+    "analyze_sglang_trace.py": "7c173c50e8e7461eeb02e3a3e7516f84f23609a29527bfd3cd87585444415f67",
+    "third_party/SGLang/python/sglang/srt/observability/req_time_stats.py": "21e17d68d3f18ffdb1a1203fe814f2ddcea9869021a3fa9f43210222d114a1e6",
+    "models-parallel-sd.json": "e13f843079a1195b7bad256a3233e88767ba9ea63b464268c7175201a031f6b1",
+    "logs/dflash2_config_conversion.json": "19aeaee0a3ddd52fa5afced3032c0844fee69ab7bd47a571adf6b4ad7e326755",
+    "logs/parallel_sd_20261104/checkpoint_memory_audit.json": "25d44cc9a78e0b080e5270b711b465280f4dd70a7238966f3220a5f6a45b515a"
+  },
+  "feature_lines": {
+    "graphaware01_adaptive_00_ar_gsm8k_bs16": [
+      "[2026-11-04 16:39:36] Capture target decode CUDA graph end. bs=[1, 2, 4, 8, 16], elapsed=1.55 s, mem usage=0.08 GB, avail mem=10.68 GB.",
+      "[2026-11-04 16:39:37] Decode batch, #running-req: 16, #token: 2270, token usage: 0.07, cuda graph: True, gen throughput (token/s): 579.88, #queue-req: 0",
+      "[2026-11-04 16:39:38] Decode batch, #running-req: 16, #token: 3070, token usage: 0.09, cuda graph: True, gen throughput (token/s): 1459.69, #queue-req: 0",
+      "[2026-11-04 16:39:39] Decode batch, #running-req: 16, #token: 2270, token usage: 0.07, cuda graph: True, gen throughput (token/s): 841.46, #queue-req: 0",
+      "[2026-11-04 16:39:39] Decode batch, #running-req: 16, #token: 3070, token usage: 0.09, cuda graph: True, gen throughput (token/s): 1459.29, #queue-req: 0",
+      "[2026-11-04 16:39:40] Decode batch, #running-req: 16, #token: 2270, token usage: 0.07, cuda graph: True, gen throughput (token/s): 840.13, #queue-req: 0",
+      "[2026-11-04 16:39:41] Decode batch, #running-req: 16, #token: 3070, token usage: 0.09, cuda graph: True, gen throughput (token/s): 1459.12, #queue-req: 0"
+    ],
+    "graphaware01_adaptive_01_dspark_gsm8k_bs16": [
+      "[2026-11-04 16:39:59] Capture target verify CUDA graph end. bs=[1, 2, 4, 8, 16], elapsed=1.36 s, mem usage=0.18 GB, avail mem=7.85 GB.",
+      "[2026-11-04 16:39:59] DSpark draft proposal (sampling) folded into the draft cuda graph.",
+      "[2026-11-04 16:39:59] Draft metadata glue graph off: the attention backend declares no host-free draft prep.",
+      "[2026-11-04 16:39:59] Capture draft verify CUDA graph end. bs=[1, 2, 4, 8, 16], elapsed=0.66 s, mem usage=0.04 GB, avail mem=7.81 GB."
+    ],
+    "graphaware01_adaptive_02_dspark_gsm8k_bs16": [
+      "[2026-11-04 16:40:20] Capture target verify CUDA graph end. bs=[1, 2, 4, 8, 16], elapsed=1.37 s, mem usage=0.28 GB, avail mem=7.75 GB.",
+      "[2026-11-04 16:40:20] DSpark draft proposal (sampling) folded into the draft cuda graph.",
+      "[2026-11-04 16:40:20] Draft metadata glue graph off: ragged verify.",
+      "[2026-11-04 16:40:21] Capture draft verify CUDA graph end. bs=[1, 2, 4, 8, 16], elapsed=0.70 s, mem usage=0.04 GB, avail mem=7.71 GB."
+    ],
+    "graphaware01_adaptive_03_ar_gsm8k_bs16": [
+      "[2026-11-04 16:40:41] Capture target decode CUDA graph end. bs=[1, 2, 4, 8, 16], elapsed=1.51 s, mem usage=0.08 GB, avail mem=10.68 GB.",
+      "[2026-11-04 16:40:42] Decode batch, #running-req: 16, #token: 2270, token usage: 0.07, cuda graph: True, gen throughput (token/s): 577.47, #queue-req: 0",
+      "[2026-11-04 16:40:43] Decode batch, #running-req: 16, #token: 3070, token usage: 0.09, cuda graph: True, gen throughput (token/s): 1459.30, #queue-req: 0",
+      "[2026-11-04 16:40:44] Decode batch, #running-req: 16, #token: 2270, token usage: 0.07, cuda graph: True, gen throughput (token/s): 841.12, #queue-req: 0",
+      "[2026-11-04 16:40:44] Decode batch, #running-req: 16, #token: 3070, token usage: 0.09, cuda graph: True, gen throughput (token/s): 1459.51, #queue-req: 0",
+      "[2026-11-04 16:40:45] Decode batch, #running-req: 16, #token: 2270, token usage: 0.07, cuda graph: True, gen throughput (token/s): 840.42, #queue-req: 0",
+      "[2026-11-04 16:40:46] Decode batch, #running-req: 16, #token: 3070, token usage: 0.09, cuda graph: True, gen throughput (token/s): 1459.02, #queue-req: 0"
+    ],
+    "graphaware01_adaptive_04_ar_mt_bench_bs16": [
+      "[2026-11-04 16:41:03] Capture target decode CUDA graph end. bs=[1, 2, 4, 8, 16], elapsed=1.51 s, mem usage=0.08 GB, avail mem=10.68 GB.",
+      "[2026-11-04 16:41:05] Decode batch, #running-req: 16, #token: 1821, token usage: 0.06, cuda graph: True, gen throughput (token/s): 604.93, #queue-req: 0",
+      "[2026-11-04 16:41:05] Decode batch, #running-req: 16, #token: 2621, token usage: 0.08, cuda graph: True, gen throughput (token/s): 1468.85, #queue-req: 0",
+      "[2026-11-04 16:41:06] Decode batch, #running-req: 16, #token: 1821, token usage: 0.06, cuda graph: True, gen throughput (token/s): 872.77, #queue-req: 0",
+      "[2026-11-04 16:41:07] Decode batch, #running-req: 16, #token: 2621, token usage: 0.08, cuda graph: True, gen throughput (token/s): 1468.70, #queue-req: 0",
+      "[2026-11-04 16:41:07] Decode batch, #running-req: 16, #token: 1821, token usage: 0.06, cuda graph: True, gen throughput (token/s): 871.66, #queue-req: 0",
+      "[2026-11-04 16:41:08] Decode batch, #running-req: 16, #token: 2621, token usage: 0.08, cuda graph: True, gen throughput (token/s): 1468.46, #queue-req: 0"
+    ],
+    "graphaware01_adaptive_05_dspark_mt_bench_bs16": [
+      "[2026-11-04 16:41:26] Capture target verify CUDA graph end. bs=[1, 2, 4, 8, 16], elapsed=1.30 s, mem usage=0.18 GB, avail mem=7.85 GB.",
+      "[2026-11-04 16:41:26] DSpark draft proposal (sampling) folded into the draft cuda graph.",
+      "[2026-11-04 16:41:26] Draft metadata glue graph off: the attention backend declares no host-free draft prep.",
+      "[2026-11-04 16:41:27] Capture draft verify CUDA graph end. bs=[1, 2, 4, 8, 16], elapsed=0.63 s, mem usage=0.04 GB, avail mem=7.81 GB.",
+      "[2026-11-04 16:41:28] Decode batch, #running-req: 4, #token: 533, token usage: 0.02, accept len: 3.02, accept rate: 0.29, cuda graph: True, gen throughput (token/s): 1345.92, #queue-req: 0",
+      "[2026-11-04 16:41:29] Decode batch, #running-req: 4, #token: 533, token usage: 0.02, accept len: 3.02, accept rate: 0.29, cuda graph: True, gen throughput (token/s): 2183.10, #queue-req: 0",
+      "[2026-11-04 16:41:30] Decode batch, #running-req: 4, #token: 533, token usage: 0.02, accept len: 3.02, accept rate: 0.29, cuda graph: True, gen throughput (token/s): 2180.37, #queue-req: 0"
+    ],
+    "graphaware01_adaptive_06_dspark_mt_bench_bs16": [
+      "[2026-11-04 16:41:47] Capture target verify CUDA graph end. bs=[1, 2, 4, 8, 16], elapsed=1.33 s, mem usage=0.28 GB, avail mem=7.75 GB.",
+      "[2026-11-04 16:41:47] DSpark draft proposal (sampling) folded into the draft cuda graph.",
+      "[2026-11-04 16:41:47] Draft metadata glue graph off: ragged verify.",
+      "[2026-11-04 16:41:48] Capture draft verify CUDA graph end. bs=[1, 2, 4, 8, 16], elapsed=0.74 s, mem usage=0.04 GB, avail mem=7.71 GB.",
+      "[2026-11-04 16:41:50] Decode batch, #running-req: 5, #token: 885, token usage: 0.03, accept len: 2.88, accept rate: 0.27, cap len: 5.52, cuda graph: True, gen throughput (token/s): 1387.68, #queue-req: 0",
+      "[2026-11-04 16:41:51] Decode batch, #running-req: 5, #token: 885, token usage: 0.03, accept len: 2.88, accept rate: 0.27, cap len: 5.52, cuda graph: True, gen throughput (token/s): 2061.13, #queue-req: 0",
+      "[2026-11-04 16:41:52] Decode batch, #running-req: 5, #token: 885, token usage: 0.03, accept len: 2.88, accept rate: 0.27, cap len: 5.52, cuda graph: True, gen throughput (token/s): 2065.99, #queue-req: 0"
+    ],
+    "graphaware01_adaptive_07_ar_mt_bench_bs16": [
+      "[2026-11-04 16:42:10] Capture target decode CUDA graph end. bs=[1, 2, 4, 8, 16], elapsed=1.56 s, mem usage=0.08 GB, avail mem=10.68 GB.",
+      "[2026-11-04 16:42:11] Decode batch, #running-req: 16, #token: 1821, token usage: 0.06, cuda graph: True, gen throughput (token/s): 598.91, #queue-req: 0",
+      "[2026-11-04 16:42:11] Decode batch, #running-req: 16, #token: 2621, token usage: 0.08, cuda graph: True, gen throughput (token/s): 1468.88, #queue-req: 0",
+      "[2026-11-04 16:42:12] Decode batch, #running-req: 16, #token: 1821, token usage: 0.06, cuda graph: True, gen throughput (token/s): 873.53, #queue-req: 0",
+      "[2026-11-04 16:42:13] Decode batch, #running-req: 16, #token: 2621, token usage: 0.08, cuda graph: True, gen throughput (token/s): 1468.97, #queue-req: 0",
+      "[2026-11-04 16:42:14] Decode batch, #running-req: 16, #token: 1821, token usage: 0.06, cuda graph: True, gen throughput (token/s): 872.49, #queue-req: 0",
+      "[2026-11-04 16:42:14] Decode batch, #running-req: 16, #token: 2621, token usage: 0.08, cuda graph: True, gen throughput (token/s): 1468.85, #queue-req: 0"
+    ]
+  }
+}

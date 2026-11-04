@@ -1,0 +1,37 @@
+{
+  "state": "success",
+  "argv": [
+    "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+    "/home/qinghao/profile_spec/parallel_sd_worker.py",
+    "--method",
+    "dspark",
+    "--dataset",
+    "gsm8k",
+    "--bs",
+    "16",
+    "--samples",
+    "16",
+    "--tokens",
+    "128",
+    "--repeats",
+    "3",
+    "--sps-table",
+    "/home/qinghao/profile_spec/logs/parallel_sd_20261104/refine03_sps.sps.json",
+    "--output",
+    "/home/qinghao/profile_spec/logs/parallel_sd_20261104/refine03_adaptive_09_dspark_gsm8k_bs16.json"
+  ],
+  "result": "/home/qinghao/profile_spec/logs/parallel_sd_20261104/refine03_adaptive_09_dspark_gsm8k_bs16.json",
+  "log": "/home/qinghao/profile_spec/logs/parallel_sd_20261104/refine03_adaptive_09_dspark_gsm8k_bs16.log",
+  "started_epoch": 1793810296.2697525,
+  "pid": 3595186,
+  "process_start_time": 1793810296.07,
+  "exit_code": 0,
+  "ended_epoch": 1793810316.6473722,
+  "worker_status": "success",
+  "owned_process_start_times": {
+    "3595186": 1793810296.07,
+    "3595296": 1793810301.27,
+    "3595297": 1793810301.28,
+    "3595298": 1793810301.28
+  }
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "method": "ar",
+    "case": "ar_smoke_a03",
+    "status": "success",
+    "smoke_tps": 99.86862298290605,
+    "startup_seconds": 36.58580382697983,
+    "output_cap": 32,
+    "samples": 2,
+    "scope": "environment validation only; not a ranking or matched final comparison"
+  },
+  {
+    "method": "dflash",
+    "case": "dflash_smoke_a03",
+    "status": "success",
+    "smoke_tps": 279.6328235327529,
+    "startup_seconds": 89.2236810689792,
+    "output_cap": 32,
+    "samples": 2,
+    "scope": "environment validation only; not a ranking or matched final comparison"
+  },
+  {
+    "method": "domino",
+    "case": "smoke01_00_domino_gsm8k_bs1",
+    "status": "success",
+    "smoke_tps": 367.86808824408416,
+    "startup_seconds": 17.53576158301439,
+    "output_cap": 32,
+    "samples": 2,
+    "scope": "environment validation only; not a ranking or matched final comparison"
+  },
+  {
+    "method": "dspark",
+    "case": "smoke01_01_dspark_gsm8k_bs1",
+    "status": "success",
+    "smoke_tps": 276.74086919002735,
+    "startup_seconds": 17.112964931991883,
+    "output_cap": 32,
+    "samples": 2,
+    "scope": "environment validation only; not a ranking or matched final comparison"
+  },
+  {
+    "method": "dflash2",
+    "case": "smoke01_02_dflash2_gsm8k_bs1",
+    "status": "success",
+    "smoke_tps": 298.7207205056931,
+    "startup_seconds": 373.49880941497395,
+    "output_cap": 32,
+    "samples": 2,
+    "scope": "environment validation only; not a ranking or matched final comparison"
+  }
+]

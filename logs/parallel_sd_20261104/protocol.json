@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-04",
+  "goal": "Compare parallel SD inference characteristics using matched SGLang Engine paths on RTX 5090, retain positive/negative and correctness evidence.",
+  "baseline": "same SGLang commit, backend, BF16 target and target KV token capacity; AR has no unused draft model",
+  "primary_metrics": [
+    "unprofiled request wall tokens/s",
+    "per-request decode throughput and prefill/queue latency",
+    "effective committed decode tokens per verify, excluding prefill seed",
+    "physical GPU memory and engine weight/KV/graph accounting",
+    "profile-only GPU launch-correlated draft/verify/accept/KV phases"
+  ],
+  "correctness": [
+    "greedy output_ids vs same-engine AR; record first mismatch",
+    "separate theoretical rejection-sampling exactness from BF16 shape rounding",
+    "no answer-quality claim without task scoring"
+  ],
+  "features": {
+    "decode_CUDA_graph": "full; actual replay must be verified",
+    "prefill_CUDA_graph": "disabled for the initial decode-focused cohort, equal for all methods",
+    "overlap_scheduler": "enabled",
+    "prefix_reuse": "disabled",
+    "raw_input_ids": "same public prompt files for every batch size",
+    "Rust_extensions": "not built; independent of GPU SD kernels"
+  },
+  "first_matrix": {
+    "methods": [
+      "ar",
+      "dflash",
+      "domino",
+      "dspark",
+      "dflash2"
+    ],
+    "datasets": [
+      "gsm8k",
+      "humaneval",
+      "mt_bench"
+    ],
+    "BS": [
+      1,
+      4,
+      16
+    ],
+    "samples": 16,
+    "output_tokens": 128,
+    "repeats": 3,
+    "EOS": "ignored for fixed-output resource-scaling cohort; separate EOS-enabled validation"
+  },
+  "followups": [
+    "equal verify-width ablations vs each checkpoint default",
+    "BS2/8 if needed to locate crossover",
+    "fixed extra-context sweep, explicitly synthetic",
+    "DSpark compact verify with measured local SPS table; static vs scheduled separately",
+    "Qwen3.5-4B hybrid state/feature and commit profile",
+    "representative nsys BS1/16 traces only after warmup and graph checks"
+  ],
+  "execution_policy": "serialize GPU cells; reject active foreign compute; terminate only own group and retain yielded state if foreign compute appears; never overwrite failed attempts or restart on a polling timeout",
+  "interpretation_limits": [
+    "native JetSpec is a different engine cohort",
+    "small prompt count is exploratory, not a publication leaderboard",
+    "busy/utilization alone does not prove compute bound",
+    "DFlash2 conversion needs functional/runtime validation; config/header checks are insufficient"
+  ]
+}

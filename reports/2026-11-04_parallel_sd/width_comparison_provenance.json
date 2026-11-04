@@ -1,0 +1,306 @@
+[
+  {
+    "old_case": "full01_01_dflash_gsm8k_bs1",
+    "new_case": "refine03_width8_01_dflash_gsm8k_bs1",
+    "old_worker_sha256": "9898f49a988e706ce3dd325118f03dd96f69b157660cb236c3f14b4cd5dd4427",
+    "new_worker_sha256": "d2be0e368ef73616f619cfb5057ecb228367b62a23de181ae17db3e58c45f845",
+    "qwen8_worker_AST_sha256": "31865ec27895fc2e81343ecb479a1568ca14e6d1335ed2dde4acde5aae95a357",
+    "matched_fields": [
+      "prompt IDs",
+      "packages",
+      "toolkit header",
+      "SGLang revision",
+      "attention backend",
+      "dtype",
+      "TP",
+      "KV capacity",
+      "head precision"
+    ],
+    "source_check": "Only hybrid-specific if args.target==qwen3.5-4b branches are pruned; remaining worker AST matches. Actual target here is qwen3-8b."
+  },
+  {
+    "old_case": "full01_04_dflash2_gsm8k_bs1",
+    "new_case": "refine03_width8_04_dflash2_gsm8k_bs1",
+    "old_worker_sha256": "9898f49a988e706ce3dd325118f03dd96f69b157660cb236c3f14b4cd5dd4427",
+    "new_worker_sha256": "d2be0e368ef73616f619cfb5057ecb228367b62a23de181ae17db3e58c45f845",
+    "qwen8_worker_AST_sha256": "31865ec27895fc2e81343ecb479a1568ca14e6d1335ed2dde4acde5aae95a357",
+    "matched_fields": [
+      "prompt IDs",
+      "packages",
+      "toolkit header",
+      "SGLang revision",
+      "attention backend",
+      "dtype",
+      "TP",
+      "KV capacity",
+      "head precision"
+    ],
+    "source_check": "Only hybrid-specific if args.target==qwen3.5-4b branches are pruned; remaining worker AST matches. Actual target here is qwen3-8b."
+  },
+  {
+    "old_case": "full01_02_domino_gsm8k_bs1",
+    "new_case": "refine03_width8_02_domino_gsm8k_bs1",
+    "old_worker_sha256": "9898f49a988e706ce3dd325118f03dd96f69b157660cb236c3f14b4cd5dd4427",
+    "new_worker_sha256": "d2be0e368ef73616f619cfb5057ecb228367b62a23de181ae17db3e58c45f845",
+    "qwen8_worker_AST_sha256": "31865ec27895fc2e81343ecb479a1568ca14e6d1335ed2dde4acde5aae95a357",
+    "matched_fields": [
+      "prompt IDs",
+      "packages",
+      "toolkit header",
+      "SGLang revision",
+      "attention backend",
+      "dtype",
+      "TP",
+      "KV capacity",
+      "head precision"
+    ],
+    "source_check": "Only hybrid-specific if args.target==qwen3.5-4b branches are pruned; remaining worker AST matches. Actual target here is qwen3-8b."
+  },
+  {
+    "old_case": "full01_03_dspark_gsm8k_bs1",
+    "new_case": "refine03_width8_03_dspark_gsm8k_bs1",
+    "old_worker_sha256": "9898f49a988e706ce3dd325118f03dd96f69b157660cb236c3f14b4cd5dd4427",
+    "new_worker_sha256": "d2be0e368ef73616f619cfb5057ecb228367b62a23de181ae17db3e58c45f845",
+    "qwen8_worker_AST_sha256": "31865ec27895fc2e81343ecb479a1568ca14e6d1335ed2dde4acde5aae95a357",
+    "matched_fields": [
+      "prompt IDs",
+      "packages",
+      "toolkit header",
+      "SGLang revision",
+      "attention backend",
+      "dtype",
+      "TP",
+      "KV capacity",
+      "head precision"
+    ],
+    "source_check": "Only hybrid-specific if args.target==qwen3.5-4b branches are pruned; remaining worker AST matches. Actual target here is qwen3-8b."
+  },
+  {
+    "old_case": "full01_13_dflash_gsm8k_bs16",
+    "new_case": "refine03_width8_07_dflash_gsm8k_bs16",
+    "old_worker_sha256": "9898f49a988e706ce3dd325118f03dd96f69b157660cb236c3f14b4cd5dd4427",
+    "new_worker_sha256": "d2be0e368ef73616f619cfb5057ecb228367b62a23de181ae17db3e58c45f845",
+    "qwen8_worker_AST_sha256": "31865ec27895fc2e81343ecb479a1568ca14e6d1335ed2dde4acde5aae95a357",
+    "matched_fields": [
+      "prompt IDs",
+      "packages",
+      "toolkit header",
+      "SGLang revision",
+      "attention backend",
+      "dtype",
+      "TP",
+      "KV capacity",
+      "head precision"
+    ],
+    "source_check": "Only hybrid-specific if args.target==qwen3.5-4b branches are pruned; remaining worker AST matches. Actual target here is qwen3-8b."
+  },
+  {
+    "old_case": "full01_16_dflash2_gsm8k_bs16",
+    "new_case": "refine03_width8_10_dflash2_gsm8k_bs16",
+    "old_worker_sha256": "9898f49a988e706ce3dd325118f03dd96f69b157660cb236c3f14b4cd5dd4427",
+    "new_worker_sha256": "d2be0e368ef73616f619cfb5057ecb228367b62a23de181ae17db3e58c45f845",
+    "qwen8_worker_AST_sha256": "31865ec27895fc2e81343ecb479a1568ca14e6d1335ed2dde4acde5aae95a357",
+    "matched_fields": [
+      "prompt IDs",
+      "packages",
+      "toolkit header",
+      "SGLang revision",
+      "attention backend",
+      "dtype",
+      "TP",
+      "KV capacity",
+      "head precision"
+    ],
+    "source_check": "Only hybrid-specific if args.target==qwen3.5-4b branches are pruned; remaining worker AST matches. Actual target here is qwen3-8b."
+  },
+  {
+    "old_case": "full01_14_domino_gsm8k_bs16",
+    "new_case": "refine03_width8_08_domino_gsm8k_bs16",
+    "old_worker_sha256": "9898f49a988e706ce3dd325118f03dd96f69b157660cb236c3f14b4cd5dd4427",
+    "new_worker_sha256": "d2be0e368ef73616f619cfb5057ecb228367b62a23de181ae17db3e58c45f845",
+    "qwen8_worker_AST_sha256": "31865ec27895fc2e81343ecb479a1568ca14e6d1335ed2dde4acde5aae95a357",
+    "matched_fields": [
+      "prompt IDs",
+      "packages",
+      "toolkit header",
+      "SGLang revision",
+      "attention backend",
+      "dtype",
+      "TP",
+      "KV capacity",
+      "head precision"
+    ],
+    "source_check": "Only hybrid-specific if args.target==qwen3.5-4b branches are pruned; remaining worker AST matches. Actual target here is qwen3-8b."
+  },
+  {
+    "old_case": "full01_15_dspark_gsm8k_bs16",
+    "new_case": "refine03_width8_09_dspark_gsm8k_bs16",
+    "old_worker_sha256": "9898f49a988e706ce3dd325118f03dd96f69b157660cb236c3f14b4cd5dd4427",
+    "new_worker_sha256": "d2be0e368ef73616f619cfb5057ecb228367b62a23de181ae17db3e58c45f845",
+    "qwen8_worker_AST_sha256": "31865ec27895fc2e81343ecb479a1568ca14e6d1335ed2dde4acde5aae95a357",
+    "matched_fields": [
+      "prompt IDs",
+      "packages",
+      "toolkit header",
+      "SGLang revision",
+      "attention backend",
+      "dtype",
+      "TP",
+      "KV capacity",
+      "head precision"
+    ],
+    "source_check": "Only hybrid-specific if args.target==qwen3.5-4b branches are pruned; remaining worker AST matches. Actual target here is qwen3-8b."
+  },
+  {
+    "old_case": "full01_37_dflash_mt_bench_bs1",
+    "new_case": "refine03_width8_13_dflash_mt_bench_bs1",
+    "old_worker_sha256": "9898f49a988e706ce3dd325118f03dd96f69b157660cb236c3f14b4cd5dd4427",
+    "new_worker_sha256": "d2be0e368ef73616f619cfb5057ecb228367b62a23de181ae17db3e58c45f845",
+    "qwen8_worker_AST_sha256": "31865ec27895fc2e81343ecb479a1568ca14e6d1335ed2dde4acde5aae95a357",
+    "matched_fields": [
+      "prompt IDs",
+      "packages",
+      "toolkit header",
+      "SGLang revision",
+      "attention backend",
+      "dtype",
+      "TP",
+      "KV capacity",
+      "head precision"
+    ],
+    "source_check": "Only hybrid-specific if args.target==qwen3.5-4b branches are pruned; remaining worker AST matches. Actual target here is qwen3-8b."
+  },
+  {
+    "old_case": "full01_40_dflash2_mt_bench_bs1",
+    "new_case": "refine03_width8_16_dflash2_mt_bench_bs1",
+    "old_worker_sha256": "9898f49a988e706ce3dd325118f03dd96f69b157660cb236c3f14b4cd5dd4427",
+    "new_worker_sha256": "d2be0e368ef73616f619cfb5057ecb228367b62a23de181ae17db3e58c45f845",
+    "qwen8_worker_AST_sha256": "31865ec27895fc2e81343ecb479a1568ca14e6d1335ed2dde4acde5aae95a357",
+    "matched_fields": [
+      "prompt IDs",
+      "packages",
+      "toolkit header",
+      "SGLang revision",
+      "attention backend",
+      "dtype",
+      "TP",
+      "KV capacity",
+      "head precision"
+    ],
+    "source_check": "Only hybrid-specific if args.target==qwen3.5-4b branches are pruned; remaining worker AST matches. Actual target here is qwen3-8b."
+  },
+  {
+    "old_case": "full01_38_domino_mt_bench_bs1",
+    "new_case": "refine03_width8_14_domino_mt_bench_bs1",
+    "old_worker_sha256": "9898f49a988e706ce3dd325118f03dd96f69b157660cb236c3f14b4cd5dd4427",
+    "new_worker_sha256": "d2be0e368ef73616f619cfb5057ecb228367b62a23de181ae17db3e58c45f845",
+    "qwen8_worker_AST_sha256": "31865ec27895fc2e81343ecb479a1568ca14e6d1335ed2dde4acde5aae95a357",
+    "matched_fields": [
+      "prompt IDs",
+      "packages",
+      "toolkit header",
+      "SGLang revision",
+      "attention backend",
+      "dtype",
+      "TP",
+      "KV capacity",
+      "head precision"
+    ],
+    "source_check": "Only hybrid-specific if args.target==qwen3.5-4b branches are pruned; remaining worker AST matches. Actual target here is qwen3-8b."
+  },
+  {
+    "old_case": "full01_39_dspark_mt_bench_bs1",
+    "new_case": "refine03_width8_15_dspark_mt_bench_bs1",
+    "old_worker_sha256": "9898f49a988e706ce3dd325118f03dd96f69b157660cb236c3f14b4cd5dd4427",
+    "new_worker_sha256": "d2be0e368ef73616f619cfb5057ecb228367b62a23de181ae17db3e58c45f845",
+    "qwen8_worker_AST_sha256": "31865ec27895fc2e81343ecb479a1568ca14e6d1335ed2dde4acde5aae95a357",
+    "matched_fields": [
+      "prompt IDs",
+      "packages",
+      "toolkit header",
+      "SGLang revision",
+      "attention backend",
+      "dtype",
+      "TP",
+      "KV capacity",
+      "head precision"
+    ],
+    "source_check": "Only hybrid-specific if args.target==qwen3.5-4b branches are pruned; remaining worker AST matches. Actual target here is qwen3-8b."
+  },
+  {
+    "old_case": "full01_49_dflash_mt_bench_bs16",
+    "new_case": "refine03_width8_19_dflash_mt_bench_bs16",
+    "old_worker_sha256": "9898f49a988e706ce3dd325118f03dd96f69b157660cb236c3f14b4cd5dd4427",
+    "new_worker_sha256": "d2be0e368ef73616f619cfb5057ecb228367b62a23de181ae17db3e58c45f845",
+    "qwen8_worker_AST_sha256": "31865ec27895fc2e81343ecb479a1568ca14e6d1335ed2dde4acde5aae95a357",
+    "matched_fields": [
+      "prompt IDs",
+      "packages",
+      "toolkit header",
+      "SGLang revision",
+      "attention backend",
+      "dtype",
+      "TP",
+      "KV capacity",
+      "head precision"
+    ],
+    "source_check": "Only hybrid-specific if args.target==qwen3.5-4b branches are pruned; remaining worker AST matches. Actual target here is qwen3-8b."
+  },
+  {
+    "old_case": "full01_52_dflash2_mt_bench_bs16",
+    "new_case": "refine03_width8_22_dflash2_mt_bench_bs16",
+    "old_worker_sha256": "9898f49a988e706ce3dd325118f03dd96f69b157660cb236c3f14b4cd5dd4427",
+    "new_worker_sha256": "d2be0e368ef73616f619cfb5057ecb228367b62a23de181ae17db3e58c45f845",
+    "qwen8_worker_AST_sha256": "31865ec27895fc2e81343ecb479a1568ca14e6d1335ed2dde4acde5aae95a357",
+    "matched_fields": [
+      "prompt IDs",
+      "packages",
+      "toolkit header",
+      "SGLang revision",
+      "attention backend",
+      "dtype",
+      "TP",
+      "KV capacity",
+      "head precision"
+    ],
+    "source_check": "Only hybrid-specific if args.target==qwen3.5-4b branches are pruned; remaining worker AST matches. Actual target here is qwen3-8b."
+  },
+  {
+    "old_case": "full01_50_domino_mt_bench_bs16",
+    "new_case": "refine03_width8_20_domino_mt_bench_bs16",
+    "old_worker_sha256": "9898f49a988e706ce3dd325118f03dd96f69b157660cb236c3f14b4cd5dd4427",
+    "new_worker_sha256": "d2be0e368ef73616f619cfb5057ecb228367b62a23de181ae17db3e58c45f845",
+    "qwen8_worker_AST_sha256": "31865ec27895fc2e81343ecb479a1568ca14e6d1335ed2dde4acde5aae95a357",
+    "matched_fields": [
+      "prompt IDs",
+      "packages",
+      "toolkit header",
+      "SGLang revision",
+      "attention backend",
+      "dtype",
+      "TP",
+      "KV capacity",
+      "head precision"
+    ],
+    "source_check": "Only hybrid-specific if args.target==qwen3.5-4b branches are pruned; remaining worker AST matches. Actual target here is qwen3-8b."
+  },
+  {
+    "old_case": "full01_51_dspark_mt_bench_bs16",
+    "new_case": "refine03_width8_21_dspark_mt_bench_bs16",
+    "old_worker_sha256": "9898f49a988e706ce3dd325118f03dd96f69b157660cb236c3f14b4cd5dd4427",
+    "new_worker_sha256": "d2be0e368ef73616f619cfb5057ecb228367b62a23de181ae17db3e58c45f845",
+    "qwen8_worker_AST_sha256": "31865ec27895fc2e81343ecb479a1568ca14e6d1335ed2dde4acde5aae95a357",
+    "matched_fields": [
+      "prompt IDs",
+      "packages",
+      "toolkit header",
+      "SGLang revision",
+      "attention backend",
+      "dtype",
+      "TP",
+      "KV capacity",
+      "head precision"
+    ],
+    "source_check": "Only hybrid-specific if args.target==qwen3.5-4b branches are pruned; remaining worker AST matches. Actual target here is qwen3-8b."
+  }
+]

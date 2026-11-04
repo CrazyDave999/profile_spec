@@ -1,0 +1,38 @@
+[
+  {
+    "reference": "hybrid03_00_ar_gsm8k_bs1",
+    "case": "hybrid03_00_ar_gsm8k_bs1",
+    "exact_prompts": 8,
+    "samples": 8
+  },
+  {
+    "reference": "hybrid03_00_ar_gsm8k_bs1",
+    "case": "hybrid03_02_ar_gsm8k_bs1",
+    "exact_prompts": 8,
+    "samples": 8
+  },
+  {
+    "reference": "hybrid03_00_ar_gsm8k_bs1",
+    "case": "hybrid03_03_ar_gsm8k_bs4",
+    "exact_prompts": 5,
+    "samples": 8
+  },
+  {
+    "reference": "hybrid03_00_ar_gsm8k_bs1",
+    "case": "hybrid03_05_ar_gsm8k_bs4",
+    "exact_prompts": 5,
+    "samples": 8
+  },
+  {
+    "reference": "hybrid03_01_dflash_gsm8k_bs1",
+    "case": "hybrid03_01_dflash_gsm8k_bs1",
+    "exact_prompts": 8,
+    "samples": 8
+  },
+  {
+    "reference": "hybrid03_01_dflash_gsm8k_bs1",
+    "case": "hybrid03_04_dflash_gsm8k_bs4",
+    "exact_prompts": 6,
+    "samples": 8
+  }
+]

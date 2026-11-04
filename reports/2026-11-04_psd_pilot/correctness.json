@@ -1,0 +1,278 @@
+[
+  {
+    "case": "pilot01_00_ar_gsm8k_bs1",
+    "baseline": "pilot01_00_ar_gsm8k_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "pilot01_01_dflash_gsm8k_bs1",
+    "baseline": "pilot01_00_ar_gsm8k_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 101
+      },
+      {
+        "prompt": 1,
+        "equal": false,
+        "first_mismatch": 24
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 22
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 83
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 50
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "pilot01_02_domino_gsm8k_bs1",
+    "baseline": "pilot01_00_ar_gsm8k_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 101
+      },
+      {
+        "prompt": 1,
+        "equal": false,
+        "first_mismatch": 24
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 22
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 83
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 50
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "pilot01_03_dspark_gsm8k_bs1",
+    "baseline": "pilot01_00_ar_gsm8k_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 101
+      },
+      {
+        "prompt": 1,
+        "equal": false,
+        "first_mismatch": 24
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 22
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 83
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 50
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "pilot01_04_dflash2_gsm8k_bs1",
+    "baseline": "pilot01_00_ar_gsm8k_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 101
+      },
+      {
+        "prompt": 1,
+        "equal": false,
+        "first_mismatch": 24
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 22
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 83
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 50
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "pilot01_05_ar_gsm8k_bs1",
+    "baseline": "pilot01_00_ar_gsm8k_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  }
+]

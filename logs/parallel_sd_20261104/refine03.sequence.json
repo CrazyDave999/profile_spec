@@ -1,0 +1,79 @@
+{
+  "status": "success",
+  "pid": 3574638,
+  "process_start_time": 1793808604.51,
+  "dependency": "/home/qinghao/profile_spec/logs/parallel_sd_20261104/hybrid03.campaign.json",
+  "dependency_pid": 3574538,
+  "dependency_start_time": 1793808598.01,
+  "worker_sha256": "d2be0e368ef73616f619cfb5057ecb228367b62a23de181ae17db3e58c45f845",
+  "started_epoch": 1793808604.7507088,
+  "stages": [
+    {
+      "stage": "width8",
+      "run_id": "refine03_width8",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_parallel_sd_campaign.py",
+        "--stage",
+        "width8",
+        "--run-id",
+        "refine03_width8"
+      ],
+      "started_epoch": 1793808778.8241954,
+      "exit_code": 0,
+      "ended_epoch": 1793809716.0806937
+    },
+    {
+      "stage": "numerics",
+      "run_id": "refine03_numerics",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_parallel_sd_campaign.py",
+        "--stage",
+        "numerics",
+        "--run-id",
+        "refine03_numerics"
+      ],
+      "started_epoch": 1793809716.0809107,
+      "exit_code": 0,
+      "ended_epoch": 1793809796.4136472
+    },
+    {
+      "stage": "sps",
+      "run_id": "refine03_sps",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_parallel_sd_campaign.py",
+        "--stage",
+        "sps",
+        "--run-id",
+        "refine03_sps"
+      ],
+      "started_epoch": 1793809796.4138784,
+      "exit_code": 0,
+      "ended_epoch": 1793809928.2324479
+    },
+    {
+      "stage": "adaptive",
+      "run_id": "refine03_adaptive",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_parallel_sd_campaign.py",
+        "--stage",
+        "adaptive",
+        "--run-id",
+        "refine03_adaptive",
+        "--sps-table",
+        "/home/qinghao/profile_spec/logs/parallel_sd_20261104/refine03_sps.sps.json"
+      ],
+      "started_epoch": 1793809928.232703,
+      "exit_code": 0,
+      "ended_epoch": 1793810360.626809
+    }
+  ],
+  "dependency_live": false,
+  "last_checked_epoch": 1793808778.8238106,
+  "dependency_status": "success",
+  "current_stage": "adaptive",
+  "ended_epoch": 1793810360.627063
+}

@@ -1,0 +1,80 @@
+{
+  "status": "success",
+  "stage": "smoke",
+  "run_id": "smoke01",
+  "commands": [
+    {
+      "name": "smoke01_00_domino_gsm8k_bs1",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_parallel_sd_cell.py",
+        "--name",
+        "smoke01_00_domino_gsm8k_bs1",
+        "--",
+        "--method",
+        "domino",
+        "--dataset",
+        "gsm8k",
+        "--bs",
+        "1",
+        "--samples",
+        "2",
+        "--tokens",
+        "32",
+        "--repeats",
+        "1"
+      ]
+    },
+    {
+      "name": "smoke01_01_dspark_gsm8k_bs1",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_parallel_sd_cell.py",
+        "--name",
+        "smoke01_01_dspark_gsm8k_bs1",
+        "--",
+        "--method",
+        "dspark",
+        "--dataset",
+        "gsm8k",
+        "--bs",
+        "1",
+        "--samples",
+        "2",
+        "--tokens",
+        "32",
+        "--repeats",
+        "1"
+      ]
+    },
+    {
+      "name": "smoke01_02_dflash2_gsm8k_bs1",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_parallel_sd_cell.py",
+        "--name",
+        "smoke01_02_dflash2_gsm8k_bs1",
+        "--",
+        "--method",
+        "dflash2",
+        "--dataset",
+        "gsm8k",
+        "--bs",
+        "1",
+        "--samples",
+        "2",
+        "--tokens",
+        "32",
+        "--repeats",
+        "1"
+      ]
+    }
+  ],
+  "supervisor_pid": 3530475,
+  "supervisor_start_time": 1793804765.26,
+  "worker_sha256": "f472878b52e90d32b120e305b444ba9f15f85df0ec0874efeef6984b800190d4",
+  "started_epoch": 1793804765.4909322,
+  "current_index": 2,
+  "current_cell": "smoke01_02_dflash2_gsm8k_bs1",
+  "ended_epoch": 1793805181.502041
+}

@@ -1,0 +1,2690 @@
+{
+  "checkpoints": [
+    {
+      "method": "dflash",
+      "repo": "z-lab/Qwen3-8B-DFlash-b16",
+      "revision": "9b41424b7109f9c5413454f481b09a82b85333f4",
+      "config_sha256": "9834d608c9ca53d5548b415471ae9e8ebc9aab6cedfc2a7af95b6bd097373102",
+      "file_GiB": 1.9532247483730316,
+      "tensor_GiB": 1.953218936920166,
+      "parts_GiB": {
+        "backbone_and_projection": 1.953218936920166
+      },
+      "non_vocab_tensor_GiB": 1.953218936920166,
+      "draft_KV_bytes_per_token": 20480,
+      "raw_selected_hidden_bytes_per_token": 40960,
+      "projected_hidden_bytes_per_token": 8192,
+      "draft_layer_count": 5,
+      "target_layer_ids": [
+        1,
+        9,
+        17,
+        25,
+        33
+      ],
+      "tensors": [
+        {
+          "name": "fc.weight",
+          "shape": [
+            4096,
+            20480
+          ],
+          "dtype": "BF16",
+          "bytes": 167772160,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "hidden_norm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.input_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.mlp.down_proj.weight",
+          "shape": [
+            4096,
+            12288
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.mlp.gate_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.mlp.up_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.post_attention_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.self_attn.k_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.self_attn.k_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.self_attn.o_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.self_attn.q_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.self_attn.q_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.self_attn.v_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.input_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.mlp.down_proj.weight",
+          "shape": [
+            4096,
+            12288
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.mlp.gate_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.mlp.up_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.post_attention_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.self_attn.k_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.self_attn.k_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.self_attn.o_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.self_attn.q_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.self_attn.q_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.self_attn.v_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.input_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.mlp.down_proj.weight",
+          "shape": [
+            4096,
+            12288
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.mlp.gate_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.mlp.up_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.post_attention_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.self_attn.k_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.self_attn.k_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.self_attn.o_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.self_attn.q_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.self_attn.q_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.self_attn.v_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.input_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.mlp.down_proj.weight",
+          "shape": [
+            4096,
+            12288
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.mlp.gate_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.mlp.up_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.post_attention_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.self_attn.k_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.self_attn.k_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.self_attn.o_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.self_attn.q_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.self_attn.q_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.self_attn.v_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.input_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.mlp.down_proj.weight",
+          "shape": [
+            4096,
+            12288
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.mlp.gate_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.mlp.up_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.post_attention_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.self_attn.k_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.self_attn.k_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.self_attn.o_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.self_attn.q_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.self_attn.q_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.self_attn.v_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "norm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        }
+      ]
+    },
+    {
+      "method": "domino",
+      "repo": "Huang2020/Qwen3-8B-Domino-b16",
+      "revision": "9a2c3213cbe7b0718805aa92ab1e1404ee028a90",
+      "config_sha256": "8c4cd558cfa16fc1f88004b7ecad66cb6c61491a64a36392d16aafaeb84e3857",
+      "file_GiB": 2.0574121326208115,
+      "tensor_GiB": 2.057405948638916,
+      "parts_GiB": {
+        "extra_heads": 0.10418701171875,
+        "backbone_and_projection": 1.953218936920166
+      },
+      "non_vocab_tensor_GiB": 2.057405948638916,
+      "draft_KV_bytes_per_token": 20480,
+      "raw_selected_hidden_bytes_per_token": 40960,
+      "projected_hidden_bytes_per_token": 8192,
+      "draft_layer_count": 5,
+      "target_layer_ids": [
+        1,
+        9,
+        17,
+        25,
+        33
+      ],
+      "tensors": [
+        {
+          "name": "embed_proj.0.weight",
+          "shape": [
+            256,
+            5120
+          ],
+          "dtype": "BF16",
+          "bytes": 2621440,
+          "category": "extra_heads"
+        },
+        {
+          "name": "embed_proj.2.weight",
+          "shape": [
+            151936,
+            256
+          ],
+          "dtype": "BF16",
+          "bytes": 77791232,
+          "category": "extra_heads"
+        },
+        {
+          "name": "fc.weight",
+          "shape": [
+            4096,
+            20480
+          ],
+          "dtype": "BF16",
+          "bytes": 167772160,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "hidden_norm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.input_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.mlp.down_proj.weight",
+          "shape": [
+            4096,
+            12288
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.mlp.gate_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.mlp.up_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.post_attention_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.self_attn.k_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.self_attn.k_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.self_attn.o_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.self_attn.q_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.self_attn.q_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.self_attn.v_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.input_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.mlp.down_proj.weight",
+          "shape": [
+            4096,
+            12288
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.mlp.gate_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.mlp.up_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.post_attention_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.self_attn.k_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.self_attn.k_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.self_attn.o_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.self_attn.q_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.self_attn.q_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.self_attn.v_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.input_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.mlp.down_proj.weight",
+          "shape": [
+            4096,
+            12288
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.mlp.gate_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.mlp.up_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.post_attention_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.self_attn.k_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.self_attn.k_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.self_attn.o_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.self_attn.q_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.self_attn.q_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.self_attn.v_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.input_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.mlp.down_proj.weight",
+          "shape": [
+            4096,
+            12288
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.mlp.gate_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.mlp.up_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.post_attention_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.self_attn.k_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.self_attn.k_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.self_attn.o_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.self_attn.q_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.self_attn.q_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.self_attn.v_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.input_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.mlp.down_proj.weight",
+          "shape": [
+            4096,
+            12288
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.mlp.gate_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.mlp.up_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.post_attention_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.self_attn.k_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.self_attn.k_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.self_attn.o_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.self_attn.q_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.self_attn.q_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.self_attn.v_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "norm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "prefix_gru.weight_hh_l0",
+          "shape": [
+            3072,
+            1024
+          ],
+          "dtype": "BF16",
+          "bytes": 6291456,
+          "category": "extra_heads"
+        },
+        {
+          "name": "prefix_gru.weight_ih_l0",
+          "shape": [
+            3072,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 25165824,
+          "category": "extra_heads"
+        }
+      ]
+    },
+    {
+      "method": "dspark",
+      "repo": "deepseek-ai/dspark_qwen3_8b_block7",
+      "revision": "03326e5043815da1f81b109078b2889737c26017",
+      "config_sha256": "e470e70a553616f0dce8f783f42cfd25b7bd7dfdcd57ead680a0623040725611",
+      "file_GiB": 4.416490281000733,
+      "tensor_GiB": 4.416483880952001,
+      "parts_GiB": {
+        "extra_heads": 0.1449055690318346,
+        "embedding_and_lm_head": 2.318359375,
+        "backbone_and_projection": 1.953218936920166
+      },
+      "non_vocab_tensor_GiB": 2.0981245059520006,
+      "draft_KV_bytes_per_token": 20480,
+      "raw_selected_hidden_bytes_per_token": 40960,
+      "projected_hidden_bytes_per_token": 8192,
+      "draft_layer_count": 5,
+      "target_layer_ids": [
+        1,
+        9,
+        17,
+        25,
+        33
+      ],
+      "tensors": [
+        {
+          "name": "confidence_head.proj.bias",
+          "shape": [
+            1
+          ],
+          "dtype": "BF16",
+          "bytes": 2,
+          "category": "extra_heads"
+        },
+        {
+          "name": "confidence_head.proj.weight",
+          "shape": [
+            1,
+            4352
+          ],
+          "dtype": "BF16",
+          "bytes": 8704,
+          "category": "extra_heads"
+        },
+        {
+          "name": "embed_tokens.weight",
+          "shape": [
+            151936,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 1244659712,
+          "category": "embedding_and_lm_head"
+        },
+        {
+          "name": "fc.weight",
+          "shape": [
+            4096,
+            20480
+          ],
+          "dtype": "BF16",
+          "bytes": 167772160,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "hidden_norm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.input_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.mlp.down_proj.weight",
+          "shape": [
+            4096,
+            12288
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.mlp.gate_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.mlp.up_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.post_attention_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.self_attn.k_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.self_attn.k_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.self_attn.o_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.self_attn.q_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.self_attn.q_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.self_attn.v_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.input_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.mlp.down_proj.weight",
+          "shape": [
+            4096,
+            12288
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.mlp.gate_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.mlp.up_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.post_attention_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.self_attn.k_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.self_attn.k_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.self_attn.o_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.self_attn.q_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.self_attn.q_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.self_attn.v_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.input_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.mlp.down_proj.weight",
+          "shape": [
+            4096,
+            12288
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.mlp.gate_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.mlp.up_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.post_attention_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.self_attn.k_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.self_attn.k_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.self_attn.o_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.self_attn.q_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.self_attn.q_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.self_attn.v_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.input_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.mlp.down_proj.weight",
+          "shape": [
+            4096,
+            12288
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.mlp.gate_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.mlp.up_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.post_attention_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.self_attn.k_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.self_attn.k_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.self_attn.o_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.self_attn.q_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.self_attn.q_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.self_attn.v_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.input_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.mlp.down_proj.weight",
+          "shape": [
+            4096,
+            12288
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.mlp.gate_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.mlp.up_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.post_attention_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.self_attn.k_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.self_attn.k_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.self_attn.o_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.self_attn.q_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.self_attn.q_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.self_attn.v_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "lm_head.weight",
+          "shape": [
+            151936,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 1244659712,
+          "category": "embedding_and_lm_head"
+        },
+        {
+          "name": "markov_head.markov_w1.weight",
+          "shape": [
+            151936,
+            256
+          ],
+          "dtype": "BF16",
+          "bytes": 77791232,
+          "category": "extra_heads"
+        },
+        {
+          "name": "markov_head.markov_w2.weight",
+          "shape": [
+            151936,
+            256
+          ],
+          "dtype": "BF16",
+          "bytes": 77791232,
+          "category": "extra_heads"
+        },
+        {
+          "name": "norm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        }
+      ]
+    },
+    {
+      "method": "dflash2",
+      "repo": "RedHatAI/Qwen3-8B-speculator.dflash2",
+      "revision": "e1c737a13c34ba1e1f0f739e02af0bf082fe8080",
+      "config_sha256": "03ca962e7e6d2d4a1a9ae9e7121ce4d7e0a60a901865afd1bb1ac607017894c0",
+      "file_GiB": 2.178508013486862,
+      "tensor_GiB": 2.178499698638916,
+      "parts_GiB": {
+        "extra_heads": 0.1468505859375,
+        "backbone_and_projection": 2.031649112701416
+      },
+      "non_vocab_tensor_GiB": 2.178499698638916,
+      "draft_KV_bytes_per_token": 20480,
+      "raw_selected_hidden_bytes_per_token": 40960,
+      "projected_hidden_bytes_per_token": 8192,
+      "draft_layer_count": 5,
+      "target_layer_ids": [
+        1,
+        9,
+        17,
+        25,
+        33
+      ],
+      "tensors": [
+        {
+          "name": "candidate_selector.hidden_projection.weight",
+          "shape": [
+            256,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 2097152,
+          "category": "extra_heads"
+        },
+        {
+          "name": "candidate_selector.predecessor_codebook",
+          "shape": [
+            151936,
+            256
+          ],
+          "dtype": "BF16",
+          "bytes": 77791232,
+          "category": "extra_heads"
+        },
+        {
+          "name": "candidate_selector.successor_codebook",
+          "shape": [
+            151936,
+            256
+          ],
+          "dtype": "BF16",
+          "bytes": 77791232,
+          "category": "extra_heads"
+        },
+        {
+          "name": "fc.weight",
+          "shape": [
+            4096,
+            20480
+          ],
+          "dtype": "BF16",
+          "bytes": 167772160,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "hidden_norm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.attention_conv.base_kernel",
+          "shape": [
+            2,
+            2,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 32768,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.attention_conv.kernel_projection.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.input_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.mlp.down_proj.weight",
+          "shape": [
+            4096,
+            12288
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.mlp.gate_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.mlp.up_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.mlp_conv.base_kernel",
+          "shape": [
+            2,
+            2,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 32768,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.mlp_conv.kernel_projection.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.post_attention_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.self_attn.k_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.self_attn.k_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.self_attn.o_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.self_attn.q_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.self_attn.q_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.0.self_attn.v_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.attention_conv.base_kernel",
+          "shape": [
+            2,
+            2,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 32768,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.attention_conv.kernel_projection.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.input_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.mlp.down_proj.weight",
+          "shape": [
+            4096,
+            12288
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.mlp.gate_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.mlp.up_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.mlp_conv.base_kernel",
+          "shape": [
+            2,
+            2,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 32768,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.mlp_conv.kernel_projection.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.post_attention_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.self_attn.k_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.self_attn.k_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.self_attn.o_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.self_attn.q_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.self_attn.q_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.1.self_attn.v_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.attention_conv.base_kernel",
+          "shape": [
+            2,
+            2,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 32768,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.attention_conv.kernel_projection.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.input_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.mlp.down_proj.weight",
+          "shape": [
+            4096,
+            12288
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.mlp.gate_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.mlp.up_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.mlp_conv.base_kernel",
+          "shape": [
+            2,
+            2,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 32768,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.mlp_conv.kernel_projection.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.post_attention_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.self_attn.k_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.self_attn.k_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.self_attn.o_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.self_attn.q_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.self_attn.q_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.2.self_attn.v_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.attention_conv.base_kernel",
+          "shape": [
+            2,
+            2,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 32768,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.attention_conv.kernel_projection.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.input_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.mlp.down_proj.weight",
+          "shape": [
+            4096,
+            12288
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.mlp.gate_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.mlp.up_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.mlp_conv.base_kernel",
+          "shape": [
+            2,
+            2,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 32768,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.mlp_conv.kernel_projection.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.post_attention_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.self_attn.k_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.self_attn.k_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.self_attn.o_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.self_attn.q_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.self_attn.q_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.3.self_attn.v_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.attention_conv.base_kernel",
+          "shape": [
+            2,
+            2,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 32768,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.attention_conv.kernel_projection.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.input_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.mlp.down_proj.weight",
+          "shape": [
+            4096,
+            12288
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.mlp.gate_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.mlp.up_proj.weight",
+          "shape": [
+            12288,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 100663296,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.mlp_conv.base_kernel",
+          "shape": [
+            2,
+            2,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 32768,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.mlp_conv.kernel_projection.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.post_attention_layernorm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.self_attn.k_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.self_attn.k_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.self_attn.o_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.self_attn.q_norm.weight",
+          "shape": [
+            128
+          ],
+          "dtype": "BF16",
+          "bytes": 256,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.self_attn.q_proj.weight",
+          "shape": [
+            4096,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 33554432,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "layers.4.self_attn.v_proj.weight",
+          "shape": [
+            1024,
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8388608,
+          "category": "backbone_and_projection"
+        },
+        {
+          "name": "norm.weight",
+          "shape": [
+            4096
+          ],
+          "dtype": "BF16",
+          "bytes": 8192,
+          "category": "backbone_and_projection"
+        }
+      ]
+    }
+  ],
+  "source_sha256": {
+    "third_party/SGLang/python/sglang/srt/models/dspark.py": "0615351d59efdbe2f574e650b24edd66234f43347397f1b6a14441e9149d2120",
+    "third_party/SGLang/python/sglang/srt/speculative/dspark_components/dspark_worker_v2.py": "9bf15330c56996859c04a8ee5543859ed417c259577a6e8b3032e3d7a1226576"
+  },
+  "interpretation": [
+    "Checkpoint tensor bytes are not physical GPU peak.",
+    "DSpark Qwen loader skips checkpoint embed_tokens/lm_head; worker attaches target modules.",
+    "KV and hidden rows are BF16 logical bytes per token, not all additional persistent allocations.",
+    "Raw target hidden taps need not be retained for the entire history once materialized as draft KV.",
+    "Measured logs show target 32768-token KV=4.5GiB and draft KV=0.625GiB for this cohort."
+  ]
+}

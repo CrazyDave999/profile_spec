@@ -1,0 +1,12 @@
+[
+  {
+    "reference": "pilot01_01_dflash_gsm8k_bs1",
+    "per_method_exact_prompts": {
+      "dflash": 8,
+      "domino": 8,
+      "dspark": 8,
+      "dflash2": 8
+    },
+    "samples": 8
+  }
+]

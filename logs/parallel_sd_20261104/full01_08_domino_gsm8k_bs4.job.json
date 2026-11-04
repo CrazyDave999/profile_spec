@@ -1,0 +1,29 @@
+{
+  "state": "success",
+  "argv": [
+    "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+    "/home/qinghao/profile_spec/parallel_sd_worker.py",
+    "--method",
+    "domino",
+    "--dataset",
+    "gsm8k",
+    "--bs",
+    "4",
+    "--samples",
+    "16",
+    "--tokens",
+    "128",
+    "--repeats",
+    "3",
+    "--output",
+    "/home/qinghao/profile_spec/logs/parallel_sd_20261104/full01_08_domino_gsm8k_bs4.json"
+  ],
+  "result": "/home/qinghao/profile_spec/logs/parallel_sd_20261104/full01_08_domino_gsm8k_bs4.json",
+  "log": "/home/qinghao/profile_spec/logs/parallel_sd_20261104/full01_08_domino_gsm8k_bs4.log",
+  "started_epoch": 1793806126.628104,
+  "pid": 3540492,
+  "process_start_time": 1793806126.43,
+  "exit_code": 0,
+  "ended_epoch": 1793806149.5391119,
+  "worker_status": "success"
+}

@@ -1,0 +1,77 @@
+Traceback (most recent call last):
+  File "/home/qinghao/profile_spec/parallel_sd_worker.py", line 147, in <module>
+    main()
+  File "/home/qinghao/profile_spec/parallel_sd_worker.py", line 102, in main
+    engine = sglang.Engine(**engine_args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/qinghao/profile_spec/third_party/SGLang/python/sglang/utils.py", line 383, in __call__
+    module = self._load()
+             ^^^^^^^^^^^^
+  File "/home/qinghao/profile_spec/third_party/SGLang/python/sglang/utils.py", line 374, in _load
+    module = importlib.import_module(self.module_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/qinghao/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/entrypoints/engine.py", line 59, in <module>
+    from sglang.srt.elastic_ep.expert_backup_manager import run_expert_backup_manager
+  File "/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/elastic_ep/expert_backup_manager.py", line 18, in <module>
+    from sglang.srt.model_loader.loader import DefaultModelLoader, get_model_loader
+  File "/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/model_loader/__init__.py", line 11, in <module>
+    from sglang.srt.model_loader.loader import BaseModelLoader, get_model_loader
+  File "/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/model_loader/loader.py", line 89, in <module>
+    from sglang.srt.layers.layer_boundary.stage import check_stage_producers
+  File "/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/layer_boundary/__init__.py", line 16, in <module>
+    from sglang.srt.layers.layer_boundary.adapters.attention import (
+  File "/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/layer_boundary/adapters/attention.py", line 27, in <module>
+    from sglang.srt.layers.layer_boundary.layout import (
+  File "/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/layer_boundary/layout.py", line 27, in <module>
+    from sglang.srt.layers.cp.utils import is_mla_cp_active, is_mla_cp_enabled
+  File "/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/cp/__init__.py", line 33, in <module>
+    from sglang.srt.layers.cp.zigzag import (
+  File "/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/cp/zigzag.py", line 54, in <module>
+    from sglang.srt.mem_cache.memory_pool import KVWriteLoc
+  File "/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/mem_cache/memory_pool.py", line 70, in <module>
+    from sglang.srt.layers.quantization.fp4_kv_cache_quant_method import (
+  File "/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/quantization/__init__.py", line 9, in <module>
+    from sglang.srt.layers.quantization.awq import (
+  File "/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/quantization/awq/__init__.py", line 8, in <module>
+    from .awq import (
+  File "/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/quantization/awq/awq.py", line 10, in <module>
+    from sglang.srt.layers.linear import LinearBase
+  File "/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/linear.py", line 33, in <module>
+    from sglang.srt.layers.moe.utils import should_skip_mlp_all_reduce
+  File "/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/moe/__init__.py", line 1, in <module>
+    from sglang.srt.layers.moe.moe_runner import MoeRunner, MoeRunnerConfig
+  File "/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/moe/moe_runner/__init__.py", line 2, in <module>
+    from sglang.srt.layers.moe.moe_runner.runner import MoeRunner, register_moe_runner_core
+  File "/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/moe/moe_runner/runner.py", line 14, in <module>
+    from sglang.srt.layers.moe.moe_runner.deep_gemm import DeepGemmRunnerCore
+  File "/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/moe/moe_runner/deep_gemm.py", line 22, in <module>
+    from sglang.srt.layers import deep_gemm_wrapper
+  File "/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/deep_gemm_wrapper/__init__.py", line 1, in <module>
+    from .entrypoint import *
+  File "/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/deep_gemm_wrapper/entrypoint.py", line 8, in <module>
+    from sglang.srt.layers.deep_gemm_wrapper import compile_utils
+  File "/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/deep_gemm_wrapper/compile_utils.py", line 20, in <module>
+    from sglang.srt.layers.deep_gemm_wrapper.configurer import (
+  File "/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/deep_gemm_wrapper/configurer.py", line 55, in <module>
+    ENABLE_JIT_DEEPGEMM = _compute_enable_deep_gemm()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/deep_gemm_wrapper/configurer.py", line 44, in _compute_enable_deep_gemm
+    if sm_version in (120, 121) and not _sm120_deep_gemm_apis_available():
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/qinghao/profile_spec/third_party/SGLang/python/sglang/srt/layers/deep_gemm_wrapper/configurer.py", line 19, in _sm120_deep_gemm_apis_available
+    import deep_gemm
+  File "/home/qinghao/profile_spec/.venv-sglang/lib/python3.12/site-packages/deep_gemm/__init__.py", line 521, in <module>
+    find_cuda_home()
+  File "/home/qinghao/profile_spec/.venv-sglang/lib/python3.12/site-packages/deep_gemm/cuda_helpers.py", line 20, in find_cuda_home
+    assert cuda_home is not None
+           ^^^^^^^^^^^^^^^^^^^^^
+AssertionError

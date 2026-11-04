@@ -1,0 +1,24 @@
+{
+  "checkpoint": "/home/qinghao/models/qwen3-8b-dspark/model.safetensors",
+  "vocab_tensors": [
+    {
+      "name": "embed_tokens.weight",
+      "shape": [
+        151936,
+        4096
+      ],
+      "dtype": "BF16",
+      "BF16_GiB": 1.1591796875
+    },
+    {
+      "name": "lm_head.weight",
+      "shape": [
+        151936,
+        4096
+      ],
+      "dtype": "BF16",
+      "BF16_GiB": 1.1591796875
+    }
+  ],
+  "note": "File header only. Runtime sharing is separately evidenced by loader source and measured physical memory."
+}

@@ -1,0 +1,15 @@
+{
+  "status": "dependency_failed",
+  "pid": 3550238,
+  "process_start_time": 1793806861.15,
+  "dependency": "/home/qinghao/profile_spec/logs/parallel_sd_20261104/follow01.sequence.json",
+  "dependency_pid": 3543651,
+  "dependency_start_time": 1793806377.31,
+  "worker_sha256": "9898f49a988e706ce3dd325118f03dd96f69b157660cb236c3f14b4cd5dd4427",
+  "started_epoch": 1793806861.3947914,
+  "stages": [],
+  "dependency_live": false,
+  "last_checked_epoch": 1793808370.012216,
+  "dependency_status": "stopped_after_stage_failure",
+  "ended_epoch": 1793808370.0125425
+}

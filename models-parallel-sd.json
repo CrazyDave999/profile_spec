@@ -1,0 +1,94 @@
+{
+  "dflash": {
+    "repo": "z-lab/Qwen3-8B-DFlash-b16",
+    "revision": "9b41424b7109f9c5413454f481b09a82b85333f4",
+    "snapshot": "/home/qinghao/.cache/huggingface/hub/models--z-lab--Qwen3-8B-DFlash-b16/snapshots/9b41424b7109f9c5413454f481b09a82b85333f4",
+    "alias": "/home/qinghao/models/qwen3-8b-dflash",
+    "weights": [
+      {
+        "file": "model.safetensors",
+        "bytes": 2097259104,
+        "tensor_count": 58
+      }
+    ],
+    "format": "native"
+  },
+  "domino": {
+    "repo": "Huang2020/Qwen3-8B-Domino-b16",
+    "revision": "9a2c3213cbe7b0718805aa92ab1e1404ee028a90",
+    "snapshot": "/home/qinghao/.cache/huggingface/hub/models--Huang2020--Qwen3-8B-Domino-b16/snapshots/9a2c3213cbe7b0718805aa92ab1e1404ee028a90",
+    "alias": "/home/qinghao/models/qwen3-8b-domino",
+    "weights": [
+      {
+        "file": "model.safetensors",
+        "bytes": 2209129456,
+        "tensor_count": 62
+      }
+    ],
+    "format": "native"
+  },
+  "dspark": {
+    "repo": "deepseek-ai/dspark_qwen3_8b_block7",
+    "revision": "03326e5043815da1f81b109078b2889737c26017",
+    "snapshot": "/home/qinghao/.cache/huggingface/hub/models--deepseek-ai--dspark_qwen3_8b_block7/snapshots/03326e5043815da1f81b109078b2889737c26017",
+    "alias": "/home/qinghao/models/qwen3-8b-dspark",
+    "weights": [
+      {
+        "file": "model.safetensors",
+        "bytes": 4742170330,
+        "tensor_count": 64
+      }
+    ],
+    "format": "native"
+  },
+  "dflash2": {
+    "repo": "RedHatAI/Qwen3-8B-speculator.dflash2",
+    "revision": "e1c737a13c34ba1e1f0f739e02af0bf082fe8080",
+    "snapshot": "/home/qinghao/.cache/huggingface/hub/models--RedHatAI--Qwen3-8B-speculator.dflash2/snapshots/e1c737a13c34ba1e1f0f739e02af0bf082fe8080",
+    "alias": "/home/qinghao/models/qwen3-8b-dflash2-sglang",
+    "weights": [
+      {
+        "file": "model.safetensors",
+        "bytes": 2339155168,
+        "tensor_count": 81
+      }
+    ],
+    "format": "native",
+    "original_alias": "/home/qinghao/models/qwen3-8b-dflash2",
+    "config_conversion": "logs/dflash2_config_conversion.json",
+    "runtime_validation": "smoke01_02_dflash2_gsm8k_bs1: successful graph capture, folded selector and generation; no full numerical parity claim"
+  },
+  "qwen35_target": {
+    "repo": "Qwen/Qwen3.5-4B",
+    "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "snapshot": "/home/qinghao/.cache/huggingface/hub/models--Qwen--Qwen3.5-4B/snapshots/851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "alias": "/home/qinghao/models/Qwen3.5-4B",
+    "weights": [
+      {
+        "file": "model.safetensors-00001-of-00002.safetensors",
+        "bytes": 5329398688,
+        "tensor_count": 87
+      },
+      {
+        "file": "model.safetensors-00002-of-00002.safetensors",
+        "bytes": 3990429408,
+        "tensor_count": 651
+      }
+    ],
+    "format": "native"
+  },
+  "qwen35_dflash": {
+    "repo": "z-lab/Qwen3.5-4B-DFlash",
+    "revision": "9a1996ccf887b79ab3af4fcbf8c1d1f4b5658bcf",
+    "snapshot": "/home/qinghao/.cache/huggingface/hub/models--z-lab--Qwen3.5-4B-DFlash/snapshots/9a1996ccf887b79ab3af4fcbf8c1d1f4b5658bcf",
+    "alias": "/home/qinghao/models/qwen3.5-4b-dflash",
+    "weights": [
+      {
+        "file": "model.safetensors",
+        "bytes": 1268859081,
+        "tensor_count": 69
+      }
+    ],
+    "format": "native"
+  }
+}

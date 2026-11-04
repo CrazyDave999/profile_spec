@@ -1,0 +1,29 @@
+{
+  "state": "success",
+  "argv": [
+    "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+    "/home/qinghao/profile_spec/parallel_sd_worker.py",
+    "--method",
+    "ar",
+    "--dataset",
+    "gsm8k",
+    "--bs",
+    "4",
+    "--samples",
+    "16",
+    "--tokens",
+    "128",
+    "--repeats",
+    "3",
+    "--output",
+    "/home/qinghao/profile_spec/logs/parallel_sd_20261104/full01_11_ar_gsm8k_bs4.json"
+  ],
+  "result": "/home/qinghao/profile_spec/logs/parallel_sd_20261104/full01_11_ar_gsm8k_bs4.json",
+  "log": "/home/qinghao/profile_spec/logs/parallel_sd_20261104/full01_11_ar_gsm8k_bs4.log",
+  "started_epoch": 1793806197.6527877,
+  "pid": 3541289,
+  "process_start_time": 1793806197.45,
+  "exit_code": 0,
+  "ended_epoch": 1793806231.7555168,
+  "worker_status": "success"
+}

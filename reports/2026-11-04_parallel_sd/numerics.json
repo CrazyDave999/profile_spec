@@ -1,0 +1,212 @@
+{
+  "run_id": "refine03_numerics",
+  "campaign_status": "success",
+  "successful_cells": 4,
+  "comparisons": [
+    {
+      "enable_fp32_lm_head": false,
+      "samples": 2,
+      "exact_prompts": 0,
+      "prompts": [
+        {
+          "prompt": 0,
+          "equal": false,
+          "first_mismatch": 101,
+          "AR_token_id": 369,
+          "SD_token_id": 1449,
+          "AR_top5": [
+            [
+              -0.8302217125892639,
+              1449,
+              " every"
+            ],
+            [
+              -0.8302217125892639,
+              369,
+              " for"
+            ],
+            [
+              -2.830221652984619,
+              1667,
+              " using"
+            ],
+            [
+              -3.080221652984619,
+              3070,
+              " **"
+            ],
+            [
+              -3.955221652984619,
+              448,
+              " with"
+            ]
+          ],
+          "SD_top5": [
+            [
+              -0.6135192513465881,
+              1449,
+              " every"
+            ],
+            [
+              -1.1135191917419434,
+              369,
+              " for"
+            ],
+            [
+              -2.8635191917419434,
+              1667,
+              " using"
+            ],
+            [
+              -2.9885191917419434,
+              3070,
+              " **"
+            ],
+            [
+              -3.9885191917419434,
+              448,
+              " with"
+            ]
+          ],
+          "AR_top2_logprob_margin": 0.0,
+          "SD_top2_logprob_margin": 0.4999999403953552,
+          "common_prefix_last_ids": [
+            25,
+            75792,
+            1483,
+            369,
+            54304,
+            1330,
+            1019,
+            7941,
+            293,
+            2050,
+            54304,
+            1330
+          ],
+          "AR_token_text": " for",
+          "SD_token_text": " every",
+          "common_prefix_tail": " for breakfast = **3**\n\n---\n\n### **Step 3: Eggs used for muffins**\nShe bakes muffins"
+        },
+        {
+          "prompt": 1,
+          "equal": false,
+          "first_mismatch": 24,
+          "AR_token_id": 44364,
+          "SD_token_id": 10061,
+          "AR_top5": [
+            [
+              -0.8307809829711914,
+              44364,
+              "---\n\n"
+            ],
+            [
+              -1.0807809829711914,
+              10061,
+              "Let"
+            ],
+            [
+              -1.5807809829711914,
+              14374,
+              "###"
+            ],
+            [
+              -4.330780982971191,
+              4416,
+              "So"
+            ],
+            [
+              -5.330780982971191,
+              5338,
+              "First"
+            ]
+          ],
+          "SD_top5": [
+            [
+              -0.9242725372314453,
+              10061,
+              "Let"
+            ],
+            [
+              -0.9242725372314453,
+              44364,
+              "---\n\n"
+            ],
+            [
+              -1.6742725372314453,
+              14374,
+              "###"
+            ],
+            [
+              -4.424272537231445,
+              4416,
+              "So"
+            ],
+            [
+              -5.174272537231445,
+              5338,
+              "First"
+            ]
+          ],
+          "AR_top2_logprob_margin": 0.25,
+          "SD_top2_logprob_margin": 0.0,
+          "common_prefix_last_ids": [
+            315,
+            6303,
+            23788,
+            1019,
+            12,
+            3070,
+            42627,
+            429,
+            1753,
+            4158,
+            23788,
+            56177
+          ],
+          "AR_token_text": "---\n\n",
+          "SD_token_text": "Let",
+          "common_prefix_tail": "We are told that a robe takes:\n\n- **2 bolts of blue fiber**\n- **Half that much white fiber**\n\n"
+        }
+      ]
+    },
+    {
+      "enable_fp32_lm_head": true,
+      "samples": 2,
+      "exact_prompts": 2,
+      "prompts": [
+        {
+          "prompt": 0,
+          "equal": true,
+          "first_mismatch": null
+        },
+        {
+          "prompt": 1,
+          "equal": true,
+          "first_mismatch": null
+        }
+      ]
+    }
+  ],
+  "BF16_logprob_vs_headline": [
+    {
+      "method": "ar",
+      "samples": 2,
+      "exact_prompts": 2,
+      "reference": "logs/parallel_sd_20261104/full01_00_ar_gsm8k_bs1.json"
+    },
+    {
+      "method": "dflash",
+      "samples": 2,
+      "exact_prompts": 2,
+      "reference": "logs/parallel_sd_20261104/full01_01_dflash_gsm8k_bs1.json"
+    }
+  ],
+  "source_sha256": {
+    "logs/parallel_sd_20261104/refine03_numerics_00_ar_gsm8k_bs1.json": "0455964bc40a2396caa2d2ef5b44208e426df75b0155b7f89d44c262c8dc85fc",
+    "logs/parallel_sd_20261104/refine03_numerics_01_dflash_gsm8k_bs1.json": "1d82cf666d763fe38470b78b0b600a48fb759d0ec3f0b4424f4a5cd5c67803e8",
+    "logs/parallel_sd_20261104/refine03_numerics_02_ar_gsm8k_bs1.json": "3f387e0312a56590f09a07404d599db409c77181e621e7393d4a639cc0bfb2cc",
+    "logs/parallel_sd_20261104/refine03_numerics_03_dflash_gsm8k_bs1.json": "ae0343eb9853fbae08a89998c38bee2eaef7cdfb0b8cfc8f783ca7be785190ea"
+  },
+  "scope": "Diagnostic only. Logprob return and head precision alter execution; do not pool timings with default BF16 benchmarks. Compare distributions only at first divergence, where prefixes still match. FP32 head output leaves BF16 backbone/weights and shape-dependent arithmetic."
+}

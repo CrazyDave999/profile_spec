@@ -1,0 +1,1612 @@
+{
+  "database": "/home/qinghao/profile_spec/profiles/parallel_sd_20261104/follow01_traces_05_ar_gsm8k_bs16.sqlite",
+  "kernel_events": 31488,
+  "launch_correlated_kernel_events": 31488,
+  "correlation_coverage": 1.0,
+  "cuda_graph_launches": 63,
+  "cuda_graph_captures": 0,
+  "device_busy_union_ms": 780.502373,
+  "phases": {
+    "EXTEND": {
+      "calls": 2,
+      "host_ms": 42.249133,
+      "kernel_ms": 102.45107099999981,
+      "kernel_count": 899,
+      "graph_kernel_count": 0,
+      "graph_launch_count": 0,
+      "sync_api_ms": 0.0,
+      "sync_api_count": 0,
+      "memcpy_ms": 0.002048,
+      "gemm_ms": 98.03872099999994,
+      "attention_ms": 0.992983,
+      "other_kernel_ms": 3.4193670000000003,
+      "gpu_kernel_ms_per_call": 51.22553549999991,
+      "host_ms_per_call": 21.1245665,
+      "top_kernels": [
+        [
+          "void cutlass::Kernel2<cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_128x64_64x3_tn_align8>(T1::Params)",
+          68.94849799999999
+        ],
+        [
+          "void cutlass::Kernel2<cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_128x128_32x4_tn_align8>(T1::Params)",
+          17.856803999999997
+        ],
+        [
+          "void cutlass::Kernel2<cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_64x256_32x4_tn_align8>(T1::Params)",
+          6.991636999999999
+        ],
+        [
+          "void cutlass::Kernel2<cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_256x64_32x4_tn_align8>(T1::Params)",
+          2.7295740000000004
+        ],
+        [
+          "void cutlass::Kernel2<cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_16x16_128x2_tn_align8>(T1::Params)",
+          1.512208
+        ]
+      ]
+    },
+    "DECODE": {
+      "calls": 63,
+      "host_ms": 19.149478,
+      "kernel_ms": 683.3260619999788,
+      "kernel_count": 29862,
+      "graph_kernel_count": 29736,
+      "graph_launch_count": 63,
+      "sync_api_ms": 0.0,
+      "sync_api_count": 0,
+      "memcpy_ms": 0.0,
+      "gemm_ms": 629.7061140000009,
+      "attention_ms": 30.40393299999995,
+      "other_kernel_ms": 23.21601499999854,
+      "gpu_kernel_ms_per_call": 10.846445428571093,
+      "host_ms_per_call": 0.3039599682539682,
+      "top_kernels": [
+        [
+          "void cutlass::Kernel2<cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_16x16_128x2_tn_align8>(T1::Params)",
+          629.7061140000009
+        ],
+        [
+          "kernel_cutlass_kernel_sglangkernelsopsattentionfa4_sm120flash_fwdFlashAttentionForwardSm120_object_at__tensorptrbf16gmemalign16o4i64div8i64div81i64div32_tensorptrbf16gmemalign16oi64div81i_0",
+          20.99539099999999
+        ],
+        [
+          "kernel_cutlass_kernel_sglangkernelsopsattentionflash_attncuteflash_fwd_combineFlashAttentionForwardCombine_object_at__tensorptrf32gmemalign16o128i64div41i64div4i64div4_tensorptrf32gmemo1i_0",
+          9.408541999999995
+        ],
+        [
+          "kernel_cutlass_kernel_flashinfernormkernelsfused_add_rmsnormFusedAddRMSNormKernel_object_at__tensorptrbf16gmemalign128oi64409640961_tensorptrbf16gmemalign128oi64409640961_tensorptrbf16gme_0",
+          8.53954800000023
+        ],
+        [
+          "void at::native::elementwise_kernel<(int)128, (int)4, void at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase &)::[lambda() (instance 3)]::operator ()() const::[lambda() (instance 12)]::operator ()() const::[lambda(c10::BFloat16) (instance 1)]>(at::TensorIteratorBase &, const T1 &)::[lambda(int) (instance 1)]>(int, T3)",
+          3.2120870000001083
+        ]
+      ]
+    },
+    "prefill_control": {
+      "calls": 2,
+      "host_ms": 1.104111,
+      "kernel_ms": 0.017792000000000002,
+      "kernel_count": 14,
+      "graph_kernel_count": 0,
+      "graph_launch_count": 0,
+      "sync_api_ms": 0.0,
+      "sync_api_count": 0,
+      "memcpy_ms": 0.0041600000000000005,
+      "gemm_ms": 0.0,
+      "attention_ms": 0.0,
+      "other_kernel_ms": 0.017792000000000002,
+      "gpu_kernel_ms_per_call": 0.008896000000000001,
+      "host_ms_per_call": 0.5520555,
+      "top_kernels": [
+        [
+          "void at::native::index_elementwise_kernel<(int)128, (int)4, void at::native::gpu_index_kernel<void at::native::index_put_kernel_impl<at::native::OpaqueType<(int)8>>(at::TensorIterator &, c10::ArrayRef<long>, c10::ArrayRef<long>)::[lambda(char *, const char *, long) (instance 1)]>(at::TensorIteratorBase &, c10::ArrayRef<long>, c10::ArrayRef<long>, const T1 &, bool)::[lambda(int) (instance 1)]>(long, T3)",
+          0.006528
+        ],
+        [
+          "void sglang::argmax_kernel<float, long, (bool)1>(sglang::ArgMaxParams)",
+          0.00432
+        ],
+        [
+          "void at::native::vectorized_elementwise_kernel<(int)2, at::native::CUDAFunctorOnSelf_add<long>, std::array<char *, (unsigned long)2>, (bool)0>(int, T2, T3)",
+          0.003552
+        ],
+        [
+          "compute_position_kernel",
+          0.0017920000000000002
+        ],
+        [
+          "void sglang::argmax_finalize_kernel<long, (bool)1>(sglang::ArgMaxParams)",
+          0.0016
+        ]
+      ]
+    },
+    "decode_control": {
+      "calls": 63,
+      "host_ms": 21.888629000000005,
+      "kernel_ms": 0.672662000000001,
+      "kernel_count": 441,
+      "graph_kernel_count": 0,
+      "graph_launch_count": 0,
+      "sync_api_ms": 0.0,
+      "sync_api_count": 0,
+      "memcpy_ms": 0.040222000000000015,
+      "gemm_ms": 0.0,
+      "attention_ms": 0.0,
+      "other_kernel_ms": 0.672662000000001,
+      "gpu_kernel_ms_per_call": 0.010677174603174619,
+      "host_ms_per_call": 0.34743855555555564,
+      "top_kernels": [
+        [
+          "void at::native::index_elementwise_kernel<(int)128, (int)4, void at::native::gpu_index_kernel<void at::native::index_put_kernel_impl<at::native::OpaqueType<(int)8>>(at::TensorIterator &, c10::ArrayRef<long>, c10::ArrayRef<long>)::[lambda(char *, const char *, long) (instance 1)]>(at::TensorIteratorBase &, c10::ArrayRef<long>, c10::ArrayRef<long>, const T1 &, bool)::[lambda(int) (instance 1)]>(long, T3)",
+          0.18438100000000004
+        ],
+        [
+          "void sglang::argmax_kernel<float, long, (bool)1>(sglang::ArgMaxParams)",
+          0.18182199999999996
+        ],
+        [
+          "void at::native::index_elementwise_kernel<(int)128, (int)4, void at::native::gpu_index_kernel<void at::native::index_kernel_impl<at::native::OpaqueType<(int)8>>(at::TensorIteratorBase &, c10::ArrayRef<long>, c10::ArrayRef<long>)::[lambda(char *, const char *, long) (instance 1)]>(at::TensorIteratorBase &, c10::ArrayRef<long>, c10::ArrayRef<long>, const T1 &, bool)::[lambda(int) (instance 1)]>(long, T3)",
+          0.12946999999999997
+        ],
+        [
+          "void at::native::vectorized_elementwise_kernel<(int)2, at::native::CUDAFunctorOnSelf_add<long>, std::array<char *, (unsigned long)2>, (bool)0>(int, T2, T3)",
+          0.067488
+        ],
+        [
+          "void sglang::clamp_position_kernel<long>(T1 *, const T1 *, unsigned long)",
+          0.05775699999999998
+        ]
+      ]
+    },
+    "outside_scheduler": {
+      "calls": 0,
+      "host_ms": 0.0,
+      "kernel_ms": 0.43497299999999994,
+      "kernel_count": 272,
+      "graph_kernel_count": 0,
+      "graph_launch_count": 0,
+      "sync_api_ms": 681.5657760000001,
+      "sync_api_count": 65,
+      "memcpy_ms": 0.1516479999999999,
+      "gemm_ms": 0.0,
+      "attention_ms": 0.0,
+      "other_kernel_ms": 0.43497299999999994,
+      "gpu_kernel_ms_per_call": null,
+      "host_ms_per_call": null,
+      "top_kernels": [
+        [
+          "void at::native::index_elementwise_kernel<(int)128, (int)4, void at::native::gpu_index_kernel<void at::native::index_put_kernel_impl<at::native::OpaqueType<(int)4>>(at::TensorIterator &, c10::ArrayRef<long>, c10::ArrayRef<long>)::[lambda(char *, const char *, long) (instance 1)]>(at::TensorIteratorBase &, c10::ArrayRef<long>, c10::ArrayRef<long>, const T1 &, bool)::[lambda(int) (instance 1)]>(long, T3)",
+          0.16671900000000003
+        ],
+        [
+          "void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase &)::[lambda() (instance 3)]::operator ()() const::[lambda() (instance 3)]::operator ()() const::[lambda(int) (instance 1)], std::array<char *, (unsigned long)2>, (int)4, TrivialOffsetCalculator<(int)1, unsigned int>, TrivialOffsetCalculator<(int)1, unsigned int>, at::native::memory::LoadWithCast<(int)1>, at::native::memory::StoreWithCast<(int)1>>(int, T1, T2, T4, T5, T6, T7)",
+          0.09820699999999999
+        ],
+        [
+          "void at::native::vectorized_elementwise_kernel<(int)4, at::native::CUDAFunctorOnSelf_add<int>, std::array<char *, (unsigned long)2>, (bool)0>(int, T2, T3)",
+          0.07955200000000001
+        ],
+        [
+          "void at::native::vectorized_elementwise_kernel<(int)2, at::native::CUDAFunctorOnSelf_add<long>, std::array<char *, (unsigned long)2>, (bool)0>(int, T2, T3)",
+          0.06483100000000001
+        ],
+        [
+          "void at::native::index_elementwise_kernel<(int)128, (int)4, void at::native::gpu_index_kernel<void at::native::index_kernel_impl<at::native::OpaqueType<(int)4>>(at::TensorIteratorBase &, c10::ArrayRef<long>, c10::ArrayRef<long>)::[lambda(char *, const char *, long) (instance 1)]>(at::TensorIteratorBase &, c10::ArrayRef<long>, c10::ArrayRef<long>, const T1 &, bool)::[lambda(int) (instance 1)]>(long, T3)",
+          0.0063999999999999994
+        ]
+      ]
+    }
+  },
+  "decode_window": {
+    "wall_ms": 715.377393,
+    "scheduler_decode_rounds": 63,
+    "mean_complete_round_ms": 11.355196714285714,
+    "kernel_busy_fraction": 0.9897017587191212,
+    "interleaved_prefill_calls": 0,
+    "definition": "first decode scheduler.run_batch start to latest decode batch host end/correlated kernel end; includes inter-batch gaps; excludes initial prefill and profiler stop/export, but may include interleaved prefill (see count)",
+    "decode_run_segments": 1,
+    "segmented_decode_envelopes_ms": 715.377393,
+    "mean_segmented_round_ms": 11.355196714285714,
+    "mean_gpu_kernel_work_per_round_ms": 10.857122603174602,
+    "GPU_timeline_decode_envelopes_ms": 685.142039,
+    "mean_GPU_timeline_round_ms": 10.87527046031746,
+    "GPU_timeline_definition": "Union of consecutive decode-run envelopes from first correlated decode GPU kernel start to last decode GPU kernel end, broken at prefill dispatch boundaries. Includes inter-round GPU gaps, excludes initial CPU dispatch and GPU queueing before first decode kernel, and excludes final host response work. Request-derived cycles cover end-to-end decode instead.",
+    "segmented_definition": "Union of consecutive decode-run envelopes, broken at every scheduler prefill batch. Each envelope starts at first CPU dispatch and ends at last correlated GPU kernel/host completion. Excludes between-wave API and prefill dispatch gaps; queueing of preceding GPU work can still overlap its beginning. This is a pipeline envelope, not isolated kernel latency."
+  },
+  "by_NVTX_batch_size": [
+    {
+      "phase": "DECODE",
+      "batch_size": 16,
+      "calls": 63,
+      "gpu_kernel_ms": 683.3260619999998,
+      "host_ms": 19.149478,
+      "gpu_kernel_ms_per_call": 10.846445428571425,
+      "host_ms_per_call": 0.3039599682539682
+    },
+    {
+      "phase": "EXTEND",
+      "batch_size": 5,
+      "calls": 1,
+      "gpu_kernel_ms": 30.77358700000002,
+      "host_ms": 21.114411,
+      "gpu_kernel_ms_per_call": 30.77358700000002,
+      "host_ms_per_call": 21.114411
+    },
+    {
+      "phase": "EXTEND",
+      "batch_size": 12,
+      "calls": 1,
+      "gpu_kernel_ms": 71.67748399999999,
+      "host_ms": 21.134722,
+      "gpu_kernel_ms_per_call": 71.67748399999999,
+      "host_ms_per_call": 21.134722
+    }
+  ],
+  "steps": [
+    {
+      "name": "step[EXTEND bs=12 toks=1024]",
+      "phase": "EXTEND",
+      "host_ms": 21.134722,
+      "batch_size": 12,
+      "gpu_kernel_ms": 71.67748399999999,
+      "kernel_count": 448
+    },
+    {
+      "name": "step[EXTEND bs=5 toks=430]",
+      "phase": "EXTEND",
+      "host_ms": 21.114411,
+      "batch_size": 5,
+      "gpu_kernel_ms": 30.77358700000002,
+      "kernel_count": 451
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.473823,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.729744999999996,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.310257,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.716111,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.308384,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.71819,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.289706,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.724464000000005,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.29197,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.729134000000009,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.290638,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.740564000000001,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.310978,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.743915999999993,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.297207,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.810736000000002,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.287913,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.844174999999996,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.290177,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.843892000000006,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.303157,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.849479999999993,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.291108,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.851410999999999,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.305971,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.842863999999993,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.30525,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.849968000000004,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.288935,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.843126999999992,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.287994,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.861360000000001,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.286782,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.860465999999995,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.289306,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.861998999999996,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.288154,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.861135000000004,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.299821,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.854035999999988,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.313572,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.859379,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.294513,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.861733000000003,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.290537,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.876720999999995,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.294644,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.856307000000001,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.289896,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.885518,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.288474,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.882345999999997,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.291018,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.879978000000007,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.293872,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.867983,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.302785,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.876014000000001,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.288254,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.879600999999985,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.290036,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.886515000000003,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.290037,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.883791000000002,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.290737,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.868909,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.287272,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.873873,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.298168,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.879821000000002,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.305279,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.881424,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.29871,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.845777999999985,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.289185,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.867209000000006,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.288123,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.854542999999996,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.295645,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.872011000000008,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.291268,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.866736999999992,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.295364,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.860182000000002,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.29234,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.853007999999999,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.663589,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.829486999999991,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.30556,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.816551999999998,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.304027,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.819726999999991,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.295805,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.821009999999996,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.306421,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.820945000000004,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.290016,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.833682000000003,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.28544,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.823082000000007,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.291588,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.821005000000001,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.290988,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.831703000000001,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.337839,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.835950000000004,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.297498,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.840304999999995,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.298008,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.869713,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.291909,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.884882000000008,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.29216,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.879052999999999,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.291559,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.900723000000006,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.290227,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.883153000000002,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.286961,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.901616999999998,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.292771,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.905291999999992,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.290577,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.917872999999997,
+      "kernel_count": 474
+    },
+    {
+      "name": "step[DECODE bs=16]",
+      "phase": "DECODE",
+      "host_ms": 0.289275,
+      "batch_size": 16,
+      "gpu_kernel_ms": 10.934153999999996,
+      "kernel_count": 474
+    }
+  ],
+  "scheduler_batches": [
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 33777705,
+      "end_ns": 55468744,
+      "kind": "prefill_control",
+      "first_kernel_start_ns": 34031516,
+      "last_kernel_end_ns": 107066150,
+      "gpu_kernel_ms": 71.68654000000001,
+      "NVTX_batch_sizes": [
+        12
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 56411212,
+      "end_ns": 78073417,
+      "kind": "prefill_control",
+      "first_kernel_start_ns": 107112869,
+      "last_kernel_end_ns": 138150339,
+      "gpu_kernel_ms": 30.78232300000002,
+      "NVTX_batch_sizes": [
+        5
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 107935561,
+      "end_ns": 108820352,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 138170915,
+      "last_kernel_end_ns": 148960819,
+      "gpu_kernel_ms": 10.740624999999994,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 138710859,
+      "end_ns": 139381949,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 148961075,
+      "last_kernel_end_ns": 159739171,
+      "gpu_kernel_ms": 10.726735,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 149292992,
+      "end_ns": 149948478,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 159739427,
+      "last_kernel_end_ns": 170520883,
+      "gpu_kernel_ms": 10.728846,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 160035396,
+      "end_ns": 160708349,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 170521139,
+      "last_kernel_end_ns": 181304323,
+      "gpu_kernel_ms": 10.735216000000005,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 170830650,
+      "end_ns": 171460818,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 181304579,
+      "last_kernel_end_ns": 192093971,
+      "gpu_kernel_ms": 10.739598000000008,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 181598322,
+      "end_ns": 182233268,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 192094227,
+      "last_kernel_end_ns": 202894435,
+      "gpu_kernel_ms": 10.75154,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 192404753,
+      "end_ns": 193061651,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 202894691,
+      "last_kernel_end_ns": 213694099,
+      "gpu_kernel_ms": 10.754443999999994,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 203191283,
+      "end_ns": 203831006,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 213694355,
+      "last_kernel_end_ns": 224525058,
+      "gpu_kernel_ms": 10.821392000000001,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 213984083,
+      "end_ns": 214619920,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 224525314,
+      "last_kernel_end_ns": 235379282,
+      "gpu_kernel_ms": 10.854798999999996,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 224822682,
+      "end_ns": 225450457,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 235379538,
+      "last_kernel_end_ns": 246230529,
+      "gpu_kernel_ms": 10.854740000000007,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 235709955,
+      "end_ns": 236372522,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 246230785,
+      "last_kernel_end_ns": 257086000,
+      "gpu_kernel_ms": 10.860263999999994,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 246527432,
+      "end_ns": 247167495,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 257086256,
+      "last_kernel_end_ns": 267945248,
+      "gpu_kernel_ms": 10.862035,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 257399832,
+      "end_ns": 258049860,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 267945504,
+      "last_kernel_end_ns": 278796399,
+      "gpu_kernel_ms": 10.853487999999993,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 268266713,
+      "end_ns": 268912295,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 278796655,
+      "last_kernel_end_ns": 289653918,
+      "gpu_kernel_ms": 10.860688000000003,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 279085873,
+      "end_ns": 279723673,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 289654174,
+      "last_kernel_end_ns": 300503982,
+      "gpu_kernel_ms": 10.853750999999992,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 289950511,
+      "end_ns": 290595742,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 300504238,
+      "last_kernel_end_ns": 311369437,
+      "gpu_kernel_ms": 10.872208,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 300814378,
+      "end_ns": 301440230,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 311369693,
+      "last_kernel_end_ns": 322231052,
+      "gpu_kernel_ms": 10.871153999999995,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 311696753,
+      "end_ns": 312324317,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 322231308,
+      "last_kernel_end_ns": 333092379,
+      "gpu_kernel_ms": 10.872686999999996,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 322532117,
+      "end_ns": 323175295,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 333092635,
+      "last_kernel_end_ns": 343957802,
+      "gpu_kernel_ms": 10.871599000000003,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 333419119,
+      "end_ns": 334060103,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 343958058,
+      "last_kernel_end_ns": 354812218,
+      "gpu_kernel_ms": 10.864563999999989,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 344266581,
+      "end_ns": 344925242,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 354812474,
+      "last_kernel_end_ns": 365671625,
+      "gpu_kernel_ms": 10.869939,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 355104179,
+      "end_ns": 355748318,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 365671881,
+      "last_kernel_end_ns": 376530968,
+      "gpu_kernel_ms": 10.872389000000004,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 365974816,
+      "end_ns": 366614689,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 376531224,
+      "last_kernel_end_ns": 387402919,
+      "gpu_kernel_ms": 10.887536999999995,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 376833585,
+      "end_ns": 377464454,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 387403175,
+      "last_kernel_end_ns": 398258071,
+      "gpu_kernel_ms": 10.866899000000002,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 387702530,
+      "end_ns": 388328381,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 398258327,
+      "last_kernel_end_ns": 409137926,
+      "gpu_kernel_ms": 10.896237999999999,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 398549782,
+      "end_ns": 399192329,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 409138182,
+      "last_kernel_end_ns": 420014741,
+      "gpu_kernel_ms": 10.892841999999996,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 409434891,
+      "end_ns": 410072470,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 420014997,
+      "last_kernel_end_ns": 430886596,
+      "gpu_kernel_ms": 10.890698000000006,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 420303114,
+      "end_ns": 420933953,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 430886852,
+      "last_kernel_end_ns": 441749875,
+      "gpu_kernel_ms": 10.878607,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 431196325,
+      "end_ns": 431840324,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 441750131,
+      "last_kernel_end_ns": 452621762,
+      "gpu_kernel_ms": 10.886926,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 442042726,
+      "end_ns": 442682519,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 452622018,
+      "last_kernel_end_ns": 463495345,
+      "gpu_kernel_ms": 10.890288999999983,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 452923769,
+      "end_ns": 453562560,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 463495569,
+      "last_kernel_end_ns": 474370240,
+      "gpu_kernel_ms": 10.897266,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 463806715,
+      "end_ns": 464433207,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 474370496,
+      "last_kernel_end_ns": 485260111,
+      "gpu_kernel_ms": 10.894287,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 474673907,
+      "end_ns": 475311386,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 485260367,
+      "last_kernel_end_ns": 496133950,
+      "gpu_kernel_ms": 10.879469,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 485552576,
+      "end_ns": 486194942,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 496134206,
+      "last_kernel_end_ns": 507011918,
+      "gpu_kernel_ms": 10.884497,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 496432367,
+      "end_ns": 497073171,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 507012174,
+      "last_kernel_end_ns": 517895773,
+      "gpu_kernel_ms": 10.890540000000001,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 507308292,
+      "end_ns": 507954574,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 517896061,
+      "last_kernel_end_ns": 528781772,
+      "gpu_kernel_ms": 10.892175,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 518183326,
+      "end_ns": 518825482,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 528782028,
+      "last_kernel_end_ns": 539652795,
+      "gpu_kernel_ms": 10.856752999999985,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 529076517,
+      "end_ns": 529719134,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 539653051,
+      "last_kernel_end_ns": 550542762,
+      "gpu_kernel_ms": 10.877865000000005,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 539946333,
+      "end_ns": 540573807,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 550543018,
+      "last_kernel_end_ns": 561420729,
+      "gpu_kernel_ms": 10.865486999999995,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 550861056,
+      "end_ns": 551501931,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 561420985,
+      "last_kernel_end_ns": 572314568,
+      "gpu_kernel_ms": 10.882379000000007,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 561724913,
+      "end_ns": 562374671,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 572314824,
+      "last_kernel_end_ns": 583205046,
+      "gpu_kernel_ms": 10.877710999999993,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 572636081,
+      "end_ns": 573277627,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 583205270,
+      "last_kernel_end_ns": 594098117,
+      "gpu_kernel_ms": 10.870902000000003,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 583499067,
+      "end_ns": 584138589,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 594098373,
+      "last_kernel_end_ns": 604988020,
+      "gpu_kernel_ms": 10.86344,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 594401222,
+      "end_ns": 595405903,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 604988276,
+      "last_kernel_end_ns": 615878211,
+      "gpu_kernel_ms": 10.84004699999999,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 605288133,
+      "end_ns": 605936930,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 615878467,
+      "last_kernel_end_ns": 626760082,
+      "gpu_kernel_ms": 10.827207999999997,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 616177399,
+      "end_ns": 616831753,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 626760338,
+      "last_kernel_end_ns": 637648321,
+      "gpu_kernel_ms": 10.830286999999991,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 627061446,
+      "end_ns": 627709972,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 637648577,
+      "last_kernel_end_ns": 648537520,
+      "gpu_kernel_ms": 10.831665999999995,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 637945463,
+      "end_ns": 638630865,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 648537776,
+      "last_kernel_end_ns": 659427775,
+      "gpu_kernel_ms": 10.831953000000004,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 648843151,
+      "end_ns": 649471286,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 659427999,
+      "last_kernel_end_ns": 670331854,
+      "gpu_kernel_ms": 10.844210000000002,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 659735160,
+      "end_ns": 660357617,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 670332110,
+      "last_kernel_end_ns": 681224221,
+      "gpu_kernel_ms": 10.833610000000006,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 670806790,
+      "end_ns": 671439572,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 681224477,
+      "last_kernel_end_ns": 692118412,
+      "gpu_kernel_ms": 10.831821000000001,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 681870458,
+      "end_ns": 682506054,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 692118636,
+      "last_kernel_end_ns": 703021786,
+      "gpu_kernel_ms": 10.842294,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 692420352,
+      "end_ns": 693098963,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 703022010,
+      "last_kernel_end_ns": 713930313,
+      "gpu_kernel_ms": 10.846702000000002,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 703315276,
+      "end_ns": 703956270,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 713930569,
+      "last_kernel_end_ns": 724843064,
+      "gpu_kernel_ms": 10.851120999999996,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 714221547,
+      "end_ns": 714860298,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 724843320,
+      "last_kernel_end_ns": 735767879,
+      "gpu_kernel_ms": 10.880305000000002,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 725141017,
+      "end_ns": 725786729,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 735768135,
+      "last_kernel_end_ns": 746701301,
+      "gpu_kernel_ms": 10.89585700000001,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 736066868,
+      "end_ns": 736715173,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 746701557,
+      "last_kernel_end_ns": 757625156,
+      "gpu_kernel_ms": 10.889644999999998,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 746999308,
+      "end_ns": 747643257,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 757625412,
+      "last_kernel_end_ns": 768570418,
+      "gpu_kernel_ms": 10.911155000000006,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 757931057,
+      "end_ns": 758558772,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 768570674,
+      "last_kernel_end_ns": 779497664,
+      "gpu_kernel_ms": 10.893936000000002,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 768870508,
+      "end_ns": 769491993,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 779497920,
+      "last_kernel_end_ns": 790444847,
+      "gpu_kernel_ms": 10.912112999999998,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 779792132,
+      "end_ns": 780423181,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 790445103,
+      "last_kernel_end_ns": 801392349,
+      "gpu_kernel_ms": 10.915819999999993,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 790770461,
+      "end_ns": 791401921,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 801392573,
+      "last_kernel_end_ns": 812347403,
+      "gpu_kernel_ms": 10.928751999999996,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    },
+    {
+      "thread_id": 341321776000555,
+      "start_ns": 801688690,
+      "end_ns": 802319208,
+      "kind": "decode_control",
+      "first_kernel_start_ns": 812347659,
+      "last_kernel_end_ns": 823312954,
+      "gpu_kernel_ms": 10.944713999999996,
+      "NVTX_batch_sizes": [
+        16
+      ]
+    }
+  ],
+  "gpu_counters": {
+    "sampling_hz_estimate": 1000.010000100001,
+    "phases": {
+      "outside_scheduler": {
+        "overlapping_sample_windows": 69,
+        "metrics_percent": {
+          "SMs Active [Throughput %]": 90.63252431760132,
+          "SM Issue [Throughput %]": 4.121828251408708,
+          "Tensor Active [Throughput %]": 11.083807500695446,
+          "Compute Warps in Flight [Throughput %]": 6.014787124718086,
+          "DRAM Read Bandwidth [Throughput %]": 77.14446873714,
+          "DRAM Write Bandwidth [Throughput %]": 1.0743770302984323
+        }
+      },
+      "prefill_control": {
+        "overlapping_sample_windows": 3,
+        "metrics_percent": {
+          "SMs Active [Throughput %]": 91.02611940298507,
+          "SM Issue [Throughput %]": 7.104477611940299,
+          "Tensor Active [Throughput %]": 50.83955223880597,
+          "Compute Warps in Flight [Throughput %]": 7.494402985074627,
+          "DRAM Read Bandwidth [Throughput %]": 48.48880597014925,
+          "DRAM Write Bandwidth [Throughput %]": 2.610074626865672
+        }
+      },
+      "EXTEND": {
+        "overlapping_sample_windows": 105,
+        "metrics_percent": {
+          "SMs Active [Throughput %]": 92.12976888885375,
+          "SM Issue [Throughput %]": 9.470821226196824,
+          "Tensor Active [Throughput %]": 83.30985107556967,
+          "Compute Warps in Flight [Throughput %]": 9.078141945017919,
+          "DRAM Read Bandwidth [Throughput %]": 18.868714095057417,
+          "DRAM Write Bandwidth [Throughput %]": 3.779793319140384
+        }
+      },
+      "decode_control": {
+        "overlapping_sample_windows": 65,
+        "metrics_percent": {
+          "SMs Active [Throughput %]": 90.68561318367134,
+          "SM Issue [Throughput %]": 3.9662800364440653,
+          "Tensor Active [Throughput %]": 8.898840109332196,
+          "Compute Warps in Flight [Throughput %]": 5.943800060740109,
+          "DRAM Read Bandwidth [Throughput %]": 78.7362207381457,
+          "DRAM Write Bandwidth [Throughput %]": 0.9887600121480218
+        }
+      },
+      "DECODE": {
+        "overlapping_sample_windows": 686,
+        "metrics_percent": {
+          "SMs Active [Throughput %]": 91.8572852185691,
+          "SM Issue [Throughput %]": 4.042153856806726,
+          "Tensor Active [Throughput %]": 9.10025028451575,
+          "Compute Warps in Flight [Throughput %]": 6.270686524560238,
+          "DRAM Read Bandwidth [Throughput %]": 80.32198749395579,
+          "DRAM Write Bandwidth [Throughput %]": 0.9994485126819702
+        }
+      }
+    },
+    "definition": "Sample-window metrics weighted by overlap with launch-correlated GPU kernel intervals. Phase boundaries mix at 1 kHz. SM active/Tensor active are not achieved FLOP/s."
+  },
+  "scope": "profile-only. CPU and GPU overlap; host includes waits; kernel sum is not critical-path latency; control is outside model.forward, not a named accept-only phase. NVTX batch_size is the model forward descriptor, not necessarily the CUDA graph padded tier."
+}

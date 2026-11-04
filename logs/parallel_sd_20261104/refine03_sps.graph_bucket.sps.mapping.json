@@ -1,0 +1,32 @@
+{
+  "source": "logs/parallel_sd_20261104/refine03_sps.sps.json",
+  "source_SHA256": "835f686ad7628fd4ef1792b818625550f796f93ed0139827784be213b1412349",
+  "output_SHA256": "cc310a4793828730409df3afa0e92036a735a3dc733dd5921e9512a6afc683c5",
+  "measured_graph_rows": [
+    8,
+    16,
+    32,
+    64,
+    128
+  ],
+  "lookup_interval_starts": [
+    1,
+    9,
+    17,
+    33,
+    65
+  ],
+  "measured_steps_per_sec": [
+    73.26222013831908,
+    74.3229182150608,
+    73.46836819407405,
+    71.74476083883974,
+    60.55064758917597
+  ],
+  "proof": "For every integer M=1..128, floor lookup in the transformed table equals the measured SPS at ceil_to_capture_bucket(M). No new hardware samples or cost values are invented.",
+  "limits": [
+    "The new sample_batch_tokens fields are interval starts, NOT measured token counts.",
+    "A one-dimensional table still conflates request count and verify rows; compact at the same M can involve more requests/KV history than static calibration.",
+    "Source and transformed table are separate experiment arms; never mutate a live campaign table."
+  ]
+}

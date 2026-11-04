@@ -1,0 +1,8 @@
+{'run_id': 'full01', 'supervisor_status': 'success', 'expected': 54, 'checked': 54, 'incomplete': [], 'failures': [], 'complete': True}
+{'run_id': 'follow01_traces', 'supervisor_status': 'success', 'expected': 10, 'checked': 10, 'incomplete': [], 'failures': [], 'complete': True}
+{'run_id': 'hybrid03', 'supervisor_status': 'success', 'expected': 6, 'checked': 6, 'incomplete': [], 'failures': [], 'complete': True}
+{'run_id': 'refine03_width8', 'supervisor_status': 'success', 'expected': 24, 'checked': 24, 'incomplete': [], 'failures': [], 'complete': True}
+{'run_id': 'refine03_numerics', 'supervisor_status': 'success', 'expected': 4, 'checked': 4, 'incomplete': [], 'failures': [], 'complete': True}
+{'run_id': 'refine03_sps', 'supervisor_status': 'success', 'expected': 5, 'checked': 5, 'incomplete': [], 'failures': [], 'complete': True}
+{'run_id': 'refine03_adaptive', 'supervisor_status': 'success', 'expected': 12, 'checked': 12, 'incomplete': [], 'failures': [], 'complete': True}
+{'run_id': 'graphaware01_adaptive', 'supervisor_status': 'success', 'expected': 8, 'checked': 8, 'incomplete': [], 'failures': [], 'complete': True}

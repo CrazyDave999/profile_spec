@@ -1,0 +1,2066 @@
+[
+  {
+    "case": "refine03_width8_00_ar_gsm8k_bs1",
+    "baseline": "refine03_width8_00_ar_gsm8k_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "refine03_width8_01_dflash_gsm8k_bs1",
+    "baseline": "refine03_width8_00_ar_gsm8k_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 101
+      },
+      {
+        "prompt": 1,
+        "equal": false,
+        "first_mismatch": 24
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 22
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 83
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 50
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 55
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": false,
+        "first_mismatch": 44
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 14
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 43
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": false,
+        "first_mismatch": 98
+      }
+    ]
+  },
+  {
+    "case": "refine03_width8_02_domino_gsm8k_bs1",
+    "baseline": "refine03_width8_00_ar_gsm8k_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 101
+      },
+      {
+        "prompt": 1,
+        "equal": false,
+        "first_mismatch": 24
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 22
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 83
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 50
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 55
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": false,
+        "first_mismatch": 44
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 14
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 43
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": false,
+        "first_mismatch": 98
+      }
+    ]
+  },
+  {
+    "case": "refine03_width8_03_dspark_gsm8k_bs1",
+    "baseline": "refine03_width8_00_ar_gsm8k_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 101
+      },
+      {
+        "prompt": 1,
+        "equal": false,
+        "first_mismatch": 24
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 22
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 83
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 50
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 55
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": false,
+        "first_mismatch": 44
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 14
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 43
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": false,
+        "first_mismatch": 98
+      }
+    ]
+  },
+  {
+    "case": "refine03_width8_04_dflash2_gsm8k_bs1",
+    "baseline": "refine03_width8_00_ar_gsm8k_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 101
+      },
+      {
+        "prompt": 1,
+        "equal": false,
+        "first_mismatch": 24
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 22
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 83
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 50
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 55
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": false,
+        "first_mismatch": 44
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 14
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 43
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": false,
+        "first_mismatch": 98
+      }
+    ]
+  },
+  {
+    "case": "refine03_width8_05_ar_gsm8k_bs1",
+    "baseline": "refine03_width8_00_ar_gsm8k_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "refine03_width8_06_ar_gsm8k_bs16",
+    "baseline": "refine03_width8_06_ar_gsm8k_bs16",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "refine03_width8_07_dflash_gsm8k_bs16",
+    "baseline": "refine03_width8_06_ar_gsm8k_bs16",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 63
+      },
+      {
+        "prompt": 1,
+        "equal": false,
+        "first_mismatch": 3
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 52
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 50
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 3
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 55
+      },
+      {
+        "prompt": 9,
+        "equal": false,
+        "first_mismatch": 92
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 101
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 60
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 32
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": false,
+        "first_mismatch": 96
+      }
+    ]
+  },
+  {
+    "case": "refine03_width8_08_domino_gsm8k_bs16",
+    "baseline": "refine03_width8_06_ar_gsm8k_bs16",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 63
+      },
+      {
+        "prompt": 1,
+        "equal": false,
+        "first_mismatch": 3
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 52
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 50
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 3
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 55
+      },
+      {
+        "prompt": 9,
+        "equal": false,
+        "first_mismatch": 92
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 101
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 60
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 32
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": false,
+        "first_mismatch": 96
+      }
+    ]
+  },
+  {
+    "case": "refine03_width8_09_dspark_gsm8k_bs16",
+    "baseline": "refine03_width8_06_ar_gsm8k_bs16",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 63
+      },
+      {
+        "prompt": 1,
+        "equal": false,
+        "first_mismatch": 3
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 52
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 50
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 3
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 55
+      },
+      {
+        "prompt": 9,
+        "equal": false,
+        "first_mismatch": 92
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 101
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 60
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 32
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "refine03_width8_10_dflash2_gsm8k_bs16",
+    "baseline": "refine03_width8_06_ar_gsm8k_bs16",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 63
+      },
+      {
+        "prompt": 1,
+        "equal": false,
+        "first_mismatch": 3
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 52
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 50
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 3
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 55
+      },
+      {
+        "prompt": 9,
+        "equal": false,
+        "first_mismatch": 92
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 101
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 60
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 32
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "refine03_width8_11_ar_gsm8k_bs16",
+    "baseline": "refine03_width8_06_ar_gsm8k_bs16",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "refine03_width8_12_ar_mt_bench_bs1",
+    "baseline": "refine03_width8_12_ar_mt_bench_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "refine03_width8_13_dflash_mt_bench_bs1",
+    "baseline": "refine03_width8_12_ar_mt_bench_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 74
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 97
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 2
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 33
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 50
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 24
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 74
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 98
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 17
+      },
+      {
+        "prompt": 14,
+        "equal": false,
+        "first_mismatch": 108
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "refine03_width8_14_domino_mt_bench_bs1",
+    "baseline": "refine03_width8_12_ar_mt_bench_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 74
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 97
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 2
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 33
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 50
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 24
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 74
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 98
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 17
+      },
+      {
+        "prompt": 14,
+        "equal": false,
+        "first_mismatch": 108
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "refine03_width8_15_dspark_mt_bench_bs1",
+    "baseline": "refine03_width8_12_ar_mt_bench_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 74
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 97
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 2
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 33
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 50
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 24
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 74
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 98
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 17
+      },
+      {
+        "prompt": 14,
+        "equal": false,
+        "first_mismatch": 108
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "refine03_width8_16_dflash2_mt_bench_bs1",
+    "baseline": "refine03_width8_12_ar_mt_bench_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 74
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 97
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 2
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 33
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 50
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 24
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 74
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 98
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 17
+      },
+      {
+        "prompt": 14,
+        "equal": false,
+        "first_mismatch": 108
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "refine03_width8_17_ar_mt_bench_bs1",
+    "baseline": "refine03_width8_12_ar_mt_bench_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "refine03_width8_18_ar_mt_bench_bs16",
+    "baseline": "refine03_width8_18_ar_mt_bench_bs16",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "refine03_width8_19_dflash_mt_bench_bs16",
+    "baseline": "refine03_width8_18_ar_mt_bench_bs16",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 74
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": false,
+        "first_mismatch": 60
+      },
+      {
+        "prompt": 3,
+        "equal": false,
+        "first_mismatch": 105
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 34
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 2
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 33
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 124
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 54
+      },
+      {
+        "prompt": 9,
+        "equal": false,
+        "first_mismatch": 9
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 77
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 19
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 17
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": false,
+        "first_mismatch": 26
+      }
+    ]
+  },
+  {
+    "case": "refine03_width8_20_domino_mt_bench_bs16",
+    "baseline": "refine03_width8_18_ar_mt_bench_bs16",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 74
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": false,
+        "first_mismatch": 60
+      },
+      {
+        "prompt": 3,
+        "equal": false,
+        "first_mismatch": 105
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 34
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 2
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 33
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 124
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 54
+      },
+      {
+        "prompt": 9,
+        "equal": false,
+        "first_mismatch": 9
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 77
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 19
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 17
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": false,
+        "first_mismatch": 26
+      }
+    ]
+  },
+  {
+    "case": "refine03_width8_21_dspark_mt_bench_bs16",
+    "baseline": "refine03_width8_18_ar_mt_bench_bs16",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 74
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": false,
+        "first_mismatch": 60
+      },
+      {
+        "prompt": 3,
+        "equal": false,
+        "first_mismatch": 105
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 34
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 2
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 33
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 54
+      },
+      {
+        "prompt": 9,
+        "equal": false,
+        "first_mismatch": 9
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 77
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 19
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 17
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": false,
+        "first_mismatch": 26
+      }
+    ]
+  },
+  {
+    "case": "refine03_width8_22_dflash2_mt_bench_bs16",
+    "baseline": "refine03_width8_18_ar_mt_bench_bs16",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 74
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": false,
+        "first_mismatch": 60
+      },
+      {
+        "prompt": 3,
+        "equal": false,
+        "first_mismatch": 105
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 34
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 2
+      },
+      {
+        "prompt": 6,
+        "equal": false,
+        "first_mismatch": 33
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 124
+      },
+      {
+        "prompt": 8,
+        "equal": false,
+        "first_mismatch": 54
+      },
+      {
+        "prompt": 9,
+        "equal": false,
+        "first_mismatch": 9
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": false,
+        "first_mismatch": 77
+      },
+      {
+        "prompt": 12,
+        "equal": false,
+        "first_mismatch": 19
+      },
+      {
+        "prompt": 13,
+        "equal": false,
+        "first_mismatch": 17
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": false,
+        "first_mismatch": 26
+      }
+    ]
+  },
+  {
+    "case": "refine03_width8_23_ar_mt_bench_bs16",
+    "baseline": "refine03_width8_18_ar_mt_bench_bs16",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 8,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 9,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 10,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 11,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 12,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 13,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 14,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 15,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  }
+]

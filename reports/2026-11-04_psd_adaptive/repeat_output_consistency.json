@@ -1,0 +1,110 @@
+[
+  {
+    "case": "refine03_adaptive_00_ar_gsm8k_bs1",
+    "samples": 16,
+    "repeat_exact_prompts_vs_repeat0": [
+      16,
+      16,
+      16
+    ]
+  },
+  {
+    "case": "refine03_adaptive_01_dspark_gsm8k_bs1",
+    "samples": 16,
+    "repeat_exact_prompts_vs_repeat0": [
+      16,
+      16,
+      16
+    ]
+  },
+  {
+    "case": "refine03_adaptive_02_dspark_gsm8k_bs1",
+    "samples": 16,
+    "repeat_exact_prompts_vs_repeat0": [
+      16,
+      16,
+      16
+    ]
+  },
+  {
+    "case": "refine03_adaptive_03_ar_gsm8k_bs1",
+    "samples": 16,
+    "repeat_exact_prompts_vs_repeat0": [
+      16,
+      16,
+      16
+    ]
+  },
+  {
+    "case": "refine03_adaptive_04_ar_gsm8k_bs4",
+    "samples": 16,
+    "repeat_exact_prompts_vs_repeat0": [
+      16,
+      16,
+      16
+    ]
+  },
+  {
+    "case": "refine03_adaptive_05_dspark_gsm8k_bs4",
+    "samples": 16,
+    "repeat_exact_prompts_vs_repeat0": [
+      16,
+      16,
+      16
+    ]
+  },
+  {
+    "case": "refine03_adaptive_06_dspark_gsm8k_bs4",
+    "samples": 16,
+    "repeat_exact_prompts_vs_repeat0": [
+      16,
+      16,
+      16
+    ]
+  },
+  {
+    "case": "refine03_adaptive_07_ar_gsm8k_bs4",
+    "samples": 16,
+    "repeat_exact_prompts_vs_repeat0": [
+      16,
+      16,
+      16
+    ]
+  },
+  {
+    "case": "refine03_adaptive_08_ar_gsm8k_bs16",
+    "samples": 16,
+    "repeat_exact_prompts_vs_repeat0": [
+      16,
+      16,
+      16
+    ]
+  },
+  {
+    "case": "refine03_adaptive_09_dspark_gsm8k_bs16",
+    "samples": 16,
+    "repeat_exact_prompts_vs_repeat0": [
+      16,
+      16,
+      16
+    ]
+  },
+  {
+    "case": "refine03_adaptive_10_dspark_gsm8k_bs16",
+    "samples": 16,
+    "repeat_exact_prompts_vs_repeat0": [
+      16,
+      16,
+      16
+    ]
+  },
+  {
+    "case": "refine03_adaptive_11_ar_gsm8k_bs16",
+    "samples": 16,
+    "repeat_exact_prompts_vs_repeat0": [
+      16,
+      16,
+      16
+    ]
+  }
+]

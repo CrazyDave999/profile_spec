@@ -1,0 +1,74 @@
+[
+  {
+    "reference": "refine03_adaptive_00_ar_gsm8k_bs1",
+    "case": "refine03_adaptive_00_ar_gsm8k_bs1",
+    "exact_prompts": 16,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_adaptive_00_ar_gsm8k_bs1",
+    "case": "refine03_adaptive_03_ar_gsm8k_bs1",
+    "exact_prompts": 16,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_adaptive_00_ar_gsm8k_bs1",
+    "case": "refine03_adaptive_04_ar_gsm8k_bs4",
+    "exact_prompts": 7,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_adaptive_00_ar_gsm8k_bs1",
+    "case": "refine03_adaptive_07_ar_gsm8k_bs4",
+    "exact_prompts": 7,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_adaptive_00_ar_gsm8k_bs1",
+    "case": "refine03_adaptive_08_ar_gsm8k_bs16",
+    "exact_prompts": 5,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_adaptive_00_ar_gsm8k_bs1",
+    "case": "refine03_adaptive_11_ar_gsm8k_bs16",
+    "exact_prompts": 5,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_adaptive_01_dspark_gsm8k_bs1",
+    "case": "refine03_adaptive_01_dspark_gsm8k_bs1",
+    "exact_prompts": 16,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_adaptive_01_dspark_gsm8k_bs1",
+    "case": "refine03_adaptive_05_dspark_gsm8k_bs4",
+    "exact_prompts": 6,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_adaptive_01_dspark_gsm8k_bs1",
+    "case": "refine03_adaptive_09_dspark_gsm8k_bs16",
+    "exact_prompts": 6,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_adaptive_02_dspark_gsm8k_bs1",
+    "case": "refine03_adaptive_02_dspark_gsm8k_bs1",
+    "exact_prompts": 16,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_adaptive_02_dspark_gsm8k_bs1",
+    "case": "refine03_adaptive_06_dspark_gsm8k_bs4",
+    "exact_prompts": 6,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_adaptive_02_dspark_gsm8k_bs1",
+    "case": "refine03_adaptive_10_dspark_gsm8k_bs16",
+    "exact_prompts": 7,
+    "samples": 16
+  }
+]

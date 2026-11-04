@@ -1,0 +1,278 @@
+[
+  {
+    "case": "hybrid03_00_ar_gsm8k_bs1",
+    "baseline": "hybrid03_00_ar_gsm8k_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "hybrid03_01_dflash_gsm8k_bs1",
+    "baseline": "hybrid03_00_ar_gsm8k_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": false,
+        "first_mismatch": 104
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 21
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": false,
+        "first_mismatch": 14
+      }
+    ]
+  },
+  {
+    "case": "hybrid03_02_ar_gsm8k_bs1",
+    "baseline": "hybrid03_00_ar_gsm8k_bs1",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "hybrid03_03_ar_gsm8k_bs4",
+    "baseline": "hybrid03_03_ar_gsm8k_bs4",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "hybrid03_04_dflash_gsm8k_bs4",
+    "baseline": "hybrid03_03_ar_gsm8k_bs4",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": false,
+        "first_mismatch": 33
+      },
+      {
+        "prompt": 5,
+        "equal": false,
+        "first_mismatch": 88
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  },
+  {
+    "case": "hybrid03_05_ar_gsm8k_bs4",
+    "baseline": "hybrid03_03_ar_gsm8k_bs4",
+    "matches": [
+      {
+        "prompt": 0,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 1,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 2,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 3,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 4,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 5,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 6,
+        "equal": true,
+        "first_mismatch": null
+      },
+      {
+        "prompt": 7,
+        "equal": true,
+        "first_mismatch": null
+      }
+    ]
+  }
+]

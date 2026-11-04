@@ -1,0 +1,130 @@
+{
+  "status": "success",
+  "stage": "sps",
+  "run_id": "refine03_sps",
+  "commands": [
+    {
+      "name": "refine03_sps_00_dspark_gsm8k_bs1",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_parallel_sd_cell.py",
+        "--name",
+        "refine03_sps_00_dspark_gsm8k_bs1",
+        "--",
+        "--method",
+        "dspark",
+        "--dataset",
+        "gsm8k",
+        "--bs",
+        "1",
+        "--samples",
+        "1",
+        "--tokens",
+        "256",
+        "--repeats",
+        "2"
+      ]
+    },
+    {
+      "name": "refine03_sps_01_dspark_gsm8k_bs2",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_parallel_sd_cell.py",
+        "--name",
+        "refine03_sps_01_dspark_gsm8k_bs2",
+        "--",
+        "--method",
+        "dspark",
+        "--dataset",
+        "gsm8k",
+        "--bs",
+        "2",
+        "--samples",
+        "2",
+        "--tokens",
+        "256",
+        "--repeats",
+        "2"
+      ]
+    },
+    {
+      "name": "refine03_sps_02_dspark_gsm8k_bs4",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_parallel_sd_cell.py",
+        "--name",
+        "refine03_sps_02_dspark_gsm8k_bs4",
+        "--",
+        "--method",
+        "dspark",
+        "--dataset",
+        "gsm8k",
+        "--bs",
+        "4",
+        "--samples",
+        "4",
+        "--tokens",
+        "256",
+        "--repeats",
+        "2"
+      ]
+    },
+    {
+      "name": "refine03_sps_03_dspark_gsm8k_bs8",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_parallel_sd_cell.py",
+        "--name",
+        "refine03_sps_03_dspark_gsm8k_bs8",
+        "--",
+        "--method",
+        "dspark",
+        "--dataset",
+        "gsm8k",
+        "--bs",
+        "8",
+        "--samples",
+        "8",
+        "--tokens",
+        "256",
+        "--repeats",
+        "2"
+      ]
+    },
+    {
+      "name": "refine03_sps_04_dspark_gsm8k_bs16",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_parallel_sd_cell.py",
+        "--name",
+        "refine03_sps_04_dspark_gsm8k_bs16",
+        "--",
+        "--method",
+        "dspark",
+        "--dataset",
+        "gsm8k",
+        "--bs",
+        "16",
+        "--samples",
+        "16",
+        "--tokens",
+        "256",
+        "--repeats",
+        "2"
+      ]
+    }
+  ],
+  "supervisor_pid": 3588237,
+  "supervisor_start_time": 1793809796.21,
+  "worker_sha256": "d2be0e368ef73616f619cfb5057ecb228367b62a23de181ae17db3e58c45f845",
+  "started_epoch": 1793809796.4537232,
+  "calibration_environment": {
+    "SGLANG_DSPARK_ENABLE_SPS_RECORD": "1",
+    "SGLANG_SIMULATE_ACC_LEN": "1.0"
+  },
+  "sps_table_input": null,
+  "current_index": 4,
+  "current_cell": "refine03_sps_04_dspark_gsm8k_bs16",
+  "sps_table": "/home/qinghao/profile_spec/logs/parallel_sd_20261104/refine03_sps.sps.json",
+  "ended_epoch": 1793809928.2247355
+}

@@ -1,0 +1,29 @@
+{
+  "state": "success",
+  "argv": [
+    "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+    "/home/qinghao/profile_spec/parallel_sd_worker.py",
+    "--method",
+    "dspark",
+    "--dataset",
+    "gsm8k",
+    "--bs",
+    "1",
+    "--samples",
+    "2",
+    "--tokens",
+    "32",
+    "--repeats",
+    "1",
+    "--output",
+    "/home/qinghao/profile_spec/logs/parallel_sd_20261104/smoke01_01_dspark_gsm8k_bs1.json"
+  ],
+  "result": "/home/qinghao/profile_spec/logs/parallel_sd_20261104/smoke01_01_dspark_gsm8k_bs1.json",
+  "log": "/home/qinghao/profile_spec/logs/parallel_sd_20261104/smoke01_01_dspark_gsm8k_bs1.log",
+  "started_epoch": 1793804785.496498,
+  "pid": 3530665,
+  "process_start_time": 1793804785.3,
+  "exit_code": 0,
+  "ended_epoch": 1793804805.3808005,
+  "worker_status": "success"
+}

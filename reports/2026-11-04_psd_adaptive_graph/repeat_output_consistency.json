@@ -1,0 +1,74 @@
+[
+  {
+    "case": "graphaware01_adaptive_00_ar_gsm8k_bs16",
+    "samples": 16,
+    "repeat_exact_prompts_vs_repeat0": [
+      16,
+      16,
+      16
+    ]
+  },
+  {
+    "case": "graphaware01_adaptive_01_dspark_gsm8k_bs16",
+    "samples": 16,
+    "repeat_exact_prompts_vs_repeat0": [
+      16,
+      16,
+      16
+    ]
+  },
+  {
+    "case": "graphaware01_adaptive_02_dspark_gsm8k_bs16",
+    "samples": 16,
+    "repeat_exact_prompts_vs_repeat0": [
+      16,
+      16,
+      16
+    ]
+  },
+  {
+    "case": "graphaware01_adaptive_03_ar_gsm8k_bs16",
+    "samples": 16,
+    "repeat_exact_prompts_vs_repeat0": [
+      16,
+      16,
+      16
+    ]
+  },
+  {
+    "case": "graphaware01_adaptive_04_ar_mt_bench_bs16",
+    "samples": 16,
+    "repeat_exact_prompts_vs_repeat0": [
+      16,
+      16,
+      16
+    ]
+  },
+  {
+    "case": "graphaware01_adaptive_05_dspark_mt_bench_bs16",
+    "samples": 16,
+    "repeat_exact_prompts_vs_repeat0": [
+      16,
+      16,
+      16
+    ]
+  },
+  {
+    "case": "graphaware01_adaptive_06_dspark_mt_bench_bs16",
+    "samples": 16,
+    "repeat_exact_prompts_vs_repeat0": [
+      16,
+      16,
+      16
+    ]
+  },
+  {
+    "case": "graphaware01_adaptive_07_ar_mt_bench_bs16",
+    "samples": 16,
+    "repeat_exact_prompts_vs_repeat0": [
+      16,
+      16,
+      16
+    ]
+  }
+]

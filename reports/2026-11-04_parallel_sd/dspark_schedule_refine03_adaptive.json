@@ -1,0 +1,310 @@
+{
+  "run_id": "refine03_adaptive",
+  "campaign_status": "success",
+  "cases": [
+    {
+      "case": "refine03_adaptive_01_dspark_gsm8k_bs1",
+      "mode": "static",
+      "configured_bs": 1,
+      "records": 1088,
+      "replayed_graph_rows_sum": 8704,
+      "uniform_static_padded_rows_sum": 8704,
+      "graph_rows_relative_to_uniform_static": 1.0,
+      "graph_trimmed_calls": 0,
+      "mean_graph_rows_per_call": 8.0,
+      "by_observed_bs": {
+        "1": {
+          "calls": 1088,
+          "mean_graph_rows": 8,
+          "min_graph_rows": 8,
+          "max_graph_rows": 8
+        }
+      },
+      "full_BS_predicted_step_ms_median": null,
+      "full_BS_recorded_step_cpu_ms_median": 13.5046,
+      "table_SHA256": "835f686ad7628fd4ef1792b818625550f796f93ed0139827784be213b1412349",
+      "graph_rows_source": "Inferred from capture buckets for static; reported layout.graph_num_tokens for compact.",
+      "observability": "core + CPU step intervals enabled equally for static and compact; no per-request confidence D2H or GPU event timers.",
+      "scope": "Records include warmup and measured generations. They establish scheduling behavior, not headline throughput; returned request timing excludes warmup."
+    },
+    {
+      "case": "refine03_adaptive_02_dspark_gsm8k_bs1",
+      "mode": "compact",
+      "configured_bs": 1,
+      "records": 1088,
+      "replayed_graph_rows_sum": 8704,
+      "uniform_static_padded_rows_sum": 8704,
+      "graph_rows_relative_to_uniform_static": 1.0,
+      "graph_trimmed_calls": 0,
+      "mean_graph_rows_per_call": 8.0,
+      "by_observed_bs": {
+        "1": {
+          "calls": 1088,
+          "mean_graph_rows": 8,
+          "min_graph_rows": 8,
+          "max_graph_rows": 8
+        }
+      },
+      "full_BS_predicted_step_ms_median": 13.649599999999998,
+      "full_BS_recorded_step_cpu_ms_median": 13.5812,
+      "table_SHA256": "835f686ad7628fd4ef1792b818625550f796f93ed0139827784be213b1412349",
+      "graph_rows_source": "Inferred from capture buckets for static; reported layout.graph_num_tokens for compact.",
+      "observability": "core + CPU step intervals enabled equally for static and compact; no per-request confidence D2H or GPU event timers.",
+      "scope": "Records include warmup and measured generations. They establish scheduling behavior, not headline throughput; returned request timing excludes warmup."
+    },
+    {
+      "case": "refine03_adaptive_05_dspark_gsm8k_bs4",
+      "mode": "static",
+      "configured_bs": 4,
+      "records": 311,
+      "replayed_graph_rows_sum": 8784,
+      "uniform_static_padded_rows_sum": 8784,
+      "graph_rows_relative_to_uniform_static": 1.0,
+      "graph_trimmed_calls": 0,
+      "mean_graph_rows_per_call": 28.244372990353696,
+      "by_observed_bs": {
+        "4": {
+          "calls": 239,
+          "mean_graph_rows": 32,
+          "min_graph_rows": 32,
+          "max_graph_rows": 32
+        },
+        "3": {
+          "calls": 16,
+          "mean_graph_rows": 32,
+          "min_graph_rows": 32,
+          "max_graph_rows": 32
+        },
+        "2": {
+          "calls": 22,
+          "mean_graph_rows": 16,
+          "min_graph_rows": 16,
+          "max_graph_rows": 16
+        },
+        "1": {
+          "calls": 34,
+          "mean_graph_rows": 8,
+          "min_graph_rows": 8,
+          "max_graph_rows": 8
+        }
+      },
+      "full_BS_predicted_step_ms_median": null,
+      "full_BS_recorded_step_cpu_ms_median": 13.47915,
+      "table_SHA256": "835f686ad7628fd4ef1792b818625550f796f93ed0139827784be213b1412349",
+      "graph_rows_source": "Inferred from capture buckets for static; reported layout.graph_num_tokens for compact.",
+      "observability": "core + CPU step intervals enabled equally for static and compact; no per-request confidence D2H or GPU event timers.",
+      "scope": "Records include warmup and measured generations. They establish scheduling behavior, not headline throughput; returned request timing excludes warmup."
+    },
+    {
+      "case": "refine03_adaptive_06_dspark_gsm8k_bs4",
+      "mode": "compact",
+      "configured_bs": 4,
+      "records": 311,
+      "replayed_graph_rows_sum": 8832,
+      "uniform_static_padded_rows_sum": 8832,
+      "graph_rows_relative_to_uniform_static": 1.0,
+      "graph_trimmed_calls": 0,
+      "mean_graph_rows_per_call": 28.39871382636656,
+      "by_observed_bs": {
+        "4": {
+          "calls": 239,
+          "mean_graph_rows": 32,
+          "min_graph_rows": 32,
+          "max_graph_rows": 32
+        },
+        "3": {
+          "calls": 19,
+          "mean_graph_rows": 32,
+          "min_graph_rows": 32,
+          "max_graph_rows": 32
+        },
+        "2": {
+          "calls": 19,
+          "mean_graph_rows": 16,
+          "min_graph_rows": 16,
+          "max_graph_rows": 16
+        },
+        "1": {
+          "calls": 34,
+          "mean_graph_rows": 8,
+          "min_graph_rows": 8,
+          "max_graph_rows": 8
+        }
+      },
+      "full_BS_predicted_step_ms_median": 13.6113,
+      "full_BS_recorded_step_cpu_ms_median": 13.55355,
+      "table_SHA256": "835f686ad7628fd4ef1792b818625550f796f93ed0139827784be213b1412349",
+      "graph_rows_source": "Inferred from capture buckets for static; reported layout.graph_num_tokens for compact.",
+      "observability": "core + CPU step intervals enabled equally for static and compact; no per-request confidence D2H or GPU event timers.",
+      "scope": "Records include warmup and measured generations. They establish scheduling behavior, not headline throughput; returned request timing excludes warmup."
+    },
+    {
+      "case": "refine03_adaptive_09_dspark_gsm8k_bs16",
+      "mode": "static",
+      "configured_bs": 16,
+      "records": 107,
+      "replayed_graph_rows_sum": 9952,
+      "uniform_static_padded_rows_sum": 9952,
+      "graph_rows_relative_to_uniform_static": 1.0,
+      "graph_trimmed_calls": 0,
+      "mean_graph_rows_per_call": 93.00934579439253,
+      "by_observed_bs": {
+        "16": {
+          "calls": 63,
+          "mean_graph_rows": 128,
+          "min_graph_rows": 128,
+          "max_graph_rows": 128
+        },
+        "8": {
+          "calls": 1,
+          "mean_graph_rows": 64,
+          "min_graph_rows": 64,
+          "max_graph_rows": 64
+        },
+        "5": {
+          "calls": 1,
+          "mean_graph_rows": 64,
+          "min_graph_rows": 64,
+          "max_graph_rows": 64
+        },
+        "2": {
+          "calls": 4,
+          "mean_graph_rows": 16,
+          "min_graph_rows": 16,
+          "max_graph_rows": 16
+        },
+        "1": {
+          "calls": 20,
+          "mean_graph_rows": 8,
+          "min_graph_rows": 8,
+          "max_graph_rows": 8
+        },
+        "14": {
+          "calls": 3,
+          "mean_graph_rows": 128,
+          "min_graph_rows": 128,
+          "max_graph_rows": 128
+        },
+        "11": {
+          "calls": 3,
+          "mean_graph_rows": 128,
+          "min_graph_rows": 128,
+          "max_graph_rows": 128
+        },
+        "9": {
+          "calls": 3,
+          "mean_graph_rows": 128,
+          "min_graph_rows": 128,
+          "max_graph_rows": 128
+        },
+        "7": {
+          "calls": 3,
+          "mean_graph_rows": 64,
+          "min_graph_rows": 64,
+          "max_graph_rows": 64
+        },
+        "3": {
+          "calls": 6,
+          "mean_graph_rows": 32,
+          "min_graph_rows": 32,
+          "max_graph_rows": 32
+        }
+      },
+      "full_BS_predicted_step_ms_median": null,
+      "full_BS_recorded_step_cpu_ms_median": 15.9977,
+      "table_SHA256": "835f686ad7628fd4ef1792b818625550f796f93ed0139827784be213b1412349",
+      "graph_rows_source": "Inferred from capture buckets for static; reported layout.graph_num_tokens for compact.",
+      "observability": "core + CPU step intervals enabled equally for static and compact; no per-request confidence D2H or GPU event timers.",
+      "scope": "Records include warmup and measured generations. They establish scheduling behavior, not headline throughput; returned request timing excludes warmup."
+    },
+    {
+      "case": "refine03_adaptive_10_dspark_gsm8k_bs16",
+      "mode": "compact",
+      "configured_bs": 16,
+      "records": 113,
+      "replayed_graph_rows_sum": 10000,
+      "uniform_static_padded_rows_sum": 10000,
+      "graph_rows_relative_to_uniform_static": 1.0,
+      "graph_trimmed_calls": 0,
+      "mean_graph_rows_per_call": 88.49557522123894,
+      "by_observed_bs": {
+        "16": {
+          "calls": 63,
+          "mean_graph_rows": 128,
+          "min_graph_rows": 128,
+          "max_graph_rows": 128
+        },
+        "8": {
+          "calls": 1,
+          "mean_graph_rows": 64,
+          "min_graph_rows": 64,
+          "max_graph_rows": 64
+        },
+        "5": {
+          "calls": 1,
+          "mean_graph_rows": 64,
+          "min_graph_rows": 64,
+          "max_graph_rows": 64
+        },
+        "2": {
+          "calls": 4,
+          "mean_graph_rows": 16,
+          "min_graph_rows": 16,
+          "max_graph_rows": 16
+        },
+        "1": {
+          "calls": 26,
+          "mean_graph_rows": 8,
+          "min_graph_rows": 8,
+          "max_graph_rows": 8
+        },
+        "14": {
+          "calls": 3,
+          "mean_graph_rows": 128,
+          "min_graph_rows": 128,
+          "max_graph_rows": 128
+        },
+        "11": {
+          "calls": 3,
+          "mean_graph_rows": 128,
+          "min_graph_rows": 128,
+          "max_graph_rows": 128
+        },
+        "9": {
+          "calls": 3,
+          "mean_graph_rows": 128,
+          "min_graph_rows": 128,
+          "max_graph_rows": 128
+        },
+        "7": {
+          "calls": 3,
+          "mean_graph_rows": 64,
+          "min_graph_rows": 64,
+          "max_graph_rows": 64
+        },
+        "3": {
+          "calls": 6,
+          "mean_graph_rows": 32,
+          "min_graph_rows": 32,
+          "max_graph_rows": 32
+        }
+      },
+      "full_BS_predicted_step_ms_median": 13.9383,
+      "full_BS_recorded_step_cpu_ms_median": 16.1715,
+      "table_SHA256": "835f686ad7628fd4ef1792b818625550f796f93ed0139827784be213b1412349",
+      "graph_rows_source": "Inferred from capture buckets for static; reported layout.graph_num_tokens for compact.",
+      "observability": "core + CPU step intervals enabled equally for static and compact; no per-request confidence D2H or GPU event timers.",
+      "scope": "Records include warmup and measured generations. They establish scheduling behavior, not headline throughput; returned request timing excludes warmup."
+    }
+  ],
+  "source_sha256": {
+    "logs/parallel_sd_20261104/refine03_adaptive_01_dspark_gsm8k_bs1.json": "263fcbfcdc2ef25f36229cbf67cc2c851e1f815c1ca4ffdc38cd7686ff739efe",
+    "logs/parallel_sd_20261104/refine03_adaptive_02_dspark_gsm8k_bs1.json": "d2c2cd3d72cf407bf8d685a4a6ec3f693f640cddba981acca005b8003330d222",
+    "logs/parallel_sd_20261104/refine03_adaptive_05_dspark_gsm8k_bs4.json": "757a48bf76df96b4b23088df9a361d012e42bdd712d74abc40f10af1fb145e38",
+    "logs/parallel_sd_20261104/refine03_adaptive_06_dspark_gsm8k_bs4.json": "ae8606083412a3f3593909ce025804eb9941db8a5b37bae65312b55208906af2",
+    "logs/parallel_sd_20261104/refine03_adaptive_09_dspark_gsm8k_bs16.json": "85b6fd9f449c99d10c57bd7a9dba5b1f5ae058df9df70d047ab0bb86d0c3a3e3",
+    "logs/parallel_sd_20261104/refine03_adaptive_10_dspark_gsm8k_bs16.json": "12895e0fe40afafdd8bf12a2655802028af1a43a08aad2e4d8e1e6a23661beff"
+  },
+  "analyzer_SHA256": "193731d80fe99e627c70b65aeeca71acec89f44805336363d5070296d00b087d",
+  "definition": "Compact num_verify_tokens is layout.graph_num_tokens. Static num_verify_tokens is raw verify_ids_2d.numel(), so static graph rows are inferred by ceil-to-capture-BS times width. Recorded budget is the executed verify budget after graph-tier fill, not the optimizer argmax before alignment; it is not a hardware utilization metric."
+}

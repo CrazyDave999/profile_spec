@@ -1,0 +1,47 @@
+{
+  "status": "stopped_after_stage_failure",
+  "pid": 3543651,
+  "process_start_time": 1793806377.31,
+  "dependency": "/home/qinghao/profile_spec/logs/parallel_sd_20261104/full01.campaign.json",
+  "dependency_pid": 3537360,
+  "dependency_start_time": 1793805770.24,
+  "worker_sha256": "9898f49a988e706ce3dd325118f03dd96f69b157660cb236c3f14b4cd5dd4427",
+  "started_epoch": 1793806377.5526712,
+  "stages": [
+    {
+      "stage": "traces",
+      "run_id": "follow01_traces",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_parallel_sd_campaign.py",
+        "--stage",
+        "traces",
+        "--run-id",
+        "follow01_traces"
+      ],
+      "started_epoch": 1793807644.0774093,
+      "exit_code": 0,
+      "ended_epoch": 1793808365.616274
+    },
+    {
+      "stage": "hybrid",
+      "run_id": "follow01_hybrid",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_parallel_sd_campaign.py",
+        "--stage",
+        "hybrid",
+        "--run-id",
+        "follow01_hybrid"
+      ],
+      "started_epoch": 1793808365.6165934,
+      "exit_code": 2,
+      "ended_epoch": 1793808369.299584
+    }
+  ],
+  "dependency_live": false,
+  "last_checked_epoch": 1793807644.0770483,
+  "dependency_status": "success",
+  "current_stage": "hybrid",
+  "ended_epoch": 1793808369.2999544
+}

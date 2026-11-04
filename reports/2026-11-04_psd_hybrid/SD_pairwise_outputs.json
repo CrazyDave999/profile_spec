@@ -1,0 +1,16 @@
+[
+  {
+    "reference": "hybrid03_01_dflash_gsm8k_bs1",
+    "per_method_exact_prompts": {
+      "dflash": 8
+    },
+    "samples": 8
+  },
+  {
+    "reference": "hybrid03_04_dflash_gsm8k_bs4",
+    "per_method_exact_prompts": {
+      "dflash": 8
+    },
+    "samples": 8
+  }
+]

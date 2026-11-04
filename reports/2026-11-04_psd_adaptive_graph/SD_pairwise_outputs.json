@@ -1,0 +1,18 @@
+[
+  {
+    "reference": "graphaware01_adaptive_01_dspark_gsm8k_bs16",
+    "per_method_exact_prompts": {
+      "dspark": 16,
+      "dspark/compact": 16
+    },
+    "samples": 16
+  },
+  {
+    "reference": "graphaware01_adaptive_05_dspark_mt_bench_bs16",
+    "per_method_exact_prompts": {
+      "dspark": 16,
+      "dspark/compact": 7
+    },
+    "samples": 16
+  }
+]

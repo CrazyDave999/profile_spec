@@ -1,0 +1,546 @@
+{
+  "database": "profiles/parallel_sd_20261104/ns_dflash_b1_a01.sqlite",
+  "kernel_events": 8818,
+  "launch_correlated_kernel_events": 8818,
+  "correlation_coverage": 1.0,
+  "cuda_graph_launches": 32,
+  "cuda_graph_captures": 0,
+  "device_busy_union_ms": 221.430726,
+  "decode_window": {
+    "wall_ms": 211.32095,
+    "scheduler_decode_rounds": 16,
+    "mean_complete_round_ms": 13.207559375,
+    "kernel_busy_fraction": 0.985232155164928,
+    "interleaved_prefill_calls": 0,
+    "definition": "first decode scheduler.run_batch start to latest decode batch host end/correlated kernel end; includes inter-batch gaps; excludes initial prefill and profiler stop/export, but may include interleaved prefill (see count)",
+    "decode_run_segments": 1,
+    "segmented_decode_envelopes_ms": 211.32095,
+    "mean_segmented_round_ms": 13.207559375,
+    "mean_gpu_kernel_work_per_round_ms": 13.014578187499996,
+    "segmented_definition": "Union of consecutive decode-run envelopes, broken at every scheduler prefill batch. Each envelope starts at first CPU dispatch and ends at last correlated GPU kernel/host completion. Excludes between-wave API and prefill dispatch gaps; queueing of preceding GPU work can still overlap its beginning. This is a pipeline envelope, not isolated kernel latency."
+  },
+  "by_NVTX_batch_size": [
+    {
+      "phase": "DRAFT",
+      "batch_size": 1,
+      "calls": 16,
+      "gpu_kernel_ms": 33.861514,
+      "host_ms": 4.033135000000001,
+      "gpu_kernel_ms_per_call": 2.116344625,
+      "host_ms_per_call": 0.25207093750000004
+    },
+    {
+      "phase": "EXTEND",
+      "batch_size": 1,
+      "calls": 1,
+      "gpu_kernel_ms": 13.027620999999987,
+      "host_ms": 22.249554,
+      "gpu_kernel_ms_per_call": 13.027620999999987,
+      "host_ms_per_call": 22.249554
+    },
+    {
+      "phase": "VERIFY",
+      "batch_size": 1,
+      "calls": 16,
+      "gpu_kernel_ms": 170.77188399999994,
+      "host_ms": 2.714974,
+      "gpu_kernel_ms_per_call": 10.673242749999996,
+      "host_ms_per_call": 0.169685875
+    }
+  ],
+  "steps": [
+    {
+      "name": "step[EXTEND bs=1 toks=92]",
+      "phase": "EXTEND",
+      "host_ms": 22.249554,
+      "batch_size": 1,
+      "gpu_kernel_ms": 13.027620999999987,
+      "kernel_count": 526
+    },
+    {
+      "name": "step[DRAFT bs=1]",
+      "phase": "DRAFT",
+      "host_ms": 0.433823,
+      "batch_size": 1,
+      "gpu_kernel_ms": 2.1197540000000004,
+      "kernel_count": 60
+    },
+    {
+      "name": "step[VERIFY bs=1]",
+      "phase": "VERIFY",
+      "host_ms": 0.248244,
+      "batch_size": 1,
+      "gpu_kernel_ms": 10.61358799999999,
+      "kernel_count": 437
+    },
+    {
+      "name": "step[DRAFT bs=1]",
+      "phase": "DRAFT",
+      "host_ms": 0.230417,
+      "batch_size": 1,
+      "gpu_kernel_ms": 2.114251,
+      "kernel_count": 60
+    },
+    {
+      "name": "step[VERIFY bs=1]",
+      "phase": "VERIFY",
+      "host_ms": 0.15283,
+      "batch_size": 1,
+      "gpu_kernel_ms": 10.615669999999998,
+      "kernel_count": 437
+    },
+    {
+      "name": "step[DRAFT bs=1]",
+      "phase": "DRAFT",
+      "host_ms": 0.229315,
+      "batch_size": 1,
+      "gpu_kernel_ms": 2.110954,
+      "kernel_count": 60
+    },
+    {
+      "name": "step[VERIFY bs=1]",
+      "phase": "VERIFY",
+      "host_ms": 0.163135,
+      "batch_size": 1,
+      "gpu_kernel_ms": 10.613816,
+      "kernel_count": 437
+    },
+    {
+      "name": "step[DRAFT bs=1]",
+      "phase": "DRAFT",
+      "host_ms": 0.227632,
+      "batch_size": 1,
+      "gpu_kernel_ms": 2.1109869999999997,
+      "kernel_count": 60
+    },
+    {
+      "name": "step[VERIFY bs=1]",
+      "phase": "VERIFY",
+      "host_ms": 0.155133,
+      "batch_size": 1,
+      "gpu_kernel_ms": 10.613014999999997,
+      "kernel_count": 437
+    },
+    {
+      "name": "step[DRAFT bs=1]",
+      "phase": "DRAFT",
+      "host_ms": 0.226471,
+      "batch_size": 1,
+      "gpu_kernel_ms": 2.113067,
+      "kernel_count": 60
+    },
+    {
+      "name": "step[VERIFY bs=1]",
+      "phase": "VERIFY",
+      "host_ms": 0.155234,
+      "batch_size": 1,
+      "gpu_kernel_ms": 10.607706999999994,
+      "kernel_count": 437
+    },
+    {
+      "name": "step[DRAFT bs=1]",
+      "phase": "DRAFT",
+      "host_ms": 0.226951,
+      "batch_size": 1,
+      "gpu_kernel_ms": 2.106891,
+      "kernel_count": 60
+    },
+    {
+      "name": "step[VERIFY bs=1]",
+      "phase": "VERIFY",
+      "host_ms": 0.165669,
+      "batch_size": 1,
+      "gpu_kernel_ms": 10.608947999999996,
+      "kernel_count": 437
+    },
+    {
+      "name": "step[DRAFT bs=1]",
+      "phase": "DRAFT",
+      "host_ms": 0.23956,
+      "batch_size": 1,
+      "gpu_kernel_ms": 2.1118509999999997,
+      "kernel_count": 60
+    },
+    {
+      "name": "step[VERIFY bs=1]",
+      "phase": "VERIFY",
+      "host_ms": 0.156496,
+      "batch_size": 1,
+      "gpu_kernel_ms": 10.612398999999998,
+      "kernel_count": 437
+    },
+    {
+      "name": "step[DRAFT bs=1]",
+      "phase": "DRAFT",
+      "host_ms": 0.267923,
+      "batch_size": 1,
+      "gpu_kernel_ms": 2.1197860000000004,
+      "kernel_count": 60
+    },
+    {
+      "name": "step[VERIFY bs=1]",
+      "phase": "VERIFY",
+      "host_ms": 0.172049,
+      "batch_size": 1,
+      "gpu_kernel_ms": 10.705337999999996,
+      "kernel_count": 437
+    },
+    {
+      "name": "step[DRAFT bs=1]",
+      "phase": "DRAFT",
+      "host_ms": 0.2326,
+      "batch_size": 1,
+      "gpu_kernel_ms": 2.120076,
+      "kernel_count": 60
+    },
+    {
+      "name": "step[VERIFY bs=1]",
+      "phase": "VERIFY",
+      "host_ms": 0.155284,
+      "batch_size": 1,
+      "gpu_kernel_ms": 10.707606999999992,
+      "kernel_count": 437
+    },
+    {
+      "name": "step[DRAFT bs=1]",
+      "phase": "DRAFT",
+      "host_ms": 0.253912,
+      "batch_size": 1,
+      "gpu_kernel_ms": 2.1188580000000004,
+      "kernel_count": 60
+    },
+    {
+      "name": "step[VERIFY bs=1]",
+      "phase": "VERIFY",
+      "host_ms": 0.183686,
+      "batch_size": 1,
+      "gpu_kernel_ms": 10.709491999999996,
+      "kernel_count": 437
+    },
+    {
+      "name": "step[DRAFT bs=1]",
+      "phase": "DRAFT",
+      "host_ms": 0.252519,
+      "batch_size": 1,
+      "gpu_kernel_ms": 2.1214829999999996,
+      "kernel_count": 60
+    },
+    {
+      "name": "step[VERIFY bs=1]",
+      "phase": "VERIFY",
+      "host_ms": 0.186871,
+      "batch_size": 1,
+      "gpu_kernel_ms": 10.709038999999999,
+      "kernel_count": 437
+    },
+    {
+      "name": "step[DRAFT bs=1]",
+      "phase": "DRAFT",
+      "host_ms": 0.256105,
+      "batch_size": 1,
+      "gpu_kernel_ms": 2.1147620000000003,
+      "kernel_count": 60
+    },
+    {
+      "name": "step[VERIFY bs=1]",
+      "phase": "VERIFY",
+      "host_ms": 0.168814,
+      "batch_size": 1,
+      "gpu_kernel_ms": 10.73035299999998,
+      "kernel_count": 437
+    },
+    {
+      "name": "step[DRAFT bs=1]",
+      "phase": "DRAFT",
+      "host_ms": 0.265669,
+      "batch_size": 1,
+      "gpu_kernel_ms": 2.119786,
+      "kernel_count": 60
+    },
+    {
+      "name": "step[VERIFY bs=1]",
+      "phase": "VERIFY",
+      "host_ms": 0.170697,
+      "batch_size": 1,
+      "gpu_kernel_ms": 10.72999899999999,
+      "kernel_count": 437
+    },
+    {
+      "name": "step[DRAFT bs=1]",
+      "phase": "DRAFT",
+      "host_ms": 0.231408,
+      "batch_size": 1,
+      "gpu_kernel_ms": 2.117708000000001,
+      "kernel_count": 60
+    },
+    {
+      "name": "step[VERIFY bs=1]",
+      "phase": "VERIFY",
+      "host_ms": 0.162424,
+      "batch_size": 1,
+      "gpu_kernel_ms": 10.733941000000009,
+      "kernel_count": 437
+    },
+    {
+      "name": "step[DRAFT bs=1]",
+      "phase": "DRAFT",
+      "host_ms": 0.22571,
+      "batch_size": 1,
+      "gpu_kernel_ms": 2.120298,
+      "kernel_count": 60
+    },
+    {
+      "name": "step[VERIFY bs=1]",
+      "phase": "VERIFY",
+      "host_ms": 0.158989,
+      "batch_size": 1,
+      "gpu_kernel_ms": 10.730357999999999,
+      "kernel_count": 437
+    },
+    {
+      "name": "step[DRAFT bs=1]",
+      "phase": "DRAFT",
+      "host_ms": 0.23312,
+      "batch_size": 1,
+      "gpu_kernel_ms": 2.1210020000000007,
+      "kernel_count": 60
+    },
+    {
+      "name": "step[VERIFY bs=1]",
+      "phase": "VERIFY",
+      "host_ms": 0.159419,
+      "batch_size": 1,
+      "gpu_kernel_ms": 10.730613999999997,
+      "kernel_count": 437
+    }
+  ],
+  "scheduler_batches": [
+    {
+      "thread_id": 340797924176947,
+      "start_ns": 31170669,
+      "end_ns": 54493146,
+      "kind": "prefill_control",
+      "last_kernel_end_ns": 54685799,
+      "gpu_kernel_ms": 13.251777999999986,
+      "NVTX_batch_sizes": [
+        1
+      ]
+    },
+    {
+      "thread_id": 340797924176947,
+      "start_ns": 54768631,
+      "end_ns": 56683951,
+      "kind": "decode_control",
+      "last_kernel_end_ns": 68590395,
+      "gpu_kernel_ms": 12.957338999999994,
+      "NVTX_batch_sizes": [
+        1
+      ]
+    },
+    {
+      "thread_id": 340797924176947,
+      "start_ns": 57370133,
+      "end_ns": 58807045,
+      "kind": "decode_control",
+      "last_kernel_end_ns": 81695254,
+      "gpu_kernel_ms": 12.955357999999999,
+      "NVTX_batch_sizes": [
+        1
+      ]
+    },
+    {
+      "thread_id": 340797924176947,
+      "start_ns": 68889629,
+      "end_ns": 70389234,
+      "kind": "decode_control",
+      "last_kernel_end_ns": 94791666,
+      "gpu_kernel_ms": 12.949823,
+      "NVTX_batch_sizes": [
+        1
+      ]
+    },
+    {
+      "thread_id": 340797924176947,
+      "start_ns": 81997013,
+      "end_ns": 83483809,
+      "kind": "decode_control",
+      "last_kernel_end_ns": 107889677,
+      "gpu_kernel_ms": 12.949437999999999,
+      "NVTX_batch_sizes": [
+        1
+      ]
+    },
+    {
+      "thread_id": 340797924176947,
+      "start_ns": 95080460,
+      "end_ns": 96594187,
+      "kind": "decode_control",
+      "last_kernel_end_ns": 120984777,
+      "gpu_kernel_ms": 12.946275999999996,
+      "NVTX_batch_sizes": [
+        1
+      ]
+    },
+    {
+      "thread_id": 340797924176947,
+      "start_ns": 108200363,
+      "end_ns": 109687980,
+      "kind": "decode_control",
+      "last_kernel_end_ns": 134072292,
+      "gpu_kernel_ms": 12.939866999999998,
+      "NVTX_batch_sizes": [
+        1
+      ]
+    },
+    {
+      "thread_id": 340797924176947,
+      "start_ns": 121284261,
+      "end_ns": 122782295,
+      "kind": "decode_control",
+      "last_kernel_end_ns": 147170016,
+      "gpu_kernel_ms": 12.949750999999994,
+      "NVTX_batch_sizes": [
+        1
+      ]
+    },
+    {
+      "thread_id": 340797924176947,
+      "start_ns": 134395511,
+      "end_ns": 136084461,
+      "kind": "decode_control",
+      "last_kernel_end_ns": 160370330,
+      "gpu_kernel_ms": 13.050881000000002,
+      "NVTX_batch_sizes": [
+        1
+      ]
+    },
+    {
+      "thread_id": 340797924176947,
+      "start_ns": 147452379,
+      "end_ns": 148918434,
+      "kind": "decode_control",
+      "last_kernel_end_ns": 173570229,
+      "gpu_kernel_ms": 13.051935999999989,
+      "NVTX_batch_sizes": [
+        1
+      ]
+    },
+    {
+      "thread_id": 340797924176947,
+      "start_ns": 160715547,
+      "end_ns": 162414141,
+      "kind": "decode_control",
+      "last_kernel_end_ns": 186770159,
+      "gpu_kernel_ms": 13.052729999999993,
+      "NVTX_batch_sizes": [
+        1
+      ]
+    },
+    {
+      "thread_id": 340797924176947,
+      "start_ns": 173918274,
+      "end_ns": 175597409,
+      "kind": "decode_control",
+      "last_kernel_end_ns": 199974474,
+      "gpu_kernel_ms": 13.055959000000005,
+      "NVTX_batch_sizes": [
+        1
+      ]
+    },
+    {
+      "thread_id": 340797924176947,
+      "start_ns": 187096955,
+      "end_ns": 188768459,
+      "kind": "decode_control",
+      "last_kernel_end_ns": 213192740,
+      "gpu_kernel_ms": 13.070040999999986,
+      "NVTX_batch_sizes": [
+        1
+      ]
+    },
+    {
+      "thread_id": 340797924176947,
+      "start_ns": 200294574,
+      "end_ns": 201963164,
+      "kind": "decode_control",
+      "last_kernel_end_ns": 226416287,
+      "gpu_kernel_ms": 13.074709999999987,
+      "NVTX_batch_sizes": [
+        1
+      ]
+    },
+    {
+      "thread_id": 340797924176947,
+      "start_ns": 213518383,
+      "end_ns": 215044909,
+      "kind": "decode_control",
+      "last_kernel_end_ns": 239640665,
+      "gpu_kernel_ms": 13.077245000000012,
+      "NVTX_batch_sizes": [
+        1
+      ]
+    },
+    {
+      "thread_id": 340797924176947,
+      "start_ns": 226704575,
+      "end_ns": 228193184,
+      "kind": "decode_control",
+      "last_kernel_end_ns": 252867379,
+      "gpu_kernel_ms": 13.076284999999999,
+      "NVTX_batch_sizes": [
+        1
+      ]
+    },
+    {
+      "thread_id": 340797924176947,
+      "start_ns": 239967553,
+      "end_ns": 241558366,
+      "kind": "decode_control",
+      "last_kernel_end_ns": 266089581,
+      "gpu_kernel_ms": 13.075611999999982,
+      "NVTX_batch_sizes": [
+        1
+      ]
+    }
+  ],
+  "gpu_counters": null,
+  "scope": "profile-only. CPU and GPU overlap; host includes waits; kernel sum is not critical-path latency; control is outside model.forward, not a named accept-only phase. NVTX batch_size is the model forward descriptor, not necessarily the CUDA graph padded tier."
+}
+{
+  "EXTEND": {
+    "calls": 1,
+    "graph_launch_count": 0,
+    "gpu_kernel_ms_per_call": 13.027620999999987,
+    "host_ms_per_call": 22.249554
+  },
+  "DRAFT": {
+    "calls": 16,
+    "graph_launch_count": 16,
+    "gpu_kernel_ms_per_call": 2.116344625000003,
+    "host_ms_per_call": 0.25207093750000004
+  },
+  "VERIFY": {
+    "calls": 16,
+    "graph_launch_count": 16,
+    "gpu_kernel_ms_per_call": 10.673242750000027,
+    "host_ms_per_call": 0.169685875
+  },
+  "prefill_control": {
+    "calls": 1,
+    "graph_launch_count": 0,
+    "gpu_kernel_ms_per_call": 0.224157,
+    "host_ms_per_call": 1.072923
+  },
+  "decode_control": {
+    "calls": 16,
+    "graph_launch_count": 0,
+    "gpu_kernel_ms_per_call": 0.22499081249999986,
+    "host_ms_per_call": 1.160542375
+  },
+  "outside_scheduler": {
+    "calls": 0,
+    "graph_launch_count": 0,
+    "gpu_kernel_ms_per_call": null,
+    "host_ms_per_call": null
+  }
+}

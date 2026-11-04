@@ -1,0 +1,95 @@
+[
+  {
+    "report": "reports/2026-11-04_jetspec_profile.html",
+    "report_SHA256": "d0dcec4096a34dfddd96872246a0f3e969f225874bee6ecf0446143d48a3e421",
+    "links": 36,
+    "images": 10,
+    "images_loaded": true,
+    "JS_errors": [],
+    "missing_local_links": [],
+    "desktop_mobile": false
+  },
+  {
+    "report": "reports/2026-11-04_parallel_sd.html",
+    "report_SHA256": "8d183e42bbeca3c4f5aeaad209ac0bde65d5f77b6e8756e734d15a14941fffff",
+    "links": 48,
+    "images": 13,
+    "images_loaded": true,
+    "JS_errors": [],
+    "missing_local_links": [],
+    "desktop_mobile": true
+  },
+  {
+    "report": "reports/2026-11-04_psd_adaptive.html",
+    "report_SHA256": "89cc828967da0b6784602aed9619577ab1e57cefabdf6aa5d805d8358658ed6e",
+    "links": 12,
+    "images": 7,
+    "images_loaded": true,
+    "JS_errors": [],
+    "missing_local_links": [],
+    "desktop_mobile": true
+  },
+  {
+    "report": "reports/2026-11-04_psd_adaptive_graph.html",
+    "report_SHA256": "9f9610a7c9118d1e09e465ba1db8d51b73b5598afd1776b892d75aa30594b690",
+    "links": 12,
+    "images": 7,
+    "images_loaded": true,
+    "JS_errors": [],
+    "missing_local_links": [],
+    "desktop_mobile": true
+  },
+  {
+    "report": "reports/2026-11-04_psd_hybrid.html",
+    "report_SHA256": "57f139a4e88575c07c8c59e83f3f700dc979981f8c5845594b33debb8de30b66",
+    "links": 11,
+    "images": 7,
+    "images_loaded": true,
+    "JS_errors": [],
+    "missing_local_links": [],
+    "desktop_mobile": true
+  },
+  {
+    "report": "reports/2026-11-04_psd_pilot.html",
+    "report_SHA256": "0cdd6228dea1affc76ef5c1bcdda2893506a1e5a17a584092504f98eacace79e",
+    "links": 9,
+    "images": 2,
+    "images_loaded": true,
+    "JS_errors": [],
+    "missing_local_links": [],
+    "desktop_mobile": true
+  },
+  {
+    "report": "reports/2026-11-04_psd_scaling.html",
+    "report_SHA256": "4ae17e0e726cc8a002ebdf5e16e2ebb5c6518ecc4aae56b4be9ddc19e42ce37c",
+    "links": 12,
+    "images": 7,
+    "images_loaded": true,
+    "JS_errors": [],
+    "missing_local_links": [],
+    "desktop_mobile": true
+  },
+  {
+    "report": "reports/2026-11-04_psd_width8.html",
+    "report_SHA256": "f46cf98c861ea695dd4b46a98fc3c3dec1cc047c0064df70378aabc77b65efe4",
+    "links": 12,
+    "images": 7,
+    "images_loaded": true,
+    "JS_errors": [],
+    "missing_local_links": [],
+    "desktop_mobile": true
+  },
+  {
+    "report": "reports/index.html",
+    "report_SHA256": "b560610425910d6aa4039690e43fe64abe238f190d8d5090ac09e99691bb2b48",
+    "links": 11,
+    "images": 0,
+    "images_loaded": true,
+    "JS_errors": [],
+    "missing_local_links": [],
+    "desktop_mobile": false,
+    "workspace_report_SHA256": "8018025f5ac2e6e4306bddb317f85e6103b0aee31c6558ce95044fdad5efb493",
+    "workspace_links": 12,
+    "scope": "Committed index validated separately; workspace retains the concurrent 2026-11-05 report link."
+  }
+]

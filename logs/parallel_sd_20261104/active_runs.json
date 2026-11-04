@@ -1,0 +1,18 @@
+{
+  "full": "full01",
+  "traces": "follow01_traces",
+  "hybrid": "hybrid03",
+  "width8": "refine03_width8",
+  "numerics": "refine03_numerics",
+  "sps": "refine03_sps",
+  "adaptive": "refine03_adaptive",
+  "retained_failed_attempts": [
+    "follow01_hybrid",
+    "follow01",
+    "refine01",
+    "hybrid02",
+    "refine02"
+  ],
+  "retry_reason": "Tokenizer list output fixed; SM120 hybrid backend must use triton/full and triton/linear, keeping draft FA4. Preserve backend assertion and recorded yield state.",
+  "adaptive_graph": "graphaware01_adaptive"
+}

@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/qinghao/profile_spec/run_parallel_sd_followups.py", line 80, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/qinghao/profile_spec/run_parallel_sd_followups.py", line 54, in main
+    raise RuntimeError('Dependency stopped unsuccessfully: '+current['status'])
+RuntimeError: Dependency stopped unsuccessfully: stopped_after_cell_failure

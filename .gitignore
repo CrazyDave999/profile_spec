@@ -16,4 +16,5 @@ profiles/
 .env
 reports/**/*.zip
 logs/**/supervisor.lock
+logs/**/*.lock
 logs/**/*.progress.json

@@ -1,0 +1,15 @@
+{
+  "status": "dependency_failed",
+  "pid": 3573985,
+  "process_start_time": 1793808494.55,
+  "dependency": "/home/qinghao/profile_spec/logs/parallel_sd_20261104/hybrid02.campaign.json",
+  "dependency_pid": 3573827,
+  "dependency_start_time": 1793808488.19,
+  "worker_sha256": "2d1c672207b0756a6b21c6d80db7d59787be04f4efd67aee0157b5dce28b66ff",
+  "started_epoch": 1793808494.7895484,
+  "stages": [],
+  "dependency_live": false,
+  "last_checked_epoch": 1793808504.7929275,
+  "dependency_status": "stopped_after_cell_failure",
+  "ended_epoch": 1793808504.7932568
+}

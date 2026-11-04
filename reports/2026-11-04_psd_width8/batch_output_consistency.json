@@ -1,0 +1,146 @@
+[
+  {
+    "reference": "refine03_width8_00_ar_gsm8k_bs1",
+    "case": "refine03_width8_00_ar_gsm8k_bs1",
+    "exact_prompts": 16,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_width8_00_ar_gsm8k_bs1",
+    "case": "refine03_width8_05_ar_gsm8k_bs1",
+    "exact_prompts": 16,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_width8_00_ar_gsm8k_bs1",
+    "case": "refine03_width8_06_ar_gsm8k_bs16",
+    "exact_prompts": 5,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_width8_00_ar_gsm8k_bs1",
+    "case": "refine03_width8_11_ar_gsm8k_bs16",
+    "exact_prompts": 5,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_width8_01_dflash_gsm8k_bs1",
+    "case": "refine03_width8_01_dflash_gsm8k_bs1",
+    "exact_prompts": 16,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_width8_01_dflash_gsm8k_bs1",
+    "case": "refine03_width8_07_dflash_gsm8k_bs16",
+    "exact_prompts": 6,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_width8_04_dflash2_gsm8k_bs1",
+    "case": "refine03_width8_04_dflash2_gsm8k_bs1",
+    "exact_prompts": 16,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_width8_04_dflash2_gsm8k_bs1",
+    "case": "refine03_width8_10_dflash2_gsm8k_bs16",
+    "exact_prompts": 6,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_width8_02_domino_gsm8k_bs1",
+    "case": "refine03_width8_02_domino_gsm8k_bs1",
+    "exact_prompts": 16,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_width8_02_domino_gsm8k_bs1",
+    "case": "refine03_width8_08_domino_gsm8k_bs16",
+    "exact_prompts": 6,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_width8_03_dspark_gsm8k_bs1",
+    "case": "refine03_width8_03_dspark_gsm8k_bs1",
+    "exact_prompts": 16,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_width8_03_dspark_gsm8k_bs1",
+    "case": "refine03_width8_09_dspark_gsm8k_bs16",
+    "exact_prompts": 6,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_width8_12_ar_mt_bench_bs1",
+    "case": "refine03_width8_12_ar_mt_bench_bs1",
+    "exact_prompts": 16,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_width8_12_ar_mt_bench_bs1",
+    "case": "refine03_width8_17_ar_mt_bench_bs1",
+    "exact_prompts": 16,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_width8_12_ar_mt_bench_bs1",
+    "case": "refine03_width8_18_ar_mt_bench_bs16",
+    "exact_prompts": 6,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_width8_12_ar_mt_bench_bs1",
+    "case": "refine03_width8_23_ar_mt_bench_bs16",
+    "exact_prompts": 6,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_width8_13_dflash_mt_bench_bs1",
+    "case": "refine03_width8_13_dflash_mt_bench_bs1",
+    "exact_prompts": 16,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_width8_13_dflash_mt_bench_bs1",
+    "case": "refine03_width8_19_dflash_mt_bench_bs16",
+    "exact_prompts": 9,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_width8_16_dflash2_mt_bench_bs1",
+    "case": "refine03_width8_16_dflash2_mt_bench_bs1",
+    "exact_prompts": 16,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_width8_16_dflash2_mt_bench_bs1",
+    "case": "refine03_width8_22_dflash2_mt_bench_bs16",
+    "exact_prompts": 9,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_width8_14_domino_mt_bench_bs1",
+    "case": "refine03_width8_14_domino_mt_bench_bs1",
+    "exact_prompts": 16,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_width8_14_domino_mt_bench_bs1",
+    "case": "refine03_width8_20_domino_mt_bench_bs16",
+    "exact_prompts": 9,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_width8_15_dspark_mt_bench_bs1",
+    "case": "refine03_width8_15_dspark_mt_bench_bs1",
+    "exact_prompts": 16,
+    "samples": 16
+  },
+  {
+    "reference": "refine03_width8_15_dspark_mt_bench_bs1",
+    "case": "refine03_width8_21_dspark_mt_bench_bs16",
+    "exact_prompts": 10,
+    "samples": 16
+  }
+]

@@ -188,3 +188,115 @@ Overnight profiling campaign, 2026-11-03
   global block-ID range. On a 36-layer target, that reservation is 36x the
   equal-capacity layer-local layout. This is not a 36x total-memory claim
   and no performance improvement from changing the layout has been measured.
+
+Parallel SD / SGLang, 2026-11-04
+  Overview: reports/2026-11-04_parallel_sd.html
+  Main matrix: reports/2026-11-04_psd_scaling.html
+  Unified report index: reports/index.html
+  The main matrix completed 54/54 cells: AR, DFlash, Domino, DSpark and
+  DFlash2; GSM8K/HumanEval/MT-Bench; max BS 1/4/16; 16 common prompts,
+  fixed cap128, 3 repeats, independent processes and bracketing AR cells.
+  This is offline sglang.Engine, not an HTTP load-generator benchmark.
+  Prefix reuse is disabled. Decode CUDA Graph and overlap are enabled;
+  prefill graph is disabled in this matched cohort. Fixed output ignores EOS.
+  BF16 output differences between AR/SD and across BS are preserved.
+
+  Isolated runtime: .venv-sglang; torch 2.14.1+cu130, transformers 5.19.0,
+  flashinfer-python 0.7.2; full package pins in requirements-sglang.lock.
+  Source: SGLang 27aedf7f93cc7ac3bff43e7150e42a3c0baa6957.
+  Optional Rust extensions were not built; GPU SD kernels remain enabled.
+  The pip CUDA toolkit uses NVCC/CRT/NVVM 13.0.88, CCCL 13.0.85 and
+  runtime 13.0.96. Do not mix newer compiler headers into this toolkit.
+  setup_sglang_env.sh creates local lib64/cudart links and applies the
+  glibc 2.43 rsqrt noexcept declaration fix with patch_cuda_glibc.py.
+  No CUDA kernel math is changed; logs/cuda_glibc_compatibility.json records
+  the header hashes. The JetSpec .venv remains separate.
+  On SM120 the hybrid GDN wrapper rejects FA4 as the target full-attention
+  backend. Hybrid runs use triton for target full/linear attention and keep
+  FA4 only for the separate draft. Hybrid prompts are re-tokenized with
+  return_dict=False using Qwen3.5's own tokenizer.
+
+  All weights are external HF-cache snapshots, aliased under ~/models.
+  models-parallel-sd.json records revisions, byte sizes and formats.
+  DFlash2 uses unchanged RedHatAI weights and an adapted SGLang config;
+  logs/dflash2_config_conversion.json records tensor shapes and the
+  Speculators-to-native target-layer index conversion. Runtime generation
+  works; numerical parity with the original Speculators runner is unproven.
+
+  Example fresh runs (choose unused run IDs; GPU work is serialized):
+    source env_sglang.sh
+    python run_parallel_sd_campaign.py --stage full --run-id repro_full
+    python run_parallel_sd_campaign.py --stage traces --run-id repro_traces
+    python run_parallel_sd_campaign.py --stage hybrid --run-id repro_hybrid
+    python run_parallel_sd_campaign.py --stage width8 --run-id repro_width8
+    python run_parallel_sd_campaign.py --stage numerics --run-id repro_numerics
+    python run_parallel_sd_campaign.py --stage sps --run-id repro_sps
+    python run_parallel_sd_campaign.py --stage adaptive --run-id repro_adaptive \
+      --sps-table logs/parallel_sd_20261104/repro_sps.sps.json
+  Before starting a campaign, inspect the existing campaign/sequence PID and
+  creation time. A log or timeout alone does not establish that work stopped.
+  The launcher rejects occupied GPUs and yields only its own process group
+  when foreign GPU compute is detected. Failed attempts are retained.
+
+  Main DSpark results use static verify. SPS calibration uses simulated
+  accept length 1 and its output tokens are invalid for quality comparison;
+  calibration/diagnostics are excluded from headline throughput reports.
+  Adaptive runs require an explicitly measured local SPS table.
+
+  Profiles use nsys 2026.5.1, CUDA/NVTX/OSRT, CUDA graph-node tracing,
+  cudaProfilerApi capture after warmup, CPU sampling/context-switch tracing
+  disabled, and 1 kHz gb20x metrics on cuda-visible RTX 5090 only.
+  Raw reports/SQLite/ZIP: ignored profiles/parallel_sd_20261104/.
+  Small result JSON, job states and analysis: logs/parallel_sd_20261104/.
+  Rebuild summaries using the existing artifact run IDs:
+    source env.sh
+    python audit_parallel_sd_memory.py
+    python analyze_parallel_sd.py --run-id full01 --slug psd_scaling
+    python summarize_sglang_traces.py --run-id follow01_traces
+    python build_parallel_sd_report.py
+  Audit with the SGLang environment:
+    source env_sglang.sh
+    python audit_parallel_sd_campaigns.py full01 --require-complete
+  Trace analysis separates host NVTX from GPU execution and groups forward
+  cost by observed NVTX BS. Decode envelopes split at prefill boundaries;
+  the whole capture window can contain multiple prefill/request waves.
+  SM active, Tensor active and DRAM bandwidth are separate coarse counters;
+  none alone establishes compute bound or achieved FLOP/s.
+
+  Completed artifact cohorts (see logs/parallel_sd_20261104/active_runs.json):
+    full01: 54 main benchmark cells
+    follow01_traces: 10 warmed counter/NVTX traces
+    hybrid03: 6 Qwen3.5-4B benchmark cells
+    refine03_width8: 24 width=8 benchmark cells on GSM8K and MT-Bench
+    refine03_numerics: 4 head-precision/logprob diagnostic cells
+    refine03_sps: 5 simulated-accept calibration cells
+    refine03_adaptive: 12 static/compact cells with the raw measured SPS table
+    graphaware01_adaptive: 8 BS16 static/compact cells on GSM8K/MT-Bench
+      using a separate graph-bucket-aligned representation of the same SPS.
+  The last representation uses lookup interval starts [1,9,17,33,65] for
+  measured graph sizes [8,16,32,64,128]. These are interval boundaries, not
+  newly measured sizes. align_sps_graph_buckets.py records the mapping proof.
+  Static observer num_verify_tokens is raw rows; compact's is the padded
+  layout graph size. analyze_dspark_schedule.py accounts for this difference.
+  Fine-grained scheduling records include warmup and are separate from the
+  headline request timings, which exclude warmup.
+
+  Rebuild additional analyses in the appropriate fresh shell:
+    source env_sglang.sh
+    python analyze_sd_numerics.py --run-id refine03_numerics --decode
+    source env.sh
+    python analyze_parallel_sd.py --run-id hybrid03 --slug psd_hybrid
+    python analyze_parallel_sd.py --run-id refine03_width8 --slug psd_width8
+    python analyze_parallel_sd.py --run-id refine03_adaptive --slug psd_adaptive
+    python analyze_parallel_sd.py --run-id graphaware01_adaptive --slug psd_adaptive_graph
+    python analyze_dspark_schedule.py --run-id refine03_adaptive
+    python analyze_dspark_schedule.py --run-id graphaware01_adaptive
+    python analyze_adaptive_tail.py --run-id graphaware01_adaptive
+    python audit_hybrid_memory.py --run-id hybrid03
+    python build_parallel_sd_report.py
+  The original worker used by full01/traces and the later worker with hybrid
+  fixes are archived under logs/parallel_sd_20261104/worker_sources/ by exact
+  SHA256. The width comparison verifies the Qwen3-8B worker AST is unchanged
+  after removing the unexecuted hybrid-only branches.
+  Earlier tokenizer/backend failures remain in their original attempts;
+  the active cohort map points to the successful replacements.

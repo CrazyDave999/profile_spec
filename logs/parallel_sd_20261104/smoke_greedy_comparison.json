@@ -1,0 +1,44 @@
+{
+  "baseline": "ar_smoke_a03 (environment-validation only; compiler alignment changed afterwards)",
+  "comparison": [
+    {
+      "case": "dflash_smoke_a03",
+      "matches": [
+        {
+          "equal": true,
+          "first_mismatch": null
+        },
+        {
+          "equal": false,
+          "first_mismatch": 24
+        }
+      ]
+    },
+    {
+      "case": "smoke01_00_domino_gsm8k_bs1",
+      "matches": [
+        {
+          "equal": true,
+          "first_mismatch": null
+        },
+        {
+          "equal": false,
+          "first_mismatch": 24
+        }
+      ]
+    },
+    {
+      "case": "smoke01_01_dspark_gsm8k_bs1",
+      "matches": [
+        {
+          "equal": true,
+          "first_mismatch": null
+        },
+        {
+          "equal": false,
+          "first_mismatch": 24
+        }
+      ]
+    }
+  ]
+}

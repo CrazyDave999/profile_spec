@@ -1,0 +1,113 @@
+{
+  "status": "success",
+  "stage": "numerics",
+  "run_id": "refine03_numerics",
+  "commands": [
+    {
+      "name": "refine03_numerics_00_ar_gsm8k_bs1",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_parallel_sd_cell.py",
+        "--name",
+        "refine03_numerics_00_ar_gsm8k_bs1",
+        "--",
+        "--method",
+        "ar",
+        "--dataset",
+        "gsm8k",
+        "--bs",
+        "1",
+        "--samples",
+        "2",
+        "--tokens",
+        "128",
+        "--repeats",
+        "1",
+        "--logprobs"
+      ]
+    },
+    {
+      "name": "refine03_numerics_01_dflash_gsm8k_bs1",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_parallel_sd_cell.py",
+        "--name",
+        "refine03_numerics_01_dflash_gsm8k_bs1",
+        "--",
+        "--method",
+        "dflash",
+        "--dataset",
+        "gsm8k",
+        "--bs",
+        "1",
+        "--samples",
+        "2",
+        "--tokens",
+        "128",
+        "--repeats",
+        "1",
+        "--logprobs"
+      ]
+    },
+    {
+      "name": "refine03_numerics_02_ar_gsm8k_bs1",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_parallel_sd_cell.py",
+        "--name",
+        "refine03_numerics_02_ar_gsm8k_bs1",
+        "--",
+        "--method",
+        "ar",
+        "--dataset",
+        "gsm8k",
+        "--bs",
+        "1",
+        "--samples",
+        "2",
+        "--tokens",
+        "128",
+        "--repeats",
+        "1",
+        "--logprobs",
+        "--fp32-lm-head"
+      ]
+    },
+    {
+      "name": "refine03_numerics_03_dflash_gsm8k_bs1",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_parallel_sd_cell.py",
+        "--name",
+        "refine03_numerics_03_dflash_gsm8k_bs1",
+        "--",
+        "--method",
+        "dflash",
+        "--dataset",
+        "gsm8k",
+        "--bs",
+        "1",
+        "--samples",
+        "2",
+        "--tokens",
+        "128",
+        "--repeats",
+        "1",
+        "--logprobs",
+        "--fp32-lm-head"
+      ]
+    }
+  ],
+  "supervisor_pid": 3586701,
+  "supervisor_start_time": 1793809715.88,
+  "worker_sha256": "d2be0e368ef73616f619cfb5057ecb228367b62a23de181ae17db3e58c45f845",
+  "started_epoch": 1793809716.1236482,
+  "calibration_environment": {
+    "SGLANG_DSPARK_ENABLE_SPS_RECORD": null,
+    "SGLANG_SIMULATE_ACC_LEN": null
+  },
+  "sps_table_input": null,
+  "current_index": 3,
+  "current_cell": "refine03_numerics_03_dflash_gsm8k_bs1",
+  "ended_epoch": 1793809796.4052472
+}

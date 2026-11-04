@@ -1,0 +1,38 @@
+{
+  "status": "success",
+  "pid": 3593827,
+  "process_start_time": 1793810232.52,
+  "dependency": "/home/qinghao/profile_spec/logs/parallel_sd_20261104/refine03.sequence.json",
+  "dependency_pid": 3574638,
+  "dependency_start_time": 1793808604.51,
+  "worker_sha256": "d2be0e368ef73616f619cfb5057ecb228367b62a23de181ae17db3e58c45f845",
+  "started_epoch": 1793810232.7579794,
+  "stages": [
+    {
+      "stage": "adaptive",
+      "run_id": "graphaware01_adaptive",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_parallel_sd_campaign.py",
+        "--stage",
+        "adaptive",
+        "--run-id",
+        "graphaware01_adaptive",
+        "--sps-table",
+        "logs/parallel_sd_20261104/refine03_sps.graph_bucket.sps.json",
+        "--adaptive-dataset",
+        "both",
+        "--adaptive-bs",
+        "16"
+      ],
+      "started_epoch": 1793810360.8048322,
+      "exit_code": 0,
+      "ended_epoch": 1793810536.6908162
+    }
+  ],
+  "dependency_live": false,
+  "last_checked_epoch": 1793810360.8044355,
+  "dependency_status": "success",
+  "current_stage": "adaptive",
+  "ended_epoch": 1793810536.6910377
+}

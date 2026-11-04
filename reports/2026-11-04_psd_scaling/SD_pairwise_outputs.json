@@ -1,0 +1,92 @@
+[
+  {
+    "reference": "full01_01_dflash_gsm8k_bs1",
+    "per_method_exact_prompts": {
+      "dflash": 16,
+      "domino": 16,
+      "dspark": 16,
+      "dflash2": 16
+    },
+    "samples": 16
+  },
+  {
+    "reference": "full01_07_dflash_gsm8k_bs4",
+    "per_method_exact_prompts": {
+      "dflash": 16,
+      "domino": 16,
+      "dspark": 16,
+      "dflash2": 16
+    },
+    "samples": 16
+  },
+  {
+    "reference": "full01_13_dflash_gsm8k_bs16",
+    "per_method_exact_prompts": {
+      "dflash": 16,
+      "domino": 16,
+      "dspark": 8,
+      "dflash2": 8
+    },
+    "samples": 16
+  },
+  {
+    "reference": "full01_19_dflash_humaneval_bs1",
+    "per_method_exact_prompts": {
+      "dflash": 16,
+      "domino": 16,
+      "dspark": 16,
+      "dflash2": 16
+    },
+    "samples": 16
+  },
+  {
+    "reference": "full01_25_dflash_humaneval_bs4",
+    "per_method_exact_prompts": {
+      "dflash": 16,
+      "domino": 14,
+      "dspark": 14,
+      "dflash2": 14
+    },
+    "samples": 16
+  },
+  {
+    "reference": "full01_31_dflash_humaneval_bs16",
+    "per_method_exact_prompts": {
+      "dflash": 16,
+      "domino": 15,
+      "dspark": 13,
+      "dflash2": 13
+    },
+    "samples": 16
+  },
+  {
+    "reference": "full01_37_dflash_mt_bench_bs1",
+    "per_method_exact_prompts": {
+      "dflash": 16,
+      "domino": 16,
+      "dspark": 16,
+      "dflash2": 16
+    },
+    "samples": 16
+  },
+  {
+    "reference": "full01_43_dflash_mt_bench_bs4",
+    "per_method_exact_prompts": {
+      "dflash": 16,
+      "domino": 16,
+      "dspark": 14,
+      "dflash2": 15
+    },
+    "samples": 16
+  },
+  {
+    "reference": "full01_49_dflash_mt_bench_bs16",
+    "per_method_exact_prompts": {
+      "dflash": 16,
+      "domino": 16,
+      "dspark": 6,
+      "dflash2": 6
+    },
+    "samples": 16
+  }
+]

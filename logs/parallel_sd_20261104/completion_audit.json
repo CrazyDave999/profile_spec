@@ -1,0 +1,162 @@
+{
+  "checked_at_UTC": "2026-11-04T16:54:52.719086+00:00",
+  "objective_evidence": {
+    "JetSpec_visualization": {
+      "report": "reports/2026-11-04_jetspec_profile.html",
+      "SVG_figures": 11,
+      "PNG_pairs_verified": true,
+      "SHA256": "d0dcec4096a34dfddd96872246a0f3e969f225874bee6ecf0446143d48a3e421"
+    },
+    "JetSpec_GitHub_push": {
+      "repo": "https://github.com/CrazyDave999/profile_spec",
+      "published_commit": "da12d56ff805e0dabc4e3ec7804a25800428df48",
+      "remote_main": "da12d56ff805e0dabc4e3ec7804a25800428df48",
+      "exact_report_matches": true
+    },
+    "parallel_SD_experiments": {
+      "cohorts": 8,
+      "terminal_successful_cells": 123,
+      "benchmark_cells": 104,
+      "warmed_profiles": 10,
+      "numerical_diagnostics": 4,
+      "SPS_calibration_cells": 5,
+      "artifact_audit": "campaign_artifact_audit.json"
+    },
+    "HTML_reports": {
+      "browser_checked_pages": 9,
+      "links_and_images_passed": true,
+      "details": "report_browser_audit.json",
+      "index_scope_audit": "commit_scope_audit.json"
+    },
+    "representative_profiles": {
+      "campaign": "follow01_traces",
+      "traces": [
+        {
+          "case": "follow01_traces_00_ar_gsm8k_bs1",
+          "method": "ar",
+          "bs": 1,
+          "samples": 16,
+          "cap": 64,
+          "bytes": 16231281,
+          "SHA256": "aea6bd25346da8e684b02b7654a6dccb5a7884f991a1a1ba90869b384e193883",
+          "analysis_SHA256": "8235c9d4d891503627e17785b466ae6b64cf1cd19c06d4ccaed3ffc683c31425",
+          "graph_launches": 1008,
+          "file": "profiles/parallel_sd_20261104/follow01_traces_00_ar_gsm8k_bs1.nsys-rep"
+        },
+        {
+          "case": "follow01_traces_01_dflash_gsm8k_bs1",
+          "method": "dflash",
+          "bs": 1,
+          "samples": 16,
+          "cap": 64,
+          "bytes": 6335285,
+          "SHA256": "388ad9c11f878ec8f07a81ee299f4dd95489bc7a8e24f48eba9be9f0169dfcdf",
+          "analysis_SHA256": "2d18b4e3f65d07c850d84612e7d9457111f040ebff1b3d94a123a27ac2bfa33c",
+          "graph_launches": 512,
+          "file": "profiles/parallel_sd_20261104/follow01_traces_01_dflash_gsm8k_bs1.nsys-rep"
+        },
+        {
+          "case": "follow01_traces_05_ar_gsm8k_bs16",
+          "method": "ar",
+          "bs": 16,
+          "samples": 16,
+          "cap": 64,
+          "bytes": 2327785,
+          "SHA256": "ae88098bc29fc92f3982ba47d27a96a5afda9b6bf3b2bcb4411f54d7d6fcb073",
+          "analysis_SHA256": "0ba9384a8c405dd4757c47811f9968275a49d9837f9ddb7b0a6c5d7cc505caaf",
+          "graph_launches": 63,
+          "file": "profiles/parallel_sd_20261104/follow01_traces_05_ar_gsm8k_bs16.nsys-rep"
+        },
+        {
+          "case": "follow01_traces_06_dflash_gsm8k_bs16",
+          "method": "dflash",
+          "bs": 16,
+          "samples": 16,
+          "cap": 64,
+          "bytes": 1784675,
+          "SHA256": "7561bbe3ad1564819c41df75ce06f86d5d3533124dbf1bdbd3b82ae02babcc9c",
+          "analysis_SHA256": "b32139c6f751f29b460ff7a2d1407fecccecddc82b1b7f4664a825130047885a",
+          "graph_launches": 46,
+          "file": "profiles/parallel_sd_20261104/follow01_traces_06_dflash_gsm8k_bs16.nsys-rep"
+        },
+        {
+          "case": "follow01_traces_07_domino_gsm8k_bs16",
+          "method": "domino",
+          "bs": 16,
+          "samples": 16,
+          "cap": 64,
+          "bytes": 1754565,
+          "SHA256": "29209b456807266a80303ecbd0b28cbf1a5e5175420ea53dcd0ed15e5727ecda",
+          "analysis_SHA256": "a054e4b4d33686ff6ac32d680a57412ec3ef1b38fb59318765ab29faaff5b8ed",
+          "graph_launches": 30,
+          "file": "profiles/parallel_sd_20261104/follow01_traces_07_domino_gsm8k_bs16.nsys-rep"
+        },
+        {
+          "case": "follow01_traces_08_dspark_gsm8k_bs16",
+          "method": "dspark",
+          "bs": 16,
+          "samples": 16,
+          "cap": 64,
+          "bytes": 1734277,
+          "SHA256": "a5a08f820cf7e22997df923e7cce23552f3a8d4fbecd760f6aee675e743b6d3a",
+          "analysis_SHA256": "a30eadaad15a38a9e969ccaec9c23000b752b61bdac54be46600b9660bd14d66",
+          "graph_launches": 36,
+          "file": "profiles/parallel_sd_20261104/follow01_traces_08_dspark_gsm8k_bs16.nsys-rep"
+        },
+        {
+          "case": "follow01_traces_09_dflash2_gsm8k_bs16",
+          "method": "dflash2",
+          "bs": 16,
+          "samples": 16,
+          "cap": 64,
+          "bytes": 1759076,
+          "SHA256": "6d38246477407582149d2f388ea75eb8d0f60ee90622f0d71d692301fc2b5530",
+          "analysis_SHA256": "7a65d47532d75a77db074e07f91d62262ca70da169af112ee7d77fc4c282cd9e",
+          "graph_launches": 34,
+          "file": "profiles/parallel_sd_20261104/follow01_traces_09_dflash2_gsm8k_bs16.nsys-rep"
+        }
+      ],
+      "purpose": "AR low/high BS and representative parallel SD; all warmed, same 16 GSM8K inputs, cap64, profile-only.",
+      "caveats": [
+        "Profiles include instrumentation and GPU metrics; use separate unprofiled CSV for throughput.",
+        "CPU NVTX brackets graph dispatch, not GPU completion. Expand CUDA Graph nodes to inspect GPU execution.",
+        "decode_control is outside model.forward and includes bookkeeping; not accept-only.",
+        "BS1 contains repeated request waves and prefill. Use segmented decode envelopes and by-active-batch costs.",
+        "DFlash/Domino default verify width16; DSpark default8, static verify."
+      ],
+      "bundle": "profiles/parallel_sd_20261104/representative_traces.zip",
+      "bundle_bytes": 14025172,
+      "bundle_SHA256": "6d659637b95c483f676df28e2ecc2ec67a6fa78fdf05a231de5319459def37fc"
+    },
+    "reproducibility": {
+      "model_weights_external": true,
+      "all_active_worker_snapshots_checked": true,
+      "submodules_clean": true,
+      "environment_lock": "requirements-sglang.lock",
+      "concurrent_user_work_preserved_outside_commit": [
+        "analyze_verify_components.py",
+        "logs/verify_components_analysis.log",
+        "reports/2026-11-05_verify_components.html",
+        "reports/2026-11-05_verify_components/breakdown.png",
+        "reports/2026-11-05_verify_components/breakdown.svg",
+        "reports/2026-11-05_verify_components/browser_validation.json",
+        "reports/2026-11-05_verify_components/components.csv",
+        "reports/2026-11-05_verify_components/evidence.json",
+        "reports/2026-11-05_verify_components/mobile_preview.png",
+        "reports/2026-11-05_verify_components/report_preview.png"
+      ]
+    },
+    "runtime": {
+      "all_campaigns_terminal": true,
+      "sequence_supervisors_stopped": true,
+      "GPU_active_compute_processes": 0
+    },
+    "new_research_publication": "Local report/code only; original requested JetSpec report remains published. No additional push performed."
+  },
+  "explicit_limits": [
+    "Fixed-output offline Engine measurements; long context, natural EOS and online arrivals remain unmeasured.",
+    "BF16 AR/SD and shape-dependent token divergences retained; two-prompt FP32-head diagnostic is not universal quality proof.",
+    "Hardware counters are coarse phase samples, not achieved-FLOP/s roofline proof.",
+    "ReplaySSM performance and original Speculators DFlash2 numerical parity are not claimed."
+  ]
+}
