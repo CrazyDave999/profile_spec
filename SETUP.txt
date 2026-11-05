@@ -300,3 +300,28 @@ Parallel SD / SGLang, 2026-11-04
   after removing the unexecuted hybrid-only branches.
   Earlier tokenizer/backend failures remain in their original attempts;
   the active cohort map points to the successful replacements.
+
+Publication and X5 handoff (2026-11-06, Asia/Shanghai)
+  Entry point: reports/index.html. The latest measured additions are the
+  parallel-SD scaling/width/adaptive/hybrid reports and
+  reports/2026-11-05_verify_components.html, with CSV, figures and evidence.
+  The component report reanalyzes existing traces; it launches no inference.
+  Its JetSpec eager tree-budget128 and SGLang graphed DFlash width16 results
+  are separate cohorts, not a fair absolute-latency engine comparison.
+  SGLang DFlash full-active-BS verify GPU kernel sums, BS1 -> BS16:
+    total 10.684 -> 22.179 ms; FFN 7.187 -> 15.112 ms;
+    QKV/O 2.085 -> 4.578 ms; attention core 0.339 -> 0.351 ms.
+  These are short-context kernel sums, not end-to-end round latency.
+
+  X5 has two RTX 5090 GPUs according to the user; it has not been probed.
+  Rebuild environments there; weights and ignored raw profiles are not in Git.
+  env.sh and env_sglang.sh currently select X6's GPU UUID and local cache paths:
+  adapt those to X5 before running. Check the driver/toolkit, both GPUs,
+  topology and torch.cuda.can_device_access_peer in both directions before
+  attempting JetSpec++, whose published engine requires two peer-access GPUs.
+  Two 32-GiB GPUs do not provide a single automatic 64-GiB allocation; target
+  sharding and draft placement depend on the selected engine and experiment.
+  MoE candidates discussed in the session (GPT-OSS-20B MXFP4 with DFlash,
+  quantized Qwen MoE, or larger targets with TP2) remain unmeasured locally.
+  Keep AR/SD target weights, precision and hardware allocation matched, and
+  record topology/communication costs separately from the single-GPU results.
