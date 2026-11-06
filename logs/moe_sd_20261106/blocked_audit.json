@@ -1,0 +1,51 @@
+{
+  "checked_at_UTC": "2026-11-06T04:33:57.734643+00:00",
+  "decision": "blocked",
+  "consecutive_goal_turns_with_same_resource_blocker": 3,
+  "blocker": "The authorized RTX 5090 remains occupied by other users; the exclusive-GPU guard yielded the initial startup and has not admitted any new smoke/benchmark/profile cell.",
+  "previous_turn_classification": "progress plus verified wait: checkpoint storage audit, deterministic frozen inputs, native-library dependency check, and live GPU-admission verification.",
+  "evidence": {
+    "live_admission": {
+      "status": "waiting_for_idle_GPU",
+      "pid": 212516,
+      "process_start_time": 1793938997.1,
+      "GPU_UUID": "GPU-eed4707e-7a00-58e0-4123-1ccbe4326b7a",
+      "started_epoch": 1793938997.4120083,
+      "smoke_run_id": "smoke02",
+      "sequence_run_id": "native02",
+      "foreign_GPU_pids": [
+        211034,
+        219900
+      ],
+      "last_checked_epoch": 1793939637.6922772,
+      "idle_seconds": 0
+    },
+    "admission_PID_creation_time_verified": true,
+    "NVML_compute_processes": [
+      "211034, GPU-4fe51941-1f5f-66f2-4f2a-2fe108cd2872, 8510 MiB",
+      "211034, GPU-eed4707e-7a00-58e0-4123-1ccbe4326b7a, 9818 MiB",
+      "219900, GPU-eed4707e-7a00-58e0-4123-1ccbe4326b7a, 12182 MiB"
+    ],
+    "successful_GPU_cells": 0,
+    "first_attempt": {
+      "job": "smoke01_00_ar_gsm8k_bs1_w1.job.json",
+      "state": "yielded",
+      "foreign_pids": [
+        211034
+      ]
+    }
+  },
+  "requirements": {
+    "download_pinned_target_and_DFlash": "done; models-moe-sd.json and external aliases exist",
+    "prepare_SM120_MXFP4_library": "compiled and linked; runtime acceleration still requires an admitted trace",
+    "AR_DFlash_smoke": "not achieved",
+    "batch_and_width_benchmarks": "not achieved",
+    "representative_warmed_nsys_profiles": "not achieved",
+    "measured_MoE_vs_dense_findings": "not achieved",
+    "report_with_measured_results_and_representative_traces": "not achieved; report explicitly records zero successful benchmark cells"
+  },
+  "preserved_work": "Weights, build cache, frozen inputs, analyzers, report scaffold, and the live native02 admission queue remain in place.",
+  "next_required_external_change": "An exclusive idle window on the authorized GPU. User has been asked for availability; no reply is assumed.",
+  "queued_action": "Existing admission process waits for 15 seconds of GPU idle, then runs fresh smoke02 and native02 serialized stages. No duplicate admission process is launched.",
+  "goal_scope": "Original objective unchanged; no performance conclusion or completion is claimed."
+}

@@ -1,0 +1,216 @@
+{
+  "manifest_SHA256": "72c50d89b28c59aef70a75b97a60b7c3d9c249e88e148c99c8ea4257e8f34dca",
+  "checkpoints": {
+    "target": {
+      "repo": "openai/gpt-oss-20b",
+      "revision": "6cee5e81ee83917806bbde320786a8fb61efebee",
+      "file_bytes": 13761316904,
+      "tensor_bytes": 13761264768,
+      "safetensors_headers_and_metadata_bytes": 52136,
+      "categories_bytes": {
+        "attention_norm_or_other": 1274689152,
+        "expert_BF16_biases": 13271040,
+        "expert_packed_FP4": 9555148800,
+        "expert_E8M0_scales": 597196800,
+        "router": 4425216,
+        "embedding_and_LM_head": 2316533760
+      },
+      "expert_layer_bytes": {
+        "0": {
+          "expert_BF16_biases": 552960,
+          "expert_packed_FP4": 398131200,
+          "expert_E8M0_scales": 24883200
+        },
+        "1": {
+          "expert_BF16_biases": 552960,
+          "expert_packed_FP4": 398131200,
+          "expert_E8M0_scales": 24883200
+        },
+        "10": {
+          "expert_BF16_biases": 552960,
+          "expert_packed_FP4": 398131200,
+          "expert_E8M0_scales": 24883200
+        },
+        "11": {
+          "expert_BF16_biases": 552960,
+          "expert_packed_FP4": 398131200,
+          "expert_E8M0_scales": 24883200
+        },
+        "12": {
+          "expert_BF16_biases": 552960,
+          "expert_packed_FP4": 398131200,
+          "expert_E8M0_scales": 24883200
+        },
+        "13": {
+          "expert_BF16_biases": 552960,
+          "expert_packed_FP4": 398131200,
+          "expert_E8M0_scales": 24883200
+        },
+        "14": {
+          "expert_BF16_biases": 552960,
+          "expert_packed_FP4": 398131200,
+          "expert_E8M0_scales": 24883200
+        },
+        "15": {
+          "expert_BF16_biases": 552960,
+          "expert_packed_FP4": 398131200,
+          "expert_E8M0_scales": 24883200
+        },
+        "16": {
+          "expert_BF16_biases": 552960,
+          "expert_packed_FP4": 398131200,
+          "expert_E8M0_scales": 24883200
+        },
+        "17": {
+          "expert_BF16_biases": 552960,
+          "expert_packed_FP4": 398131200,
+          "expert_E8M0_scales": 24883200
+        },
+        "18": {
+          "expert_BF16_biases": 552960,
+          "expert_packed_FP4": 398131200,
+          "expert_E8M0_scales": 24883200
+        },
+        "19": {
+          "expert_BF16_biases": 552960,
+          "expert_packed_FP4": 398131200,
+          "expert_E8M0_scales": 24883200
+        },
+        "2": {
+          "expert_BF16_biases": 552960,
+          "expert_packed_FP4": 398131200,
+          "expert_E8M0_scales": 24883200
+        },
+        "20": {
+          "expert_BF16_biases": 552960,
+          "expert_packed_FP4": 398131200,
+          "expert_E8M0_scales": 24883200
+        },
+        "21": {
+          "expert_BF16_biases": 552960,
+          "expert_packed_FP4": 398131200,
+          "expert_E8M0_scales": 24883200
+        },
+        "22": {
+          "expert_BF16_biases": 552960,
+          "expert_packed_FP4": 398131200,
+          "expert_E8M0_scales": 24883200
+        },
+        "23": {
+          "expert_BF16_biases": 552960,
+          "expert_packed_FP4": 398131200,
+          "expert_E8M0_scales": 24883200
+        },
+        "3": {
+          "expert_BF16_biases": 552960,
+          "expert_packed_FP4": 398131200,
+          "expert_E8M0_scales": 24883200
+        },
+        "4": {
+          "expert_BF16_biases": 552960,
+          "expert_packed_FP4": 398131200,
+          "expert_E8M0_scales": 24883200
+        },
+        "5": {
+          "expert_BF16_biases": 552960,
+          "expert_packed_FP4": 398131200,
+          "expert_E8M0_scales": 24883200
+        },
+        "6": {
+          "expert_BF16_biases": 552960,
+          "expert_packed_FP4": 398131200,
+          "expert_E8M0_scales": 24883200
+        },
+        "7": {
+          "expert_BF16_biases": 552960,
+          "expert_packed_FP4": 398131200,
+          "expert_E8M0_scales": 24883200
+        },
+        "8": {
+          "expert_BF16_biases": 552960,
+          "expert_packed_FP4": 398131200,
+          "expert_E8M0_scales": 24883200
+        },
+        "9": {
+          "expert_BF16_biases": 552960,
+          "expert_packed_FP4": 398131200,
+          "expert_E8M0_scales": 24883200
+        }
+      },
+      "config_SHA256": "3a2a26ded679375b7928ddeca59764df7cea83220c1961035f6d6e232659e9ce"
+    },
+    "dflash": {
+      "repo": "z-lab/gpt-oss-20b-DFlash",
+      "revision": "d53f6551543204c859e8bbaaddbd15d11b447af9",
+      "file_bytes": 1569547192,
+      "tensor_bytes": 1569534208,
+      "safetensors_headers_and_metadata_bytes": 12984,
+      "categories_bytes": {
+        "attention_norm_or_other": 1569534208
+      },
+      "expert_layer_bytes": {},
+      "config_SHA256": "96bd5b47bba49a6ad00547585bf5c343c0a2b46e9685c93f8a995fa84cec8fa9"
+    }
+  },
+  "uniform_routing_reference": {
+    "experts": 32,
+    "topk": 4,
+    "total_expert_payload_bytes": 10165616640,
+    "rows": [
+      {
+        "token_rows": 1,
+        "uniform_independent_expected_unique_experts": 4.0,
+        "uniform_independent_expected_expert_bytes_proxy": 1270702080.0,
+        "assignments_divided_by_expected_unique": 1.0
+      },
+      {
+        "token_rows": 2,
+        "uniform_independent_expected_unique_experts": 7.5,
+        "uniform_independent_expected_expert_bytes_proxy": 2382566400.0,
+        "assignments_divided_by_expected_unique": 1.0666666666666667
+      },
+      {
+        "token_rows": 4,
+        "uniform_independent_expected_unique_experts": 13.2421875,
+        "uniform_independent_expected_expert_bytes_proxy": 4206718800.0,
+        "assignments_divided_by_expected_unique": 1.208259587020649
+      },
+      {
+        "token_rows": 8,
+        "uniform_independent_expected_unique_experts": 21.004514694213867,
+        "uniform_independent_expected_expert_bytes_proxy": 6672620127.832031,
+        "assignments_divided_by_expected_unique": 1.5234819973638842
+      },
+      {
+        "token_rows": 16,
+        "uniform_independent_expected_unique_experts": 28.22185321532004,
+        "uniform_independent_expected_expert_bytes_proxy": 8965391895.540464,
+        "assignments_divided_by_expected_unique": 2.267746186322663
+      },
+      {
+        "token_rows": 32,
+        "uniform_independent_expected_unique_experts": 31.55392521479414,
+        "uniform_independent_expected_expert_bytes_proxy": 10023909600.65084,
+        "assignments_divided_by_expected_unique": 4.056547612656027
+      },
+      {
+        "token_rows": 64,
+        "uniform_independent_expected_unique_experts": 31.99378179018761,
+        "uniform_independent_expected_expert_bytes_proxy": 10163641266.96438,
+        "assignments_divided_by_expected_unique": 8.001554854590974
+      },
+      {
+        "token_rows": 128,
+        "uniform_independent_expected_unique_experts": 31.999998791683335,
+        "uniform_independent_expected_expert_bytes_proxy": 10165616256.147375,
+        "assignments_divided_by_expected_unique": 16.000000604158355
+      }
+    ]
+  },
+  "limits": [
+    "Checkpoint bytes are not runtime allocated/reserved/physical VRAM; padding, repacking, caches and startup transients differ.",
+    "The uniform-independent table is a mathematical reference, not measured routing or predicted runtime.",
+    "Distinct expert checkpoint payload is an access-footprint proxy, not measured DRAM/HBM traffic; caches and GEMM tiling can change reads.",
+    "GPU performance remains unproven until admitted smoke, benchmarks and warmed profiling succeed."
+  ]
+}

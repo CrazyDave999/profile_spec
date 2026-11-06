@@ -1,0 +1,2780 @@
+{
+  "successful_benchmark_cells": 0,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "running",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 5, "kernel_groups": 572, "FP4_target_name_candidates": 13}
+{"trace_cases": 5, "validated_target_rounds": 2195, "summary_rows": 10}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 1 benchmark_cells 0
+{
+  "successful_benchmark_cells": 0,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "running",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 6, "kernel_groups": 789, "FP4_target_name_candidates": 19}
+{"trace_cases": 6, "validated_target_rounds": 2265, "summary_rows": 12}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 1 benchmark_cells 0
+{
+  "successful_benchmark_cells": 0,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "running",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 7, "kernel_groups": 900, "FP4_target_name_candidates": 21}
+{"trace_cases": 7, "validated_target_rounds": 2328, "summary_rows": 14}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 2 benchmark_cells 0
+{
+  "successful_benchmark_cells": 0,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "running",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 7, "kernel_groups": 900, "FP4_target_name_candidates": 21}
+{"trace_cases": 7, "validated_target_rounds": 2328, "summary_rows": 14}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 2 benchmark_cells 0
+{
+  "successful_benchmark_cells": 0,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "running",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 8, "kernel_groups": 1188, "FP4_target_name_candidates": 27}
+{"trace_cases": 8, "validated_target_rounds": 2365, "summary_rows": 16}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 2 benchmark_cells 0
+{
+  "successful_benchmark_cells": 0,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "running",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 2 benchmark_cells 0
+{
+  "successful_benchmark_cells": 1,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "running",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 2 benchmark_cells 1
+{
+  "successful_benchmark_cells": 2,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "running",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 2 benchmark_cells 2
+{
+  "successful_benchmark_cells": 3,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "running",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 3 benchmark_cells 3
+{
+  "successful_benchmark_cells": 4,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "running",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 3 benchmark_cells 4
+{
+  "successful_benchmark_cells": 5,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "running",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 3 benchmark_cells 5
+{
+  "successful_benchmark_cells": 6,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "running",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 3 benchmark_cells 6
+{
+  "successful_benchmark_cells": 7,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "running",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 3 benchmark_cells 7
+{
+  "successful_benchmark_cells": 8,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "running",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 3 benchmark_cells 8
+{
+  "successful_benchmark_cells": 9,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "running",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 3 benchmark_cells 9
+{
+  "successful_benchmark_cells": 10,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "running",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 3 benchmark_cells 10
+{
+  "successful_benchmark_cells": 11,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "running",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 3 benchmark_cells 11
+{
+  "successful_benchmark_cells": 12,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "running",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 3 benchmark_cells 12
+{
+  "successful_benchmark_cells": 12,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "running",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 3 benchmark_cells 12
+{
+  "successful_benchmark_cells": 13,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "running",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 3 benchmark_cells 13
+{
+  "successful_benchmark_cells": 14,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "running",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 3 benchmark_cells 14
+{
+  "successful_benchmark_cells": 15,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "running",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 3 benchmark_cells 15
+{
+  "successful_benchmark_cells": 16,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "running",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 3 benchmark_cells 16
+{
+  "successful_benchmark_cells": 17,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "running",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 3 benchmark_cells 17
+{
+  "successful_benchmark_cells": 18,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "running",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 3 benchmark_cells 18
+{
+  "successful_benchmark_cells": 19,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "running",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 3 benchmark_cells 19
+{
+  "successful_benchmark_cells": 20,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "running",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 3 benchmark_cells 20
+{
+  "successful_benchmark_cells": 21,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "running",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 3 benchmark_cells 21
+{
+  "successful_benchmark_cells": 22,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "running",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 3 benchmark_cells 22
+{
+  "successful_benchmark_cells": 23,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "running",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 3 benchmark_cells 23
+{
+  "successful_benchmark_cells": 24,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "running",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 3 benchmark_cells 24
+{
+  "successful_benchmark_cells": 25,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "running",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 3 benchmark_cells 25
+{
+  "successful_benchmark_cells": 26,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "running",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 3 benchmark_cells 26
+{
+  "successful_benchmark_cells": 26,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "running",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 3 benchmark_cells 26
+{
+  "successful_benchmark_cells": 27,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 3 benchmark_cells 27
+{
+  "successful_benchmark_cells": 28,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 3 benchmark_cells 28
+{
+  "successful_benchmark_cells": 29,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 3 benchmark_cells 29
+{
+  "successful_benchmark_cells": 30,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 3 benchmark_cells 30
+{
+  "successful_benchmark_cells": 31,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 3 benchmark_cells 31
+{
+  "successful_benchmark_cells": 31,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 3 benchmark_cells 31
+{
+  "successful_benchmark_cells": 32,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 4 benchmark_cells 32
+{
+  "successful_benchmark_cells": 33,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 4 benchmark_cells 33
+{
+  "successful_benchmark_cells": 34,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 4 benchmark_cells 34
+{
+  "successful_benchmark_cells": 35,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 4 benchmark_cells 35
+{
+  "successful_benchmark_cells": 36,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 4 benchmark_cells 36
+{
+  "successful_benchmark_cells": 37,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 4 benchmark_cells 37
+{
+  "successful_benchmark_cells": 38,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 4 benchmark_cells 38
+{
+  "successful_benchmark_cells": 39,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 4 benchmark_cells 39
+{
+  "successful_benchmark_cells": 40,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 4 benchmark_cells 40
+{
+  "successful_benchmark_cells": 41,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 4 benchmark_cells 41
+{
+  "successful_benchmark_cells": 42,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 4 benchmark_cells 42
+{
+  "successful_benchmark_cells": 43,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 4 benchmark_cells 43
+{
+  "successful_benchmark_cells": 43,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 4 benchmark_cells 43
+{
+  "successful_benchmark_cells": 44,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 4 benchmark_cells 44
+{
+  "successful_benchmark_cells": 45,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 4 benchmark_cells 45
+{
+  "successful_benchmark_cells": 45,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 4 benchmark_cells 45
+{
+  "successful_benchmark_cells": 46,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 4 benchmark_cells 46
+{
+  "successful_benchmark_cells": 47,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 4 benchmark_cells 47
+{
+  "successful_benchmark_cells": 48,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 4 benchmark_cells 48
+{
+  "successful_benchmark_cells": 49,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 4 benchmark_cells 49
+{
+  "successful_benchmark_cells": 50,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 4 benchmark_cells 50
+{
+  "successful_benchmark_cells": 51,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 4 benchmark_cells 51
+{
+  "successful_benchmark_cells": 52,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 4 benchmark_cells 52
+{
+  "successful_benchmark_cells": 53,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 4 benchmark_cells 53
+{
+  "successful_benchmark_cells": 53,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 4 benchmark_cells 53
+{
+  "successful_benchmark_cells": 54,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 4 benchmark_cells 54
+{
+  "successful_benchmark_cells": 55,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 4 benchmark_cells 55
+{
+  "successful_benchmark_cells": 56,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "running",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 4 benchmark_cells 56
+{
+  "successful_benchmark_cells": 57,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "running",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 4 benchmark_cells 57
+{
+  "successful_benchmark_cells": 57,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "running",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 4 benchmark_cells 57
+{
+  "successful_benchmark_cells": 57,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "running",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+{"diagnostic_dumps": 2, "layer_observations": 38112, "summary_groups": 30}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 5 benchmark_cells 57
+{
+  "successful_benchmark_cells": 57,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "running",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+{"diagnostic_dumps": 2, "layer_observations": 38112, "summary_groups": 30}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 5 benchmark_cells 57
+{
+  "successful_benchmark_cells": 57,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "running",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+{"diagnostic_dumps": 3, "layer_observations": 46728, "summary_groups": 45}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 5 benchmark_cells 57
+{
+  "successful_benchmark_cells": 57,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "running",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+{"diagnostic_dumps": 4, "layer_observations": 53040, "summary_groups": 60}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 5 benchmark_cells 57
+{
+  "successful_benchmark_cells": 57,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "running",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+{"diagnostic_dumps": 5, "layer_observations": 59184, "summary_groups": 65}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 5 benchmark_cells 57
+{
+  "successful_benchmark_cells": 57,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "running",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+{"diagnostic_dumps": 6, "layer_observations": 62640, "summary_groups": 73}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 5 benchmark_cells 57
+{
+  "successful_benchmark_cells": 57,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "running",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+{"diagnostic_dumps": 7, "layer_observations": 64992, "summary_groups": 81}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 5 benchmark_cells 57
+{
+  "successful_benchmark_cells": 57,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "running",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+{"diagnostic_dumps": 8, "layer_observations": 66768, "summary_groups": 89}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 5 benchmark_cells 57
+{
+  "successful_benchmark_cells": 57,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "running",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+{"diagnostic_dumps": 9, "layer_observations": 68352, "summary_groups": 92}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 5 benchmark_cells 57
+{
+  "successful_benchmark_cells": 57,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "running",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+{"diagnostic_dumps": 10, "layer_observations": 69312, "summary_groups": 99}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 5 benchmark_cells 57
+{
+  "successful_benchmark_cells": 57,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "running",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+{"diagnostic_dumps": 11, "layer_observations": 69984, "summary_groups": 108}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 5 benchmark_cells 57
+{
+  "successful_benchmark_cells": 57,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_dense_control.campaign.json",
+      "stage": "dense_control",
+      "status": "running",
+      "planned_cells": 18
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "success",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+{"diagnostic_dumps": 12, "layer_observations": 70536, "summary_groups": 118}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 5 benchmark_cells 57
+{
+  "successful_benchmark_cells": 58,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_dense_control.campaign.json",
+      "stage": "dense_control",
+      "status": "running",
+      "planned_cells": 18
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "success",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+{"diagnostic_dumps": 12, "layer_observations": 70536, "summary_groups": 118}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 5 benchmark_cells 58
+{
+  "successful_benchmark_cells": 59,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_dense_control.campaign.json",
+      "stage": "dense_control",
+      "status": "running",
+      "planned_cells": 18
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "success",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+{"diagnostic_dumps": 12, "layer_observations": 70536, "summary_groups": 118}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 5 benchmark_cells 59
+{
+  "successful_benchmark_cells": 60,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_dense_control.campaign.json",
+      "stage": "dense_control",
+      "status": "running",
+      "planned_cells": 18
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "success",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+{"diagnostic_dumps": 12, "layer_observations": 70536, "summary_groups": 118}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 6 benchmark_cells 60
+{
+  "successful_benchmark_cells": 61,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_dense_control.campaign.json",
+      "stage": "dense_control",
+      "status": "running",
+      "planned_cells": 18
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "success",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+{"diagnostic_dumps": 12, "layer_observations": 70536, "summary_groups": 118}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 6 benchmark_cells 61
+{
+  "successful_benchmark_cells": 62,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_dense_control.campaign.json",
+      "stage": "dense_control",
+      "status": "running",
+      "planned_cells": 18
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "success",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+{"diagnostic_dumps": 12, "layer_observations": 70536, "summary_groups": 118}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 6 benchmark_cells 62
+{
+  "successful_benchmark_cells": 63,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_dense_control.campaign.json",
+      "stage": "dense_control",
+      "status": "running",
+      "planned_cells": 18
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "success",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+{"diagnostic_dumps": 12, "layer_observations": 70536, "summary_groups": 118}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 6 benchmark_cells 63
+{
+  "successful_benchmark_cells": 64,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_dense_control.campaign.json",
+      "stage": "dense_control",
+      "status": "running",
+      "planned_cells": 18
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "success",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+{"diagnostic_dumps": 12, "layer_observations": 70536, "summary_groups": 118}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 6 benchmark_cells 64
+{
+  "successful_benchmark_cells": 65,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_dense_control.campaign.json",
+      "stage": "dense_control",
+      "status": "running",
+      "planned_cells": 18
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "success",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+{"diagnostic_dumps": 12, "layer_observations": 70536, "summary_groups": 118}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 6 benchmark_cells 65
+{
+  "successful_benchmark_cells": 66,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_dense_control.campaign.json",
+      "stage": "dense_control",
+      "status": "running",
+      "planned_cells": 18
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "success",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+{"diagnostic_dumps": 12, "layer_observations": 70536, "summary_groups": 118}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 6 benchmark_cells 66
+{
+  "successful_benchmark_cells": 66,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_dense_control.campaign.json",
+      "stage": "dense_control",
+      "status": "running",
+      "planned_cells": 18
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "success",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+{"diagnostic_dumps": 12, "layer_observations": 70536, "summary_groups": 118}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 6 benchmark_cells 66
+{
+  "successful_benchmark_cells": 67,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_dense_control.campaign.json",
+      "stage": "dense_control",
+      "status": "running",
+      "planned_cells": 18
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "success",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+{"diagnostic_dumps": 12, "layer_observations": 70536, "summary_groups": 118}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 6 benchmark_cells 67
+{
+  "successful_benchmark_cells": 68,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_dense_control.campaign.json",
+      "stage": "dense_control",
+      "status": "running",
+      "planned_cells": 18
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "success",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+{"diagnostic_dumps": 12, "layer_observations": 70536, "summary_groups": 118}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 6 benchmark_cells 68
+{
+  "successful_benchmark_cells": 69,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_dense_control.campaign.json",
+      "stage": "dense_control",
+      "status": "running",
+      "planned_cells": 18
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "success",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+{"diagnostic_dumps": 12, "layer_observations": 70536, "summary_groups": 118}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 6 benchmark_cells 69
+{
+  "successful_benchmark_cells": 70,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_dense_control.campaign.json",
+      "stage": "dense_control",
+      "status": "running",
+      "planned_cells": 18
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "success",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+{"diagnostic_dumps": 12, "layer_observations": 70536, "summary_groups": 118}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 6 benchmark_cells 70
+{
+  "successful_benchmark_cells": 71,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_dense_control.campaign.json",
+      "stage": "dense_control",
+      "status": "running",
+      "planned_cells": 18
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "success",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+{"diagnostic_dumps": 12, "layer_observations": 70536, "summary_groups": 118}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 6 benchmark_cells 71
+{
+  "successful_benchmark_cells": 71,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_dense_control.campaign.json",
+      "stage": "dense_control",
+      "status": "running",
+      "planned_cells": 18
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "success",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+{"diagnostic_dumps": 12, "layer_observations": 70536, "summary_groups": 118}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 6 benchmark_cells 71
+{
+  "successful_benchmark_cells": 72,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_dense_control.campaign.json",
+      "stage": "dense_control",
+      "status": "running",
+      "planned_cells": 18
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "success",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+{"diagnostic_dumps": 12, "layer_observations": 70536, "summary_groups": 118}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 6 benchmark_cells 72
+{
+  "successful_benchmark_cells": 73,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_dense_control.campaign.json",
+      "stage": "dense_control",
+      "status": "running",
+      "planned_cells": 18
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "success",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+{"diagnostic_dumps": 12, "layer_observations": 70536, "summary_groups": 118}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 6 benchmark_cells 73
+{
+  "successful_benchmark_cells": 74,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_dense_control.campaign.json",
+      "stage": "dense_control",
+      "status": "running",
+      "planned_cells": 18
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "success",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+{"diagnostic_dumps": 12, "layer_observations": 70536, "summary_groups": 118}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 6 benchmark_cells 74
+{
+  "successful_benchmark_cells": 75,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_dense_control.campaign.json",
+      "stage": "dense_control",
+      "status": "success",
+      "planned_cells": 18
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "success",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}
+{"traces": 9, "kernel_groups": 1586, "FP4_target_name_candidates": 43}
+{"trace_cases": 9, "validated_target_rounds": 2385, "summary_rows": 18}
+{"diagnostic_dumps": 12, "layer_observations": 70536, "summary_groups": 118}
+report /home/qinghao/profile_spec/reports/2026-11-06_moe_parallel_sd.html figures 6 benchmark_cells 75

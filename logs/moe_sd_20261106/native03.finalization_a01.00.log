@@ -1,0 +1,35 @@
+{
+  "successful_benchmark_cells": 75,
+  "campaigns": [
+    {
+      "file": "logs/moe_sd_20261106/native03_dense_control.campaign.json",
+      "stage": "dense_control",
+      "status": "success",
+      "planned_cells": 18
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_full.campaign.json",
+      "stage": "full",
+      "status": "success",
+      "planned_cells": 27
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_routing.campaign.json",
+      "stage": "routing",
+      "status": "success",
+      "planned_cells": 12
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_traces.campaign.json",
+      "stage": "traces",
+      "status": "success",
+      "planned_cells": 9
+    },
+    {
+      "file": "logs/moe_sd_20261106/native03_width.campaign.json",
+      "stage": "width",
+      "status": "success",
+      "planned_cells": 30
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "status": "superseded_for_component_analysis",
+  "pid": 776433,
+  "process_start_time": 1793977226.89,
+  "sequence": "native03",
+  "controller_pid": 774658,
+  "controller_start_time": 1793977133.09,
+  "started_epoch": 1793977227.143269,
+  "updates": [
+    {
+      "epoch": 1793977227.1440015,
+      "successful_cells": 0,
+      "controller_status": "running_sequence",
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793977307.615571,
+      "successful_cells": 1,
+      "controller_status": "running_sequence",
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793977392.4146297,
+      "successful_cells": 2,
+      "controller_status": "running_sequence",
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793977468.497879,
+      "successful_cells": 3,
+      "controller_status": "running_sequence",
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793977544.6558585,
+      "successful_cells": 4,
+      "controller_status": "running_sequence",
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793977621.2888172,
+      "successful_cells": 5,
+      "controller_status": "running_sequence",
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    }
+  ],
+  "controller_live": true,
+  "controller_status": "running_sequence",
+  "last_checked_epoch": 1793977628.1059666,
+  "successful_cells": 5,
+  "ended_epoch": 1793977635.729874,
+  "replacement": "native03.analysis_watch_a02.json"
+}

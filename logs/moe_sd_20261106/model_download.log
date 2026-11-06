@@ -1,0 +1,6 @@
+DOWNLOAD target openai/gpt-oss-20b 6cee5e81ee83917806bbde320786a8fb61efebee
+Fetching 11 files:   0%|          | 0/11 [00:00<?, ?it/s]Fetching 11 files:   9%|▉         | 1/11 [00:00<00:01,  9.44it/s]Fetching 11 files:  45%|████▌     | 5/11 [00:00<00:00, 22.12it/s]Fetching 11 files:  73%|███████▎  | 8/11 [00:18<00:08,  2.88s/it]Fetching 11 files:  82%|████████▏ | 9/11 [01:37<00:33, 16.99s/it]Fetching 11 files:  91%|█████████ | 10/11 [01:50<00:16, 16.23s/it]Fetching 11 files: 100%|██████████| 11/11 [01:53<00:00, 13.14s/it]Fetching 11 files: 100%|██████████| 11/11 [01:53<00:00, 10.31s/it]
+READY target 13761316904 /home/qinghao/models/gpt-oss-20b
+DOWNLOAD dflash z-lab/gpt-oss-20b-DFlash d53f6551543204c859e8bbaaddbd15d11b447af9
+Fetching 3 files:   0%|          | 0/3 [00:00<?, ?it/s]Fetching 3 files:  33%|███▎      | 1/3 [00:00<00:00,  9.54it/s]Fetching 3 files: 100%|██████████| 3/3 [00:12<00:00,  4.69s/it]Fetching 3 files: 100%|██████████| 3/3 [00:12<00:00,  4.23s/it]
+READY dflash 1569547192 /home/qinghao/models/gpt-oss-20b-dflash

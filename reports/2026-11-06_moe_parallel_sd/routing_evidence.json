@@ -1,0 +1,233 @@
+{
+  "sources": [
+    {
+      "case": "native03_routing_00_ar_gsm8k_bs1_w1",
+      "file": "profiles/moe_sd_20261106/native03_routing_00_ar_gsm8k_bs1_w1_routing/expert_distribution_recorder_1793979948.9312549_0.pt",
+      "SHA256": "1272465d1b9dbe81e7af946fd143495cb07212273babffbdf565c8f38aa6cd09",
+      "records": 1024
+    },
+    {
+      "case": "native03_routing_01_dflash_gsm8k_bs1_w2",
+      "file": "profiles/moe_sd_20261106/native03_routing_01_dflash_gsm8k_bs1_w2_routing/expert_distribution_recorder_1793979978.691752_0.pt",
+      "SHA256": "0a0a17af5ed6d4995bc2e923fcc0c0229ddc85d0e34451d6e5b21bfbb4d051f3",
+      "records": 1112
+    },
+    {
+      "case": "native03_routing_02_dflash_gsm8k_bs1_w4",
+      "file": "profiles/moe_sd_20261106/native03_routing_02_dflash_gsm8k_bs1_w4_routing/expert_distribution_recorder_1793980007.4004934_0.pt",
+      "SHA256": "f4495772aca770c433d5f022976242b1b0c8f8acebda2dec5f239bfcf908424d",
+      "records": 702
+    },
+    {
+      "case": "native03_routing_03_dflash_gsm8k_bs1_w8",
+      "file": "profiles/moe_sd_20261106/native03_routing_03_dflash_gsm8k_bs1_w8_routing/expert_distribution_recorder_1793980035.1991057_0.pt",
+      "SHA256": "c97b18d1ab095fd9ff6e88f895d149db57cb69cb7fbb65c8a396625be49b716a",
+      "records": 510
+    },
+    {
+      "case": "native03_routing_04_ar_gsm8k_bs4_w1",
+      "file": "profiles/moe_sd_20261106/native03_routing_04_ar_gsm8k_bs4_w1_routing/expert_distribution_recorder_1793980060.5819292_0.pt",
+      "SHA256": "9f2c26d678abbcb62ae7b907d2282c089745a712b856c36d3b864979317cd244",
+      "records": 256
+    },
+    {
+      "case": "native03_routing_05_dflash_gsm8k_bs4_w2",
+      "file": "profiles/moe_sd_20261106/native03_routing_05_dflash_gsm8k_bs4_w2_routing/expert_distribution_recorder_1793980086.9076688_0.pt",
+      "SHA256": "134cbaa68bd2d07f48049d62c11333fdcc99756c74656323397145c9f0a1a2e2",
+      "records": 284
+    },
+    {
+      "case": "native03_routing_06_dflash_gsm8k_bs4_w4",
+      "file": "profiles/moe_sd_20261106/native03_routing_06_dflash_gsm8k_bs4_w4_routing/expert_distribution_recorder_1793980113.006796_0.pt",
+      "SHA256": "f84ad40c07acb86d4d19c1a5bae77a433f3f9e1a4d37de09091cccaf090d493f",
+      "records": 192
+    },
+    {
+      "case": "native03_routing_07_dflash_gsm8k_bs4_w8",
+      "file": "profiles/moe_sd_20261106/native03_routing_07_dflash_gsm8k_bs4_w8_routing/expert_distribution_recorder_1793980138.6737988_0.pt",
+      "SHA256": "526fff6ac70693940e4850a824483ea83420c52daf7aafb30f1dc8558a6f120d",
+      "records": 144
+    },
+    {
+      "case": "native03_routing_08_ar_gsm8k_bs16_w1",
+      "file": "profiles/moe_sd_20261106/native03_routing_08_ar_gsm8k_bs16_w1_routing/expert_distribution_recorder_1793980163.2862344_0.pt",
+      "SHA256": "b742fddaa0f416814fca04d26fb8b8927be634d5e70518a3d6e3e592b908d792",
+      "records": 66
+    },
+    {
+      "case": "native03_routing_09_dflash_gsm8k_bs16_w2",
+      "file": "profiles/moe_sd_20261106/native03_routing_09_dflash_gsm8k_bs16_w2_routing/expert_distribution_recorder_1793980188.8071911_0.pt",
+      "SHA256": "930ccdcd06b4102396616783203c4d53377bf2e21e0bd7919694c787a6c5fde8",
+      "records": 77
+    },
+    {
+      "case": "native03_routing_10_dflash_gsm8k_bs16_w4",
+      "file": "profiles/moe_sd_20261106/native03_routing_10_dflash_gsm8k_bs16_w4_routing/expert_distribution_recorder_1793980214.3417487_0.pt",
+      "SHA256": "2e545fcde519cc2b869f01385840e09c934c6f158ed37cdaa4b953b6373a742e",
+      "records": 53
+    },
+    {
+      "case": "native03_routing_11_dflash_gsm8k_bs16_w8",
+      "file": "profiles/moe_sd_20261106/native03_routing_11_dflash_gsm8k_bs16_w8_routing/expert_distribution_recorder_1793980239.7853065_0.pt",
+      "SHA256": "7e17de34836ae253f9a1c0c22b86c994daeacbb30b78986a50e28950b3eb62d2",
+      "records": 43
+    }
+  ],
+  "trajectory_checks": [
+    {
+      "case": "native03_routing_00_ar_gsm8k_bs1_w1",
+      "matched_trace_comparisons": [
+        {
+          "reference": "logs/moe_sd_20261106/native03_traces_00_ar_gsm8k_bs1_w1.json",
+          "reference_SHA256": "4d90206cb937d24bb7e5c7f5555c21f51def65fd3fa94214cf78fff20aaa5349",
+          "requests": 16,
+          "exact_requests": 16
+        }
+      ],
+      "note": ""
+    },
+    {
+      "case": "native03_routing_01_dflash_gsm8k_bs1_w2",
+      "matched_trace_comparisons": [
+        {
+          "reference": "logs/moe_sd_20261106/native03_traces_01_dflash_gsm8k_bs1_w2.json",
+          "reference_SHA256": "7295abfed9525ac5f21ab0b8486f99bded494d7304a2f4678d14a57aaee55142",
+          "requests": 16,
+          "exact_requests": 16
+        }
+      ],
+      "note": ""
+    },
+    {
+      "case": "native03_routing_02_dflash_gsm8k_bs1_w4",
+      "matched_trace_comparisons": [],
+      "note": "Width4 has no matched nsys arm in the planned matrix."
+    },
+    {
+      "case": "native03_routing_03_dflash_gsm8k_bs1_w8",
+      "matched_trace_comparisons": [
+        {
+          "reference": "logs/moe_sd_20261106/native03_traces_02_dflash_gsm8k_bs1_w8.json",
+          "reference_SHA256": "5a3eede0b9600432931072ca4a1d7fd03e67cf5df38381a046e1c16f32a201e6",
+          "requests": 16,
+          "exact_requests": 16
+        }
+      ],
+      "note": ""
+    },
+    {
+      "case": "native03_routing_04_ar_gsm8k_bs4_w1",
+      "matched_trace_comparisons": [
+        {
+          "reference": "logs/moe_sd_20261106/native03_traces_03_ar_gsm8k_bs4_w1.json",
+          "reference_SHA256": "377e2d8ecbd6d7c52595f8945aa5338cae0f9b39b926d2c2359473129c5f9d69",
+          "requests": 16,
+          "exact_requests": 16
+        }
+      ],
+      "note": ""
+    },
+    {
+      "case": "native03_routing_05_dflash_gsm8k_bs4_w2",
+      "matched_trace_comparisons": [
+        {
+          "reference": "logs/moe_sd_20261106/native03_traces_04_dflash_gsm8k_bs4_w2.json",
+          "reference_SHA256": "97435822791eb15d6360c61e66d06e86603c122bde34665e021e5d0d653b003a",
+          "requests": 16,
+          "exact_requests": 16
+        }
+      ],
+      "note": ""
+    },
+    {
+      "case": "native03_routing_06_dflash_gsm8k_bs4_w4",
+      "matched_trace_comparisons": [],
+      "note": "Width4 has no matched nsys arm in the planned matrix."
+    },
+    {
+      "case": "native03_routing_07_dflash_gsm8k_bs4_w8",
+      "matched_trace_comparisons": [
+        {
+          "reference": "logs/moe_sd_20261106/native03_traces_05_dflash_gsm8k_bs4_w8.json",
+          "reference_SHA256": "78dae00cf3d8d07fc894e95ddf96fd133609b0bb4ef0ecb6daf5c5fa6705cee5",
+          "requests": 16,
+          "exact_requests": 16
+        }
+      ],
+      "note": ""
+    },
+    {
+      "case": "native03_routing_08_ar_gsm8k_bs16_w1",
+      "matched_trace_comparisons": [
+        {
+          "reference": "logs/moe_sd_20261106/native03_traces_06_ar_gsm8k_bs16_w1.json",
+          "reference_SHA256": "5a3d7c8d41090bf1670c39e3335febe2a478d9671113e5fe44c54e7e58d71dae",
+          "requests": 16,
+          "exact_requests": 16
+        }
+      ],
+      "note": ""
+    },
+    {
+      "case": "native03_routing_09_dflash_gsm8k_bs16_w2",
+      "matched_trace_comparisons": [
+        {
+          "reference": "logs/moe_sd_20261106/native03_traces_07_dflash_gsm8k_bs16_w2.json",
+          "reference_SHA256": "6744c950ef92216887b82ee2dcd974363d86d855231f3261dc0e9bca4611a66b",
+          "requests": 16,
+          "exact_requests": 16
+        }
+      ],
+      "note": ""
+    },
+    {
+      "case": "native03_routing_10_dflash_gsm8k_bs16_w4",
+      "matched_trace_comparisons": [],
+      "note": "Width4 has no matched nsys arm in the planned matrix."
+    },
+    {
+      "case": "native03_routing_11_dflash_gsm8k_bs16_w8",
+      "matched_trace_comparisons": [
+        {
+          "reference": "logs/moe_sd_20261106/native03_traces_08_dflash_gsm8k_bs16_w8.json",
+          "reference_SHA256": "b7ed11370ed865988921244d19236225a05644445db48eb5f68f72f0bf03a935",
+          "requests": 16,
+          "exact_requests": 16
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "expert_bytes_per_layer_per_expert": {
+    "0": 13236480,
+    "1": 13236480,
+    "10": 13236480,
+    "11": 13236480,
+    "12": 13236480,
+    "13": 13236480,
+    "14": 13236480,
+    "15": 13236480,
+    "16": 13236480,
+    "17": 13236480,
+    "18": 13236480,
+    "19": 13236480,
+    "2": 13236480,
+    "20": 13236480,
+    "21": 13236480,
+    "22": 13236480,
+    "23": 13236480,
+    "3": 13236480,
+    "4": 13236480,
+    "5": 13236480,
+    "6": 13236480,
+    "7": 13236480,
+    "8": 13236480,
+    "9": 13236480
+  },
+  "diagnostic": "Upstream per-pass recording enabled after warmup, disabled after measurement. Recording timings excluded from headline.",
+  "limits": [
+    "Counts describe routed assignments; compare with input/query rows to detect graph padding or masked routes.",
+    "Distinct checkpoint expert bytes are a logical access-footprint proxy, not measured HBM traffic; runtime padding, cache reuse, repeated GEMM reads, bias handling and kernel tiling differ.",
+    "Uniform independent routing is an explanatory reference, not an assumption imposed on measured routes."
+  ]
+}

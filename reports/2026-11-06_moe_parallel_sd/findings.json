@@ -1,0 +1,1148 @@
+{
+  "headline": [
+    {
+      "case": "native03_full_01_dflash_gsm8k_bs1_w8",
+      "stage": "full",
+      "target": "gpt-oss-20b",
+      "dataset": "gsm8k",
+      "bs": 1,
+      "method": "dflash",
+      "width": 8,
+      "median_tps": 437.3158267189453,
+      "gain": 1.6488890467507893,
+      "tau": 4.130081300813008,
+      "request_mean_cycle_median_ms": 8.681914922517489,
+      "peak_physical_GiB": 18.1990966796875,
+      "repeat_CV": 0.00034744688409046984,
+      "AR_bracket_drift": 0.0002594407709903823,
+      "cached_tokens": 0,
+      "retractions": 0
+    },
+    {
+      "case": "native03_full_04_dflash_gsm8k_bs4_w8",
+      "stage": "full",
+      "target": "gpt-oss-20b",
+      "dataset": "gsm8k",
+      "bs": 4,
+      "method": "dflash",
+      "width": 8,
+      "median_tps": 1268.7678983467379,
+      "gain": 1.8045413703201927,
+      "tau": 4.130081300813008,
+      "request_mean_cycle_median_ms": 10.524050164450374,
+      "peak_physical_GiB": 18.4237060546875,
+      "repeat_CV": 0.0005916096929007022,
+      "AR_bracket_drift": 7.249330774827811e-05,
+      "cached_tokens": 0,
+      "retractions": 0
+    },
+    {
+      "case": "native03_full_07_dflash_gsm8k_bs16_w8",
+      "stage": "full",
+      "target": "gpt-oss-20b",
+      "dataset": "gsm8k",
+      "bs": 16,
+      "method": "dflash",
+      "width": 8,
+      "median_tps": 4097.008258039024,
+      "gain": 2.0369973155618344,
+      "tau": 4.163934426229508,
+      "request_mean_cycle_median_ms": 13.329315707475567,
+      "peak_physical_GiB": 19.1483154296875,
+      "repeat_CV": 0.0030109300054726095,
+      "AR_bracket_drift": 0.00010445241896228641,
+      "cached_tokens": 0,
+      "retractions": 0
+    },
+    {
+      "case": "native03_full_10_dflash_humaneval_bs1_w8",
+      "stage": "full",
+      "target": "gpt-oss-20b",
+      "dataset": "humaneval",
+      "bs": 1,
+      "method": "dflash",
+      "width": 8,
+      "median_tps": 330.2242776723908,
+      "gain": 1.2457846888265043,
+      "tau": 2.9794721407624634,
+      "request_mean_cycle_median_ms": 8.529370895169452,
+      "peak_physical_GiB": 18.1951904296875,
+      "repeat_CV": 0.0009733423101303725,
+      "AR_bracket_drift": 0.0010101183311470585,
+      "cached_tokens": 0,
+      "retractions": 0
+    },
+    {
+      "case": "native03_full_13_dflash_humaneval_bs4_w8",
+      "stage": "full",
+      "target": "gpt-oss-20b",
+      "dataset": "humaneval",
+      "bs": 4,
+      "method": "dflash",
+      "width": 8,
+      "median_tps": 1037.5577868282237,
+      "gain": 1.477419307491147,
+      "tau": 3.0283159463487332,
+      "request_mean_cycle_median_ms": 10.277769643212913,
+      "peak_physical_GiB": 18.4217529296875,
+      "repeat_CV": 0.0006722314459975555,
+      "AR_bracket_drift": 0.000804917937753169,
+      "cached_tokens": 0,
+      "retractions": 0
+    },
+    {
+      "case": "native03_full_16_dflash_humaneval_bs16_w8",
+      "stage": "full",
+      "target": "gpt-oss-20b",
+      "dataset": "humaneval",
+      "bs": 16,
+      "method": "dflash",
+      "width": 8,
+      "median_tps": 2906.67119646821,
+      "gain": 1.4371421628888141,
+      "tau": 3.069486404833837,
+      "request_mean_cycle_median_ms": 13.310449005744298,
+      "peak_physical_GiB": 19.1483154296875,
+      "repeat_CV": 0.0009056226784502651,
+      "AR_bracket_drift": 0.0008009196031646404,
+      "cached_tokens": 0,
+      "retractions": 0
+    },
+    {
+      "case": "native03_full_19_dflash_mt_bench_bs1_w8",
+      "stage": "full",
+      "target": "gpt-oss-20b",
+      "dataset": "mt_bench",
+      "bs": 1,
+      "method": "dflash",
+      "width": 8,
+      "median_tps": 353.1945671748628,
+      "gain": 1.3324463592975975,
+      "tau": 3.0928462709284625,
+      "request_mean_cycle_median_ms": 8.240043919650674,
+      "peak_physical_GiB": 18.1951904296875,
+      "repeat_CV": 0.00039032755933018557,
+      "AR_bracket_drift": 0.0007258439842775521,
+      "cached_tokens": 0,
+      "retractions": 0
+    },
+    {
+      "case": "native03_full_22_dflash_mt_bench_bs4_w8",
+      "stage": "full",
+      "target": "gpt-oss-20b",
+      "dataset": "mt_bench",
+      "bs": 4,
+      "method": "dflash",
+      "width": 8,
+      "median_tps": 982.3706101766564,
+      "gain": 1.3468571195119332,
+      "tau": 2.9620991253644315,
+      "request_mean_cycle_median_ms": 9.795047393655324,
+      "peak_physical_GiB": 18.4061279296875,
+      "repeat_CV": 0.0005533995105993764,
+      "AR_bracket_drift": 0.00033673590169747136,
+      "cached_tokens": 0,
+      "retractions": 0
+    },
+    {
+      "case": "native03_full_25_dflash_mt_bench_bs16_w8",
+      "stage": "full",
+      "target": "gpt-oss-20b",
+      "dataset": "mt_bench",
+      "bs": 16,
+      "method": "dflash",
+      "width": 8,
+      "median_tps": 2792.3963523853795,
+      "gain": 1.2799605989075122,
+      "tau": 2.849929873772791,
+      "request_mean_cycle_median_ms": 12.526054450879908,
+      "peak_physical_GiB": 19.1483154296875,
+      "repeat_CV": 0.0013931586003037763,
+      "AR_bracket_drift": 0.00024192349919638367,
+      "cached_tokens": 0,
+      "retractions": 0
+    }
+  ],
+  "target_costs": [
+    {
+      "case": "native03_traces_00_ar_gsm8k_bs1_w1",
+      "method": "ar",
+      "configured_bs": "1",
+      "width": "1",
+      "scope": "full_active_batch",
+      "calls": "1008",
+      "total_ms": "3.8069929375",
+      "MoE_FP4_GEMM_ms": "1.1911879186507937",
+      "router_linear_ms": "0.11787093154761906",
+      "router_select_ms": "0.11381355753968253",
+      "moe_metadata_ms": "0.043395359126984126",
+      "moe_dispatch_ms": "0.05279667757936508",
+      "moe_activation_ms": "0.0859537738095238",
+      "moe_combine_ms": "0.12925147916666668",
+      "activation_quantization_ms": "0.03589852281746032",
+      "QKV_O_projection_ms": "0.9438268244047618",
+      "LM_head_ms": "0.7249498343253967",
+      "attention_core_ms": "0.15965951686507937",
+      "other_ms": "0.20838854166666668"
+    },
+    {
+      "case": "native03_traces_02_dflash_gsm8k_bs1_w8",
+      "method": "dflash",
+      "configured_bs": "1",
+      "width": "8",
+      "scope": "full_active_batch",
+      "calls": "247",
+      "total_ms": "6.343190923076923",
+      "MoE_FP4_GEMM_ms": "3.364925311740891",
+      "router_linear_ms": "0.11862701619433198",
+      "router_select_ms": "0.11024343724696357",
+      "moe_metadata_ms": "0.04358927125506073",
+      "moe_dispatch_ms": "0.058403684210526316",
+      "moe_activation_ms": "0.10879413360323886",
+      "moe_combine_ms": "0.14186738056680162",
+      "activation_quantization_ms": "0.03606221862348178",
+      "QKV_O_projection_ms": "1.1197453927125507",
+      "LM_head_ms": "0.7222296113360324",
+      "attention_core_ms": "0.18967193927125506",
+      "other_ms": "0.32903152631578947"
+    },
+    {
+      "case": "native03_traces_06_ar_gsm8k_bs16_w1",
+      "method": "ar",
+      "configured_bs": "16",
+      "width": "1",
+      "scope": "full_active_batch",
+      "calls": "63",
+      "total_ms": "7.301250095238095",
+      "MoE_FP4_GEMM_ms": "4.222562952380952",
+      "router_linear_ms": "0.11681301587301587",
+      "router_select_ms": "0.10874053968253967",
+      "moe_metadata_ms": "0.04370926984126984",
+      "moe_dispatch_ms": "0.059074555555555554",
+      "moe_activation_ms": "0.10827255555555555",
+      "moe_combine_ms": "0.14234717460317461",
+      "activation_quantization_ms": "0.0371878253968254",
+      "QKV_O_projection_ms": "1.1237907619047618",
+      "LM_head_ms": "0.7257305238095239",
+      "attention_core_ms": "0.2685110476190476",
+      "other_ms": "0.34450987301587305"
+    },
+    {
+      "case": "native03_traces_08_dflash_gsm8k_bs16_w8",
+      "method": "dflash",
+      "configured_bs": "16",
+      "width": "8",
+      "scope": "full_active_batch",
+      "calls": "10",
+      "total_ms": "9.710151",
+      "MoE_FP4_GEMM_ms": "6.2163506",
+      "router_linear_ms": "0.10715749999999999",
+      "router_select_ms": "0.10130779999999999",
+      "moe_metadata_ms": "0.0463456",
+      "moe_dispatch_ms": "0.0719449",
+      "moe_activation_ms": "0.1558672",
+      "moe_combine_ms": "0.1388147",
+      "activation_quantization_ms": "0.0394526",
+      "QKV_O_projection_ms": "1.4156648",
+      "LM_head_ms": "0.8142155000000001",
+      "attention_core_ms": "0.18866339999999998",
+      "other_ms": "0.4143664"
+    }
+  ],
+  "expert_fraction_of_target_cost_growth_BS1_to_16": {
+    "AR": 0.8675306071898926,
+    "verify_W8": 0.8468841991333937
+  },
+  "BS_growth_GPU_work": [
+    {
+      "component": "AR 专家 GEMM",
+      "BS1_ms": 1.1911879186507937,
+      "BS16_ms": 4.222562952380952,
+      "growth_factor": 3.544833595326977
+    },
+    {
+      "component": "W8 verify 专家 GEMM",
+      "BS1_ms": 3.364925311740891,
+      "BS16_ms": 6.2163506,
+      "growth_factor": 1.8473963087114955
+    },
+    {
+      "component": "AR target 全部 kernel",
+      "BS1_ms": 3.8069929375,
+      "BS16_ms": 7.301250095238095,
+      "growth_factor": 1.9178522826555926
+    },
+    {
+      "component": "W8 verify 全部 kernel",
+      "BS1_ms": 6.343190923076923,
+      "BS16_ms": 9.710151,
+      "growth_factor": 1.5307991069090898
+    }
+  ],
+  "SD_phase_costs": [
+    {
+      "case": "native03_traces_02_dflash_gsm8k_bs1_w8",
+      "method": "dflash",
+      "configured_bs": "1",
+      "width": "8",
+      "phase": "DRAFT",
+      "calls": "247",
+      "host_ms": "62.632253999999975",
+      "kernel_ms": "515.2510170000116",
+      "kernel_count": "22971",
+      "graph_kernel_count": "22477",
+      "graph_launch_count": "247",
+      "sync_api_ms": "0.0",
+      "sync_api_count": "0",
+      "memcpy_ms": "0.4030029999999988",
+      "gpu_kernel_ms_per_call": "2.086036506072922",
+      "host_ms_per_call": "0.25357187854251",
+      "top_kernels": "[('void cutlass::Kernel2<cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_16x16_128x2_tn_align8>(T1::Params)', 482.8134960000012), ('kernel_cutlass_kernel_sglangkernelsopsattentionfa4_sm120flash_fwdFlashAttentionForwardSm120_object_at__tensorptrbf16gmemalign16o8i64div8i64div81i64div64_tensorptrbf16gmemalign16oi64div81i_0', 11.890699000000051), ('kernel_cutlass_kernel_flashinfernormkernelsfused_add_rmsnormFusedAddRMSNormKernel_object_at__tensorptrbf16gmemalign128oi64288028801_tensorptrbf16gmemalign128oi64288028801_tensorptrbf16gme_0', 9.346528999999629), ('void at::native::elementwise_kernel<(int)128, (int)4, void at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase &)::[lambda() (instance 3)]::operator ()() const::[lambda() (instance 12)]::operator ()() const::[lambda(c10::BFloat16) (instance 1)]>(at::TensorIteratorBase &, const T1 &)::[lambda(int) (instance 1)]>(int, T3)', 2.690006000000037), ('_table_qk_norm_rope_kernel', 2.399469999999999)]"
+    },
+    {
+      "case": "native03_traces_02_dflash_gsm8k_bs1_w8",
+      "method": "dflash",
+      "configured_bs": "1",
+      "width": "8",
+      "phase": "VERIFY",
+      "calls": "247",
+      "host_ms": "43.97130799999999",
+      "kernel_ms": "1566.7681579998875",
+      "kernel_count": "125723",
+      "graph_kernel_count": "125723",
+      "graph_launch_count": "247",
+      "sync_api_ms": "0.0",
+      "sync_api_count": "0",
+      "memcpy_ms": "0.9758619999999983",
+      "gpu_kernel_ms_per_call": "6.343190923076468",
+      "host_ms_per_call": "0.1780214898785425",
+      "top_kernels": "[('void cutlass::device_kernel<cutlass::gemm::kernel::GemmUniversal<cutlass::gemm::GroupProblemShape<cute::tuple<long, long, long>>, cutlass::gemm::collective::CollectiveMma<cutlass::gemm::MainloopSm120ArrayTmaWarpSpecializedBlockScaled<(int)3, (int)3, cute::tuple<cute::C<(int)1>, cute::C<(int)1>, cute::C<(int)1>>, cutlass::gemm::KernelPtrArrayTmaWarpSpecializedCooperativeBlockScaledSm120<(int)3>>, cute::tuple<cute::C<(int)128>, cute::C<(int)64>, cute::C<(int)128>>, cute::tuple<cutlass::float_e2m1_t, cutlass::float_ue8m0_t>, cute::tuple<cute::tuple<long, cute::C<(int)1>, cute::C<(int)0>> *, cute::Layout<cute::tuple<cute::tuple<cute::tuple<cute::C<(int)32>, cute::C<(int)4>>, int>, cute::tuple<cute::tuple<cute::C<(int)32>, cute::C<(int)4>>, int>, cute::tuple<cute::C<(int)1>, int>>, cute::tuple<cute::tuple<cute::tuple<cute::C<(int)16>, cute::C<(int)4>>, int>, cute::tuple<cute::tuple<cute::C<(int)0>, cute::C<(int)1>>, cute::C<(int)512>>, cute::tuple<cute::C<(int)0>, int>>> *>, cute::tuple<cutlass::float_e4m3_t, cutlass::float_ue8m0_t>, cute::tuple<cute::tuple<long, cute::C<(int)1>, cute::C<(int)0>> *, cute::Layout<cute::tuple<cute::tuple<cute::tuple<cute::C<(int)32>, cute::C<(int)4>>, int>, cute::tuple<cute::tuple<cute::C<(int)32>, cute::C<(int)4>>, int>, cute::tuple<cute::C<(int)1>, int>>, cute::tuple<cute::tuple<cute::tuple<cute::C<(int)16>, cute::C<(int)4>>, int>, cute::tuple<cute::tuple<cute::C<(int)0>, cute::C<(int)1>>, cute::C<(int)512>>, cute::tuple<cute::C<(int)0>, int>>> *>, cute::TiledMMA<cute::MMA_Atom<cute::SM120::BLOCKSCALED::SM120_16x8x32_TN_VS<cutlass::float_e2m1_t, cutlass::float_e4m3_t, float, cutlass::float_ue8m0_t, (int)32>>, cute::Layout<cute::tuple<cute::C<(int)4>, cute::C<(int)2>, cute::C<(int)1>>, cute::tuple<cute::C<(int)1>, cute::C<(int)4>, cute::C<(int)0>>>, cute::tuple<cute::C<(int)128>, cute::Layout<cute::tuple<cute::C<(int)8>, cute::C<(int)2>, cute::C<(int)2>>, cute::tuple<cute::C<(int)1>, cute::C<(int)16>, cute::C<(int)8>>>, cute::C<(int)32>>>, cute::tuple<cute::SM90_TMA_LOAD, cute::SM90_TMA_LOAD>, cute::tuple<cute::ComposedLayout<cute::Swizzle<(int)3, (int)4, (int)3>, cute::smem_ptr_flag_bits<(int)8>, cute::Layout<cute::tuple<cute::C<(int)8>, cute::C<(int)128>>, cute::tuple<cute::C<(int)128>, cute::C<(int)1>>>>, cute::Layout<cute::tuple<cute::tuple<cute::tuple<cute::C<(int)32>, cute::C<(int)4>>, cute::C<(int)1>>, cute::tuple<cute::tuple<cute::C<(int)32>, cute::C<(int)1>>, cute::C<(int)4>, cute::C<(int)1>>>, cute::tuple<cute::tuple<cute::tuple<cute::C<(int)16>, cute::C<(int)4>>, cute::C<(int)512>>, cute::tuple<cute::tuple<cute::C<(int)0>, cute::C<(int)1>>, cute::C<(int)1>, cute::C<(int)512>>>>>, cute::tuple<cute::Copy_Atom<cute::SM100_SU4_DU8x16_x4_LDSM_N, unsigned char>, cute::Copy_Atom<cute::UniversalCopy<cutlass::float_ue8m0_t, cutlass::float_ue8m0_t>, cutlass::float_ue8m0_t>>, cute::identity, cute::tuple<cute::SM90_TMA_LOAD, cute::SM90_TMA_LOAD>, cute::tuple<cute::ComposedLayout<cute::Swizzle<(int)3, (int)4, (int)3>, cute::smem_ptr_flag_bits<(int)8>, cute::Layout<cute::tuple<cute::C<(int)8>, cute::C<(int)128>>, cute::tuple<cute::C<(int)128>, cute::C<(int)1>>>>, cute::Layout<cute::tuple<cute::tuple<cute::tuple<cute::C<(int)32>, cute::C<(int)4>>, cute::C<(int)1>>, cute::tuple<cute::tuple<cute::C<(int)32>, cute::C<(int)1>>, cute::C<(int)4>, cute::C<(int)1>>>, cute::tuple<cute::tuple<cute::tuple<cute::C<(int)16>, cute::C<(int)4>>, cute::C<(int)512>>, cute::tuple<cute::tuple<cute::C<(int)0>, cute::C<(int)1>>, cute::C<(int)1>, cute::C<(int)512>>>>>, cute::tuple<cute::Copy_Atom<cute::SM75_U32x4_LDSM_N, unsigned char>, cute::Copy_Atom<cute::UniversalCopy<cutlass::float_ue8m0_t, cutlass::float_ue8m0_t>, cutlass::float_ue8m0_t>>, cute::identity>, cutlass::epilogue::collective::CollectiveEpilogue<cutlass::epilogue::Sm90PtrArrayTmaWarpSpecialized<(int)3, (int)2, (int)4, (bool)1, (bool)0, (int)2>, cute::tuple<cute::C<(int)128>, cute::C<(int)64>, cute::C<(int)128>>, cute::tuple<cute::C<(int)64>, cute::C<(int)32>>, cutlass::bfloat16_t, cute::tuple<cute::C<(int)1>, long, cute::C<(int)0>> *, cutlass::bfloat16_t, cute::tuple<cute::C<(int)1>, long, cute::C<(int)0>> *, cutlass::epilogue::fusion::FusionCallbacks<cutlass::epilogue::Sm120PtrArrayTmaWarpSpecialized<(int)3, (int)2, (int)4, (bool)1, (bool)0, (int)2>, cutlass::epilogue::fusion::LinearCombination<cutlass::bfloat16_t, float, cutlass::bfloat16_t, float, (cutlass::FloatRoundStyle)2>, cute::tuple<cute::C<(int)128>, cute::C<(int)64>, cute::C<(int)128>>, cute::tuple<cute::C<(int)64>, cute::C<(int)32>>, >, cute::SM90_TMA_LOAD, cute::ComposedLayout<cute::Swizzle<(int)3, (int)4, (int)3>, cute::smem_ptr_flag_bits<(int)16>, cute::Layout<cute::tuple<cute::C<(int)64>, cute::C<(int)8>>, cute::tuple<cute::C<(int)1>, cute::C<(int)64>>>>, cute::SM75_U16x4_LDSM_T, cute::SM90_TMA_STORE, cute::ComposedLayout<cute::Swizzle<(int)3, (int)4, (int)3>, cute::smem_ptr_flag_bits<(int)16>, cute::Layout<cute::tuple<cute::C<(int)64>, cute::C<(int)8>>, cute::tuple<cute::C<(int)1>, cute::C<(int)64>>>>, cute::SM90_U16x4_STSM_T, cute::Copy_Atom<cute::SM90_U32x2_STSM_N, cutlass::half_t>, void>, void, void>>(T1::Params)', 547.979153000002), ('void cutlass::Kernel2<cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_16x16_128x2_tn_align8>(T1::Params)', 454.96782600000404), ('void cutlass::device_kernel<cutlass::gemm::kernel::GemmUniversal<cutlass::gemm::GroupProblemShape<cute::tuple<long, long, long>>, cutlass::gemm::collective::CollectiveMma<cutlass::gemm::MainloopSm120ArrayTmaWarpSpecializedBlockScaled<(int)4, (int)3, cute::tuple<cute::C<(int)1>, cute::C<(int)1>, cute::C<(int)1>>, cutlass::gemm::KernelPtrArrayTmaWarpSpecializedCooperativeBlockScaledSm120<(int)3>>, cute::tuple<cute::C<(int)128>, cute::C<(int)32>, cute::C<(int)128>>, cute::tuple<cutlass::float_e2m1_t, cutlass::float_ue8m0_t>, cute::tuple<cute::tuple<long, cute::C<(int)1>, cute::C<(int)0>> *, cute::Layout<cute::tuple<cute::tuple<cute::tuple<cute::C<(int)32>, cute::C<(int)4>>, int>, cute::tuple<cute::tuple<cute::C<(int)32>, cute::C<(int)4>>, int>, cute::tuple<cute::C<(int)1>, int>>, cute::tuple<cute::tuple<cute::tuple<cute::C<(int)16>, cute::C<(int)4>>, int>, cute::tuple<cute::tuple<cute::C<(int)0>, cute::C<(int)1>>, cute::C<(int)512>>, cute::tuple<cute::C<(int)0>, int>>> *>, cute::tuple<cutlass::float_e4m3_t, cutlass::float_ue8m0_t>, cute::tuple<cute::tuple<long, cute::C<(int)1>, cute::C<(int)0>> *, cute::Layout<cute::tuple<cute::tuple<cute::tuple<cute::C<(int)32>, cute::C<(int)4>>, int>, cute::tuple<cute::tuple<cute::C<(int)32>, cute::C<(int)4>>, int>, cute::tuple<cute::C<(int)1>, int>>, cute::tuple<cute::tuple<cute::tuple<cute::C<(int)16>, cute::C<(int)4>>, int>, cute::tuple<cute::tuple<cute::C<(int)0>, cute::C<(int)1>>, cute::C<(int)512>>, cute::tuple<cute::C<(int)0>, int>>> *>, cute::TiledMMA<cute::MMA_Atom<cute::SM120::BLOCKSCALED::SM120_16x8x32_TN_VS<cutlass::float_e2m1_t, cutlass::float_e4m3_t, float, cutlass::float_ue8m0_t, (int)32>>, cute::Layout<cute::tuple<cute::C<(int)4>, cute::C<(int)2>, cute::C<(int)1>>, cute::tuple<cute::C<(int)1>, cute::C<(int)4>, cute::C<(int)0>>>, cute::tuple<cute::C<(int)128>, cute::Layout<cute::tuple<cute::C<(int)8>, cute::C<(int)2>, cute::C<(int)2>>, cute::tuple<cute::C<(int)1>, cute::C<(int)16>, cute::C<(int)8>>>, cute::C<(int)32>>>, cute::tuple<cute::SM90_TMA_LOAD, cute::SM90_TMA_LOAD>, cute::tuple<cute::ComposedLayout<cute::Swizzle<(int)3, (int)4, (int)3>, cute::smem_ptr_flag_bits<(int)8>, cute::Layout<cute::tuple<cute::C<(int)8>, cute::C<(int)128>>, cute::tuple<cute::C<(int)128>, cute::C<(int)1>>>>, cute::Layout<cute::tuple<cute::tuple<cute::tuple<cute::C<(int)32>, cute::C<(int)4>>, cute::C<(int)1>>, cute::tuple<cute::tuple<cute::C<(int)32>, cute::C<(int)1>>, cute::C<(int)4>, cute::C<(int)1>>>, cute::tuple<cute::tuple<cute::tuple<cute::C<(int)16>, cute::C<(int)4>>, cute::C<(int)512>>, cute::tuple<cute::tuple<cute::C<(int)0>, cute::C<(int)1>>, cute::C<(int)1>, cute::C<(int)512>>>>>, cute::tuple<cute::Copy_Atom<cute::SM100_SU4_DU8x16_x4_LDSM_N, unsigned char>, cute::Copy_Atom<cute::UniversalCopy<cutlass::float_ue8m0_t, cutlass::float_ue8m0_t>, cutlass::float_ue8m0_t>>, cute::identity, cute::tuple<cute::SM90_TMA_LOAD, cute::SM90_TMA_LOAD>, cute::tuple<cute::ComposedLayout<cute::Swizzle<(int)3, (int)4, (int)3>, cute::smem_ptr_flag_bits<(int)8>, cute::Layout<cute::tuple<cute::C<(int)8>, cute::C<(int)128>>, cute::tuple<cute::C<(int)128>, cute::C<(int)1>>>>, cute::Layout<cute::tuple<cute::tuple<cute::tuple<cute::C<(int)32>, cute::C<(int)4>>, cute::C<(int)1>>, cute::tuple<cute::tuple<cute::C<(int)32>, cute::C<(int)1>>, cute::C<(int)4>, cute::C<(int)1>>>, cute::tuple<cute::tuple<cute::tuple<cute::C<(int)16>, cute::C<(int)4>>, cute::C<(int)512>>, cute::tuple<cute::tuple<cute::C<(int)0>, cute::C<(int)1>>, cute::C<(int)1>, cute::C<(int)512>>>>>, cute::tuple<cute::Copy_Atom<cute::SM75_U32x4_LDSM_N, unsigned char>, cute::Copy_Atom<cute::UniversalCopy<cutlass::float_ue8m0_t, cutlass::float_ue8m0_t>, cutlass::float_ue8m0_t>>, cute::identity>, cutlass::epilogue::collective::CollectiveEpilogue<cutlass::epilogue::Sm90PtrArrayTmaWarpSpecialized<(int)3, (int)2, (int)4, (bool)1, (bool)0, (int)2>, cute::tuple<cute::C<(int)128>, cute::C<(int)32>, cute::C<(int)128>>, cute::tuple<cute::C<(int)64>, cute::C<(int)32>>, cutlass::bfloat16_t, cute::tuple<cute::C<(int)1>, long, cute::C<(int)0>> *, cutlass::bfloat16_t, cute::tuple<cute::C<(int)1>, long, cute::C<(int)0>> *, cutlass::epilogue::fusion::FusionCallbacks<cutlass::epilogue::Sm120PtrArrayTmaWarpSpecialized<(int)3, (int)2, (int)4, (bool)1, (bool)0, (int)2>, cutlass::epilogue::fusion::LinearCombination<cutlass::bfloat16_t, float, cutlass::bfloat16_t, float, (cutlass::FloatRoundStyle)2>, cute::tuple<cute::C<(int)128>, cute::C<(int)32>, cute::C<(int)128>>, cute::tuple<cute::C<(int)64>, cute::C<(int)32>>, >, cute::SM90_TMA_LOAD, cute::ComposedLayout<cute::Swizzle<(int)3, (int)4, (int)3>, cute::smem_ptr_flag_bits<(int)16>, cute::Layout<cute::tuple<cute::C<(int)64>, cute::C<(int)8>>, cute::tuple<cute::C<(int)1>, cute::C<(int)64>>>>, cute::SM75_U16x4_LDSM_T, cute::SM90_TMA_STORE, cute::ComposedLayout<cute::Swizzle<(int)3, (int)4, (int)3>, cute::smem_ptr_flag_bits<(int)16>, cute::Layout<cute::tuple<cute::C<(int)64>, cute::C<(int)8>>, cute::tuple<cute::C<(int)1>, cute::C<(int)64>>>>, cute::SM90_U16x4_STSM_T, cute::Copy_Atom<cute::SM90_U32x2_STSM_N, cutlass::half_t>, void>, void, void>>(T1::Params)', 283.15739900000005), ('kernel_cutlass_kernel_sglangkernelsopsattentionfa4_sm120flash_fwdFlashAttentionForwardSm120_object_at__tensorptrbf16gmemalign16o8i64div8i64div81i64div64_tensorptrbf16gmemalign16oi64div81i_0', 46.84896900000028), ('void tensorrt_llm::kernels::cutlass_kernels::finalizeMoeRoutingKernel<__nv_bfloat16, __nv_bfloat16, __nv_bfloat16, (tensorrt_llm::kernels::cutlass_kernels::ScaleMode)1>(const T2 *, T1 *, const T3 *, const float *, const int *, const int *, long, long, long, int, int)', 35.04124300000027)]"
+    },
+    {
+      "case": "native03_traces_02_dflash_gsm8k_bs1_w8",
+      "method": "dflash",
+      "configured_bs": "1",
+      "width": "8",
+      "phase": "decode_control",
+      "calls": "247",
+      "host_ms": "609.0331459999998",
+      "kernel_ms": "71.41808099999942",
+      "kernel_count": "15067",
+      "graph_kernel_count": "0",
+      "graph_launch_count": "0",
+      "sync_api_ms": "0.0",
+      "sync_api_count": "0",
+      "memcpy_ms": "0.7986490000000044",
+      "gpu_kernel_ms_per_call": "0.2891420283400786",
+      "host_ms_per_call": "2.465721238866396",
+      "top_kernels": "[('void cutlass::Kernel2<cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_16x16_128x2_tn_align8>(T1::Params)', 54.773854000000014), ('void at::native::elementwise_kernel<(int)128, (int)4, void at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase &)::[lambda() (instance 3)]::operator ()() const::[lambda() (instance 12)]::operator ()() const::[lambda(c10::BFloat16) (instance 1)]>(at::TensorIteratorBase &, const T1 &)::[lambda(int) (instance 1)]>(int, T3)', 5.188644000000231), ('void sglang::fused_rope_kernel<(bool)1, (long)64, (bool)1, __nv_bfloat16, __nv_bfloat16, long, (unsigned int)8>(sglang::FusedRopeParams)', 1.7529809999999653), ('set_kv_buffer_prefix_valid_tiled', 1.6376210000000462), ('kernel_cutlass_kernel_flashinfernormkernelsrmsnormRMSNormKernel_object_at__tensorptrbf16gmemalign128oi6464641_tensorptrbf16gmemalign16o641_tensorptrbf16gmemalign128oi6464641___True_16_64_0', 1.5668220000000084)]"
+    },
+    {
+      "case": "native03_traces_08_dflash_gsm8k_bs16_w8",
+      "method": "dflash",
+      "configured_bs": "16",
+      "width": "8",
+      "phase": "DRAFT",
+      "calls": "20",
+      "host_ms": "6.789885999999999",
+      "kernel_ms": "47.81998100000013",
+      "kernel_count": "2063",
+      "graph_kernel_count": "1983",
+      "graph_launch_count": "20",
+      "sync_api_ms": "0.0",
+      "sync_api_count": "0",
+      "memcpy_ms": "0.032799999999999996",
+      "gpu_kernel_ms_per_call": "2.3909990500000067",
+      "host_ms_per_call": "0.33949429999999997",
+      "top_kernels": "[('void cutlass::Kernel2<cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_128x64_64x3_tn_align8>(T1::Params)', 32.27067300000002), ('void cutlass::Kernel2<cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_16x16_128x2_tn_align8>(T1::Params)', 3.9309019999999992), ('void cutlass::Kernel2<cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_128x128_32x4_tn_align8>(T1::Params)', 3.866685), ('void cutlass::Kernel2<cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_64x64_32x6_tn_align8>(T1::Params)', 3.2084099999999998), ('kernel_cutlass_kernel_sglangkernelsopsattentionfa4_sm120flash_fwdFlashAttentionForwardSm120_object_at__tensorptrbf16gmemalign16o8i64div8i64div81i64div64_tensorptrbf16gmemalign16oi64div81i_0', 1.2233220000000002)]"
+    },
+    {
+      "case": "native03_traces_08_dflash_gsm8k_bs16_w8",
+      "method": "dflash",
+      "configured_bs": "16",
+      "width": "8",
+      "phase": "VERIFY",
+      "calls": "20",
+      "host_ms": "6.244112",
+      "kernel_ms": "189.55656500000129",
+      "kernel_count": "10180",
+      "graph_kernel_count": "10180",
+      "graph_launch_count": "20",
+      "sync_api_ms": "0.0",
+      "sync_api_count": "0",
+      "memcpy_ms": "0.10639999999999991",
+      "gpu_kernel_ms_per_call": "9.477828250000064",
+      "host_ms_per_call": "0.3122056",
+      "top_kernels": "[('void cutlass::device_kernel<cutlass::gemm::kernel::GemmUniversal<cutlass::gemm::GroupProblemShape<cute::tuple<long, long, long>>, cutlass::gemm::collective::CollectiveMma<cutlass::gemm::MainloopSm120ArrayTmaWarpSpecializedBlockScaled<(int)3, (int)3, cute::tuple<cute::C<(int)1>, cute::C<(int)1>, cute::C<(int)1>>, cutlass::gemm::KernelPtrArrayTmaWarpSpecializedCooperativeBlockScaledSm120<(int)3>>, cute::tuple<cute::C<(int)128>, cute::C<(int)64>, cute::C<(int)128>>, cute::tuple<cutlass::float_e2m1_t, cutlass::float_ue8m0_t>, cute::tuple<cute::tuple<long, cute::C<(int)1>, cute::C<(int)0>> *, cute::Layout<cute::tuple<cute::tuple<cute::tuple<cute::C<(int)32>, cute::C<(int)4>>, int>, cute::tuple<cute::tuple<cute::C<(int)32>, cute::C<(int)4>>, int>, cute::tuple<cute::C<(int)1>, int>>, cute::tuple<cute::tuple<cute::tuple<cute::C<(int)16>, cute::C<(int)4>>, int>, cute::tuple<cute::tuple<cute::C<(int)0>, cute::C<(int)1>>, cute::C<(int)512>>, cute::tuple<cute::C<(int)0>, int>>> *>, cute::tuple<cutlass::float_e4m3_t, cutlass::float_ue8m0_t>, cute::tuple<cute::tuple<long, cute::C<(int)1>, cute::C<(int)0>> *, cute::Layout<cute::tuple<cute::tuple<cute::tuple<cute::C<(int)32>, cute::C<(int)4>>, int>, cute::tuple<cute::tuple<cute::C<(int)32>, cute::C<(int)4>>, int>, cute::tuple<cute::C<(int)1>, int>>, cute::tuple<cute::tuple<cute::tuple<cute::C<(int)16>, cute::C<(int)4>>, int>, cute::tuple<cute::tuple<cute::C<(int)0>, cute::C<(int)1>>, cute::C<(int)512>>, cute::tuple<cute::C<(int)0>, int>>> *>, cute::TiledMMA<cute::MMA_Atom<cute::SM120::BLOCKSCALED::SM120_16x8x32_TN_VS<cutlass::float_e2m1_t, cutlass::float_e4m3_t, float, cutlass::float_ue8m0_t, (int)32>>, cute::Layout<cute::tuple<cute::C<(int)4>, cute::C<(int)2>, cute::C<(int)1>>, cute::tuple<cute::C<(int)1>, cute::C<(int)4>, cute::C<(int)0>>>, cute::tuple<cute::C<(int)128>, cute::Layout<cute::tuple<cute::C<(int)8>, cute::C<(int)2>, cute::C<(int)2>>, cute::tuple<cute::C<(int)1>, cute::C<(int)16>, cute::C<(int)8>>>, cute::C<(int)32>>>, cute::tuple<cute::SM90_TMA_LOAD, cute::SM90_TMA_LOAD>, cute::tuple<cute::ComposedLayout<cute::Swizzle<(int)3, (int)4, (int)3>, cute::smem_ptr_flag_bits<(int)8>, cute::Layout<cute::tuple<cute::C<(int)8>, cute::C<(int)128>>, cute::tuple<cute::C<(int)128>, cute::C<(int)1>>>>, cute::Layout<cute::tuple<cute::tuple<cute::tuple<cute::C<(int)32>, cute::C<(int)4>>, cute::C<(int)1>>, cute::tuple<cute::tuple<cute::C<(int)32>, cute::C<(int)1>>, cute::C<(int)4>, cute::C<(int)1>>>, cute::tuple<cute::tuple<cute::tuple<cute::C<(int)16>, cute::C<(int)4>>, cute::C<(int)512>>, cute::tuple<cute::tuple<cute::C<(int)0>, cute::C<(int)1>>, cute::C<(int)1>, cute::C<(int)512>>>>>, cute::tuple<cute::Copy_Atom<cute::SM100_SU4_DU8x16_x4_LDSM_N, unsigned char>, cute::Copy_Atom<cute::UniversalCopy<cutlass::float_ue8m0_t, cutlass::float_ue8m0_t>, cutlass::float_ue8m0_t>>, cute::identity, cute::tuple<cute::SM90_TMA_LOAD, cute::SM90_TMA_LOAD>, cute::tuple<cute::ComposedLayout<cute::Swizzle<(int)3, (int)4, (int)3>, cute::smem_ptr_flag_bits<(int)8>, cute::Layout<cute::tuple<cute::C<(int)8>, cute::C<(int)128>>, cute::tuple<cute::C<(int)128>, cute::C<(int)1>>>>, cute::Layout<cute::tuple<cute::tuple<cute::tuple<cute::C<(int)32>, cute::C<(int)4>>, cute::C<(int)1>>, cute::tuple<cute::tuple<cute::C<(int)32>, cute::C<(int)1>>, cute::C<(int)4>, cute::C<(int)1>>>, cute::tuple<cute::tuple<cute::tuple<cute::C<(int)16>, cute::C<(int)4>>, cute::C<(int)512>>, cute::tuple<cute::tuple<cute::C<(int)0>, cute::C<(int)1>>, cute::C<(int)1>, cute::C<(int)512>>>>>, cute::tuple<cute::Copy_Atom<cute::SM75_U32x4_LDSM_N, unsigned char>, cute::Copy_Atom<cute::UniversalCopy<cutlass::float_ue8m0_t, cutlass::float_ue8m0_t>, cutlass::float_ue8m0_t>>, cute::identity>, cutlass::epilogue::collective::CollectiveEpilogue<cutlass::epilogue::Sm90PtrArrayTmaWarpSpecialized<(int)3, (int)2, (int)4, (bool)1, (bool)0, (int)2>, cute::tuple<cute::C<(int)128>, cute::C<(int)64>, cute::C<(int)128>>, cute::tuple<cute::C<(int)64>, cute::C<(int)32>>, cutlass::bfloat16_t, cute::tuple<cute::C<(int)1>, long, cute::C<(int)0>> *, cutlass::bfloat16_t, cute::tuple<cute::C<(int)1>, long, cute::C<(int)0>> *, cutlass::epilogue::fusion::FusionCallbacks<cutlass::epilogue::Sm120PtrArrayTmaWarpSpecialized<(int)3, (int)2, (int)4, (bool)1, (bool)0, (int)2>, cutlass::epilogue::fusion::LinearCombination<cutlass::bfloat16_t, float, cutlass::bfloat16_t, float, (cutlass::FloatRoundStyle)2>, cute::tuple<cute::C<(int)128>, cute::C<(int)64>, cute::C<(int)128>>, cute::tuple<cute::C<(int)64>, cute::C<(int)32>>, >, cute::SM90_TMA_LOAD, cute::ComposedLayout<cute::Swizzle<(int)3, (int)4, (int)3>, cute::smem_ptr_flag_bits<(int)16>, cute::Layout<cute::tuple<cute::C<(int)64>, cute::C<(int)8>>, cute::tuple<cute::C<(int)1>, cute::C<(int)64>>>>, cute::SM75_U16x4_LDSM_T, cute::SM90_TMA_STORE, cute::ComposedLayout<cute::Swizzle<(int)3, (int)4, (int)3>, cute::smem_ptr_flag_bits<(int)16>, cute::Layout<cute::tuple<cute::C<(int)64>, cute::C<(int)8>>, cute::tuple<cute::C<(int)1>, cute::C<(int)64>>>>, cute::SM90_U16x4_STSM_T, cute::Copy_Atom<cute::SM90_U32x2_STSM_N, cutlass::half_t>, void>, void, void>>(T1::Params)', 79.29504599999993), ('void cutlass::device_kernel<cutlass::gemm::kernel::GemmUniversal<cutlass::gemm::GroupProblemShape<cute::tuple<long, long, long>>, cutlass::gemm::collective::CollectiveMma<cutlass::gemm::MainloopSm120ArrayTmaWarpSpecializedBlockScaled<(int)4, (int)3, cute::tuple<cute::C<(int)1>, cute::C<(int)1>, cute::C<(int)1>>, cutlass::gemm::KernelPtrArrayTmaWarpSpecializedCooperativeBlockScaledSm120<(int)3>>, cute::tuple<cute::C<(int)128>, cute::C<(int)32>, cute::C<(int)128>>, cute::tuple<cutlass::float_e2m1_t, cutlass::float_ue8m0_t>, cute::tuple<cute::tuple<long, cute::C<(int)1>, cute::C<(int)0>> *, cute::Layout<cute::tuple<cute::tuple<cute::tuple<cute::C<(int)32>, cute::C<(int)4>>, int>, cute::tuple<cute::tuple<cute::C<(int)32>, cute::C<(int)4>>, int>, cute::tuple<cute::C<(int)1>, int>>, cute::tuple<cute::tuple<cute::tuple<cute::C<(int)16>, cute::C<(int)4>>, int>, cute::tuple<cute::tuple<cute::C<(int)0>, cute::C<(int)1>>, cute::C<(int)512>>, cute::tuple<cute::C<(int)0>, int>>> *>, cute::tuple<cutlass::float_e4m3_t, cutlass::float_ue8m0_t>, cute::tuple<cute::tuple<long, cute::C<(int)1>, cute::C<(int)0>> *, cute::Layout<cute::tuple<cute::tuple<cute::tuple<cute::C<(int)32>, cute::C<(int)4>>, int>, cute::tuple<cute::tuple<cute::C<(int)32>, cute::C<(int)4>>, int>, cute::tuple<cute::C<(int)1>, int>>, cute::tuple<cute::tuple<cute::tuple<cute::C<(int)16>, cute::C<(int)4>>, int>, cute::tuple<cute::tuple<cute::C<(int)0>, cute::C<(int)1>>, cute::C<(int)512>>, cute::tuple<cute::C<(int)0>, int>>> *>, cute::TiledMMA<cute::MMA_Atom<cute::SM120::BLOCKSCALED::SM120_16x8x32_TN_VS<cutlass::float_e2m1_t, cutlass::float_e4m3_t, float, cutlass::float_ue8m0_t, (int)32>>, cute::Layout<cute::tuple<cute::C<(int)4>, cute::C<(int)2>, cute::C<(int)1>>, cute::tuple<cute::C<(int)1>, cute::C<(int)4>, cute::C<(int)0>>>, cute::tuple<cute::C<(int)128>, cute::Layout<cute::tuple<cute::C<(int)8>, cute::C<(int)2>, cute::C<(int)2>>, cute::tuple<cute::C<(int)1>, cute::C<(int)16>, cute::C<(int)8>>>, cute::C<(int)32>>>, cute::tuple<cute::SM90_TMA_LOAD, cute::SM90_TMA_LOAD>, cute::tuple<cute::ComposedLayout<cute::Swizzle<(int)3, (int)4, (int)3>, cute::smem_ptr_flag_bits<(int)8>, cute::Layout<cute::tuple<cute::C<(int)8>, cute::C<(int)128>>, cute::tuple<cute::C<(int)128>, cute::C<(int)1>>>>, cute::Layout<cute::tuple<cute::tuple<cute::tuple<cute::C<(int)32>, cute::C<(int)4>>, cute::C<(int)1>>, cute::tuple<cute::tuple<cute::C<(int)32>, cute::C<(int)1>>, cute::C<(int)4>, cute::C<(int)1>>>, cute::tuple<cute::tuple<cute::tuple<cute::C<(int)16>, cute::C<(int)4>>, cute::C<(int)512>>, cute::tuple<cute::tuple<cute::C<(int)0>, cute::C<(int)1>>, cute::C<(int)1>, cute::C<(int)512>>>>>, cute::tuple<cute::Copy_Atom<cute::SM100_SU4_DU8x16_x4_LDSM_N, unsigned char>, cute::Copy_Atom<cute::UniversalCopy<cutlass::float_ue8m0_t, cutlass::float_ue8m0_t>, cutlass::float_ue8m0_t>>, cute::identity, cute::tuple<cute::SM90_TMA_LOAD, cute::SM90_TMA_LOAD>, cute::tuple<cute::ComposedLayout<cute::Swizzle<(int)3, (int)4, (int)3>, cute::smem_ptr_flag_bits<(int)8>, cute::Layout<cute::tuple<cute::C<(int)8>, cute::C<(int)128>>, cute::tuple<cute::C<(int)128>, cute::C<(int)1>>>>, cute::Layout<cute::tuple<cute::tuple<cute::tuple<cute::C<(int)32>, cute::C<(int)4>>, cute::C<(int)1>>, cute::tuple<cute::tuple<cute::C<(int)32>, cute::C<(int)1>>, cute::C<(int)4>, cute::C<(int)1>>>, cute::tuple<cute::tuple<cute::tuple<cute::C<(int)16>, cute::C<(int)4>>, cute::C<(int)512>>, cute::tuple<cute::tuple<cute::C<(int)0>, cute::C<(int)1>>, cute::C<(int)1>, cute::C<(int)512>>>>>, cute::tuple<cute::Copy_Atom<cute::SM75_U32x4_LDSM_N, unsigned char>, cute::Copy_Atom<cute::UniversalCopy<cutlass::float_ue8m0_t, cutlass::float_ue8m0_t>, cutlass::float_ue8m0_t>>, cute::identity>, cutlass::epilogue::collective::CollectiveEpilogue<cutlass::epilogue::Sm90PtrArrayTmaWarpSpecialized<(int)3, (int)2, (int)4, (bool)1, (bool)0, (int)2>, cute::tuple<cute::C<(int)128>, cute::C<(int)32>, cute::C<(int)128>>, cute::tuple<cute::C<(int)64>, cute::C<(int)32>>, cutlass::bfloat16_t, cute::tuple<cute::C<(int)1>, long, cute::C<(int)0>> *, cutlass::bfloat16_t, cute::tuple<cute::C<(int)1>, long, cute::C<(int)0>> *, cutlass::epilogue::fusion::FusionCallbacks<cutlass::epilogue::Sm120PtrArrayTmaWarpSpecialized<(int)3, (int)2, (int)4, (bool)1, (bool)0, (int)2>, cutlass::epilogue::fusion::LinearCombination<cutlass::bfloat16_t, float, cutlass::bfloat16_t, float, (cutlass::FloatRoundStyle)2>, cute::tuple<cute::C<(int)128>, cute::C<(int)32>, cute::C<(int)128>>, cute::tuple<cute::C<(int)64>, cute::C<(int)32>>, >, cute::SM90_TMA_LOAD, cute::ComposedLayout<cute::Swizzle<(int)3, (int)4, (int)3>, cute::smem_ptr_flag_bits<(int)16>, cute::Layout<cute::tuple<cute::C<(int)64>, cute::C<(int)8>>, cute::tuple<cute::C<(int)1>, cute::C<(int)64>>>>, cute::SM75_U16x4_LDSM_T, cute::SM90_TMA_STORE, cute::ComposedLayout<cute::Swizzle<(int)3, (int)4, (int)3>, cute::smem_ptr_flag_bits<(int)16>, cute::Layout<cute::tuple<cute::C<(int)64>, cute::C<(int)8>>, cute::tuple<cute::C<(int)1>, cute::C<(int)64>>>>, cute::SM90_U16x4_STSM_T, cute::Copy_Atom<cute::SM90_U32x2_STSM_N, cutlass::half_t>, void>, void, void>>(T1::Params)', 42.05415200000001), ('void cutlass::Kernel2<cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_128x64_64x3_tn_align8>(T1::Params)', 18.628446000000007), ('void cutlass::Kernel2<cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_128x128_32x4_tn_align8>(T1::Params)', 11.806698000000008), ('void cutlass::Kernel2<cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_64x64_32x6_tn_align8>(T1::Params)', 9.426197)]"
+    },
+    {
+      "case": "native03_traces_08_dflash_gsm8k_bs16_w8",
+      "method": "dflash",
+      "configured_bs": "16",
+      "width": "8",
+      "phase": "decode_control",
+      "calls": "20",
+      "host_ms": "54.21891099999999",
+      "kernel_ms": "6.847008000000009",
+      "kernel_count": "1326",
+      "graph_kernel_count": "0",
+      "graph_launch_count": "0",
+      "sync_api_ms": "0.0",
+      "sync_api_count": "0",
+      "memcpy_ms": "0.03446400000000002",
+      "gpu_kernel_ms_per_call": "0.34235040000000044",
+      "host_ms_per_call": "2.7109455499999995",
+      "top_kernels": "[('void cutlass::Kernel2<cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_128x64_64x3_tn_align8>(T1::Params)', 4.097396999999999), ('void at::native::reduce_kernel<(int)512, (int)1, at::native::ReduceOp<float, at::native::ArgMaxOps<float>, unsigned int, long, (int)4, (int)4>>(T3)', 0.6182320000000001), ('void cutlass::Kernel2<cutlass_80_wmma_tensorop_bf16_s161616gemm_bf16_16x16_128x2_tn_align8>(T1::Params)', 0.451512), ('void at::native::elementwise_kernel<(int)128, (int)4, void at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase &)::[lambda() (instance 3)]::operator ()() const::[lambda() (instance 12)]::operator ()() const::[lambda(c10::BFloat16) (instance 1)]>(at::TensorIteratorBase &, const T1 &)::[lambda(int) (instance 1)]>(int, T3)', 0.42737899999999884), ('void cutlass::Kernel2<cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_64x64_32x6_tn_align8>(T1::Params)', 0.259581)]"
+    }
+  ],
+  "draft_GPU_work_relative_to_AR_target": {
+    "1": 0.5479486146467067,
+    "16": 0.3274780371596127
+  },
+  "routing_full_active_batch": [
+    {
+      "case": "native03_routing_00_ar_gsm8k_bs1_w1",
+      "method": "ar",
+      "configured_bs": "1",
+      "width": "1",
+      "phase": "DECODE",
+      "request_rows": "1",
+      "routed_token_rows": "1",
+      "layer_observations": "24192",
+      "mean_unique_experts": "4",
+      "mean_assignments_per_used_expert": "1.0",
+      "mean_max_expert_assignments": "1",
+      "mean_checkpoint_expert_bytes_proxy_per_layer": "52945920"
+    },
+    {
+      "case": "native03_routing_01_dflash_gsm8k_bs1_w2",
+      "method": "dflash",
+      "configured_bs": "1",
+      "width": "2",
+      "phase": "TARGET_VERIFY",
+      "request_rows": "1",
+      "routed_token_rows": "2",
+      "layer_observations": "13152",
+      "mean_unique_experts": "6.434914841849149",
+      "mean_assignments_per_used_expert": "1.2796453191982389",
+      "mean_max_expert_assignments": "1.8317366180048662",
+      "mean_checkpoint_expert_bytes_proxy_per_layer": "85175621.60583942"
+    },
+    {
+      "case": "native03_routing_02_dflash_gsm8k_bs1_w4",
+      "method": "dflash",
+      "configured_bs": "1",
+      "width": "4",
+      "phase": "TARGET_VERIFY",
+      "request_rows": "1",
+      "routed_token_rows": "4",
+      "layer_observations": "8232",
+      "mean_unique_experts": "9.883503401360544",
+      "mean_assignments_per_used_expert": "1.6898445793489525",
+      "mean_max_expert_assignments": "3.258138969873664",
+      "mean_checkpoint_expert_bytes_proxy_per_layer": "130822795.10204081"
+    },
+    {
+      "case": "native03_routing_03_dflash_gsm8k_bs1_w8",
+      "method": "dflash",
+      "configured_bs": "1",
+      "width": "8",
+      "phase": "TARGET_VERIFY",
+      "request_rows": "1",
+      "routed_token_rows": "8",
+      "layer_observations": "5928",
+      "mean_unique_experts": "13.912449392712551",
+      "mean_assignments_per_used_expert": "2.4028088188815135",
+      "mean_max_expert_assignments": "5.903846153846154",
+      "mean_checkpoint_expert_bytes_proxy_per_layer": "184151858.13765183"
+    },
+    {
+      "case": "native03_routing_04_ar_gsm8k_bs4_w1",
+      "method": "ar",
+      "configured_bs": "4",
+      "width": "1",
+      "phase": "DECODE",
+      "request_rows": "4",
+      "routed_token_rows": "4",
+      "layer_observations": "6048",
+      "mean_unique_experts": "10.080853174603174",
+      "mean_assignments_per_used_expert": "1.7440326611953596",
+      "mean_max_expert_assignments": "3.084160052910053",
+      "mean_checkpoint_expert_bytes_proxy_per_layer": "133435011.42857143"
+    },
+    {
+      "case": "native03_routing_05_dflash_gsm8k_bs4_w2",
+      "method": "dflash",
+      "configured_bs": "4",
+      "width": "2",
+      "phase": "TARGET_VERIFY",
+      "request_rows": "4",
+      "routed_token_rows": "8",
+      "layer_observations": "3168",
+      "mean_unique_experts": "14.268939393939394",
+      "mean_assignments_per_used_expert": "2.4423815190890474",
+      "mean_max_expert_assignments": "5.6455176767676765",
+      "mean_checkpoint_expert_bytes_proxy_per_layer": "188870530.9090909"
+    },
+    {
+      "case": "native03_routing_06_dflash_gsm8k_bs4_w4",
+      "method": "dflash",
+      "configured_bs": "4",
+      "width": "4",
+      "phase": "TARGET_VERIFY",
+      "request_rows": "4",
+      "routed_token_rows": "16",
+      "layer_observations": "1848",
+      "mean_unique_experts": "18.286796536796537",
+      "mean_assignments_per_used_expert": "3.7485970835358584",
+      "mean_max_expert_assignments": "10.58982683982684",
+      "mean_checkpoint_expert_bytes_proxy_per_layer": "242052816.62337664"
+    },
+    {
+      "case": "native03_routing_07_dflash_gsm8k_bs4_w8",
+      "method": "dflash",
+      "configured_bs": "4",
+      "width": "8",
+      "phase": "TARGET_VERIFY",
+      "request_rows": "4",
+      "routed_token_rows": "32",
+      "layer_observations": "1128",
+      "mean_unique_experts": "21.83244680851064",
+      "mean_assignments_per_used_expert": "6.043827399256396",
+      "mean_max_expert_assignments": "20.129432624113477",
+      "mean_checkpoint_expert_bytes_proxy_per_layer": "288984745.5319149"
+    },
+    {
+      "case": "native03_routing_08_ar_gsm8k_bs16_w1",
+      "method": "ar",
+      "configured_bs": "16",
+      "width": "1",
+      "phase": "DECODE",
+      "request_rows": "16",
+      "routed_token_rows": "16",
+      "layer_observations": "1512",
+      "mean_unique_experts": "18.3015873015873",
+      "mean_assignments_per_used_expert": "4.216104989333469",
+      "mean_max_expert_assignments": "10.842592592592593",
+      "mean_checkpoint_expert_bytes_proxy_per_layer": "242248594.2857143"
+    },
+    {
+      "case": "native03_routing_09_dflash_gsm8k_bs16_w2",
+      "method": "dflash",
+      "configured_bs": "16",
+      "width": "2",
+      "phase": "TARGET_VERIFY",
+      "request_rows": "16",
+      "routed_token_rows": "32",
+      "layer_observations": "768",
+      "mean_unique_experts": "21.682291666666668",
+      "mean_assignments_per_used_expert": "6.654597862119493",
+      "mean_max_expert_assignments": "20.4921875",
+      "mean_checkpoint_expert_bytes_proxy_per_layer": "286997220"
+    },
+    {
+      "case": "native03_routing_10_dflash_gsm8k_bs16_w4",
+      "method": "dflash",
+      "configured_bs": "16",
+      "width": "4",
+      "phase": "TARGET_VERIFY",
+      "request_rows": "16",
+      "routed_token_rows": "64",
+      "layer_observations": "408",
+      "mean_unique_experts": "24.122549019607842",
+      "mean_assignments_per_used_expert": "11.458653042334474",
+      "mean_max_expert_assignments": "39.67156862745098",
+      "mean_checkpoint_expert_bytes_proxy_per_layer": "319297637.64705884"
+    },
+    {
+      "case": "native03_routing_11_dflash_gsm8k_bs16_w8",
+      "method": "dflash",
+      "configured_bs": "16",
+      "width": "8",
+      "phase": "TARGET_VERIFY",
+      "request_rows": "16",
+      "routed_token_rows": "128",
+      "layer_observations": "240",
+      "mean_unique_experts": "26.791666666666668",
+      "mean_assignments_per_used_expert": "19.39743389428141",
+      "mean_max_expert_assignments": "76.50833333333334",
+      "mean_checkpoint_expert_bytes_proxy_per_layer": "354627360"
+    }
+  ],
+  "verify_to_AR_expert_coverage_ratio": {
+    "1": 3.4781123481781377,
+    "16": 1.4638985255854295
+  },
+  "target_activity_metrics": [
+    {
+      "case": "native03_traces_00_ar_gsm8k_bs1_w1",
+      "method": "ar",
+      "configured_bs": "1",
+      "width": "1",
+      "phase": "DECODE",
+      "sample_windows": "3703",
+      "SMs Active [Throughput %]": "66.08063913494327",
+      "SM Issue [Throughput %]": "7.7560036424421686",
+      "Tensor Active [Throughput %]": "4.679847880249767",
+      "Compute Warps in Flight [Throughput %]": "14.694442563889211",
+      "DRAM Read Bandwidth [Throughput %]": "59.23858055532094",
+      "DRAM Write Bandwidth [Throughput %]": "0.996264403237778"
+    },
+    {
+      "case": "native03_traces_02_dflash_gsm8k_bs1_w8",
+      "method": "dflash",
+      "configured_bs": "1",
+      "width": "8",
+      "phase": "VERIFY",
+      "sample_windows": "1796",
+      "SMs Active [Throughput %]": "75.6433114696542",
+      "SM Issue [Throughput %]": "7.113459139209006",
+      "Tensor Active [Throughput %]": "16.193928589918944",
+      "Compute Warps in Flight [Throughput %]": "11.006469195843327",
+      "DRAM Read Bandwidth [Throughput %]": "63.18722809299483",
+      "DRAM Write Bandwidth [Throughput %]": "0.9981745663135893"
+    },
+    {
+      "case": "native03_traces_06_ar_gsm8k_bs16_w1",
+      "method": "ar",
+      "configured_bs": "16",
+      "width": "1",
+      "phase": "DECODE",
+      "sample_windows": "453",
+      "SMs Active [Throughput %]": "82.22249771862218",
+      "SM Issue [Throughput %]": "8.24696704586313",
+      "Tensor Active [Throughput %]": "17.02661576782266",
+      "Compute Warps in Flight [Throughput %]": "14.264964202097898",
+      "DRAM Read Bandwidth [Throughput %]": "70.53992261161935",
+      "DRAM Write Bandwidth [Throughput %]": "0.9987851057948184"
+    },
+    {
+      "case": "native03_traces_08_dflash_gsm8k_bs16_w8",
+      "method": "dflash",
+      "configured_bs": "16",
+      "width": "8",
+      "phase": "VERIFY",
+      "sample_windows": "210",
+      "SMs Active [Throughput %]": "82.2741574102083",
+      "SM Issue [Throughput %]": "10.697118266102155",
+      "Tensor Active [Throughput %]": "32.20403385307193",
+      "Compute Warps in Flight [Throughput %]": "16.243529838263214",
+      "DRAM Read Bandwidth [Throughput %]": "66.377998455943",
+      "DRAM Write Bandwidth [Throughput %]": "2.7494656060630756"
+    }
+  ],
+  "dense_control": [
+    {
+      "case": "native03_dense_control_01_dflash_gsm8k_bs1_w8",
+      "stage": "dense_control",
+      "target": "qwen3-8b",
+      "dataset": "gsm8k",
+      "bs": 1,
+      "method": "dflash",
+      "width": 8,
+      "median_tps": 292.21238754341556,
+      "gain": 2.870804782527335,
+      "tau": 4.015810276679842,
+      "request_mean_cycle_median_ms": 13.087880117343037,
+      "peak_physical_GiB": 23.9041748046875,
+      "repeat_CV": 0.00020556365895700972,
+      "AR_bracket_drift": 0.0002973166364559354,
+      "cached_tokens": 0,
+      "retractions": 0
+    },
+    {
+      "case": "native03_dense_control_04_dflash_gsm8k_bs4_w8",
+      "stage": "dense_control",
+      "target": "qwen3-8b",
+      "dataset": "gsm8k",
+      "bs": 4,
+      "method": "dflash",
+      "width": 8,
+      "median_tps": 985.613826568404,
+      "gain": 2.6418592515961143,
+      "tau": 4.023762376237624,
+      "request_mean_cycle_median_ms": 13.332379506953822,
+      "peak_physical_GiB": 23.9588623046875,
+      "repeat_CV": 0.0004344722716526988,
+      "AR_bracket_drift": 0.0006382924121532962,
+      "cached_tokens": 0,
+      "retractions": 0
+    },
+    {
+      "case": "native03_dense_control_07_dflash_gsm8k_bs16_w8",
+      "stage": "dense_control",
+      "target": "qwen3-8b",
+      "dataset": "gsm8k",
+      "bs": 16,
+      "method": "dflash",
+      "width": 8,
+      "median_tps": 2688.987606127872,
+      "gain": 1.9657431859710628,
+      "tau": 4.039761431411531,
+      "request_mean_cycle_median_ms": 16.7325429378252,
+      "peak_physical_GiB": 24.2518310546875,
+      "repeat_CV": 0.0004919317956260981,
+      "AR_bracket_drift": 0.0001554271311030586,
+      "cached_tokens": 0,
+      "retractions": 0
+    },
+    {
+      "case": "native03_dense_control_10_dflash_mt_bench_bs1_w8",
+      "stage": "dense_control",
+      "target": "qwen3-8b",
+      "dataset": "mt_bench",
+      "bs": 1,
+      "method": "dflash",
+      "width": 8,
+      "median_tps": 157.17189968422008,
+      "gain": 1.5438034011900923,
+      "tau": 2.0948453608247424,
+      "request_mean_cycle_median_ms": 13.046986620107559,
+      "peak_physical_GiB": 23.8826904296875,
+      "repeat_CV": 9.698855507533117e-05,
+      "AR_bracket_drift": 7.920094559410451e-05,
+      "cached_tokens": 0,
+      "retractions": 0
+    },
+    {
+      "case": "native03_dense_control_13_dflash_mt_bench_bs4_w8",
+      "stage": "dense_control",
+      "target": "qwen3-8b",
+      "dataset": "mt_bench",
+      "bs": 4,
+      "method": "dflash",
+      "width": 8,
+      "median_tps": 546.2706653404505,
+      "gain": 1.4565341082880476,
+      "tau": 2.1255230125523012,
+      "request_mean_cycle_median_ms": 13.290176033218383,
+      "peak_physical_GiB": 23.9588623046875,
+      "repeat_CV": 0.0001821405009065586,
+      "AR_bracket_drift": 0.0008354871987208412,
+      "cached_tokens": 0,
+      "retractions": 0
+    },
+    {
+      "case": "native03_dense_control_16_dflash_mt_bench_bs16_w8",
+      "stage": "dense_control",
+      "target": "qwen3-8b",
+      "dataset": "mt_bench",
+      "bs": 16,
+      "method": "dflash",
+      "width": 8,
+      "median_tps": 1619.927356762796,
+      "gain": 1.154608191930908,
+      "tau": 2.110072689511942,
+      "request_mean_cycle_median_ms": 15.833754780001811,
+      "peak_physical_GiB": 24.2518310546875,
+      "repeat_CV": 0.0005712795632424846,
+      "AR_bracket_drift": 0.0005752516040740119,
+      "cached_tokens": 0,
+      "retractions": 0
+    }
+  ],
+  "BS_growth_request_cycles": [
+    {
+      "target": "GPT-OSS20B MXFP4",
+      "AR_BS1_ms": 3.6580039213015514,
+      "AR_BS16_ms": 7.597497110731723,
+      "AR_growth": 1.0769516037119127,
+      "SD_BS1_ms": 8.681914922517489,
+      "SD_BS16_ms": 13.329315707475567,
+      "SD_growth": 0.5352967434528229
+    },
+    {
+      "target": "Qwen3-8B BF16",
+      "AR_BS1_ms": 9.78151823102504,
+      "AR_BS16_ms": 11.194510983283024,
+      "AR_growth": 0.1444553615180364,
+      "SD_BS1_ms": 13.087880117343037,
+      "SD_BS16_ms": 16.7325429378252,
+      "SD_growth": 0.27847617702828287
+    }
+  ],
+  "critical_wave_BS16": [
+    [
+      "gsm8k",
+      "ar",
+      "1018.193",
+      "62.679",
+      "127.000",
+      "1.000",
+      "7.520"
+    ],
+    [
+      "gsm8k",
+      "dflash",
+      "499.876",
+      "64.856",
+      "34.000",
+      "3.735",
+      "12.777"
+    ],
+    [
+      "humaneval",
+      "ar",
+      "1012.994",
+      "73.184",
+      "127.000",
+      "1.000",
+      "7.397"
+    ],
+    [
+      "humaneval",
+      "dflash",
+      "704.584",
+      "53.521",
+      "50.000",
+      "2.540",
+      "13.009"
+    ],
+    [
+      "mt_bench",
+      "ar",
+      "938.859",
+      "48.687",
+      "127.000",
+      "1.000",
+      "7.006"
+    ],
+    [
+      "mt_bench",
+      "dflash",
+      "733.418",
+      "36.285",
+      "57.000",
+      "2.228",
+      "12.220"
+    ]
+  ],
+  "cross_configuration_parity_summary": {
+    "AR_bookends": {
+      "comparisons": 21,
+      "min_exact_requests": 16,
+      "max_exact_requests": 16,
+      "requests_per_comparison": 16
+    },
+    "batch_size_1_to_4": {
+      "comparisons": 18,
+      "min_exact_requests": 0,
+      "max_exact_requests": 9,
+      "requests_per_comparison": 16
+    },
+    "batch_size_1_to_16": {
+      "comparisons": 18,
+      "min_exact_requests": 0,
+      "max_exact_requests": 9,
+      "requests_per_comparison": 16
+    },
+    "width_2_to_4": {
+      "comparisons": 6,
+      "min_exact_requests": 0,
+      "max_exact_requests": 16,
+      "requests_per_comparison": 16
+    },
+    "width_2_to_8": {
+      "comparisons": 6,
+      "min_exact_requests": 0,
+      "max_exact_requests": 4,
+      "requests_per_comparison": 16
+    },
+    "repeated_width8_cohort": {
+      "comparisons": 6,
+      "min_exact_requests": 16,
+      "max_exact_requests": 16,
+      "requests_per_comparison": 16
+    }
+  },
+  "numerical_diagnostic": {
+    "run_id": "numerics03",
+    "status": "success",
+    "successful_cells": 4,
+    "comparisons": [
+      {
+        "enable_fp32_lm_head": false,
+        "samples": 2,
+        "exact_prompts": 0,
+        "prompts": [
+          {
+            "prompt": 0,
+            "equal": false,
+            "first_mismatch": 6,
+            "AR_token_id": 8420,
+            "SD_token_id": 23864,
+            "AR_token_text": " parse",
+            "SD_token_text": " compute",
+            "AR_top5": [
+              [
+                -1.23332679271698,
+                8420,
+                null
+              ],
+              [
+                -1.23332679271698,
+                23864,
+                null
+              ],
+              [
+                -2.2333269119262695,
+                18135,
+                null
+              ],
+              [
+                -2.4833269119262695,
+                17950,
+                null
+              ],
+              [
+                -2.9833269119262695,
+                1646,
+                null
+              ]
+            ],
+            "SD_top5": [
+              [
+                -1.17919921875,
+                23864,
+                null
+              ],
+              [
+                -1.30419921875,
+                8420,
+                null
+              ],
+              [
+                -2.30419921875,
+                17950,
+                null
+              ],
+              [
+                -2.42919921875,
+                18135,
+                null
+              ],
+              [
+                -2.92919921875,
+                1646,
+                null
+              ]
+            ],
+            "AR_top2_logprob_margin": 0.0,
+            "SD_top2_logprob_margin": 0.125,
+            "common_prefix_tail": "<|channel|>analysis<|message|>We need to"
+          },
+          {
+            "prompt": 1,
+            "equal": false,
+            "first_mismatch": 46,
+            "AR_token_id": 11,
+            "SD_token_id": 326,
+            "AR_token_text": ",",
+            "SD_token_text": " and",
+            "AR_top5": [
+              [
+                -1.0443379878997803,
+                11,
+                null
+              ],
+              [
+                -1.0443379878997803,
+                326,
+                null
+              ],
+              [
+                -1.4193379878997803,
+                13,
+                null
+              ],
+              [
+                -3.4193379878997803,
+                2932,
+                null
+              ],
+              [
+                -4.294338226318359,
+                26,
+                null
+              ]
+            ],
+            "SD_top5": [
+              [
+                -0.9772549867630005,
+                326,
+                null
+              ],
+              [
+                -1.1022549867630005,
+                11,
+                null
+              ],
+              [
+                -1.4772549867630005,
+                13,
+                null
+              ],
+              [
+                -3.227254867553711,
+                2932,
+                null
+              ],
+              [
+                -4.227254867553711,
+                26,
+                null
+              ]
+            ],
+            "AR_top2_logprob_margin": 0.0,
+            "SD_top2_logprob_margin": 0.125,
+            "common_prefix_tail": " that much white fiber. How many bolts in total does it take?\" So a robe uses 2 bolts of blue fiber"
+          }
+        ]
+      },
+      {
+        "enable_fp32_lm_head": true,
+        "samples": 2,
+        "exact_prompts": 1,
+        "prompts": [
+          {
+            "prompt": 0,
+            "equal": false,
+            "first_mismatch": 6,
+            "AR_token_id": 8420,
+            "SD_token_id": 23864,
+            "AR_token_text": " parse",
+            "SD_token_text": " compute",
+            "AR_top5": [
+              [
+                -1.2320226430892944,
+                8420,
+                null
+              ],
+              [
+                -1.249289870262146,
+                23864,
+                null
+              ],
+              [
+                -2.274749279022217,
+                18135,
+                null
+              ],
+              [
+                -2.4543070793151855,
+                17950,
+                null
+              ],
+              [
+                -2.9511427879333496,
+                1646,
+                null
+              ]
+            ],
+            "SD_top5": [
+              [
+                -1.1730473041534424,
+                23864,
+                null
+              ],
+              [
+                -1.3021233081817627,
+                8420,
+                null
+              ],
+              [
+                -2.354315996170044,
+                17950,
+                null
+              ],
+              [
+                -2.3823540210723877,
+                18135,
+                null
+              ],
+              [
+                -2.975184679031372,
+                1646,
+                null
+              ]
+            ],
+            "AR_top2_logprob_margin": 0.017267227172851562,
+            "SD_top2_logprob_margin": 0.1290760040283203,
+            "common_prefix_tail": "<|channel|>analysis<|message|>We need to"
+          },
+          {
+            "prompt": 1,
+            "equal": true,
+            "first_mismatch": null
+          }
+        ]
+      }
+    ],
+    "BF16_logprob_vs_headline": [
+      {
+        "method": "ar",
+        "requests": 2,
+        "exact_requests": 2,
+        "headline_reference": "logs/moe_sd_20261106/native03_full_00_ar_gsm8k_bs1_w1.json"
+      },
+      {
+        "method": "dflash",
+        "requests": 2,
+        "exact_requests": 2,
+        "headline_reference": "logs/moe_sd_20261106/native03_full_01_dflash_gsm8k_bs1_w8.json"
+      }
+    ],
+    "source_sha256": {
+      "logs/moe_sd_20261106/numerics03_00_ar_headfp32_0.json": "58564ea6500535c9d9ba0af9b0e9592c32bc3806b9a6a40c12f3541b94f82f08",
+      "logs/moe_sd_20261106/numerics03_01_dflash_headfp32_0.json": "31bfa1ce375c528fbe5f686bc9f7e5a359944c7f034b9e00b737e1f15633f3b1",
+      "logs/moe_sd_20261106/numerics03_02_ar_headfp32_1.json": "8a219872d065ac35af369372ce35a46c825e94c858a4a96a8fc2ba9646d626b8",
+      "logs/moe_sd_20261106/numerics03_03_dflash_headfp32_1.json": "8dc1c62aea8a58675339d2ac8d3b32df0181adb95292ee48b65cdb3e7e58b74c"
+    },
+    "scope": "Two GSM8K prompts deliberately chosen because the headline BF16-head AR/SD results differ. Logprob and FP32-head paths are diagnostics, never timing arms; compare logits only at first divergence while prefixes match. FP32 head does not make the MXFP4/FP8/BF16 backbone fully FP32 and does not prove general quality or distribution equivalence."
+  },
+  "best_measured_width": [
+    {
+      "dataset": "gsm8k",
+      "bs": 1,
+      "best_measured_width": 8,
+      "gain": 1.6478024277075805
+    },
+    {
+      "dataset": "gsm8k",
+      "bs": 4,
+      "best_measured_width": 8,
+      "gain": 1.8033735679498513
+    },
+    {
+      "dataset": "gsm8k",
+      "bs": 16,
+      "best_measured_width": 8,
+      "gain": 2.0352911465970744
+    },
+    {
+      "dataset": "mt_bench",
+      "bs": 1,
+      "best_measured_width": 8,
+      "gain": 1.3270001054427218
+    },
+    {
+      "dataset": "mt_bench",
+      "bs": 4,
+      "best_measured_width": 8,
+      "gain": 1.3462526362446934
+    },
+    {
+      "dataset": "mt_bench",
+      "bs": 16,
+      "best_measured_width": 8,
+      "gain": 1.2808867960142118
+    }
+  ],
+  "limits": [
+    "Cross-model comparisons change more than MoE.",
+    "Kernel-sum costs are not end-to-end latency.",
+    "Routing footprint is not measured HBM traffic.",
+    "Fixed-length output speed does not measure task quality.",
+    "Output parity is reported, not assumed."
+  ]
+}

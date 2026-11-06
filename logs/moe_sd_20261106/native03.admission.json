@@ -1,0 +1,30 @@
+{
+  "status": "success",
+  "pid": 774658,
+  "process_start_time": 1793977133.09,
+  "GPU_UUID": "GPU-eed4707e-7a00-58e0-4123-1ccbe4326b7a",
+  "started_epoch": 1793977133.4302304,
+  "smoke_run_id": "smoke03",
+  "sequence_run_id": "native03",
+  "foreign_GPU_pids": [],
+  "last_checked_epoch": 1793977149.4352043,
+  "idle_seconds": 16.004972457885742,
+  "smoke_argv": [
+    "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+    "/home/qinghao/profile_spec/run_moe_sd_campaign.py",
+    "--stage",
+    "smoke",
+    "--run-id",
+    "smoke03"
+  ],
+  "sequence_argv": [
+    "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+    "/home/qinghao/profile_spec/run_moe_sd_sequence.py",
+    "--after",
+    "smoke03",
+    "--run-id",
+    "native03"
+  ],
+  "exit_code": 0,
+  "ended_epoch": 1793980992.0435967
+}

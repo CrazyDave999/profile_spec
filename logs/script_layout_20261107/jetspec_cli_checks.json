@@ -1,0 +1,18 @@
+[
+  {
+    "script": "scripts/experiments/sweep_worker.py",
+    "exit_code": 0
+  },
+  {
+    "script": "scripts/experiments/smoke_5090.py",
+    "exit_code": 0
+  },
+  {
+    "script": "scripts/experiments/profile_workload.py",
+    "exit_code": 0
+  },
+  {
+    "script": "scripts/experiments/run_overnight.py",
+    "exit_code": 0
+  }
+]

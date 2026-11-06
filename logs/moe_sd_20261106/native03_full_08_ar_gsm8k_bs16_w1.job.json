@@ -1,0 +1,41 @@
+{
+  "state": "success",
+  "argv": [
+    "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+    "/home/qinghao/profile_spec/parallel_sd_worker.py",
+    "--target",
+    "gpt-oss-20b",
+    "--method",
+    "ar",
+    "--dataset",
+    "gsm8k",
+    "--bs",
+    "16",
+    "--samples",
+    "16",
+    "--tokens",
+    "128",
+    "--repeats",
+    "3",
+    "--attention",
+    "fa4",
+    "--moe-runner-backend",
+    "flashinfer_mxfp4",
+    "--output",
+    "/home/qinghao/profile_spec/logs/moe_sd_20261106/native03_full_08_ar_gsm8k_bs16_w1.json"
+  ],
+  "result": "/home/qinghao/profile_spec/logs/moe_sd_20261106/native03_full_08_ar_gsm8k_bs16_w1.json",
+  "log": "/home/qinghao/profile_spec/logs/moe_sd_20261106/native03_full_08_ar_gsm8k_bs16_w1.log",
+  "started_epoch": 1793978225.767036,
+  "pid": 790554,
+  "process_start_time": 1793978225.57,
+  "exit_code": 0,
+  "ended_epoch": 1793978253.3054357,
+  "worker_status": "success",
+  "owned_process_start_times": {
+    "790554": 1793978225.57,
+    "790618": 1793978230.7,
+    "790619": 1793978230.71,
+    "790620": 1793978230.71
+  }
+}

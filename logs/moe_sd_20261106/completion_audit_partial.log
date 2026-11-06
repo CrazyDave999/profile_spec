@@ -1,0 +1,209 @@
+{
+  "sequence": "native03",
+  "checked_epoch": 1793978966.3978312,
+  "achieved": false,
+  "successful_main_cells": 37,
+  "headline_cells": 28,
+  "profile_cells": 9,
+  "routing_cells": 0
+}
+[
+  {
+    "requirement": "width complete matrix",
+    "achieved": false,
+    "evidence": {
+      "expected": 30,
+      "campaign_status": "running",
+      "cells": [
+        {
+          "case": "native03_width_00_ar_gsm8k_bs1_w1",
+          "state": "success",
+          "protocol_matches": true,
+          "result_SHA256": "f5890a7e358171937e7458fcdbb3d62131c34f23034179b8623d1daeb7fe2472"
+        },
+        {
+          "case": "native03_width_01_dflash_gsm8k_bs1_w2",
+          "state": "running"
+        },
+        {
+          "case": "native03_width_02_dflash_gsm8k_bs1_w4",
+          "state": "missing"
+        },
+        {
+          "case": "native03_width_03_dflash_gsm8k_bs1_w8",
+          "state": "missing"
+        },
+        {
+          "case": "native03_width_04_ar_gsm8k_bs1_w1",
+          "state": "missing"
+        },
+        {
+          "case": "native03_width_05_ar_gsm8k_bs4_w1",
+          "state": "missing"
+        },
+        {
+          "case": "native03_width_06_dflash_gsm8k_bs4_w2",
+          "state": "missing"
+        },
+        {
+          "case": "native03_width_07_dflash_gsm8k_bs4_w4",
+          "state": "missing"
+        },
+        {
+          "case": "native03_width_08_dflash_gsm8k_bs4_w8",
+          "state": "missing"
+        },
+        {
+          "case": "native03_width_09_ar_gsm8k_bs4_w1",
+          "state": "missing"
+        },
+        {
+          "case": "native03_width_10_ar_gsm8k_bs16_w1",
+          "state": "missing"
+        },
+        {
+          "case": "native03_width_11_dflash_gsm8k_bs16_w2",
+          "state": "missing"
+        },
+        {
+          "case": "native03_width_12_dflash_gsm8k_bs16_w4",
+          "state": "missing"
+        },
+        {
+          "case": "native03_width_13_dflash_gsm8k_bs16_w8",
+          "state": "missing"
+        },
+        {
+          "case": "native03_width_14_ar_gsm8k_bs16_w1",
+          "state": "missing"
+        },
+        {
+          "case": "native03_width_15_ar_mt_bench_bs1_w1",
+          "state": "missing"
+        },
+        {
+          "case": "native03_width_16_dflash_mt_bench_bs1_w2",
+          "state": "missing"
+        },
+        {
+          "case": "native03_width_17_dflash_mt_bench_bs1_w4",
+          "state": "missing"
+        },
+        {
+          "case": "native03_width_18_dflash_mt_bench_bs1_w8",
+          "state": "missing"
+        },
+        {
+          "case": "native03_width_19_ar_mt_bench_bs1_w1",
+          "state": "missing"
+        },
+        {
+          "case": "native03_width_20_ar_mt_bench_bs4_w1",
+          "state": "missing"
+        },
+        {
+          "case": "native03_width_21_dflash_mt_bench_bs4_w2",
+          "state": "missing"
+        },
+        {
+          "case": "native03_width_22_dflash_mt_bench_bs4_w4",
+          "state": "missing"
+        },
+        {
+          "case": "native03_width_23_dflash_mt_bench_bs4_w8",
+          "state": "missing"
+        },
+        {
+          "case": "native03_width_24_ar_mt_bench_bs4_w1",
+          "state": "missing"
+        },
+        {
+          "case": "native03_width_25_ar_mt_bench_bs16_w1",
+          "state": "missing"
+        },
+        {
+          "case": "native03_width_26_dflash_mt_bench_bs16_w2",
+          "state": "missing"
+        },
+        {
+          "case": "native03_width_27_dflash_mt_bench_bs16_w4",
+          "state": "missing"
+        },
+        {
+          "case": "native03_width_28_dflash_mt_bench_bs16_w8",
+          "state": "missing"
+        },
+        {
+          "case": "native03_width_29_ar_mt_bench_bs16_w1",
+          "state": "missing"
+        }
+      ]
+    }
+  },
+  {
+    "requirement": "routing complete matrix",
+    "achieved": false,
+    "evidence": "Manifest absent"
+  },
+  {
+    "requirement": "dense_control complete matrix",
+    "achieved": false,
+    "evidence": "Manifest absent"
+  },
+  {
+    "requirement": "All 75 headline cells summarized with both AR bookends",
+    "achieved": false,
+    "evidence": {
+      "rows": 28,
+      "max_AR_drift": 0.0010101183311470585,
+      "max_repeat_CV": 0.0030109300054726095
+    }
+  },
+  {
+    "requirement": "All 12 routing dumps analyzed with matching file hashes",
+    "achieved": false,
+    "evidence": null
+  },
+  {
+    "requirement": "numerics03 completed independent diagnostic cells",
+    "achieved": false,
+    "evidence": {
+      "expected": 4,
+      "success": 0
+    }
+  },
+  {
+    "requirement": "Numerical diagnostics analyzed separately from headline",
+    "achieved": false,
+    "evidence": null
+  },
+  {
+    "requirement": "All requested comparisons and detail artifacts generated",
+    "achieved": false,
+    "evidence": [
+      "scaling.svg",
+      "width_tradeoff.svg",
+      "dense_comparison.svg",
+      "expert_coverage.svg",
+      "target_components.svg",
+      "checkpoint_storage.svg",
+      "findings.json",
+      "wave_tails.csv"
+    ]
+  },
+  {
+    "requirement": "native03.admission.json successful controller termination",
+    "achieved": false,
+    "evidence": "running_sequence"
+  },
+  {
+    "requirement": "native03.sequence.json successful controller termination",
+    "achieved": false,
+    "evidence": "running"
+  },
+  {
+    "requirement": "Report covers headline, dense comparison, routing, width and numerical limits",
+    "achieved": false,
+    "evidence": null
+  }
+]

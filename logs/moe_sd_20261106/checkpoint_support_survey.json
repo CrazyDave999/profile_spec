@@ -1,0 +1,139 @@
+{
+  "checked_at_UTC": "2026-11-06T04:16:20.390288+00:00",
+  "searches": {
+    "gpt-oss-20b dflash": [
+      "jianchen0311/gpt-oss-20b-DFlash",
+      "z-lab/gpt-oss-20b-DFlash",
+      "unieai/gpt-oss-20b-DFlash",
+      "EntityDeletr/gpt-oss-20b-DFlash-GGUF",
+      "Anbeeld/gpt-oss-20b-DFlash-GGUF"
+    ],
+    "gpt-oss-20b domino": [],
+    "gpt-oss-20b dspark": [],
+    "gpt-oss-20b speculator": [
+      "Snowflake/Arctic-LSTM-Speculator-gpt-oss-20b",
+      "RedHatAI/gpt-oss-20b-speculator.eagle3"
+    ],
+    "gpt-oss-20b dflare": [
+      "AngelSlim/Gpt-oss-20b-dflare"
+    ]
+  },
+  "dflare": {
+    "repo": "AngelSlim/Gpt-oss-20b-dflare",
+    "revision": "7c4c0a31ad7b387a4c2c67350c3d86776844c034",
+    "config": {
+      "architectures": [
+        "QwenDFlareDraftModel"
+      ],
+      "attention_bias": true,
+      "attention_dropout": 0.0,
+      "block_size": 8,
+      "bos_token_id": 199998,
+      "dflash_config": {
+        "mask_token_id": 200019,
+        "target_layer_ids": [
+          1,
+          4,
+          7,
+          12,
+          15,
+          18,
+          21
+        ]
+      },
+      "dtype": "bfloat16",
+      "eos_token_id": 200002,
+      "head_dim": 64,
+      "hidden_act": "silu",
+      "hidden_size": 2880,
+      "initial_context_length": 4096,
+      "initializer_range": 0.02,
+      "intermediate_size": 7680,
+      "layer_types": [
+        "full_attention",
+        "full_attention",
+        "full_attention",
+        "full_attention",
+        "full_attention",
+        "full_attention",
+        "full_attention",
+        "full_attention"
+      ],
+      "max_position_embeddings": 131072,
+      "max_window_layers": 8,
+      "model_type": "qwen3",
+      "num_attention_heads": 64,
+      "num_hidden_layers": 8,
+      "num_key_value_heads": 8,
+      "num_target_layers": 24,
+      "pad_token_id": 199999,
+      "rms_norm_eps": 1e-05,
+      "rope_scaling": {
+        "beta_fast": 32.0,
+        "beta_slow": 1.0,
+        "factor": 32.0,
+        "original_max_position_embeddings": 4096,
+        "rope_type": "yarn",
+        "truncate": false
+      },
+      "rope_theta": 150000,
+      "sliding_window": null,
+      "tie_word_embeddings": false,
+      "transformers_version": "4.57.1",
+      "use_cache": true,
+      "use_sliding_window": false,
+      "vocab_size": 201088
+    },
+    "native_sglang_support": "No DFlare implementation found in pinned SGLang models; do not load with vanilla DFlash semantics."
+  },
+  "scope_notes": [
+    "EAGLE excluded per prior user preference.",
+    "JetSpec checkpoints require causal drafting not implemented by the pinned SGLang DFlash model; checkpoint existence does not imply a compatible native path.",
+    "Search absence is not proof that no community checkpoint exists; this records queried candidates."
+  ],
+  "method_inventory_refresh": {
+    "checked_at_UTC": "2026-11-06T15:32:54.224124+00:00",
+    "queries": {
+      "DFlash": {
+        "url": "https://huggingface.co/api/models?search=DFlash&limit=1000&sort=downloads&direction=-1",
+        "returned_models": 1000,
+        "search_limit": 1000,
+        "matching_GPT_OSS20B_names": [
+          "z-lab/gpt-oss-120b-DFlash",
+          "z-lab/gpt-oss-20b-DFlash",
+          "EntityDeletr/gpt-oss-20b-DFlash-GGUF",
+          "jianchen0311/gpt-oss-20b-DFlash",
+          "unieai/gpt-oss-20b-DFlash",
+          "unieai/gpt-oss-120b-DFlash"
+        ]
+      },
+      "Domino": {
+        "url": "https://huggingface.co/api/models?search=Domino&limit=1000&sort=downloads&direction=-1",
+        "returned_models": 96,
+        "search_limit": 1000,
+        "matching_GPT_OSS20B_names": []
+      },
+      "DSpark": {
+        "url": "https://huggingface.co/api/models?search=DSpark&limit=1000&sort=downloads&direction=-1",
+        "returned_models": 550,
+        "search_limit": 1000,
+        "matching_GPT_OSS20B_names": []
+      },
+      "DFlare": {
+        "url": "https://huggingface.co/api/models?search=DFlare&limit=1000&sort=downloads&direction=-1",
+        "returned_models": 11,
+        "search_limit": 1000,
+        "matching_GPT_OSS20B_names": [
+          "AngelSlim/Gpt-oss-20b-dflare"
+        ]
+      },
+      "DFlash2": {
+        "url": "https://huggingface.co/api/models?search=DFlash2&limit=1000&sort=downloads&direction=-1",
+        "returned_models": 359,
+        "search_limit": 1000,
+        "matching_GPT_OSS20B_names": []
+      }
+    },
+    "limits": "Public model-name inventory only; an absent matching name does not prove that no differently named or private checkpoint exists. No upstream or runtime version changed."
+  }
+}

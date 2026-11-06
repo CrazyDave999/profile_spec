@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/qinghao/profile_spec/run_moe_sd_sequence.py", line 68, in <module>
+    main()
+  File "/home/qinghao/profile_spec/run_moe_sd_sequence.py", line 46, in main
+    raise RuntimeError("Dependency failed: "+current["status"])
+RuntimeError: Dependency failed: stopped_after_cell_failure

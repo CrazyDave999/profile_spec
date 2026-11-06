@@ -1,0 +1,79 @@
+{
+  "status": "starting",
+  "arguments": {
+    "method": "ar",
+    "target": "gpt-oss-20b",
+    "dataset": "gsm8k",
+    "bs": 1,
+    "samples": 2,
+    "tokens": 32,
+    "repeats": 1,
+    "block": null,
+    "extra_context": 0,
+    "fp32_lm_head": false,
+    "logprobs": false,
+    "ragged_mode": "static",
+    "sps_table": null,
+    "attention": "fa4",
+    "moe_runner_backend": "flashinfer_mxfp4",
+    "routing_record": false,
+    "eos": false,
+    "profile": false,
+    "output": "/home/qinghao/profile_spec/logs/moe_sd_20261106/smoke01_00_ar_gsm8k_bs1_w1.json"
+  },
+  "engine_requested": {
+    "model_path": "/home/qinghao/models/gpt-oss-20b",
+    "dtype": "bfloat16",
+    "tp_size": 1,
+    "attention_backend": "fa4",
+    "mem_fraction_static": 0.8,
+    "max_total_tokens": 32768,
+    "context_length": 4096,
+    "max_running_requests": 1,
+    "chunked_prefill_size": 1024,
+    "disable_radix_cache": true,
+    "cuda_graph_max_bs_decode": 16,
+    "cuda_graph_bs_decode": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "cuda_graph_backend_decode": "full",
+    "cuda_graph_backend_prefill": "disabled",
+    "random_seed": 42,
+    "log_level": "info",
+    "decode_log_interval": 50,
+    "enable_metrics": true,
+    "enable_layerwise_nvtx_marker": false,
+    "enable_fp32_lm_head": false,
+    "moe_runner_backend": "flashinfer_mxfp4"
+  },
+  "package_versions": {
+    "torch": "2.14.1",
+    "transformers": "5.19.0",
+    "triton": "3.8.0",
+    "sglang": "0.0.0.dev1+g27aedf7f9",
+    "flashinfer-python": "0.7.2",
+    "nvidia-cuda-nvcc": "13.0.88",
+    "nvidia-cuda-runtime": "13.0.96"
+  },
+  "worker_source_sha256": "83823aa628a04b5f6c35f2da2496d6a21bccd0a9e7577935b6fc15e13710af07",
+  "toolkit_header_sha256": "0effc5b18b4703fba87c95341910c9ba7162cdaa1e2229f14d90213aa347b14f",
+  "feature_environment": {
+    "SGLANG_CACHE_DIR": "/home/qinghao/profile_spec/.cache/sglang-cu130",
+    "SGLANG_RAGGED_VERIFY_MODE": "static",
+    "PROFILE_SPEC_NVTX": null
+  },
+  "GPU_UUID": "GPU-eed4707e-7a00-58e0-4123-1ccbe4326b7a",
+  "sglang_revision": "27aedf7f93cc7ac3bff43e7150e42a3c0baa6957",
+  "prompt_file_sha256": "175020ccba104470fd3f8e781b14d4cef168b9c02fad19942de7257b3b3eef8c",
+  "selected_prompt_sha256": "a2cb3f2405c8888b168dc94ecc53bfc4ca5ecea5d2f90dc4c5d6e74fc6432ab1",
+  "input_lengths": [
+    145,
+    108
+  ],
+  "protocol": "offline Engine; fixed input IDs; no prefix reuse; load/compile/warmup excluded; request wall throughput; profiling separate; fixed output unless --eos",
+  "results": []
+}

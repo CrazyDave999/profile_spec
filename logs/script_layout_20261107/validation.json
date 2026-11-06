@@ -1,0 +1,985 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "No Python scripts left in repository root",
+      "passed": true
+    },
+    {
+      "check": "scripts/setup/align_sps_graph_buckets.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_adaptive_tail.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_bs_scaling.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_dspark_schedule.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_gpu_counters.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_moe_components.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_moe_numerics.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_moe_parity.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_moe_routing.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_moe_sd.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_moe_tail.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_moe_traces.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_parallel_sd.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_round_latency.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_sd_numerics.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_sglang_trace.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_sweep_trace.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_verify_components.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/audit_hybrid_memory.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/audit_moe_checkpoint_memory.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/audit_moe_sd_campaign.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/audit_overnight.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/audit_parallel_sd_campaigns.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/audit_parallel_sd_memory.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/batch_reference.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/reports/build_jetspec_summary.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/reports/build_moe_sd_report.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/reports/build_overnight_report.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/reports/build_parallel_sd_report.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/reports/build_report_index.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/reports/build_sd_state_report.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/reports/build_sglang_sd_survey.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/setup/convert_dflash2_config.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/diagnose_divergence.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/setup/download_models.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/finalize_moe_sd.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/inspect_kv_reservation.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/reports/moe_sd_findings.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/moe_sd_routing.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/package_moe_sd_traces.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/package_parallel_sd_traces.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/parallel_sd_nvtx.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/reports/parallel_sd_refinement_figures.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/reports/parallel_sd_scaling_figures.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/parallel_sd_worker.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/setup/patch_cuda_glibc.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/setup/prepare_moe_sd_inputs.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/setup/prepare_moe_sd_models.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/setup/prepare_parallel_sd_models.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/setup/prepare_profile_data.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/profile_workload.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/queue_gpu_metrics.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/run_moe_sd_analysis_watch.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/run_moe_sd_campaign.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/run_moe_sd_numerics.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/run_moe_sd_sequence.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/run_moe_sd_when_idle.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/run_overnight.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/run_parallel_sd_campaign.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/run_parallel_sd_cell.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/run_parallel_sd_followups.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/smoke_5090.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/summarize_nsys.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/summarize_sglang_traces.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/sweep_worker.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/validate_batch_reference.py",
+      "passed": true
+    },
+    {
+      "check": "scripts/setup/setup_env.sh",
+      "passed": true
+    },
+    {
+      "check": "scripts/setup/setup_sglang_env.sh",
+      "passed": true
+    },
+    {
+      "check": "scripts/setup/setup_nsys.sh",
+      "passed": true
+    },
+    {
+      "check": "scripts/_bootstrap.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/_bootstrap.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/run_moe_sd_when_idle.py parses",
+      "passed": true
+    },
+    {
+      "check": "parallel_sd_worker local import",
+      "passed": true
+    },
+    {
+      "check": "run_moe_sd_campaign local import",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/run_moe_sd_campaign.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/run_moe_sd_sequence.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/profile_workload.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/parallel_sd_nvtx.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/run_parallel_sd_cell.py parses",
+      "passed": true
+    },
+    {
+      "check": "parallel_sd_worker local import",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/parallel_sd_worker.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/queue_gpu_metrics.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/run_overnight.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/smoke_5090.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/run_moe_sd_numerics.py parses",
+      "passed": true
+    },
+    {
+      "check": "parallel_sd_worker local import",
+      "passed": true
+    },
+    {
+      "check": "run_moe_sd_campaign local import",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/run_parallel_sd_cell.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/moe_sd_routing.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/run_parallel_sd_campaign.py parses",
+      "passed": true
+    },
+    {
+      "check": "parallel_sd_worker local import",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/run_parallel_sd_cell.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/parallel_sd_worker.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/run_moe_sd_analysis_watch.py parses",
+      "passed": true
+    },
+    {
+      "check": "parallel_sd_worker local import",
+      "passed": true
+    },
+    {
+      "check": "run_moe_sd_campaign local import",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_moe_sd.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_moe_traces.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_moe_components.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_moe_routing.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/reports/build_moe_sd_report.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_moe_sd.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/reports/build_moe_sd_report.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_moe_traces.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_moe_components.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_moe_routing.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/batch_reference.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/validate_batch_reference.py parses",
+      "passed": true
+    },
+    {
+      "check": "batch_reference local import",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/run_moe_sd_campaign.py parses",
+      "passed": true
+    },
+    {
+      "check": "parallel_sd_worker local import",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/parallel_sd_worker.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/run_parallel_sd_cell.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/run_moe_sd_sequence.py parses",
+      "passed": true
+    },
+    {
+      "check": "parallel_sd_worker local import",
+      "passed": true
+    },
+    {
+      "check": "run_moe_sd_campaign local import",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/run_moe_sd_campaign.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/sweep_worker.py parses",
+      "passed": true
+    },
+    {
+      "check": "batch_reference local import",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/finalize_moe_sd.py parses",
+      "passed": true
+    },
+    {
+      "check": "parallel_sd_worker local import",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_moe_sd.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_moe_traces.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_moe_components.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_moe_routing.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_moe_numerics.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/package_moe_sd_traces.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/reports/build_moe_sd_report.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/audit_moe_sd_campaign.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/parallel_sd_worker.py parses",
+      "passed": true
+    },
+    {
+      "check": "parallel_sd_nvtx local import",
+      "passed": true
+    },
+    {
+      "check": "moe_sd_routing local import",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/run_overnight.py parses",
+      "passed": true
+    },
+    {
+      "check": "sweep_worker local import",
+      "passed": true
+    },
+    {
+      "check": "scripts/reports/build_overnight_report.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/sweep_worker.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/sweep_worker.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/reports/build_overnight_report.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/run_parallel_sd_followups.py parses",
+      "passed": true
+    },
+    {
+      "check": "parallel_sd_worker local import",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/run_parallel_sd_campaign.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/parallel_sd_worker.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/setup/prepare_moe_sd_models.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/setup/_bootstrap.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/setup/prepare_profile_data.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/setup/prepare_parallel_sd_models.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/setup/download_models.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/setup/prepare_moe_sd_inputs.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/setup/convert_dflash2_config.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/setup/align_sps_graph_buckets.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/setup/patch_cuda_glibc.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/summarize_nsys.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_parallel_sd.py parses",
+      "passed": true
+    },
+    {
+      "check": "build_report_index local import",
+      "passed": true
+    },
+    {
+      "check": "parallel_sd_scaling_figures local import",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_parallel_sd.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/reports/parallel_sd_scaling_figures.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_sglang_trace.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/package_moe_sd_traces.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/audit_overnight.py parses",
+      "passed": true
+    },
+    {
+      "check": "sweep_worker local import",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/_bootstrap.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_moe_sd.py parses",
+      "passed": true
+    },
+    {
+      "check": "analyze_moe_tail local import",
+      "passed": true
+    },
+    {
+      "check": "analyze_moe_parity local import",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/audit_moe_checkpoint_memory.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_adaptive_tail.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_moe_traces.py parses",
+      "passed": true
+    },
+    {
+      "check": "analyze_sglang_trace local import",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_moe_numerics.py parses",
+      "passed": true
+    },
+    {
+      "check": "analyze_sd_numerics local import",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_dspark_schedule.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_moe_routing.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_round_latency.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/inspect_kv_reservation.py parses",
+      "passed": true
+    },
+    {
+      "check": "sweep_worker local import",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/audit_script_layout.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_moe_components.py parses",
+      "passed": true
+    },
+    {
+      "check": "analyze_moe_traces local import",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_moe_components.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_moe_traces.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/summarize_sglang_traces.py parses",
+      "passed": true
+    },
+    {
+      "check": "analyze_sglang_trace local import",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_sweep_trace.py parses",
+      "passed": true
+    },
+    {
+      "check": "sweep_worker local import",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_sglang_trace.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/package_parallel_sd_traces.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/audit_hybrid_memory.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/audit_parallel_sd_memory.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_moe_tail.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/audit_moe_sd_campaign.py parses",
+      "passed": true
+    },
+    {
+      "check": "audit_script_layout local import",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/parallel_sd_worker.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_bs_scaling.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_verify_components.py parses",
+      "passed": true
+    },
+    {
+      "check": "build_report_index local import",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_verify_components.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/experiments/batch_reference.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_gpu_counters.py parses",
+      "passed": true
+    },
+    {
+      "check": "sweep_worker local import",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/audit_parallel_sd_campaigns.py parses",
+      "passed": true
+    },
+    {
+      "check": "parallel_sd_worker local import",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_moe_parity.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/diagnose_divergence.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_sd_numerics.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/reports/build_moe_sd_report.py parses",
+      "passed": true
+    },
+    {
+      "check": "moe_sd_findings local import",
+      "passed": true
+    },
+    {
+      "check": "build_report_index local import",
+      "passed": true
+    },
+    {
+      "check": "scripts/reports/build_parallel_sd_report.py parses",
+      "passed": true
+    },
+    {
+      "check": "build_report_index local import",
+      "passed": true
+    },
+    {
+      "check": "parallel_sd_refinement_figures local import",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_parallel_sd.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/reports/parallel_sd_scaling_figures.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/reports/parallel_sd_refinement_figures.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_sglang_trace.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/summarize_sglang_traces.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/package_parallel_sd_traces.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_dspark_schedule.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_adaptive_tail.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/analyze_sd_numerics.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/setup/align_sps_graph_buckets.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/audit_hybrid_memory.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/audit_parallel_sd_memory.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/analysis/audit_parallel_sd_campaigns.py exists",
+      "passed": true
+    },
+    {
+      "check": "scripts/reports/_bootstrap.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/reports/parallel_sd_refinement_figures.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/reports/build_sglang_sd_survey.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/reports/parallel_sd_scaling_figures.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/reports/build_overnight_report.py parses",
+      "passed": true
+    },
+    {
+      "check": "analyze_sweep_trace local import",
+      "passed": true
+    },
+    {
+      "check": "sweep_worker local import",
+      "passed": true
+    },
+    {
+      "check": "analyze_gpu_counters local import",
+      "passed": true
+    },
+    {
+      "check": "scripts/reports/build_report_index.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/reports/moe_sd_findings.py parses",
+      "passed": true
+    },
+    {
+      "check": "scripts/reports/build_jetspec_summary.py parses",
+      "passed": true
+    },
+    {
+      "check": "build_report_index local import",
+      "passed": true
+    },
+    {
+      "check": "scripts/reports/build_sd_state_report.py parses",
+      "passed": true
+    },
+    {
+      "check": "build_report_index local import",
+      "passed": true
+    },
+    {
+      "check": "parallel_sd_worker.py unchanged computation AST",
+      "passed": true
+    },
+    {
+      "check": "sweep_worker.py unchanged computation AST",
+      "passed": true
+    }
+  ],
+  "workers": [
+    {
+      "worker": "scripts/experiments/parallel_sd_worker.py",
+      "archived_original": "logs/script_layout_20261107/592aeec4e43b9e4f1b87a1569e14b747188fd2ace46e244c7689467cb5f15cad.py",
+      "archived_SHA256": "592aeec4e43b9e4f1b87a1569e14b747188fd2ace46e244c7689467cb5f15cad",
+      "current_SHA256": "8b2353911e382053d59d9ca0f74518b237574b24b93ff723da41eb3c1d7a2481",
+      "same_computation_AST": true
+    },
+    {
+      "worker": "scripts/experiments/sweep_worker.py",
+      "archived_original": "logs/script_layout_20261107/3344852cbffaa68b2bef7978d03e3aed04f8db23b99bbf1042e49b9fe73f11d4.py",
+      "archived_SHA256": "3344852cbffaa68b2bef7978d03e3aed04f8db23b99bbf1042e49b9fe73f11d4",
+      "current_SHA256": "9a9896ee5dfe691a46a02739c5e7a6c49ff9fa2a5fbd7079e5cb81bba934f96c",
+      "same_computation_AST": true
+    }
+  ]
+}

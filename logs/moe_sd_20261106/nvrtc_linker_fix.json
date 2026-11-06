@@ -1,0 +1,9 @@
+{
+  "time_UTC": "2026-11-06T04:27:59.441769+00:00",
+  "failure": "FlashInfer fused_moe_120 link: cannot find -lnvrtc",
+  "fix": "Add unversioned libnvrtc.so -> libnvrtc.so.13 alias inside the isolated CUDA pip toolkit.",
+  "alias": ".venv-sglang/lib/python3.12/site-packages/nvidia/cu13/lib/libnvrtc.so",
+  "target": "libnvrtc.so.13",
+  "setup_script": "setup_sglang_env.sh",
+  "scope": "Linker search-path compatibility only; no numerical code or package versions changed."
+}

@@ -1,0 +1,14 @@
+{
+  "status": "dependency_failed",
+  "pid": 205233,
+  "process_start_time": 1793938730.77,
+  "dependency": "/home/qinghao/profile_spec/logs/moe_sd_20261106/smoke01.campaign.json",
+  "dependency_pid": 202908,
+  "dependency_start_time": 1793938636.26,
+  "stages": [],
+  "started_epoch": 1793938731.0208116,
+  "dependency_live": false,
+  "dependency_status": "stopped_after_cell_failure",
+  "last_checked_epoch": 1793938933.5517063,
+  "ended_epoch": 1793938933.551883
+}

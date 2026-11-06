@@ -1,0 +1,111 @@
+{
+  "status": "success",
+  "pid": 776178,
+  "process_start_time": 1793977217.73,
+  "dependency": "/home/qinghao/profile_spec/logs/moe_sd_20261106/smoke03.campaign.json",
+  "dependency_pid": 774895,
+  "dependency_start_time": 1793977149.24,
+  "stages": [
+    {
+      "stage": "traces",
+      "run_id": "native03_traces",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_moe_sd_campaign.py",
+        "--stage",
+        "traces",
+        "--run-id",
+        "native03_traces",
+        "--attention",
+        "fa4",
+        "--moe-backend",
+        "flashinfer_mxfp4"
+      ],
+      "started_epoch": 1793977217.968345,
+      "exit_code": 0,
+      "ended_epoch": 1793977944.8957667
+    },
+    {
+      "stage": "full",
+      "run_id": "native03_full",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_moe_sd_campaign.py",
+        "--stage",
+        "full",
+        "--run-id",
+        "native03_full",
+        "--attention",
+        "fa4",
+        "--moe-backend",
+        "flashinfer_mxfp4"
+      ],
+      "started_epoch": 1793977944.896006,
+      "exit_code": 0,
+      "ended_epoch": 1793978882.122708
+    },
+    {
+      "stage": "width",
+      "run_id": "native03_width",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_moe_sd_campaign.py",
+        "--stage",
+        "width",
+        "--run-id",
+        "native03_width",
+        "--attention",
+        "fa4",
+        "--moe-backend",
+        "flashinfer_mxfp4"
+      ],
+      "started_epoch": 1793978882.1229362,
+      "exit_code": 0,
+      "ended_epoch": 1793979922.2018156
+    },
+    {
+      "stage": "routing",
+      "run_id": "native03_routing",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_moe_sd_campaign.py",
+        "--stage",
+        "routing",
+        "--run-id",
+        "native03_routing",
+        "--attention",
+        "fa4",
+        "--moe-backend",
+        "flashinfer_mxfp4"
+      ],
+      "started_epoch": 1793979922.2022204,
+      "exit_code": 0,
+      "ended_epoch": 1793980241.6045294
+    },
+    {
+      "stage": "dense_control",
+      "run_id": "native03_dense_control",
+      "argv": [
+        "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+        "/home/qinghao/profile_spec/run_moe_sd_campaign.py",
+        "--stage",
+        "dense_control",
+        "--run-id",
+        "native03_dense_control",
+        "--attention",
+        "fa4",
+        "--moe-backend",
+        "flashinfer_mxfp4"
+      ],
+      "started_epoch": 1793980241.6049588,
+      "exit_code": 0,
+      "ended_epoch": 1793980992.0348585
+    }
+  ],
+  "started_epoch": 1793977217.968035,
+  "dependency_live": false,
+  "dependency_status": "success",
+  "last_checked_epoch": 1793977217.9682174,
+  "current_stage": "dense_control",
+  "ended_epoch": 1793980992.0352318
+}

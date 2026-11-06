@@ -1,0 +1,3 @@
+# Keep generated evidence byte-for-byte; compiler logs and SVG paths contain spaces.
+logs/** -whitespace
+reports/**/*.svg -whitespace

@@ -1,0 +1,120 @@
+{
+  "created_at_UTC": "2026-11-06T04:19:19.009630+00:00",
+  "report_date_Asia_Shanghai": "2026-11-06",
+  "objective": "Measure parallel speculative decoding on GPT-OSS-20B MXFP4 and explain MoE-specific differences versus previous dense Qwen3-8B results.",
+  "hardware": {
+    "GPU_UUID": "GPU-eed4707e-7a00-58e0-4123-1ccbe4326b7a",
+    "GPU": "RTX 5090",
+    "authorized_device_only": true,
+    "TP": 1
+  },
+  "baseline": "Same SGLang target, identical MXFP4 checkpoint, attention backend, KV budget, graph settings; AR before/after each task/BS group.",
+  "inputs": {
+    "datasets": [
+      "gsm8k",
+      "humaneval",
+      "mt_bench"
+    ],
+    "source": "first 16 raw_prompt values from data/jetspec_paper/{dataset}.json",
+    "template": "Frozen target-native Harmony IDs, medium reasoning; date fixed at 2026-11-06 using the Jinja strftime_now override.",
+    "samples": 16,
+    "output_tokens": 128,
+    "ignore_EOS": true,
+    "temperature": 0,
+    "repeats": 3,
+    "frozen_directory": "data/moe_sd_20261106"
+  },
+  "engine": {
+    "offline": true,
+    "HTTP_server": false,
+    "cuda_graph_decode": "full",
+    "graph_buckets": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "prefill_graph": "disabled",
+    "overlap_scheduler": true,
+    "radix_prefix_cache": false,
+    "max_total_tokens": 32768,
+    "context_length": 4096,
+    "chunked_prefill_size": 1024,
+    "moe_backend_requested": "flashinfer_mxfp4",
+    "attention_requested": "fa4"
+  },
+  "planned_stages": {
+    "full": 27,
+    "width": 30,
+    "traces": 9,
+    "routing": 12,
+    "dense_control": 18
+  },
+  "widths": [
+    2,
+    4,
+    8
+  ],
+  "max_batch_sizes": [
+    1,
+    4,
+    16
+  ],
+  "profiling": {
+    "separate_from_headline": true,
+    "warmed_cudaProfilerApi_capture": true,
+    "trace": "CUDA,NVTX,OSRT; graph nodes",
+    "GPU_metrics": "gb20x, 1 kHz",
+    "tokens": 64,
+    "repeats": 1
+  },
+  "routing_diagnostic": {
+    "separate_from_headline": true,
+    "upstream_recorder": "per_pass",
+    "metadata_hook": "moe_sd_routing.py; labels only",
+    "timing_is_instrumented": true
+  },
+  "controls_and_limits": [
+    "Keep load, compilation, warmup and cache flush outside headline timings.",
+    "Preserve output token IDs and AR/SD, cross-width, cross-BS divergences.",
+    "Fixed output throughput is not task quality or natural-EOS application throughput.",
+    "Cross-model dense/MoE comparison confounds architecture, precision, activation count, tokenizer and draft. Use within-model width/BS, measured routing and kernel evidence; do not claim a causal MoE-only speedup delta.",
+    "Unique-expert-weight bytes estimated from routed expert union are an access-footprint proxy, not measured HBM bytes.",
+    "SM active and Tensor active counters do not alone prove compute bound.",
+    "No new GitHub push is authorized by this experiment request.",
+    "GPT-OSS mixes sliding-window and full softmax attention; it has no GDN recurrent-state verification cache. The log phrase Hybrid SWA does not mean hybrid linear attention.",
+    "GPT-OSS uses medium reasoning while the earlier Qwen3-8B cohort used its original non-thinking prompts; acceptance differences also reflect output/content and draft training, not only MoE sparsity."
+  ],
+  "source_sha256": {
+    "parallel_sd_worker.py": "592aeec4e43b9e4f1b87a1569e14b747188fd2ace46e244c7689467cb5f15cad",
+    "run_parallel_sd_cell.py": "3ce22a2a89f2e49d621baa8bd09cf94037b6959a4e3e50faf167dd4b585ede7f",
+    "run_moe_sd_campaign.py": "c4458c4e5dcf0c08cc28537d9ce5cc78f2f755532f67c15acece9608ae61be57",
+    "run_moe_sd_sequence.py": "bffe1db2d9716daf1353c032e0330c97503c8801ab287eb598a761853e685018",
+    "moe_sd_routing.py": "99cc4a1172e339cbbb38107b4627d8547acd588acf76b2c7c896012c7f47294c",
+    "prepare_moe_sd_models.py": "244f69cade81e2409ed411b9f64b5326e7aa5c0b874118a581b25855620c1ae0",
+    "prepare_moe_sd_inputs.py": "27072ad948580c15980911b662ccf180ad3fd42d2aef89015998f78861e29963",
+    "audit_moe_checkpoint_memory.py": "e04d528990fc2281f28c75ce938a1d85cb745e3612aa073fb830852b25037bff",
+    "run_moe_sd_when_idle.py": "b4a67ad994549249af3fa6e7f7089e6f19af254e18f37c13b040d2f742042e5b",
+    "build_moe_sd_report.py": "8381dd0a85e7bba83b68053fb0ac11e151ab91f5e6f668e7a32dc2145158db59"
+  },
+  "sglang_revision": "27aedf7f93cc7ac3bff43e7150e42a3c0baa6957",
+  "stage_order": [
+    "traces",
+    "full",
+    "width",
+    "routing",
+    "dense_control"
+  ],
+  "stage_order_reason": "Establish warmed native FP4 kernel/replay evidence before the long unprofiled benchmark matrix.",
+  "additional_diagnostic": {
+    "run_id": "numerics03",
+    "cells": 4,
+    "samples": 2,
+    "tokens": 128,
+    "repeats": 1,
+    "purpose": "Investigate observed BF16-head AR/SD mismatches at prompt0 token6 and prompt1 token46; preserve headline timings and compare diagnostic outputs to headline.",
+    "dependency": "native03 admission success and process exit",
+    "not_headline": true
+  }
+}

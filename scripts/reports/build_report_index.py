@@ -1,0 +1,54 @@
+"""A compact, descriptive directory of the available experiment reports."""
+import _bootstrap
+from html import escape
+from html.parser import HTMLParser
+from pathlib import Path
+
+REPORTS = _bootstrap.ROOT / "reports"
+
+REPORTS_BY_TOPIC = [
+    ("2026-11-06_moe_parallel_sd.html", "GPT-OSS20B MXFP4：MoE／dense 的 BS 趋势、DFlash、专家路由与 GPU profile"),
+    ("2026-11-06_sd_systems_flow.html", "DFlash／DSpark／JetSpec／JetSpec++：状态机与模块可视化"),
+    ("2026-11-05_verify_components.html", "Verify 算子分解：FFN、QKV/O、attention、LM head 与 tree budget"),
+    ("2026-11-04_psd_scaling.html", "Qwen3-8B：DFlash／Domino／DSpark／DFlash2 的同运行时 BS 基准"),
+    ("2026-11-04_parallel_sd.html", "Parallel SD 总览：checkpoint、宽度、周期、显存与 profile"),
+    ("2026-11-04_psd_width8.html", "同宽度 W8 对照：接受长度与速度的取舍"),
+    ("2026-11-04_psd_adaptive_graph.html", "DSpark：考虑 CUDA Graph bucket 的动态 verify"),
+    ("2026-11-04_psd_adaptive.html", "DSpark：动态 verify／SPS 调度实验"),
+    ("2026-11-04_psd_hybrid.html", "Qwen3.5 hybrid：GDN recurrent state 与 speculative verify"),
+    ("2026-11-04_jetspec_profile.html", "JetSpec：GPU timeline、BS scaling、接受长度与显存"),
+    ("2026-11-04/round_latency.html", "JetSpec：完整 SD round latency 与阶段分解"),
+    ("2026-11-04/bs_phase_scaling.html", "JetSpec：不同 BS 的 NVTX 阶段成本"),
+    ("2026-11-04/sglang_sd_research/report.html", "SGLang 调研：SD 方法、基准入口与合入状态"),
+    ("2026-11-04/parallel_sd_checkpoints/report.html", "Parallel SD checkpoint 与 target model 支持核查"),
+    ("2026-11-04_psd_pilot.html", "SGLang 离线 pilot：运行路径与初步基准"),
+    ("2026-11-03/report.html", "JetSpec 完整实验：七个数据集、BS／tree budget sweep 与 nsys"),
+]
+
+
+class Title(HTMLParser):
+    def __init__(self):
+        super().__init__(); self.inside=False; self.done=False; self.value=""
+    def handle_starttag(self, tag, attrs):
+        if tag == 'title' and not self.done:self.inside=True
+    def handle_endtag(self, tag):
+        if tag == 'title' and self.inside:self.inside=False;self.done=True
+    def handle_data(self, data):
+        if self.inside:self.value+=data
+
+
+def write_index():
+    known={path for path,_ in REPORTS_BY_TOPIC}
+    entries=[(path,label) for path,label in REPORTS_BY_TOPIC if (REPORTS/path).is_file()]
+    # Future dated reports remain discoverable before a curated label is added.
+    for path in sorted(REPORTS.glob('20??-??-??_*.html'),reverse=True):
+        relative=path.name
+        if relative not in known:
+            title=Title();title.feed(path.read_text());entries.append((relative,title.value or path.stem))
+    entries.sort(key=lambda entry:entry[0][:10],reverse=True)
+    rows=''.join(f'<tr><td>{escape(path[:10])}</td><td><a href="{escape(path,quote=True)}">{escape(label)}</a></td></tr>' for path,label in entries)
+    content='''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Parallel SD · 实验报告</title><style>body{font:16px/1.6 system-ui;max-width:1100px;margin:32px auto;padding:20px;color:#203247}h1{font-size:26px}table{border-collapse:collapse;width:100%}td,th{padding:11px 12px;border-bottom:1px solid #e2e8ef;text-align:left}td:first-child{white-space:nowrap;color:#64748b;width:110px}a{color:#126d85;text-decoration:none}a:hover{text-decoration:underline}@media(max-width:600px){body{margin:0;padding:14px}td,th{padding:9px 6px;font-size:14px}}</style></head><body><h1>Parallel SD · 实验报告</h1><table><thead><tr><th>实验日期</th><th>报告链接与内容</th></tr></thead><tbody>'''+rows+'''</tbody></table></body></html>'''
+    (REPORTS/'index.html').write_text(content)
+
+
+if __name__=='__main__':write_index()

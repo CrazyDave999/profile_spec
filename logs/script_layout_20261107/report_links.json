@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "reports": [
+    {
+      "report": "reports/index.html",
+      "links": 16,
+      "missing": [],
+      "duplicate_ids": [],
+      "local_only_profiler_links": []
+    },
+    {
+      "report": "reports/2026-11-06_moe_parallel_sd.html",
+      "links": 33,
+      "missing": [],
+      "duplicate_ids": [],
+      "local_only_profiler_links": [
+        "../profiles/moe_sd_20261106/representative_traces.zip"
+      ]
+    },
+    {
+      "report": "reports/2026-11-06_sd_systems_flow.html",
+      "links": 30,
+      "missing": [],
+      "duplicate_ids": [],
+      "local_only_profiler_links": []
+    }
+  ],
+  "BS_trend_tables_present": true
+}

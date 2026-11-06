@@ -1,0 +1,124 @@
+{
+  "status": "success",
+  "pid": 798453,
+  "process_start_time": 1793979022.99,
+  "dependencies": [
+    {
+      "file": "/home/qinghao/profile_spec/logs/moe_sd_20261106/numerics03.numerics.json",
+      "pid": 790754,
+      "process_start_time": 1793978243.08,
+      "live": false,
+      "status": "success"
+    },
+    {
+      "file": "/home/qinghao/profile_spec/logs/moe_sd_20261106/native03.analysis_watch_a02.json",
+      "pid": 781843,
+      "process_start_time": 1793977635.53,
+      "live": false,
+      "status": "success"
+    }
+  ],
+  "started_epoch": 1793979023.2364683,
+  "commands": [
+    {
+      "argv": [
+        ".venv-sglang/bin/python",
+        "analyze_moe_sd.py",
+        "--sequence",
+        "native03"
+      ],
+      "log": "logs/moe_sd_20261106/native03.finalization_a01.00.log",
+      "started_epoch": 1793981103.492495,
+      "exit_code": 0,
+      "ended_epoch": 1793981103.9483373
+    },
+    {
+      "argv": [
+        ".venv-sglang/bin/python",
+        "analyze_moe_traces.py",
+        "--sequence",
+        "native03"
+      ],
+      "log": "logs/moe_sd_20261106/native03.finalization_a01.01.log",
+      "started_epoch": 1793981103.9487715,
+      "exit_code": 0,
+      "ended_epoch": 1793981110.2067637
+    },
+    {
+      "argv": [
+        ".venv-sglang/bin/python",
+        "analyze_moe_components.py",
+        "--sequence",
+        "native03"
+      ],
+      "log": "logs/moe_sd_20261106/native03.finalization_a01.02.log",
+      "started_epoch": 1793981110.2070122,
+      "exit_code": 0,
+      "ended_epoch": 1793981114.4013786
+    },
+    {
+      "argv": [
+        ".venv-sglang/bin/python",
+        "analyze_moe_routing.py",
+        "--sequence",
+        "native03"
+      ],
+      "log": "logs/moe_sd_20261106/native03.finalization_a01.03.log",
+      "started_epoch": 1793981114.4018753,
+      "exit_code": 0,
+      "ended_epoch": 1793981115.976911
+    },
+    {
+      "argv": [
+        ".venv-sglang/bin/python",
+        "analyze_moe_numerics.py",
+        "--run-id",
+        "numerics03",
+        "--headline-sequence",
+        "native03"
+      ],
+      "log": "logs/moe_sd_20261106/native03.finalization_a01.04.log",
+      "started_epoch": 1793981115.9772558,
+      "exit_code": 0,
+      "ended_epoch": 1793981119.3474975
+    },
+    {
+      "argv": [
+        ".venv/bin/python",
+        "package_moe_sd_traces.py",
+        "--sequence",
+        "native03"
+      ],
+      "log": "logs/moe_sd_20261106/native03.finalization_a01.05.log",
+      "started_epoch": 1793981119.3480513,
+      "exit_code": 0,
+      "ended_epoch": 1793981120.56997
+    },
+    {
+      "argv": [
+        ".venv/bin/python",
+        "build_moe_sd_report.py"
+      ],
+      "log": "logs/moe_sd_20261106/native03.finalization_a01.06.log",
+      "started_epoch": 1793981120.570462,
+      "exit_code": 0,
+      "ended_epoch": 1793981121.9071035
+    },
+    {
+      "argv": [
+        ".venv/bin/python",
+        "audit_moe_sd_campaign.py",
+        "--sequence",
+        "native03",
+        "--numerics",
+        "numerics03"
+      ],
+      "log": "logs/moe_sd_20261106/native03.finalization_a01.07.log",
+      "started_epoch": 1793981121.9074507,
+      "exit_code": 0,
+      "ended_epoch": 1793981122.419163
+    }
+  ],
+  "last_checked_epoch": 1793981103.4922147,
+  "ended_epoch": 1793981122.4195745
+}

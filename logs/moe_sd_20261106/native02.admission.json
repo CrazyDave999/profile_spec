@@ -1,0 +1,16 @@
+{
+  "status": "admission_process_gone_before_GPU_admission",
+  "pid": 212516,
+  "process_start_time": 1793938997.1,
+  "GPU_UUID": "GPU-eed4707e-7a00-58e0-4123-1ccbe4326b7a",
+  "started_epoch": 1793938997.4120083,
+  "smoke_run_id": "smoke02",
+  "sequence_run_id": "native02",
+  "foreign_GPU_pids": [
+    211034
+  ],
+  "last_checked_epoch": 1793939755.736096,
+  "idle_seconds": 0,
+  "observed_missing_epoch": 1793977133.2945,
+  "observation": "Recorded PID absent; no smoke02 or native02 sequence artifacts exist. Safe to launch a fresh attempt after checking current NVML occupancy."
+}

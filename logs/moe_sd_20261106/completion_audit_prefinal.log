@@ -1,0 +1,170 @@
+{
+  "sequence": "native03",
+  "checked_epoch": 1793980710.171541,
+  "achieved": false,
+  "successful_main_cells": 88,
+  "headline_cells": 67,
+  "profile_cells": 9,
+  "routing_cells": 12
+}
+[
+  {
+    "requirement": "dense_control complete matrix",
+    "achieved": false,
+    "evidence": {
+      "expected": 18,
+      "campaign_status": "running",
+      "cells": [
+        {
+          "case": "native03_dense_control_00_ar_gsm8k_bs1_w1",
+          "state": "success",
+          "protocol_matches": true,
+          "result_SHA256": "0a64c9527087f2ed627daaf364874e1b2f4c675e645058201b16716af2e0fa27"
+        },
+        {
+          "case": "native03_dense_control_01_dflash_gsm8k_bs1_w8",
+          "state": "success",
+          "protocol_matches": true,
+          "result_SHA256": "32092e01ea3158c5b214905d115fb9fb27c7f89fe95da93f284e1358e25b0dfd"
+        },
+        {
+          "case": "native03_dense_control_02_ar_gsm8k_bs1_w1",
+          "state": "success",
+          "protocol_matches": true,
+          "result_SHA256": "86b6332506ba5d5b5fd98f7fe78e2bf4f270f3e888032bc78087d21eec6f6f37"
+        },
+        {
+          "case": "native03_dense_control_03_ar_gsm8k_bs4_w1",
+          "state": "success",
+          "protocol_matches": true,
+          "result_SHA256": "672eda4dcc5e93cfe2cb5d26071e86c6c9c329a5e98b7afc2cce7529b61be4ba"
+        },
+        {
+          "case": "native03_dense_control_04_dflash_gsm8k_bs4_w8",
+          "state": "success",
+          "protocol_matches": true,
+          "result_SHA256": "0d6faf1af8b8a223915d63adc09d2e8e9e3a9c6673781428896d42a31dfd693c"
+        },
+        {
+          "case": "native03_dense_control_05_ar_gsm8k_bs4_w1",
+          "state": "success",
+          "protocol_matches": true,
+          "result_SHA256": "8108e9b394ad2656a6723886fc02eeea6f80ca87f689a0dac4f5a9456906e85e"
+        },
+        {
+          "case": "native03_dense_control_06_ar_gsm8k_bs16_w1",
+          "state": "success",
+          "protocol_matches": true,
+          "result_SHA256": "17078454b83302c6a7a30d0fe89ddec881bb62a235c59ac966e438d20a4e2d28"
+        },
+        {
+          "case": "native03_dense_control_07_dflash_gsm8k_bs16_w8",
+          "state": "success",
+          "protocol_matches": true,
+          "result_SHA256": "a6b561af304cce850a8f7b212252a7fcdd1955c8e5fc3676eebfffd6590f211d"
+        },
+        {
+          "case": "native03_dense_control_08_ar_gsm8k_bs16_w1",
+          "state": "success",
+          "protocol_matches": true,
+          "result_SHA256": "733babb2bd1d89c6e0e0c4932112578499c517cebd955230aa65c8b9e75ea45e"
+        },
+        {
+          "case": "native03_dense_control_09_ar_mt_bench_bs1_w1",
+          "state": "success",
+          "protocol_matches": true,
+          "result_SHA256": "bf5340cb94102f21e9337ae2592674b26a8ec2ade71d6e99c79a20ee1f3cedd1"
+        },
+        {
+          "case": "native03_dense_control_10_dflash_mt_bench_bs1_w8",
+          "state": "running"
+        },
+        {
+          "case": "native03_dense_control_11_ar_mt_bench_bs1_w1",
+          "state": "missing"
+        },
+        {
+          "case": "native03_dense_control_12_ar_mt_bench_bs4_w1",
+          "state": "missing"
+        },
+        {
+          "case": "native03_dense_control_13_dflash_mt_bench_bs4_w8",
+          "state": "missing"
+        },
+        {
+          "case": "native03_dense_control_14_ar_mt_bench_bs4_w1",
+          "state": "missing"
+        },
+        {
+          "case": "native03_dense_control_15_ar_mt_bench_bs16_w1",
+          "state": "missing"
+        },
+        {
+          "case": "native03_dense_control_16_dflash_mt_bench_bs16_w8",
+          "state": "missing"
+        },
+        {
+          "case": "native03_dense_control_17_ar_mt_bench_bs16_w1",
+          "state": "missing"
+        }
+      ]
+    }
+  },
+  {
+    "requirement": "All 75 headline cells summarized with both AR bookends",
+    "achieved": false,
+    "evidence": {
+      "rows": 67,
+      "max_AR_drift": 0.0012936035163533255,
+      "max_repeat_CV": 0.02488973080023306
+    }
+  },
+  {
+    "requirement": "Bookends, BS, width and repeated-cohort output comparisons retained",
+    "achieved": false,
+    "evidence": {
+      "width_2_to_8": 6,
+      "batch_size_1_to_16": 16,
+      "repeated_width8_cohort": 6,
+      "AR_bookends": 18,
+      "batch_size_1_to_4": 16,
+      "width_2_to_4": 6
+    }
+  },
+  {
+    "requirement": "numerics03 completed independent diagnostic cells",
+    "achieved": false,
+    "evidence": {
+      "expected": 4,
+      "success": 0
+    }
+  },
+  {
+    "requirement": "Numerical diagnostics analyzed separately from headline",
+    "achieved": false,
+    "evidence": null
+  },
+  {
+    "requirement": "Five representative traces packaged with verified ZIP and SHA256",
+    "achieved": false,
+    "evidence": {
+      "bundle": "profiles/moe_sd_20261106/representative_traces.zip",
+      "MiB": 14.709916114807129
+    }
+  },
+  {
+    "requirement": "native03.admission.json successful controller termination",
+    "achieved": false,
+    "evidence": "running_sequence"
+  },
+  {
+    "requirement": "native03.sequence.json successful controller termination",
+    "achieved": false,
+    "evidence": "running"
+  },
+  {
+    "requirement": "Report covers headline, dense comparison, routing, width and numerical limits",
+    "achieved": false,
+    "evidence": null
+  }
+]

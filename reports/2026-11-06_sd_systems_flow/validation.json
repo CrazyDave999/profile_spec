@@ -1,0 +1,63 @@
+{
+  "format": "four landscape SVG statecharts with linked model cards",
+  "sections": [
+    {
+      "id": "dflash",
+      "states": 6,
+      "transitions": 11,
+      "model_cards": 2,
+      "width": 1658,
+      "height": 1355
+    },
+    {
+      "id": "dspark",
+      "states": 7,
+      "transitions": 14,
+      "model_cards": 3,
+      "width": 1658,
+      "height": 1355
+    },
+    {
+      "id": "jetspec",
+      "states": 9,
+      "transitions": 14,
+      "model_cards": 2,
+      "width": 1658,
+      "height": 1355
+    },
+    {
+      "id": "jetspecpp",
+      "states": 9,
+      "transitions": 17,
+      "model_cards": 3,
+      "width": 1658,
+      "height": 1355
+    }
+  ],
+  "unique_ids": true,
+  "local_links": "passed",
+  "state_and_card_text_overflow": [],
+  "navigation": "passed",
+  "standalone_svg": "passed",
+  "model_badge_links": "passed",
+  "print_pages": 4,
+  "print_overflow": [
+    {
+      "id": "dflash",
+      "overflow": false
+    },
+    {
+      "id": "dspark",
+      "overflow": false
+    },
+    {
+      "id": "jetspec",
+      "overflow": false
+    },
+    {
+      "id": "jetspecpp",
+      "overflow": false
+    }
+  ],
+  "javascript_errors": []
+}

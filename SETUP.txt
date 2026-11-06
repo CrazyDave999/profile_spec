@@ -32,17 +32,17 @@ Hardware and dependencies
 
 Use
   source /home/qinghao/profile_spec/env.sh
-  python /home/qinghao/profile_spec/smoke_5090.py
+  python /home/qinghao/profile_spec/scripts/experiments/smoke_5090.py
   /home/qinghao/profile_spec/bench_5090.sh
 
   A longer experiment, using the same launch script:
   /home/qinghao/profile_spec/bench_5090.sh --samples 32 --max-tokens 512
 
   Recreate Python dependencies:
-  /home/qinghao/profile_spec/setup_env.sh
+  /home/qinghao/profile_spec/scripts/setup/setup_env.sh
   Resume/recreate model downloads at the recorded revisions:
   source /home/qinghao/profile_spec/env.sh
-  python /home/qinghao/profile_spec/download_models.py
+  python /home/qinghao/profile_spec/scripts/setup/download_models.py
 
 Validated execution paths
   Single-GPU JetSpec tree drafting, BF16 target and draft, thinking disabled.
@@ -91,7 +91,7 @@ Correctness observation
   Preserve this observation when comparing accuracy or claiming losslessness.
   Reproduce the eager diagnostic:
   source /home/qinghao/profile_spec/env.sh
-  python /home/qinghao/profile_spec/diagnose_divergence.py
+  python /home/qinghao/profile_spec/scripts/analysis/diagnose_divergence.py
   Evidence: logs/divergence_5090.json, logs/smoke_eager_5090.json,
   logs/smoke_graphed_5090.json.
 
@@ -102,7 +102,7 @@ Future multi-GPU work
   the two-GPU JetSpec++ engine runs on this GPU pair.
 
 Runtime feature audit (after migration)
-  python profile_workload.py
+  python scripts/experiments/profile_workload.py
   Evidence: logs/feature_audit_5090.json.
   Target verify graph bucket: 128; draft context graph bucket: 512;
   AR graph bucket: 1. Session and graph memory pools reused across requests.
@@ -178,10 +178,10 @@ Overnight profiling campaign, 2026-11-03
   samples, not per-kernel Nsight Compute occupancy measurements.
   Rebuild and verify:
     source env.sh
-    python analyze_gpu_counters.py
-    python inspect_kv_reservation.py
-    python build_overnight_report.py --package
-    python audit_overnight.py
+    python scripts/analysis/analyze_gpu_counters.py
+    python scripts/analysis/inspect_kv_reservation.py
+    python scripts/reports/build_overnight_report.py --package
+    python scripts/analysis/audit_overnight.py
   The audit checks the full dataset/BS matrix, real batched forward shapes,
   AR-only memory baselines, every SQLite export, all report links and ZIP CRC.
   KV layout finding: current native per-layer pools reserve the entire
@@ -207,8 +207,8 @@ Parallel SD / SGLang, 2026-11-04
   Optional Rust extensions were not built; GPU SD kernels remain enabled.
   The pip CUDA toolkit uses NVCC/CRT/NVVM 13.0.88, CCCL 13.0.85 and
   runtime 13.0.96. Do not mix newer compiler headers into this toolkit.
-  setup_sglang_env.sh creates local lib64/cudart links and applies the
-  glibc 2.43 rsqrt noexcept declaration fix with patch_cuda_glibc.py.
+  scripts/setup/setup_sglang_env.sh creates local lib64/cudart links and applies the
+  glibc 2.43 rsqrt noexcept declaration fix with scripts/setup/patch_cuda_glibc.py.
   No CUDA kernel math is changed; logs/cuda_glibc_compatibility.json records
   the header hashes. The JetSpec .venv remains separate.
   On SM120 the hybrid GDN wrapper rejects FA4 as the target full-attention
@@ -225,13 +225,13 @@ Parallel SD / SGLang, 2026-11-04
 
   Example fresh runs (choose unused run IDs; GPU work is serialized):
     source env_sglang.sh
-    python run_parallel_sd_campaign.py --stage full --run-id repro_full
-    python run_parallel_sd_campaign.py --stage traces --run-id repro_traces
-    python run_parallel_sd_campaign.py --stage hybrid --run-id repro_hybrid
-    python run_parallel_sd_campaign.py --stage width8 --run-id repro_width8
-    python run_parallel_sd_campaign.py --stage numerics --run-id repro_numerics
-    python run_parallel_sd_campaign.py --stage sps --run-id repro_sps
-    python run_parallel_sd_campaign.py --stage adaptive --run-id repro_adaptive \
+    python scripts/experiments/run_parallel_sd_campaign.py --stage full --run-id repro_full
+    python scripts/experiments/run_parallel_sd_campaign.py --stage traces --run-id repro_traces
+    python scripts/experiments/run_parallel_sd_campaign.py --stage hybrid --run-id repro_hybrid
+    python scripts/experiments/run_parallel_sd_campaign.py --stage width8 --run-id repro_width8
+    python scripts/experiments/run_parallel_sd_campaign.py --stage numerics --run-id repro_numerics
+    python scripts/experiments/run_parallel_sd_campaign.py --stage sps --run-id repro_sps
+    python scripts/experiments/run_parallel_sd_campaign.py --stage adaptive --run-id repro_adaptive \
       --sps-table logs/parallel_sd_20261104/repro_sps.sps.json
   Before starting a campaign, inspect the existing campaign/sequence PID and
   creation time. A log or timeout alone does not establish that work stopped.
@@ -250,13 +250,13 @@ Parallel SD / SGLang, 2026-11-04
   Small result JSON, job states and analysis: logs/parallel_sd_20261104/.
   Rebuild summaries using the existing artifact run IDs:
     source env.sh
-    python audit_parallel_sd_memory.py
-    python analyze_parallel_sd.py --run-id full01 --slug psd_scaling
-    python summarize_sglang_traces.py --run-id follow01_traces
-    python build_parallel_sd_report.py
+    python scripts/analysis/audit_parallel_sd_memory.py
+    python scripts/analysis/analyze_parallel_sd.py --run-id full01 --slug psd_scaling
+    python scripts/analysis/summarize_sglang_traces.py --run-id follow01_traces
+    python scripts/reports/build_parallel_sd_report.py
   Audit with the SGLang environment:
     source env_sglang.sh
-    python audit_parallel_sd_campaigns.py full01 --require-complete
+    python scripts/analysis/audit_parallel_sd_campaigns.py full01 --require-complete
   Trace analysis separates host NVTX from GPU execution and groups forward
   cost by observed NVTX BS. Decode envelopes split at prefill boundaries;
   the whole capture window can contain multiple prefill/request waves.
@@ -275,25 +275,25 @@ Parallel SD / SGLang, 2026-11-04
       using a separate graph-bucket-aligned representation of the same SPS.
   The last representation uses lookup interval starts [1,9,17,33,65] for
   measured graph sizes [8,16,32,64,128]. These are interval boundaries, not
-  newly measured sizes. align_sps_graph_buckets.py records the mapping proof.
+  newly measured sizes. scripts/setup/align_sps_graph_buckets.py records the mapping proof.
   Static observer num_verify_tokens is raw rows; compact's is the padded
-  layout graph size. analyze_dspark_schedule.py accounts for this difference.
+  layout graph size. scripts/analysis/analyze_dspark_schedule.py accounts for this difference.
   Fine-grained scheduling records include warmup and are separate from the
   headline request timings, which exclude warmup.
 
   Rebuild additional analyses in the appropriate fresh shell:
     source env_sglang.sh
-    python analyze_sd_numerics.py --run-id refine03_numerics --decode
+    python scripts/analysis/analyze_sd_numerics.py --run-id refine03_numerics --decode
     source env.sh
-    python analyze_parallel_sd.py --run-id hybrid03 --slug psd_hybrid
-    python analyze_parallel_sd.py --run-id refine03_width8 --slug psd_width8
-    python analyze_parallel_sd.py --run-id refine03_adaptive --slug psd_adaptive
-    python analyze_parallel_sd.py --run-id graphaware01_adaptive --slug psd_adaptive_graph
-    python analyze_dspark_schedule.py --run-id refine03_adaptive
-    python analyze_dspark_schedule.py --run-id graphaware01_adaptive
-    python analyze_adaptive_tail.py --run-id graphaware01_adaptive
-    python audit_hybrid_memory.py --run-id hybrid03
-    python build_parallel_sd_report.py
+    python scripts/analysis/analyze_parallel_sd.py --run-id hybrid03 --slug psd_hybrid
+    python scripts/analysis/analyze_parallel_sd.py --run-id refine03_width8 --slug psd_width8
+    python scripts/analysis/analyze_parallel_sd.py --run-id refine03_adaptive --slug psd_adaptive
+    python scripts/analysis/analyze_parallel_sd.py --run-id graphaware01_adaptive --slug psd_adaptive_graph
+    python scripts/analysis/analyze_dspark_schedule.py --run-id refine03_adaptive
+    python scripts/analysis/analyze_dspark_schedule.py --run-id graphaware01_adaptive
+    python scripts/analysis/analyze_adaptive_tail.py --run-id graphaware01_adaptive
+    python scripts/analysis/audit_hybrid_memory.py --run-id hybrid03
+    python scripts/reports/build_parallel_sd_report.py
   The original worker used by full01/traces and the later worker with hybrid
   fixes are archived under logs/parallel_sd_20261104/worker_sources/ by exact
   SHA256. The width comparison verifies the Qwen3-8B worker AST is unchanged
@@ -325,3 +325,13 @@ Publication and X5 handoff (2026-11-06, Asia/Shanghai)
   quantized Qwen MoE, or larger targets with TP2) remain unmeasured locally.
   Keep AR/SD target weights, precision and hardware allocation matched, and
   record topology/communication costs separately from the single-GPU results.
+
+2026-11-07 repository organization (Asia/Shanghai)
+  Python tools moved from the root into scripts/analysis, scripts/experiments,
+  scripts/reports and scripts/setup. Setup shell scripts are in scripts/setup.
+  Current command examples above follow those paths; original experimental
+  JSON, source snapshots and recorded commands retain their original spelling.
+  scripts/layout.json records the move, and scripts/analysis/audit_script_layout.py
+  checks paths and AST equivalence for the two inference workers.
+  Root env.sh / env_sglang.sh and bench_5090.sh / profile_5090.sh remain entrypoints.
+  Report index: reports/index.html (compact experiment descriptions and links).

@@ -1,0 +1,39 @@
+{
+  "state": "success",
+  "argv": [
+    "/home/qinghao/profile_spec/.venv-sglang/bin/python",
+    "/home/qinghao/profile_spec/parallel_sd_worker.py",
+    "--target",
+    "qwen3-8b",
+    "--method",
+    "ar",
+    "--dataset",
+    "gsm8k",
+    "--bs",
+    "1",
+    "--samples",
+    "16",
+    "--tokens",
+    "128",
+    "--repeats",
+    "3",
+    "--attention",
+    "fa4",
+    "--output",
+    "/home/qinghao/profile_spec/logs/moe_sd_20261106/native03_dense_control_00_ar_gsm8k_bs1_w1.json"
+  ],
+  "result": "/home/qinghao/profile_spec/logs/moe_sd_20261106/native03_dense_control_00_ar_gsm8k_bs1_w1.json",
+  "log": "/home/qinghao/profile_spec/logs/moe_sd_20261106/native03_dense_control_00_ar_gsm8k_bs1_w1.log",
+  "started_epoch": 1793980241.7102349,
+  "pid": 811006,
+  "process_start_time": 1793980241.51,
+  "exit_code": 0,
+  "ended_epoch": 1793980326.7340207,
+  "worker_status": "success",
+  "owned_process_start_times": {
+    "811006": 1793980241.51,
+    "811072": 1793980246.68,
+    "811073": 1793980246.68,
+    "811074": 1793980246.68
+  }
+}

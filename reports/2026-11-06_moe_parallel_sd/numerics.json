@@ -1,0 +1,245 @@
+{
+  "run_id": "numerics03",
+  "status": "success",
+  "successful_cells": 4,
+  "comparisons": [
+    {
+      "enable_fp32_lm_head": false,
+      "samples": 2,
+      "exact_prompts": 0,
+      "prompts": [
+        {
+          "prompt": 0,
+          "equal": false,
+          "first_mismatch": 6,
+          "AR_token_id": 8420,
+          "SD_token_id": 23864,
+          "AR_token_text": " parse",
+          "SD_token_text": " compute",
+          "AR_top5": [
+            [
+              -1.23332679271698,
+              8420,
+              null
+            ],
+            [
+              -1.23332679271698,
+              23864,
+              null
+            ],
+            [
+              -2.2333269119262695,
+              18135,
+              null
+            ],
+            [
+              -2.4833269119262695,
+              17950,
+              null
+            ],
+            [
+              -2.9833269119262695,
+              1646,
+              null
+            ]
+          ],
+          "SD_top5": [
+            [
+              -1.17919921875,
+              23864,
+              null
+            ],
+            [
+              -1.30419921875,
+              8420,
+              null
+            ],
+            [
+              -2.30419921875,
+              17950,
+              null
+            ],
+            [
+              -2.42919921875,
+              18135,
+              null
+            ],
+            [
+              -2.92919921875,
+              1646,
+              null
+            ]
+          ],
+          "AR_top2_logprob_margin": 0.0,
+          "SD_top2_logprob_margin": 0.125,
+          "common_prefix_tail": "<|channel|>analysis<|message|>We need to"
+        },
+        {
+          "prompt": 1,
+          "equal": false,
+          "first_mismatch": 46,
+          "AR_token_id": 11,
+          "SD_token_id": 326,
+          "AR_token_text": ",",
+          "SD_token_text": " and",
+          "AR_top5": [
+            [
+              -1.0443379878997803,
+              11,
+              null
+            ],
+            [
+              -1.0443379878997803,
+              326,
+              null
+            ],
+            [
+              -1.4193379878997803,
+              13,
+              null
+            ],
+            [
+              -3.4193379878997803,
+              2932,
+              null
+            ],
+            [
+              -4.294338226318359,
+              26,
+              null
+            ]
+          ],
+          "SD_top5": [
+            [
+              -0.9772549867630005,
+              326,
+              null
+            ],
+            [
+              -1.1022549867630005,
+              11,
+              null
+            ],
+            [
+              -1.4772549867630005,
+              13,
+              null
+            ],
+            [
+              -3.227254867553711,
+              2932,
+              null
+            ],
+            [
+              -4.227254867553711,
+              26,
+              null
+            ]
+          ],
+          "AR_top2_logprob_margin": 0.0,
+          "SD_top2_logprob_margin": 0.125,
+          "common_prefix_tail": " that much white fiber. How many bolts in total does it take?\" So a robe uses 2 bolts of blue fiber"
+        }
+      ]
+    },
+    {
+      "enable_fp32_lm_head": true,
+      "samples": 2,
+      "exact_prompts": 1,
+      "prompts": [
+        {
+          "prompt": 0,
+          "equal": false,
+          "first_mismatch": 6,
+          "AR_token_id": 8420,
+          "SD_token_id": 23864,
+          "AR_token_text": " parse",
+          "SD_token_text": " compute",
+          "AR_top5": [
+            [
+              -1.2320226430892944,
+              8420,
+              null
+            ],
+            [
+              -1.249289870262146,
+              23864,
+              null
+            ],
+            [
+              -2.274749279022217,
+              18135,
+              null
+            ],
+            [
+              -2.4543070793151855,
+              17950,
+              null
+            ],
+            [
+              -2.9511427879333496,
+              1646,
+              null
+            ]
+          ],
+          "SD_top5": [
+            [
+              -1.1730473041534424,
+              23864,
+              null
+            ],
+            [
+              -1.3021233081817627,
+              8420,
+              null
+            ],
+            [
+              -2.354315996170044,
+              17950,
+              null
+            ],
+            [
+              -2.3823540210723877,
+              18135,
+              null
+            ],
+            [
+              -2.975184679031372,
+              1646,
+              null
+            ]
+          ],
+          "AR_top2_logprob_margin": 0.017267227172851562,
+          "SD_top2_logprob_margin": 0.1290760040283203,
+          "common_prefix_tail": "<|channel|>analysis<|message|>We need to"
+        },
+        {
+          "prompt": 1,
+          "equal": true,
+          "first_mismatch": null
+        }
+      ]
+    }
+  ],
+  "BF16_logprob_vs_headline": [
+    {
+      "method": "ar",
+      "requests": 2,
+      "exact_requests": 2,
+      "headline_reference": "logs/moe_sd_20261106/native03_full_00_ar_gsm8k_bs1_w1.json"
+    },
+    {
+      "method": "dflash",
+      "requests": 2,
+      "exact_requests": 2,
+      "headline_reference": "logs/moe_sd_20261106/native03_full_01_dflash_gsm8k_bs1_w8.json"
+    }
+  ],
+  "source_sha256": {
+    "logs/moe_sd_20261106/numerics03_00_ar_headfp32_0.json": "58564ea6500535c9d9ba0af9b0e9592c32bc3806b9a6a40c12f3541b94f82f08",
+    "logs/moe_sd_20261106/numerics03_01_dflash_headfp32_0.json": "31bfa1ce375c528fbe5f686bc9f7e5a359944c7f034b9e00b737e1f15633f3b1",
+    "logs/moe_sd_20261106/numerics03_02_ar_headfp32_1.json": "8a219872d065ac35af369372ce35a46c825e94c858a4a96a8fc2ba9646d626b8",
+    "logs/moe_sd_20261106/numerics03_03_dflash_headfp32_1.json": "8dc1c62aea8a58675339d2ac8d3b32df0181adb95292ee48b65cdb3e7e58b74c"
+  },
+  "scope": "Two GSM8K prompts deliberately chosen because the headline BF16-head AR/SD results differ. Logprob and FP32-head paths are diagnostics, never timing arms; compare logits only at first divergence while prefixes match. FP32 head does not make the MXFP4/FP8/BF16 backbone fully FP32 and does not prove general quality or distribution equivalence."
+}

@@ -1,0 +1,91 @@
+{
+  "updated_UTC": "2026-11-06T15:20:06.391463+00:00",
+  "goal_status": "active: GPU admitted, smoke and all 9 warmed traces successful; formal matrix running.",
+  "completed": [
+    "Downloaded and pinned native MXFP4 GPT-OSS-20B and native DFlash checkpoint in external HF cache.",
+    "Recorded checkpoint eligibility survey; no matching public Domino/DSpark found by the recorded searches, DFlare architecture absent from pinned SGLang.",
+    "Prepared serialized offline benchmark, width sweep, nsys and expert-recording stages plus dense controls.",
+    "Added per-pass routing labels and CPU-only expert-footprint analysis.",
+    "Compiled and linked FlashInfer fused_moe_120 in a CPU-only resume; added the missing unversioned NVRTC linker alias in isolated .venv-sglang, with setup reproducibility."
+  ],
+  "current_attempt": {
+    "admission": "native03.admission.json",
+    "sequence": "native03.sequence.json",
+    "smoke": "smoke03",
+    "analysis": "native03.analysis_watch_a02.json",
+    "numerics": "numerics03.numerics.json"
+  },
+  "previous_attempt": {
+    "smoke": "smoke01",
+    "state": "yielded to foreign GPU process 211034, user junxian; not an inference/kernel failure",
+    "sequence": "native01; dependency_failed, no matrix launched"
+  },
+  "outstanding": [
+    "Finish native03 full, width, routing and dense_control stages.",
+    "Finish numerics03 queued after native03 admission exits successfully; analyze known AR/SD discrepancies separately from throughput.",
+    "Analyze routing/coverage, per-expert load, target components, request/wave tails and precision/architecture confounds.",
+    "Validate reports/figures/links, source and artifact hashes, ZIP contents, graph features and every planned cell; then explain measured conclusions in session."
+  ],
+  "next_inspection": "Verify admission PID creation time and NVML GPU occupancy. The live waiting handle is not a terminal failure. A CPU-only ninja build resumes the interrupted fused_moe_120 cache under the FlashInfer lock.",
+  "git": "No push authorized for this experiment.",
+  "current_wait": {
+    "status": "waiting_for_idle_GPU",
+    "pid": 212516,
+    "process_start_time": 1793938997.1,
+    "GPU_UUID": "GPU-eed4707e-7a00-58e0-4123-1ccbe4326b7a",
+    "started_epoch": 1793938997.4120083,
+    "smoke_run_id": "smoke02",
+    "sequence_run_id": "native02",
+    "foreign_GPU_pids": [
+      211034,
+      219900
+    ],
+    "last_checked_epoch": 1793939637.6922772,
+    "idle_seconds": 0
+  },
+  "SM120_MoE_library": ".cache/sglang-cu130/.cache/flashinfer/0.7.2/120f/cached_ops/fused_moe_120/fused_moe_120.so",
+  "previous_goal_turn_classification": "progress: downloads, native build, serialized experiment infrastructure, and a verified live GPU-admission wait.",
+  "this_turn_progress": [
+    "Verified native fused_moe_120 shared-library dependencies resolve with no missing libraries.",
+    "Audited actual checkpoint storage: 8.899 GiB packed FP4 expert values, 0.556 GiB expert scales, total target tensors 12.816 GiB.",
+    "Prepared and verified fixed-date Harmony input IDs for 32 prompts per dataset so delayed execution cannot change template inputs.",
+    "Added an auditable checkpoint memory ledger and storage figure to the dated report."
+  ],
+  "waiting_for_user_information": "Optional: asked user for an exclusive X6 GPU availability window; autonomous idle watcher remains active.",
+  "blocked_audit": "blocked_audit.json",
+  "latest_completed": [
+    "Native SM120 FP4/FP8 block-scaled Tensor Core GEMMs proven in warmed CUDA kernels; full demangled names and graph replay evidence retained.",
+    "smoke03 AR/DFlash both successful.",
+    "native03_traces all 9 cases successful.",
+    "GSM8K full benchmark groups BS1/4/16 complete, with AR bookends and 3 repeats.",
+    "Representative 5-trace ZIP prepared at profiles/moe_sd_20261106/representative_traces.zip (~14.71 MiB)."
+  ],
+  "preliminary_GSM8K": {
+    "gain_BS1_4_16": [
+      1.6488890467507893,
+      1.8045413703201927,
+      2.0369973155618344
+    ],
+    "tau_BS1_4_16": [
+      4.130081300813008,
+      4.130081300813008,
+      4.163934426229508
+    ],
+    "interpretation": "MoE gain increases across these tested batch sizes, opposite to prior dense trend; verify with full tasks, width and route-count evidence before final claims."
+  },
+  "user_concurrent_files_to_preserve": [
+    "build_sd_state_report.py",
+    "reports/2026-11-06_sd_systems_flow.html",
+    "reports/2026-11-06_sd_systems_flow/"
+  ],
+  "last_verified_epoch": 1793981218.070319,
+  "current_state": "All 102 cells succeeded: 75 unprofiled benchmarks, 9 warmed traces, 12 routing diagnostics, 4 numerical diagnostics and 2 smoke cells. Final audit, figure review, bundle CRC/SHA and report links verified.",
+  "new_analysis_artifacts": [
+    "moe_sd_findings.py",
+    "audit_moe_sd_campaign.py",
+    "finalize_moe_sd.py"
+  ],
+  "completion": "verified",
+  "completion_audit": "logs/moe_sd_20261106/completion_audit.json",
+  "final_report": "reports/2026-11-06_moe_parallel_sd.html"
+}

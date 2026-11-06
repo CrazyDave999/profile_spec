@@ -1,0 +1,36 @@
+{
+  "checked_epoch": 1793981076.0719767,
+  "checks": [
+    {
+      "plot": "reports/2026-11-06_moe_parallel_sd/scaling.png",
+      "SHA256": "7343850856fc2763c9297f7f1dd9f79050f1be2d047d1558ed325b282f567134",
+      "matches_visually_inspected_snapshot": true
+    },
+    {
+      "plot": "reports/2026-11-06_moe_parallel_sd/width_tradeoff.png",
+      "SHA256": "2424b5190d180290292d1b994857107cbe00d11589847e5f7f860d6f948d7a2d",
+      "matches_visually_inspected_snapshot": true
+    },
+    {
+      "plot": "reports/2026-11-06_moe_parallel_sd/expert_coverage.png",
+      "SHA256": "299a7ffdd79e268f4e3be8c60b5be37a26ee4da522a20665ce9436031f2c760b",
+      "matches_visually_inspected_snapshot": true
+    },
+    {
+      "plot": "reports/2026-11-06_moe_parallel_sd/target_components.png",
+      "SHA256": "fb6b51d42354e97ee23685a6f42a31b809befe74e316b0a3aa264692ed2ed3c6",
+      "matches_visually_inspected_snapshot": true
+    },
+    {
+      "plot": "reports/2026-11-06_moe_parallel_sd/dense_comparison.png",
+      "SHA256": "15029c66f67a69e04cf59a6e51b31b68bd0067f0760ea2ad77ee78053140672e",
+      "matches_visually_inspected_snapshot": true
+    },
+    {
+      "plot": "reports/2026-11-06_moe_parallel_sd/checkpoint_storage.png",
+      "SHA256": "32821c069e6dfab0ae6809b3622d3f29d40cd6869123f50f6833a636ee53255b",
+      "matches_visually_inspected_snapshot": true
+    }
+  ],
+  "scope": "PNG charts visually inspected for labels, legends, data visibility and clipping. Local HTML asset links separately checked by completion audit; no browser rendering claimed."
+}

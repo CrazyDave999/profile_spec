@@ -1,0 +1,5200 @@
+{
+  "status": "success",
+  "pid": 781843,
+  "process_start_time": 1793977635.53,
+  "sequence": "native03",
+  "controller_pid": 774658,
+  "controller_start_time": 1793977133.09,
+  "started_epoch": 1793977635.7778506,
+  "updates": [
+    {
+      "epoch": 1793977635.7785108,
+      "successful_cells": 5,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "9df0bf5646456f9b8034f0f08d2a55db0e98e1e1a3e769a9c25dba0a9176f056",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "8381dd0a85e7bba83b68053fb0ac11e151ab91f5e6f668e7a32dc2145158db59"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793977706.0351057,
+      "successful_cells": 6,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "9df0bf5646456f9b8034f0f08d2a55db0e98e1e1a3e769a9c25dba0a9176f056",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "8381dd0a85e7bba83b68053fb0ac11e151ab91f5e6f668e7a32dc2145158db59"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793977767.2760956,
+      "successful_cells": 6,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "5f93475879536c142accf94cdbd65f2518083e220187cd280b1d229cdebf5461",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "148c45148331adb0d8a93ede38d5cd5531d6170504495dd96d686597be7141b7"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793977788.5415714,
+      "successful_cells": 7,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "5f93475879536c142accf94cdbd65f2518083e220187cd280b1d229cdebf5461",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "148c45148331adb0d8a93ede38d5cd5531d6170504495dd96d686597be7141b7"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793977869.747029,
+      "successful_cells": 8,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "5f93475879536c142accf94cdbd65f2518083e220187cd280b1d229cdebf5461",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "148c45148331adb0d8a93ede38d5cd5531d6170504495dd96d686597be7141b7"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793977951.5088778,
+      "successful_cells": 9,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "5f93475879536c142accf94cdbd65f2518083e220187cd280b1d229cdebf5461",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "148c45148331adb0d8a93ede38d5cd5531d6170504495dd96d686597be7141b7"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793977993.2888916,
+      "successful_cells": 10,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "5f93475879536c142accf94cdbd65f2518083e220187cd280b1d229cdebf5461",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "148c45148331adb0d8a93ede38d5cd5531d6170504495dd96d686597be7141b7"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793978034.9048815,
+      "successful_cells": 11,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "5f93475879536c142accf94cdbd65f2518083e220187cd280b1d229cdebf5461",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "148c45148331adb0d8a93ede38d5cd5531d6170504495dd96d686597be7141b7"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793978086.5507684,
+      "successful_cells": 12,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "5f93475879536c142accf94cdbd65f2518083e220187cd280b1d229cdebf5461",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "148c45148331adb0d8a93ede38d5cd5531d6170504495dd96d686597be7141b7"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793978118.2641454,
+      "successful_cells": 13,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "5f93475879536c142accf94cdbd65f2518083e220187cd280b1d229cdebf5461",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "148c45148331adb0d8a93ede38d5cd5531d6170504495dd96d686597be7141b7"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793978140.005022,
+      "successful_cells": 14,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "5f93475879536c142accf94cdbd65f2518083e220187cd280b1d229cdebf5461",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "148c45148331adb0d8a93ede38d5cd5531d6170504495dd96d686597be7141b7"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793978181.759307,
+      "successful_cells": 15,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "5f93475879536c142accf94cdbd65f2518083e220187cd280b1d229cdebf5461",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "148c45148331adb0d8a93ede38d5cd5531d6170504495dd96d686597be7141b7"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793978203.4048824,
+      "successful_cells": 16,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "5f93475879536c142accf94cdbd65f2518083e220187cd280b1d229cdebf5461",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "148c45148331adb0d8a93ede38d5cd5531d6170504495dd96d686597be7141b7"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793978235.28602,
+      "successful_cells": 17,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "5f93475879536c142accf94cdbd65f2518083e220187cd280b1d229cdebf5461",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "148c45148331adb0d8a93ede38d5cd5531d6170504495dd96d686597be7141b7"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793978257.1298058,
+      "successful_cells": 18,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "5f93475879536c142accf94cdbd65f2518083e220187cd280b1d229cdebf5461",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "148c45148331adb0d8a93ede38d5cd5531d6170504495dd96d686597be7141b7"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793978308.9437551,
+      "successful_cells": 19,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "5f93475879536c142accf94cdbd65f2518083e220187cd280b1d229cdebf5461",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "148c45148331adb0d8a93ede38d5cd5531d6170504495dd96d686597be7141b7"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793978350.6574512,
+      "successful_cells": 20,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "5f93475879536c142accf94cdbd65f2518083e220187cd280b1d229cdebf5461",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "148c45148331adb0d8a93ede38d5cd5531d6170504495dd96d686597be7141b7"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793978392.3078487,
+      "successful_cells": 21,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "5f93475879536c142accf94cdbd65f2518083e220187cd280b1d229cdebf5461",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "148c45148331adb0d8a93ede38d5cd5531d6170504495dd96d686597be7141b7"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793978414.046792,
+      "successful_cells": 21,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "148c45148331adb0d8a93ede38d5cd5531d6170504495dd96d686597be7141b7"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793978435.5125394,
+      "successful_cells": 22,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "148c45148331adb0d8a93ede38d5cd5531d6170504495dd96d686597be7141b7"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793978457.158123,
+      "successful_cells": 23,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "148c45148331adb0d8a93ede38d5cd5531d6170504495dd96d686597be7141b7"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793978488.943094,
+      "successful_cells": 24,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "148c45148331adb0d8a93ede38d5cd5531d6170504495dd96d686597be7141b7"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793978520.7548523,
+      "successful_cells": 25,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "148c45148331adb0d8a93ede38d5cd5531d6170504495dd96d686597be7141b7"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793978542.5463436,
+      "successful_cells": 26,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "148c45148331adb0d8a93ede38d5cd5531d6170504495dd96d686597be7141b7"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793978574.3742409,
+      "successful_cells": 27,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "148c45148331adb0d8a93ede38d5cd5531d6170504495dd96d686597be7141b7"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793978616.2341971,
+      "successful_cells": 28,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "148c45148331adb0d8a93ede38d5cd5531d6170504495dd96d686597be7141b7"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793978658.115646,
+      "successful_cells": 29,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "148c45148331adb0d8a93ede38d5cd5531d6170504495dd96d686597be7141b7"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793978709.9227543,
+      "successful_cells": 30,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "148c45148331adb0d8a93ede38d5cd5531d6170504495dd96d686597be7141b7"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793978741.8350592,
+      "successful_cells": 31,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "148c45148331adb0d8a93ede38d5cd5531d6170504495dd96d686597be7141b7"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793978773.805013,
+      "successful_cells": 32,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "148c45148331adb0d8a93ede38d5cd5531d6170504495dd96d686597be7141b7"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793978805.7430022,
+      "successful_cells": 33,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "148c45148331adb0d8a93ede38d5cd5531d6170504495dd96d686597be7141b7"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793978837.7788045,
+      "successful_cells": 34,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "148c45148331adb0d8a93ede38d5cd5531d6170504495dd96d686597be7141b7"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793978859.575737,
+      "successful_cells": 35,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "148c45148331adb0d8a93ede38d5cd5531d6170504495dd96d686597be7141b7"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793978881.695834,
+      "successful_cells": 35,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "db5997db815b2eef7f703df0f755e77ca46217a7da8d42412778522119df8279"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793978903.493023,
+      "successful_cells": 36,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "db5997db815b2eef7f703df0f755e77ca46217a7da8d42412778522119df8279"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793978934.9908247,
+      "successful_cells": 37,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "db5997db815b2eef7f703df0f755e77ca46217a7da8d42412778522119df8279"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793978976.8812134,
+      "successful_cells": 38,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "db5997db815b2eef7f703df0f755e77ca46217a7da8d42412778522119df8279"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979018.820324,
+      "successful_cells": 39,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "db5997db815b2eef7f703df0f755e77ca46217a7da8d42412778522119df8279"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979061.0801034,
+      "successful_cells": 40,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "9775ba9a2a0e1f7eb6e3987ee5f808e5d9f8c9bf1d4ab92bf76520889f21f6da",
+        "build_moe_sd_report.py": "db5997db815b2eef7f703df0f755e77ca46217a7da8d42412778522119df8279"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979083.0459576,
+      "successful_cells": 40,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "db5997db815b2eef7f703df0f755e77ca46217a7da8d42412778522119df8279"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979104.7048118,
+      "successful_cells": 41,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "db5997db815b2eef7f703df0f755e77ca46217a7da8d42412778522119df8279"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979137.0173771,
+      "successful_cells": 42,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "db5997db815b2eef7f703df0f755e77ca46217a7da8d42412778522119df8279"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979169.3021836,
+      "successful_cells": 43,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "db5997db815b2eef7f703df0f755e77ca46217a7da8d42412778522119df8279"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979201.5707707,
+      "successful_cells": 44,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "1cd17fe2a66defa772525613b1ac69a821da2e85156243170d92d37bc9bf296c"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979233.8458183,
+      "successful_cells": 45,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "1cd17fe2a66defa772525613b1ac69a821da2e85156243170d92d37bc9bf296c"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979266.1860087,
+      "successful_cells": 46,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "1cd17fe2a66defa772525613b1ac69a821da2e85156243170d92d37bc9bf296c"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979298.5720892,
+      "successful_cells": 47,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "1cd17fe2a66defa772525613b1ac69a821da2e85156243170d92d37bc9bf296c"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979320.7424517,
+      "successful_cells": 48,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "1cd17fe2a66defa772525613b1ac69a821da2e85156243170d92d37bc9bf296c"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979353.0290565,
+      "successful_cells": 49,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "1cd17fe2a66defa772525613b1ac69a821da2e85156243170d92d37bc9bf296c"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979375.2134712,
+      "successful_cells": 50,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "1cd17fe2a66defa772525613b1ac69a821da2e85156243170d92d37bc9bf296c"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979397.5016704,
+      "successful_cells": 51,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "1cd17fe2a66defa772525613b1ac69a821da2e85156243170d92d37bc9bf296c"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979449.7644596,
+      "successful_cells": 52,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "1cd17fe2a66defa772525613b1ac69a821da2e85156243170d92d37bc9bf296c"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979482.041604,
+      "successful_cells": 52,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "3459e54695cced76d619f89c729a22c8a09de379e112c4355420d647fc930234"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979503.9522333,
+      "successful_cells": 53,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "3459e54695cced76d619f89c729a22c8a09de379e112c4355420d647fc930234"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979536.1711981,
+      "successful_cells": 54,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "3459e54695cced76d619f89c729a22c8a09de379e112c4355420d647fc930234"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979558.4849622,
+      "successful_cells": 54,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "125934ea773d98eeb44bd5f46c7f63a1e1c8771bc92bf92e88e16d9f7bf0d9e1"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979580.3734014,
+      "successful_cells": 55,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "125934ea773d98eeb44bd5f46c7f63a1e1c8771bc92bf92e88e16d9f7bf0d9e1"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979632.7241557,
+      "successful_cells": 56,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "125934ea773d98eeb44bd5f46c7f63a1e1c8771bc92bf92e88e16d9f7bf0d9e1"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979665.0810876,
+      "successful_cells": 57,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "125934ea773d98eeb44bd5f46c7f63a1e1c8771bc92bf92e88e16d9f7bf0d9e1"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979697.4520602,
+      "successful_cells": 58,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "125934ea773d98eeb44bd5f46c7f63a1e1c8771bc92bf92e88e16d9f7bf0d9e1"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979729.784897,
+      "successful_cells": 59,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "125934ea773d98eeb44bd5f46c7f63a1e1c8771bc92bf92e88e16d9f7bf0d9e1"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979762.0851853,
+      "successful_cells": 60,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "125934ea773d98eeb44bd5f46c7f63a1e1c8771bc92bf92e88e16d9f7bf0d9e1"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979794.4125686,
+      "successful_cells": 61,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "92cd95af43f97c1ecf63d22472a05750071f13e2278aaa887ca11654bc8196f4",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "125934ea773d98eeb44bd5f46c7f63a1e1c8771bc92bf92e88e16d9f7bf0d9e1"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979816.6762457,
+      "successful_cells": 62,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "125934ea773d98eeb44bd5f46c7f63a1e1c8771bc92bf92e88e16d9f7bf0d9e1"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979839.121738,
+      "successful_cells": 62,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "fc617099b16433b43b06f70d617fd606d9034ff0c159621a85700a272c21a8ac"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979861.3817132,
+      "successful_cells": 63,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "fc617099b16433b43b06f70d617fd606d9034ff0c159621a85700a272c21a8ac"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979883.4837685,
+      "successful_cells": 64,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "fc617099b16433b43b06f70d617fd606d9034ff0c159621a85700a272c21a8ac"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979905.6402495,
+      "successful_cells": 65,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "fc617099b16433b43b06f70d617fd606d9034ff0c159621a85700a272c21a8ac"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979928.0012674,
+      "successful_cells": 66,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "fc617099b16433b43b06f70d617fd606d9034ff0c159621a85700a272c21a8ac"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979950.4369357,
+      "successful_cells": 66,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "0a58f44b43a34a8de382e38c4fc47383a9d66a94621410341b3b60b0cb835f55"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979972.7505374,
+      "successful_cells": 67,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "0a58f44b43a34a8de382e38c4fc47383a9d66a94621410341b3b60b0cb835f55"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_routing.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793979996.2156777,
+      "successful_cells": 68,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "0a58f44b43a34a8de382e38c4fc47383a9d66a94621410341b3b60b0cb835f55"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_routing.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793980019.740902,
+      "successful_cells": 69,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "0a58f44b43a34a8de382e38c4fc47383a9d66a94621410341b3b60b0cb835f55"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_routing.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793980043.4773762,
+      "successful_cells": 70,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "0a58f44b43a34a8de382e38c4fc47383a9d66a94621410341b3b60b0cb835f55"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_routing.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793980067.38336,
+      "successful_cells": 71,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "0a58f44b43a34a8de382e38c4fc47383a9d66a94621410341b3b60b0cb835f55"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_routing.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793980091.3520882,
+      "successful_cells": 72,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "0a58f44b43a34a8de382e38c4fc47383a9d66a94621410341b3b60b0cb835f55"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_routing.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793980115.5300336,
+      "successful_cells": 73,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "0a58f44b43a34a8de382e38c4fc47383a9d66a94621410341b3b60b0cb835f55"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_routing.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793980149.549592,
+      "successful_cells": 74,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "0a58f44b43a34a8de382e38c4fc47383a9d66a94621410341b3b60b0cb835f55"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_routing.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793980173.4605556,
+      "successful_cells": 75,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "0a58f44b43a34a8de382e38c4fc47383a9d66a94621410341b3b60b0cb835f55"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_routing.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793980197.335138,
+      "successful_cells": 76,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "0a58f44b43a34a8de382e38c4fc47383a9d66a94621410341b3b60b0cb835f55"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_routing.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793980221.4987013,
+      "successful_cells": 77,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "05b76e2f1bf3eb7d8c316111dcbfd248f2fa6061a55d495b86b6c528e8b60349",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "0a58f44b43a34a8de382e38c4fc47383a9d66a94621410341b3b60b0cb835f55"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_routing.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793980245.7042947,
+      "successful_cells": 78,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "0d9cf1a8ee78f95f899d7d5e07348f0fb365cb371840ecef459de1b3557ebe50",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "0a58f44b43a34a8de382e38c4fc47383a9d66a94621410341b3b60b0cb835f55"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_routing.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793980329.7996895,
+      "successful_cells": 79,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "0d9cf1a8ee78f95f899d7d5e07348f0fb365cb371840ecef459de1b3557ebe50",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "0a58f44b43a34a8de382e38c4fc47383a9d66a94621410341b3b60b0cb835f55"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_routing.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793980373.9270244,
+      "successful_cells": 80,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "0d9cf1a8ee78f95f899d7d5e07348f0fb365cb371840ecef459de1b3557ebe50",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "0a58f44b43a34a8de382e38c4fc47383a9d66a94621410341b3b60b0cb835f55"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_routing.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793980447.8635201,
+      "successful_cells": 81,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "0d9cf1a8ee78f95f899d7d5e07348f0fb365cb371840ecef459de1b3557ebe50",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "0a58f44b43a34a8de382e38c4fc47383a9d66a94621410341b3b60b0cb835f55"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_routing.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793980482.316558,
+      "successful_cells": 82,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "0d9cf1a8ee78f95f899d7d5e07348f0fb365cb371840ecef459de1b3557ebe50",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "0a58f44b43a34a8de382e38c4fc47383a9d66a94621410341b3b60b0cb835f55"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_routing.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793980506.6957562,
+      "successful_cells": 83,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "0d9cf1a8ee78f95f899d7d5e07348f0fb365cb371840ecef459de1b3557ebe50",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "0a58f44b43a34a8de382e38c4fc47383a9d66a94621410341b3b60b0cb835f55"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_routing.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793980541.090108,
+      "successful_cells": 84,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "0d9cf1a8ee78f95f899d7d5e07348f0fb365cb371840ecef459de1b3557ebe50",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "0a58f44b43a34a8de382e38c4fc47383a9d66a94621410341b3b60b0cb835f55"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_routing.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793980565.5130956,
+      "successful_cells": 85,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "0d9cf1a8ee78f95f899d7d5e07348f0fb365cb371840ecef459de1b3557ebe50",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "0a58f44b43a34a8de382e38c4fc47383a9d66a94621410341b3b60b0cb835f55"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_routing.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793980589.910822,
+      "successful_cells": 86,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "0d9cf1a8ee78f95f899d7d5e07348f0fb365cb371840ecef459de1b3557ebe50",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "0a58f44b43a34a8de382e38c4fc47383a9d66a94621410341b3b60b0cb835f55"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_routing.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793980614.0575557,
+      "successful_cells": 87,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "0d9cf1a8ee78f95f899d7d5e07348f0fb365cb371840ecef459de1b3557ebe50",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "0a58f44b43a34a8de382e38c4fc47383a9d66a94621410341b3b60b0cb835f55"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_routing.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793980668.2201648,
+      "successful_cells": 87,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "0d9cf1a8ee78f95f899d7d5e07348f0fb365cb371840ecef459de1b3557ebe50",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "5f93c1af798bb9ad260f1d2a9e4239ea293ac37ffd1cf1df75390fb0f7166f18"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_routing.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793980692.1689565,
+      "successful_cells": 88,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "0d9cf1a8ee78f95f899d7d5e07348f0fb365cb371840ecef459de1b3557ebe50",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "5f93c1af798bb9ad260f1d2a9e4239ea293ac37ffd1cf1df75390fb0f7166f18"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_routing.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793980746.5049112,
+      "successful_cells": 89,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "0d9cf1a8ee78f95f899d7d5e07348f0fb365cb371840ecef459de1b3557ebe50",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "5f93c1af798bb9ad260f1d2a9e4239ea293ac37ffd1cf1df75390fb0f7166f18"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_routing.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793980830.9487934,
+      "successful_cells": 90,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "0d9cf1a8ee78f95f899d7d5e07348f0fb365cb371840ecef459de1b3557ebe50",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "5f93c1af798bb9ad260f1d2a9e4239ea293ac37ffd1cf1df75390fb0f7166f18"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_routing.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793980865.2547474,
+      "successful_cells": 91,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "0d9cf1a8ee78f95f899d7d5e07348f0fb365cb371840ecef459de1b3557ebe50",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "5f93c1af798bb9ad260f1d2a9e4239ea293ac37ffd1cf1df75390fb0f7166f18"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_routing.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793980889.604472,
+      "successful_cells": 92,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "0d9cf1a8ee78f95f899d7d5e07348f0fb365cb371840ecef459de1b3557ebe50",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "5f93c1af798bb9ad260f1d2a9e4239ea293ac37ffd1cf1df75390fb0f7166f18"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_routing.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793980914.0047698,
+      "successful_cells": 92,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "0d9cf1a8ee78f95f899d7d5e07348f0fb365cb371840ecef459de1b3557ebe50",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "c7f0be798aa0d3e53da3d328f7b7f7aded097f4bc81653ef22716ef735b6e66d"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_routing.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793980938.078379,
+      "successful_cells": 93,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "0d9cf1a8ee78f95f899d7d5e07348f0fb365cb371840ecef459de1b3557ebe50",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "c7f0be798aa0d3e53da3d328f7b7f7aded097f4bc81653ef22716ef735b6e66d"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_routing.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793980962.278046,
+      "successful_cells": 94,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "0d9cf1a8ee78f95f899d7d5e07348f0fb365cb371840ecef459de1b3557ebe50",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "c7f0be798aa0d3e53da3d328f7b7f7aded097f4bc81653ef22716ef735b6e66d"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_routing.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793980986.4611194,
+      "successful_cells": 95,
+      "controller_status": "running_sequence",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "0d9cf1a8ee78f95f899d7d5e07348f0fb365cb371840ecef459de1b3557ebe50",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "c7f0be798aa0d3e53da3d328f7b7f7aded097f4bc81653ef22716ef735b6e66d"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_routing.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "epoch": 1793981010.5369275,
+      "successful_cells": 96,
+      "controller_status": "success",
+      "source_sha256": {
+        "analyze_moe_sd.py": "059d8fcedd566bbb7dfe8817ecd600de83227d203ca7fe39ba5f3811e0b1ceff",
+        "analyze_moe_traces.py": "0d9cf1a8ee78f95f899d7d5e07348f0fb365cb371840ecef459de1b3557ebe50",
+        "analyze_moe_components.py": "f088911eb73adb5d067cc03052f370e0fb48734f44f3d88e9ca287d0add9849b",
+        "analyze_moe_routing.py": "680e27013d08dbee321e008e0e901faf3f2565c0a80c55d087958caa34ca5486",
+        "build_moe_sd_report.py": "c7f0be798aa0d3e53da3d328f7b7f7aded097f4bc81653ef22716ef735b6e66d"
+      },
+      "commands": [
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_sd.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_traces.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_components.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv-sglang/bin/python",
+            "analyze_moe_routing.py",
+            "--sequence",
+            "native03"
+          ],
+          "exit_code": 0
+        },
+        {
+          "argv": [
+            ".venv/bin/python",
+            "build_moe_sd_report.py"
+          ],
+          "exit_code": 0
+        }
+      ]
+    }
+  ],
+  "controller_live": false,
+  "controller_status": "success",
+  "last_checked_epoch": 1793981024.915783,
+  "successful_cells": 96,
+  "ended_epoch": 1793981024.9180677
+}

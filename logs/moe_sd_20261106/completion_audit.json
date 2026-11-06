@@ -1,0 +1,927 @@
+{
+  "sequence": "native03",
+  "checked_epoch": 1793984731.8180275,
+  "achieved": true,
+  "checks": [
+    {
+      "requirement": "Frozen measured worker preserved across directory relocation",
+      "achieved": true,
+      "evidence": {
+        "measured_SHA256": "592aeec4e43b9e4f1b87a1569e14b747188fd2ace46e244c7689467cb5f15cad",
+        "current_SHA256": "8b2353911e382053d59d9ca0f74518b237574b24b93ff723da41eb3c1d7a2481",
+        "same_computation_AST": true
+      }
+    },
+    {
+      "requirement": "Archived worker source",
+      "achieved": true,
+      "evidence": null
+    },
+    {
+      "requirement": "Pinned SGLang revision",
+      "achieved": true,
+      "evidence": null
+    },
+    {
+      "requirement": "SGLang upstream clean",
+      "achieved": true,
+      "evidence": ""
+    },
+    {
+      "requirement": "JetSpec upstream clean",
+      "achieved": true,
+      "evidence": ""
+    },
+    {
+      "requirement": "DFlash upstream clean",
+      "achieved": true,
+      "evidence": ""
+    },
+    {
+      "requirement": "target external pinned checkpoint",
+      "achieved": true,
+      "evidence": {
+        "revision": "6cee5e81ee83917806bbde320786a8fb61efebee",
+        "files": [
+          {
+            "path": "/home/qinghao/models/gpt-oss-20b/model-00000-of-00002.safetensors",
+            "bytes": 4792272488,
+            "header_and_size_match": true
+          },
+          {
+            "path": "/home/qinghao/models/gpt-oss-20b/model-00001-of-00002.safetensors",
+            "bytes": 4798702184,
+            "header_and_size_match": true
+          },
+          {
+            "path": "/home/qinghao/models/gpt-oss-20b/model-00002-of-00002.safetensors",
+            "bytes": 4170342232,
+            "header_and_size_match": true
+          }
+        ]
+      }
+    },
+    {
+      "requirement": "dflash external pinned checkpoint",
+      "achieved": true,
+      "evidence": {
+        "revision": "d53f6551543204c859e8bbaaddbd15d11b447af9",
+        "files": [
+          {
+            "path": "/home/qinghao/models/gpt-oss-20b-dflash/model.safetensors",
+            "bytes": 1569547192,
+            "header_and_size_match": true
+          }
+        ]
+      }
+    },
+    {
+      "requirement": "full complete matrix",
+      "achieved": true,
+      "evidence": {
+        "expected": 27,
+        "campaign_status": "success",
+        "cells": [
+          {
+            "case": "native03_full_00_ar_gsm8k_bs1_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "5effe36ceb7c1aea09eb42cf10a4de7b47de188227aa100c59dfd364f46a78f7"
+          },
+          {
+            "case": "native03_full_01_dflash_gsm8k_bs1_w8",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "2f59078f1f4ffc3ffbb0189f6b28a6351c69f55cbc4eb950bec643ef8dd1f03a"
+          },
+          {
+            "case": "native03_full_02_ar_gsm8k_bs1_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "b649a67a11683bc965165fcae6fd7b50fe766147ad0016ef81a56d4739cb9c32"
+          },
+          {
+            "case": "native03_full_03_ar_gsm8k_bs4_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "03fe03791a3276faf4fc6e526e541c4ce925188f26c39c033f387a17d346d4a6"
+          },
+          {
+            "case": "native03_full_04_dflash_gsm8k_bs4_w8",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "6a84015412f00afea9a960dd102358c876b1491c7af5606536ee3c7d4db2ec4d"
+          },
+          {
+            "case": "native03_full_05_ar_gsm8k_bs4_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "42298a439cf0889c63a0699c2b0183aa9991c2af17da8113f26c937581dfaf06"
+          },
+          {
+            "case": "native03_full_06_ar_gsm8k_bs16_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "53dbe270ba91ebcc37cc89e38571ab21eee2b64126a59a660f146404a5f6781e"
+          },
+          {
+            "case": "native03_full_07_dflash_gsm8k_bs16_w8",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "9a11b4201f32528516148dbb5766abadb2ef362b9199b37ef093ff8e8be7df62"
+          },
+          {
+            "case": "native03_full_08_ar_gsm8k_bs16_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "f2fba7ce7a4ab507d0ac3b29e89afbcb8b9b9eda2c76afa94b6de7379f9d8b81"
+          },
+          {
+            "case": "native03_full_09_ar_humaneval_bs1_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "38dbb4e1afd9411c82a83cb4d76ea743b3357cab65c0beacae67c899edbfb4ad"
+          },
+          {
+            "case": "native03_full_10_dflash_humaneval_bs1_w8",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "ccae639dc6112ac1733c891a084822a53adf1618a426bb9385846cbfbb5f26d8"
+          },
+          {
+            "case": "native03_full_11_ar_humaneval_bs1_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "b39e914966517a3614038525b3d8ea1e1f528d19766e09b1f4dae9aa0b7885f5"
+          },
+          {
+            "case": "native03_full_12_ar_humaneval_bs4_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "3ca5fcb9ca0986b1cc7a4db67d30a681db5484a11a434498c6084ca6b130f29a"
+          },
+          {
+            "case": "native03_full_13_dflash_humaneval_bs4_w8",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "0fa793c5d1442c1bea5c4a18df443fb4e27a4dcf0fc9ef992a10f3f28b895f6a"
+          },
+          {
+            "case": "native03_full_14_ar_humaneval_bs4_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "632d8fb31b672afcd659d3030e6d99606fd47a1abe9d3ba9ce31338c0cb95e15"
+          },
+          {
+            "case": "native03_full_15_ar_humaneval_bs16_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "8c19e277640b40736d3bbacfc9b3979e80b811da9caf88c3b897f908673260ed"
+          },
+          {
+            "case": "native03_full_16_dflash_humaneval_bs16_w8",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "fa84c0f046cc1e83827fe9600a4563e4ccf9b7270fca4361b3f07e92766b0d29"
+          },
+          {
+            "case": "native03_full_17_ar_humaneval_bs16_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "b1f96f486e0be02a6bc39bcd8f1404a15fec35684056f22f70ce51a6f805c4c7"
+          },
+          {
+            "case": "native03_full_18_ar_mt_bench_bs1_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "fe95eff1fbf3d192a1a6c7f399a0e0420e1363ae2dcd400ac299d0b965aac54e"
+          },
+          {
+            "case": "native03_full_19_dflash_mt_bench_bs1_w8",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "bf1a96391b124923fe8fd7e218d8a4848f46b672b0da29926711e78be048bb65"
+          },
+          {
+            "case": "native03_full_20_ar_mt_bench_bs1_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "d6f8baa3123778207c2ab01d4c81979346070b5333545357de500c270c2d9335"
+          },
+          {
+            "case": "native03_full_21_ar_mt_bench_bs4_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "d39e3b5a1692687ed91a0fa858a6caa84a78cafdacab42d4873b17e05f8f7b55"
+          },
+          {
+            "case": "native03_full_22_dflash_mt_bench_bs4_w8",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "dfb1496a8d39214a69e6cdfe3143c04268755b35839fb724882bb5d82e46d674"
+          },
+          {
+            "case": "native03_full_23_ar_mt_bench_bs4_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "7eec52eb21a42c6acf744f858e262bf4b04d354c3d2e5fb39e4fb1e6ae1300b4"
+          },
+          {
+            "case": "native03_full_24_ar_mt_bench_bs16_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "73dff726685cfa570b6dbd02a2275ee56bde2f24b158308ebdc64df25b886cb5"
+          },
+          {
+            "case": "native03_full_25_dflash_mt_bench_bs16_w8",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "cf3eaf848cb7118ae65dad7215b86b8fabd12d0839ab2299f7e2318b02405cb0"
+          },
+          {
+            "case": "native03_full_26_ar_mt_bench_bs16_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "faea1edb7da108aa1321dde11cd6a381b7ac0a63b1b6bd8c4dcfa7a39dbc451f"
+          }
+        ]
+      }
+    },
+    {
+      "requirement": "width complete matrix",
+      "achieved": true,
+      "evidence": {
+        "expected": 30,
+        "campaign_status": "success",
+        "cells": [
+          {
+            "case": "native03_width_00_ar_gsm8k_bs1_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "f5890a7e358171937e7458fcdbb3d62131c34f23034179b8623d1daeb7fe2472"
+          },
+          {
+            "case": "native03_width_01_dflash_gsm8k_bs1_w2",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "aeececce020989ee251a64b1b80f089516ad9c88f108c6c9ad0042314ae2ee88"
+          },
+          {
+            "case": "native03_width_02_dflash_gsm8k_bs1_w4",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "6e2a8384e815e1d9a93326c2e895004a09ce2483026b5ef44b7bb4b1d5df0887"
+          },
+          {
+            "case": "native03_width_03_dflash_gsm8k_bs1_w8",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "68c3fe65c083e9bd9ea399ca5c0e5b3b7f98933d1b63b9c6e30cbddf13535767"
+          },
+          {
+            "case": "native03_width_04_ar_gsm8k_bs1_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "d24135549a4c894cba3f9f286376488394a7cc57141c97e10ae4738855989687"
+          },
+          {
+            "case": "native03_width_05_ar_gsm8k_bs4_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "119845a07615fc52d021bce71b3b50a5e1e0c6fb858a080b9d7b994b985f41d8"
+          },
+          {
+            "case": "native03_width_06_dflash_gsm8k_bs4_w2",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "373a1f069eeb3961bd139253f60ab40a5a3a55c68f3e65ba3f30115c2a29e1d6"
+          },
+          {
+            "case": "native03_width_07_dflash_gsm8k_bs4_w4",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "b767043e14f4e4d3141530eab6c826cca9092de43d3e3c6690e463e74b1ca26a"
+          },
+          {
+            "case": "native03_width_08_dflash_gsm8k_bs4_w8",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "800b9e0bb420dd1ae466882aa29429d5f1efe3aa13afd8d8e8f8a9592ec5f291"
+          },
+          {
+            "case": "native03_width_09_ar_gsm8k_bs4_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "fd04ad8cdedb022aa1816ddd289b3b0da1ea6508afc2665bf3cd44c1f31765eb"
+          },
+          {
+            "case": "native03_width_10_ar_gsm8k_bs16_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "86bc362e0f46f50833fed93eca73f49bd15f9b62b53237d9ede7916676085310"
+          },
+          {
+            "case": "native03_width_11_dflash_gsm8k_bs16_w2",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "295c3dc677fc10cf9d143774175bb7c278381c9e143593ef69366f744b806996"
+          },
+          {
+            "case": "native03_width_12_dflash_gsm8k_bs16_w4",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "0b1bad1e40ad6de2483223d6ef9c7f0e6281eec626a5095cf44560d5755b3d30"
+          },
+          {
+            "case": "native03_width_13_dflash_gsm8k_bs16_w8",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "2106beea6cf43fe50826e28dfd2d30f013ed7833e4d7fa0f55d3ea6e17071b59"
+          },
+          {
+            "case": "native03_width_14_ar_gsm8k_bs16_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "27db5b421cd806b97e894961a80fa387663af3e76f865282f63e671523762973"
+          },
+          {
+            "case": "native03_width_15_ar_mt_bench_bs1_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "da4ed7c33fc00234284345e9c8cc6d76bf394cf95ccf27c12f175e10e3884373"
+          },
+          {
+            "case": "native03_width_16_dflash_mt_bench_bs1_w2",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "c547025139649bb858c75687482505d7ca536e17f0f2f6a7bf1bce5c711b3cc3"
+          },
+          {
+            "case": "native03_width_17_dflash_mt_bench_bs1_w4",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "a98b3738b1380ad984477eb7d7f36657e7323ff4ca1e970af67881a29d5b1402"
+          },
+          {
+            "case": "native03_width_18_dflash_mt_bench_bs1_w8",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "d66947d2c954e44155b61be54420589ba4b9eda9a5ef79aee01cc77190d7e169"
+          },
+          {
+            "case": "native03_width_19_ar_mt_bench_bs1_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "db84b1ebc63d232a2a7bc68e183940155b77ca721be5f4f083450100148dccf6"
+          },
+          {
+            "case": "native03_width_20_ar_mt_bench_bs4_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "9669cf5e62ff5649d5cab873725631172a3e0d641ded99f073ef94518a3bd11b"
+          },
+          {
+            "case": "native03_width_21_dflash_mt_bench_bs4_w2",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "fb7412fd3157b884503c6e4946e030a7dce656cd35f91f4713cd9c0d711cd04c"
+          },
+          {
+            "case": "native03_width_22_dflash_mt_bench_bs4_w4",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "ad9f4fbd0bbbfb95272dc751029b98646a4184ac2276875d248fa5e9cd18a3d2"
+          },
+          {
+            "case": "native03_width_23_dflash_mt_bench_bs4_w8",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "0e0c941f043712b19a1659cc3fa22933c83924dcf34029d1ceb1fd3f43cd2e04"
+          },
+          {
+            "case": "native03_width_24_ar_mt_bench_bs4_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "57ab7e0948ff0224291b56e7c5306840cececd07256568d67320075f161cd62f"
+          },
+          {
+            "case": "native03_width_25_ar_mt_bench_bs16_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "5c23919b64f22483d0152996688477f920487ec5588bbc38fce3aa7ba7fe9539"
+          },
+          {
+            "case": "native03_width_26_dflash_mt_bench_bs16_w2",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "e954b0849a446a7e68ce3eb8ce84ce44550d11bf60120651cf884814697f33d4"
+          },
+          {
+            "case": "native03_width_27_dflash_mt_bench_bs16_w4",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "2a6c35e8a0d23d1d5f34ae6a87827cb362f3b1557e93a2e53088bbc0cb514dc8"
+          },
+          {
+            "case": "native03_width_28_dflash_mt_bench_bs16_w8",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "a77aa7efb7114508ed423d14e0367f4be5d8a4bcc96ce4b6e174480f03836d64"
+          },
+          {
+            "case": "native03_width_29_ar_mt_bench_bs16_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "5cf2b81ecfc6863d718fd245865e5083028cc72518bb4a2722e26bfd126db514"
+          }
+        ]
+      }
+    },
+    {
+      "requirement": "traces complete matrix",
+      "achieved": true,
+      "evidence": {
+        "expected": 9,
+        "campaign_status": "success",
+        "cells": [
+          {
+            "case": "native03_traces_00_ar_gsm8k_bs1_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "4d90206cb937d24bb7e5c7f5555c21f51def65fd3fa94214cf78fff20aaa5349"
+          },
+          {
+            "case": "native03_traces_01_dflash_gsm8k_bs1_w2",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "7295abfed9525ac5f21ab0b8486f99bded494d7304a2f4678d14a57aaee55142"
+          },
+          {
+            "case": "native03_traces_02_dflash_gsm8k_bs1_w8",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "5a3eede0b9600432931072ca4a1d7fd03e67cf5df38381a046e1c16f32a201e6"
+          },
+          {
+            "case": "native03_traces_03_ar_gsm8k_bs4_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "377e2d8ecbd6d7c52595f8945aa5338cae0f9b39b926d2c2359473129c5f9d69"
+          },
+          {
+            "case": "native03_traces_04_dflash_gsm8k_bs4_w2",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "97435822791eb15d6360c61e66d06e86603c122bde34665e021e5d0d653b003a"
+          },
+          {
+            "case": "native03_traces_05_dflash_gsm8k_bs4_w8",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "78dae00cf3d8d07fc894e95ddf96fd133609b0bb4ef0ecb6daf5c5fa6705cee5"
+          },
+          {
+            "case": "native03_traces_06_ar_gsm8k_bs16_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "5a3d7c8d41090bf1670c39e3335febe2a478d9671113e5fe44c54e7e58d71dae"
+          },
+          {
+            "case": "native03_traces_07_dflash_gsm8k_bs16_w2",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "6744c950ef92216887b82ee2dcd974363d86d855231f3261dc0e9bca4611a66b"
+          },
+          {
+            "case": "native03_traces_08_dflash_gsm8k_bs16_w8",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "b7ed11370ed865988921244d19236225a05644445db48eb5f68f72f0bf03a935"
+          }
+        ]
+      }
+    },
+    {
+      "requirement": "routing complete matrix",
+      "achieved": true,
+      "evidence": {
+        "expected": 12,
+        "campaign_status": "success",
+        "cells": [
+          {
+            "case": "native03_routing_00_ar_gsm8k_bs1_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "c49f9553e9a5df2b074f97f887027829d05478ccb523a73068b29426acaaa87b"
+          },
+          {
+            "case": "native03_routing_01_dflash_gsm8k_bs1_w2",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "2b42e609fa0443258de216c5cccbd5e4a67aa85684f5e5f57c787ebe5119f1e9"
+          },
+          {
+            "case": "native03_routing_02_dflash_gsm8k_bs1_w4",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "2d14b84f8f1c9e25bca503b2817019e71d94aace94dcdaf93744fce5caca2bd2"
+          },
+          {
+            "case": "native03_routing_03_dflash_gsm8k_bs1_w8",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "cb9ae3f254ca03a9f1c21af98a2e99f8cbfdc47d0732c1c545dd55dbf088a455"
+          },
+          {
+            "case": "native03_routing_04_ar_gsm8k_bs4_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "3dedea83ad115164cd41450201d35679ebce4bcba64a76c5ebba17c4e6c8a2aa"
+          },
+          {
+            "case": "native03_routing_05_dflash_gsm8k_bs4_w2",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "7ab7cf42b1742332ea45e3c8f765e63dfa43f5991c9dad2a8dfae40a4c808dd5"
+          },
+          {
+            "case": "native03_routing_06_dflash_gsm8k_bs4_w4",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "205399c34186911cb7b159d9e09afb6a3704f0c9599debe741218ba82f6018ed"
+          },
+          {
+            "case": "native03_routing_07_dflash_gsm8k_bs4_w8",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "9d73608576dc6a6f513b75eb168cff9bcafd77a3bf04f793b1d63743b55d2d20"
+          },
+          {
+            "case": "native03_routing_08_ar_gsm8k_bs16_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "49b8ed02e58d13474c0bdc0558293a9a04069e8a5b786cc2d47cab9b9ed6c63a"
+          },
+          {
+            "case": "native03_routing_09_dflash_gsm8k_bs16_w2",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "47903bd70c7fbe637183ea5f077fa7ba3f5ae00c4ed5e490f7c7752d8a22daf6"
+          },
+          {
+            "case": "native03_routing_10_dflash_gsm8k_bs16_w4",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "8e41cca86da1010dedc7544f3947a0b5b2bbb046770797c01550ee9833408258"
+          },
+          {
+            "case": "native03_routing_11_dflash_gsm8k_bs16_w8",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "c274f4922e2ffc32287803235c8329f7dac5de378b6a68c1bfda65c46ce6e961"
+          }
+        ]
+      }
+    },
+    {
+      "requirement": "dense_control complete matrix",
+      "achieved": true,
+      "evidence": {
+        "expected": 18,
+        "campaign_status": "success",
+        "cells": [
+          {
+            "case": "native03_dense_control_00_ar_gsm8k_bs1_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "0a64c9527087f2ed627daaf364874e1b2f4c675e645058201b16716af2e0fa27"
+          },
+          {
+            "case": "native03_dense_control_01_dflash_gsm8k_bs1_w8",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "32092e01ea3158c5b214905d115fb9fb27c7f89fe95da93f284e1358e25b0dfd"
+          },
+          {
+            "case": "native03_dense_control_02_ar_gsm8k_bs1_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "86b6332506ba5d5b5fd98f7fe78e2bf4f270f3e888032bc78087d21eec6f6f37"
+          },
+          {
+            "case": "native03_dense_control_03_ar_gsm8k_bs4_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "672eda4dcc5e93cfe2cb5d26071e86c6c9c329a5e98b7afc2cce7529b61be4ba"
+          },
+          {
+            "case": "native03_dense_control_04_dflash_gsm8k_bs4_w8",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "0d6faf1af8b8a223915d63adc09d2e8e9e3a9c6673781428896d42a31dfd693c"
+          },
+          {
+            "case": "native03_dense_control_05_ar_gsm8k_bs4_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "8108e9b394ad2656a6723886fc02eeea6f80ca87f689a0dac4f5a9456906e85e"
+          },
+          {
+            "case": "native03_dense_control_06_ar_gsm8k_bs16_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "17078454b83302c6a7a30d0fe89ddec881bb62a235c59ac966e438d20a4e2d28"
+          },
+          {
+            "case": "native03_dense_control_07_dflash_gsm8k_bs16_w8",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "a6b561af304cce850a8f7b212252a7fcdd1955c8e5fc3676eebfffd6590f211d"
+          },
+          {
+            "case": "native03_dense_control_08_ar_gsm8k_bs16_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "733babb2bd1d89c6e0e0c4932112578499c517cebd955230aa65c8b9e75ea45e"
+          },
+          {
+            "case": "native03_dense_control_09_ar_mt_bench_bs1_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "bf5340cb94102f21e9337ae2592674b26a8ec2ade71d6e99c79a20ee1f3cedd1"
+          },
+          {
+            "case": "native03_dense_control_10_dflash_mt_bench_bs1_w8",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "d7d4c7b1b93bd0fe8dc8e3a2e573d2664658209b742917c9dd1f7c059bcf6400"
+          },
+          {
+            "case": "native03_dense_control_11_ar_mt_bench_bs1_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "620601af7b641c2745889e8a108b101480e43abc5bd700973cd59c0d15c367f3"
+          },
+          {
+            "case": "native03_dense_control_12_ar_mt_bench_bs4_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "ad2ac47a6942b61dd52c601e9fe8d22af13b969acb17f3cacca1753ca30ecd3e"
+          },
+          {
+            "case": "native03_dense_control_13_dflash_mt_bench_bs4_w8",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "03330871f0d9520e877b964014000cb5f74d8f223bb4aff008820623107af0a0"
+          },
+          {
+            "case": "native03_dense_control_14_ar_mt_bench_bs4_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "6aab6d3af7b7f8572ca5decdb479dd2e8c6a9854b49a9df2a4925b159f70b4fb"
+          },
+          {
+            "case": "native03_dense_control_15_ar_mt_bench_bs16_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "699f89c8c4cc28cf50b8c0dfd62ee963c1567f5cf834cf2c774637bd362ab526"
+          },
+          {
+            "case": "native03_dense_control_16_dflash_mt_bench_bs16_w8",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "c9813c7973a61835270f052c9a6831244cc3c43993bd2f67799da59a780d8255"
+          },
+          {
+            "case": "native03_dense_control_17_ar_mt_bench_bs16_w1",
+            "state": "success",
+            "protocol_matches": true,
+            "result_SHA256": "48d107221a5cdeb1306e3718715088563542911ed6592a602b476476b65bf096"
+          }
+        ]
+      }
+    },
+    {
+      "requirement": "Inputs identical within target/dataset across methods, BS and widths",
+      "achieved": true,
+      "evidence": {
+        "gpt-oss-20b/gsm8k": [
+          "1357a3ac0d9ba5fa8686005180db2b0d1f7c9a208c8ea5f6aa89e2598b8266b2"
+        ],
+        "gpt-oss-20b/humaneval": [
+          "7710dfa662562ecb5f57faedbd29f242d20e19125542e0d8dc62304f50841f63"
+        ],
+        "gpt-oss-20b/mt_bench": [
+          "d70367166b0ffcb1a2d94c02451d98fe5f87295eb0055a2b80a4411d032a8197"
+        ],
+        "qwen3-8b/gsm8k": [
+          "163bdb17b395fe88849982c429440752d3ae5b340bbaf7682c5641227a266eb2"
+        ],
+        "qwen3-8b/mt_bench": [
+          "7c591877cb3348d8e0c1abbdfa64a39af13c9967ad1128ea2f759c822f28a6c8"
+        ]
+      }
+    },
+    {
+      "requirement": "Single package/version cohort",
+      "achieved": true,
+      "evidence": {
+        "package_variants": 1,
+        "revisions": [
+          "27aedf7f93cc7ac3bff43e7150e42a3c0baa6957"
+        ]
+      }
+    },
+    {
+      "requirement": "All 75 headline cells summarized with both AR bookends",
+      "achieved": true,
+      "evidence": {
+        "rows": 75,
+        "max_AR_drift": 0.0012936035163533255,
+        "max_repeat_CV": 0.02488973080023306
+      }
+    },
+    {
+      "requirement": "Summary source hashes match actual results",
+      "achieved": true,
+      "evidence": null
+    },
+    {
+      "requirement": "AR/SD and repeated-output parity explicitly retained",
+      "achieved": true,
+      "evidence": null
+    },
+    {
+      "requirement": "Bookends, BS, width and repeated-cohort output comparisons retained",
+      "achieved": true,
+      "evidence": {
+        "width_2_to_8": 6,
+        "batch_size_1_to_16": 18,
+        "width_2_to_4": 6,
+        "AR_bookends": 21,
+        "repeated_width8_cohort": 6,
+        "batch_size_1_to_4": 18
+      }
+    },
+    {
+      "requirement": "All 9 warmed traces prove native FP4, replay and correlation",
+      "achieved": true,
+      "evidence": null
+    },
+    {
+      "requirement": "Per-replay operator attribution validated for 9 traces",
+      "achieved": true,
+      "evidence": null
+    },
+    {
+      "requirement": "All 12 routing dumps analyzed with matching file hashes",
+      "achieved": true,
+      "evidence": null
+    },
+    {
+      "requirement": "Routing instrumentation trajectory compared against all 9 matching traces",
+      "achieved": true,
+      "evidence": [
+        {
+          "reference": "logs/moe_sd_20261106/native03_traces_00_ar_gsm8k_bs1_w1.json",
+          "reference_SHA256": "4d90206cb937d24bb7e5c7f5555c21f51def65fd3fa94214cf78fff20aaa5349",
+          "requests": 16,
+          "exact_requests": 16
+        },
+        {
+          "reference": "logs/moe_sd_20261106/native03_traces_01_dflash_gsm8k_bs1_w2.json",
+          "reference_SHA256": "7295abfed9525ac5f21ab0b8486f99bded494d7304a2f4678d14a57aaee55142",
+          "requests": 16,
+          "exact_requests": 16
+        },
+        {
+          "reference": "logs/moe_sd_20261106/native03_traces_02_dflash_gsm8k_bs1_w8.json",
+          "reference_SHA256": "5a3eede0b9600432931072ca4a1d7fd03e67cf5df38381a046e1c16f32a201e6",
+          "requests": 16,
+          "exact_requests": 16
+        },
+        {
+          "reference": "logs/moe_sd_20261106/native03_traces_03_ar_gsm8k_bs4_w1.json",
+          "reference_SHA256": "377e2d8ecbd6d7c52595f8945aa5338cae0f9b39b926d2c2359473129c5f9d69",
+          "requests": 16,
+          "exact_requests": 16
+        },
+        {
+          "reference": "logs/moe_sd_20261106/native03_traces_04_dflash_gsm8k_bs4_w2.json",
+          "reference_SHA256": "97435822791eb15d6360c61e66d06e86603c122bde34665e021e5d0d653b003a",
+          "requests": 16,
+          "exact_requests": 16
+        },
+        {
+          "reference": "logs/moe_sd_20261106/native03_traces_05_dflash_gsm8k_bs4_w8.json",
+          "reference_SHA256": "78dae00cf3d8d07fc894e95ddf96fd133609b0bb4ef0ecb6daf5c5fa6705cee5",
+          "requests": 16,
+          "exact_requests": 16
+        },
+        {
+          "reference": "logs/moe_sd_20261106/native03_traces_06_ar_gsm8k_bs16_w1.json",
+          "reference_SHA256": "5a3d7c8d41090bf1670c39e3335febe2a478d9671113e5fe44c54e7e58d71dae",
+          "requests": 16,
+          "exact_requests": 16
+        },
+        {
+          "reference": "logs/moe_sd_20261106/native03_traces_07_dflash_gsm8k_bs16_w2.json",
+          "reference_SHA256": "6744c950ef92216887b82ee2dcd974363d86d855231f3261dc0e9bca4611a66b",
+          "requests": 16,
+          "exact_requests": 16
+        },
+        {
+          "reference": "logs/moe_sd_20261106/native03_traces_08_dflash_gsm8k_bs16_w8.json",
+          "reference_SHA256": "b7ed11370ed865988921244d19236225a05644445db48eb5f68f72f0bf03a935",
+          "requests": 16,
+          "exact_requests": 16
+        }
+      ]
+    },
+    {
+      "requirement": "smoke03 completed independent diagnostic cells",
+      "achieved": true,
+      "evidence": {
+        "expected": 2,
+        "success": 2
+      }
+    },
+    {
+      "requirement": "numerics03 completed independent diagnostic cells",
+      "achieved": true,
+      "evidence": {
+        "expected": 4,
+        "success": 4
+      }
+    },
+    {
+      "requirement": "Numerical diagnostics analyzed separately from headline",
+      "achieved": true,
+      "evidence": [
+        {
+          "method": "ar",
+          "requests": 2,
+          "exact_requests": 2,
+          "headline_reference": "logs/moe_sd_20261106/native03_full_00_ar_gsm8k_bs1_w1.json"
+        },
+        {
+          "method": "dflash",
+          "requests": 2,
+          "exact_requests": 2,
+          "headline_reference": "logs/moe_sd_20261106/native03_full_01_dflash_gsm8k_bs1_w8.json"
+        }
+      ]
+    },
+    {
+      "requirement": "Five representative traces packaged with verified ZIP and SHA256",
+      "achieved": true,
+      "evidence": {
+        "bundle": "profiles/moe_sd_20261106/representative_traces.zip",
+        "MiB": 14.709980964660645
+      }
+    },
+    {
+      "requirement": "Report assets and local download links exist",
+      "achieved": true,
+      "evidence": []
+    },
+    {
+      "requirement": "Dated report linked from index",
+      "achieved": true,
+      "evidence": null
+    },
+    {
+      "requirement": "All requested comparisons and detail artifacts generated",
+      "achieved": true,
+      "evidence": [
+        "scaling.svg",
+        "width_tradeoff.svg",
+        "dense_comparison.svg",
+        "expert_coverage.svg",
+        "target_components.svg",
+        "checkpoint_storage.svg",
+        "findings.json",
+        "wave_tails.csv"
+      ]
+    },
+    {
+      "requirement": "native03.admission.json successful controller termination",
+      "achieved": true,
+      "evidence": "success"
+    },
+    {
+      "requirement": "native03.sequence.json successful controller termination",
+      "achieved": true,
+      "evidence": "success"
+    },
+    {
+      "requirement": "Report covers headline, dense comparison, routing, width and numerical limits",
+      "achieved": true,
+      "evidence": null
+    }
+  ],
+  "successful_main_cells": 96,
+  "headline_cells": 75,
+  "profile_cells": 9,
+  "routing_cells": 12
+}

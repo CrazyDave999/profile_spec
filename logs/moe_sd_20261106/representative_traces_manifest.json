@@ -1,0 +1,69 @@
+{
+  "sequence": "native03",
+  "cases": [
+    {
+      "case": "native03_traces_00_ar_gsm8k_bs1_w1",
+      "method": "ar",
+      "bs": 1,
+      "width": 1,
+      "raw_file": "profiles/moe_sd_20261106/native03_traces_00_ar_gsm8k_bs1_w1.nsys-rep",
+      "raw_bytes": 18830232,
+      "raw_SHA256": "54c0c6c5eaba9940dd1c91ee15b7b101eb278d7d6a3cde54425af2d630d27471",
+      "analysis_file": "logs/moe_sd_20261106/native03_traces_00_ar_gsm8k_bs1_w1.analysis.json",
+      "analysis_SHA256": "e7ddaab28e25010c3a183a11ce12813864bd0670fa8c8c683277c51f3dab152b"
+    },
+    {
+      "case": "native03_traces_02_dflash_gsm8k_bs1_w8",
+      "method": "dflash",
+      "bs": 1,
+      "width": 8,
+      "raw_file": "profiles/moe_sd_20261106/native03_traces_02_dflash_gsm8k_bs1_w8.nsys-rep",
+      "raw_bytes": 8552376,
+      "raw_SHA256": "2c50294ac4f724076acda0ae39c47adfd42e15c7d14d12b7ca717c3948490d7d",
+      "analysis_file": "logs/moe_sd_20261106/native03_traces_02_dflash_gsm8k_bs1_w8.analysis.json",
+      "analysis_SHA256": "e24388c78bba53c8ae9ba3cddebb497b972cb3cc428daad31be1f193bc096a7d"
+    },
+    {
+      "case": "native03_traces_06_ar_gsm8k_bs16_w1",
+      "method": "ar",
+      "bs": 16,
+      "width": 1,
+      "raw_file": "profiles/moe_sd_20261106/native03_traces_06_ar_gsm8k_bs16_w1.nsys-rep",
+      "raw_bytes": 2491837,
+      "raw_SHA256": "ecab4ca42c25ff78d663718fcebd2ff8cb43c016fb6e43fcf8aa3b92a579b665",
+      "analysis_file": "logs/moe_sd_20261106/native03_traces_06_ar_gsm8k_bs16_w1.analysis.json",
+      "analysis_SHA256": "ea32ed27f57269a5f63b8a9c4e81bdcc1acabb44faeda8230f45747452432e6f"
+    },
+    {
+      "case": "native03_traces_07_dflash_gsm8k_bs16_w2",
+      "method": "dflash",
+      "bs": 16,
+      "width": 2,
+      "raw_file": "profiles/moe_sd_20261106/native03_traces_07_dflash_gsm8k_bs16_w2.nsys-rep",
+      "raw_bytes": 2433893,
+      "raw_SHA256": "b5fe26b1d54917909839a92c34525b9b70ca6760f8666bbce8a7fee5b2a21926",
+      "analysis_file": "logs/moe_sd_20261106/native03_traces_07_dflash_gsm8k_bs16_w2.analysis.json",
+      "analysis_SHA256": "ad3611cc62f6895d050aa0cc9f08e455c5d2c07c6c819c8da7a936c98b11dbaa"
+    },
+    {
+      "case": "native03_traces_08_dflash_gsm8k_bs16_w8",
+      "method": "dflash",
+      "bs": 16,
+      "width": 8,
+      "raw_file": "profiles/moe_sd_20261106/native03_traces_08_dflash_gsm8k_bs16_w8.nsys-rep",
+      "raw_bytes": 1968248,
+      "raw_SHA256": "6e61ea3b1ac137cec93d49c37918ec38f74b14755e8c15efbc2171f689aa81b2",
+      "analysis_file": "logs/moe_sd_20261106/native03_traces_08_dflash_gsm8k_bs16_w8.analysis.json",
+      "analysis_SHA256": "0f08b55f330cf3f9e9b67e589575b800d7adca4434f484d390106dc5092c86fb"
+    }
+  ],
+  "protocol": "Same 16 GSM8K prompts, fixed cap64, one warmed profiled repeat; instrumented data excluded from headline throughput.",
+  "caveats": [
+    "CPU NVTX and GPU work overlap; do not add their durations.",
+    "Expand CUDA Graph nodes to inspect expert GEMM execution.",
+    "Use target_components.csv / trace evidence for validated operator attribution."
+  ],
+  "bundle": "profiles/moe_sd_20261106/representative_traces.zip",
+  "bundle_bytes": 15424533,
+  "bundle_SHA256": "08995ba9e32846ed0f5c733af62426a14dea8bd1e40e13d2652ecf60a8e33465"
+}

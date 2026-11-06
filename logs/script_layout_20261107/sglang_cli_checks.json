@@ -1,0 +1,42 @@
+[
+  {
+    "script": "scripts/experiments/parallel_sd_worker.py",
+    "exit_code": 0
+  },
+  {
+    "script": "scripts/experiments/run_parallel_sd_cell.py",
+    "exit_code": 0
+  },
+  {
+    "script": "scripts/experiments/run_parallel_sd_campaign.py",
+    "exit_code": 0
+  },
+  {
+    "script": "scripts/experiments/run_parallel_sd_followups.py",
+    "exit_code": 0
+  },
+  {
+    "script": "scripts/experiments/run_moe_sd_campaign.py",
+    "exit_code": 0
+  },
+  {
+    "script": "scripts/experiments/run_moe_sd_sequence.py",
+    "exit_code": 0
+  },
+  {
+    "script": "scripts/experiments/run_moe_sd_when_idle.py",
+    "exit_code": 0
+  },
+  {
+    "script": "scripts/experiments/run_moe_sd_numerics.py",
+    "exit_code": 0
+  },
+  {
+    "script": "scripts/experiments/run_moe_sd_analysis_watch.py",
+    "exit_code": 0
+  },
+  {
+    "script": "scripts/experiments/finalize_moe_sd.py",
+    "exit_code": 0
+  }
+]
