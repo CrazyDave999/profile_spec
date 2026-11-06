@@ -21,7 +21,7 @@ Hardware and dependencies
   Driver: 595.84. PyTorch runtime: CUDA 12.8.
   torch 2.8.0+cu128, transformers 4.57.1, triton 3.4.0,
   numpy 2.3.3, datasets 4.6.1, huggingface-hub 0.36.2.
-  Full package versions: requirements-5090.lock.
+  Full package versions: requirements/5090.txt.
   Package consistency: uv pip check passed.
   Target: Qwen/Qwen3-8B @ b968826d9c46dd6066d109eabc6255188de91218
   Draft: JetSpec/jetspec-qwen3-8b @ 020a198caefde24a2891ad827cba7fb977ccdc36
@@ -122,7 +122,7 @@ Nsight Systems
   Official download: https://developer.nvidia.com/nsight-systems/get-started
   User-local installation: ~/.local/opt/nsight-systems/2026.5.1
   Launcher: ~/.local/bin/nsys (added to PATH by env.sh).
-  Reinstall: ./setup_nsys.sh (pinned official package and SHA-256).
+  Reinstall: ./scripts/setup/setup_nsys.sh (pinned official package and SHA-256).
   Profile: ./profile_5090.sh --tokens 64 --repeats 2
   The default uses CUDA, NVTX, OS runtime tracing and graph-node granularity.
   cudaProfilerStart/Stop excludes compilation and warmup from collection.
@@ -202,7 +202,7 @@ Parallel SD / SGLang, 2026-11-04
   BF16 output differences between AR/SD and across BS are preserved.
 
   Isolated runtime: .venv-sglang; torch 2.14.1+cu130, transformers 5.19.0,
-  flashinfer-python 0.7.2; full package pins in requirements-sglang.lock.
+  flashinfer-python 0.7.2; full package pins in requirements/sglang.txt.
   Source: SGLang 27aedf7f93cc7ac3bff43e7150e42a3c0baa6957.
   Optional Rust extensions were not built; GPU SD kernels remain enabled.
   The pip CUDA toolkit uses NVCC/CRT/NVVM 13.0.88, CCCL 13.0.85 and

@@ -7,8 +7,8 @@ if [[ ! -d .venv ]]; then
 fi
 uv pip install --python .venv/bin/python \
   --index https://download.pytorch.org/whl/cu128 'torch==2.8.0'
-if [[ -f /home/qinghao/profile_spec/requirements-5090.lock ]]; then
-  uv pip install --python .venv/bin/python -r /home/qinghao/profile_spec/requirements-5090.lock
+if [[ -f requirements/5090.txt ]]; then
+  uv pip install --python .venv/bin/python -r requirements/5090.txt
 else
   uv pip install --python .venv/bin/python \
     -e './third_party/JetSpec[bench,kernel]' 'transformers==4.57.1' 'numpy==2.3.3' \

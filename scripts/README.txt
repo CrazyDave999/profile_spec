@@ -33,3 +33,18 @@ Historical evidence
   recorded meaning. Use fresh run IDs for new experiments; old campaign guards
   intentionally reject a different source hash or command plan.
   No GPU workload is launched by report rebuilding or layout validation.
+
+Environment and measurement notes
+Measured native JetSpec BS=1 and experimental eager batch reference are separate cohorts.
+The native AR baseline is JetSpec's compiled CUDA Graph decoder, not SGLang or vLLM.
+BF16 AR/tree token divergence is recorded; no claim of bitwise equality is made.
+The SGLang experiments have their own same-runtime AR baseline. DFlash,
+Domino, DSpark and DFlash2 results preserve their checkpoint/width differences.
+Main-matrix DSpark uses static verify; adaptive results are a separate cohort.
+Fixed output, BF16 token differences, profiling overhead and active-BS tails
+are documented in the reports; no task-quality claim is made.
+
+
+Pinned dependencies: requirements/5090.txt for .venv (JetSpec), and
+requirements/sglang.txt for .venv-sglang. Weights stay outside Git; raw
+profiler artifacts remain ignored under profiles/. See SETUP.txt for details.

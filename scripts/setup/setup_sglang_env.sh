@@ -4,7 +4,7 @@ cd -- "$(dirname -- "${BASH_SOURCE[0]}")/../.."
 uv venv .venv-sglang --python 3.12 --allow-existing
 # CPU Rust extensions are optional; current measurements must record this setting.
 # This does not disable CUDA Graphs or the GPU SD kernels.
-SGLANG_BUILD_RUST_EXTS=none uv pip sync --python .venv-sglang/bin/python requirements-sglang.lock
+SGLANG_BUILD_RUST_EXTS=none uv pip sync --python .venv-sglang/bin/python requirements/sglang.txt
 uv pip check --python .venv-sglang/bin/python
 # FlashInfer's JIT expects a toolkit layout, while CUDA pip wheels use lib/.
 sglang_cuda_prefix="$PWD/.venv-sglang/lib/python3.12/site-packages/nvidia/cu13"

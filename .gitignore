@@ -15,6 +15,6 @@ profiles/
 *token*
 .env
 reports/**/*.zip
-logs/**/supervisor.lock
-logs/**/*.lock
+# Transient lock files; dependency pins live in requirements/*.txt.
+*.lock
 logs/**/*.progress.json
